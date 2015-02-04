@@ -14814,10 +14814,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
-            "0": {
+        "m2": {
+            "2": {
                 "skill": "BladeMaster_Batto_Pierce_Lv21",
-                "tooltip-group": "Sub",
+                "tooltip-group": "M3",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash_rear",
                 "effect-arg-1": null,
@@ -14834,8 +14834,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "BladeMaster_Batto_Pierce_Lv21",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
@@ -14855,7 +14857,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "BladeMaster_Batto_Pierce_Lv21",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
@@ -14875,7 +14877,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "3": {
+            "2": {
                 "skill": "BladeMaster_Batto_Pierce_Lv21",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
@@ -14942,6 +14944,28 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        "m2": {
+            "2": {
+                "skill": "BladeMaster_Batto_Pierce_Lv23",
+                "tooltip-group": "M3",
+                "ect-order": "CTE",
+                "effect-attribute": "E_dash_rear",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
         "sub": {
             "0": {
                 "skill": "BladeMaster_Batto_Pierce_Lv22",
@@ -14967,26 +14991,6 @@ var data_skill_tooltip = {
                 "skill": "BladeMaster_Batto_Pierce_Lv22",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
-                "effect-attribute": "E_dash_rear",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "BladeMaster_Batto_Pierce_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
                 "effect-attribute": "E_if_repeat_power_up",
                 "effect-arg-1": "200,200",
                 "effect-arg-2": null,
@@ -15003,7 +15007,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "3": {
+            "2": {
                 "skill": "BladeMaster_Batto_Pierce_Lv22",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
@@ -15023,7 +15027,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "3": {
                 "skill": "BladeMaster_Batto_Pierce_Lv22",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
@@ -15090,6 +15094,28 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        "m2": {
+            "2": {
+                "skill": "BladeMaster_Batto_Pierce_Lv23",
+                "tooltip-group": "M3",
+                "ect-order": "CTE",
+                "effect-attribute": "E_dash_rear",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
         "sub": {
             "0": {
                 "skill": "BladeMaster_Batto_Pierce_Lv23",
@@ -15135,26 +15161,6 @@ var data_skill_tooltip = {
                 "skill": "BladeMaster_Batto_Pierce_Lv23",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
-                "effect-attribute": "E_dash_rear",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "BladeMaster_Batto_Pierce_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
                 "effect-attribute": "E_if_repeat_power_up",
                 "effect-arg-1": "200,200",
                 "effect-arg-2": null,
@@ -15171,7 +15177,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "3": {
                 "skill": "BladeMaster_Batto_Pierce_Lv23",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
@@ -15191,7 +15197,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "5": {
+            "4": {
                 "skill": "BladeMaster_Batto_Pierce_Lv23",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",

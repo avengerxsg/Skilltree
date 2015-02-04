@@ -5220,8 +5220,8 @@ var skill_data_BM = {
         "name": "Flash of Light - 일섬",
         "icon": "skill_icon_blademaster_0_34.png",
         "main_info1": "Deals 60~70 damage",
-        "main_info2": null,
-        "sub_info": "Charge beyond the target<br/>Deals an additional 24~28 damage per recast<br/>Generates 10 chi on kill<br/>Flash of Light can be recast on critical hit up to 3 times",
+        "main_info2": "Charge beyond the target",
+        "sub_info": "Deals an additional 24~28 damage per recast<br/>Generates 10 chi on kill<br/>Flash of Light can be recast on critical hit up to 3 times",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5252,8 +5252,8 @@ var skill_data_BM = {
         "name": "Flash of Light - 일섬",
         "icon": "skill_icon_blademaster_0_34.png",
         "main_info1": "Deals 60~70 damage",
-        "main_info2": null,
-        "sub_info": "Guaranteed critical hit to dazed, stunned, seized, force gripped foes<br/>Charge beyond the target<br/>Deals an additional 24~28 damage per recast<br/>Generates 10 chi on kill<br/>Flash of Light can be recast on critical hit up to 3 times",
+        "main_info2": "Charge beyond the target",
+        "sub_info": "Guaranteed critical hit to dazed, stunned, seized, force gripped foes<br/>Deals an additional 24~28 damage per recast<br/>Generates 10 chi on kill<br/>Flash of Light can be recast on critical hit up to 3 times",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5284,8 +5284,8 @@ var skill_data_BM = {
         "name": "Flash of Light - 일섬",
         "icon": "skill_icon_blademaster_0_34.png",
         "main_info1": "Deals 60~70 damage",
-        "main_info2": null,
-        "sub_info": "Flash of Light can be recast 1 more time regardless of requirements on kill<br/>Guaranteed critical hit to dazed, stunned, seized, force gripped foes<br/>Charge beyond the target<br/>Deals an additional 24~28 damage per recast<br/>Generates 10 chi on kill<br/>Flash of Light can be recast on critical hit up to 3 times",
+        "main_info2": "Charge beyond the target",
+        "sub_info": "Flash of Light can be recast 1 more time regardless of requirements on kill<br/>Guaranteed critical hit to dazed, stunned, seized, force gripped foes<br/>Deals an additional 24~28 damage per recast<br/>Generates 10 chi on kill<br/>Flash of Light can be recast on critical hit up to 3 times",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
