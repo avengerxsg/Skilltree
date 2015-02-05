@@ -1157,7 +1157,7 @@ var skill_data_BM = {
         "icon": "skill_icon_blademaster_1_19.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": "Deflects multiple attacks for 0.5 sec",
-        "sub_info": "Maximum speed Stab is available on deflect<br/>Maximum speed World Sunder is available on deflect<br/>Generates 1 chi on deflect",
+        "sub_info": "Maximum speed Stab is available on deflect<br/>Maximum speed World Sunder is available on deflect<br/>Generates 1 chi on deflect<br/>Offensive defense ability",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -1189,7 +1189,7 @@ var skill_data_BM = {
         "icon": "skill_icon_blademaster_1_19.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": "Deflects multiple attacks for 0.5 sec",
-        "sub_info": "Increases the critical hit damage of the user by 10% for 3 sec on deflect<br/>Maximum speed Stab is available on deflect<br/>Maximum speed World Sunder is available on deflect",
+        "sub_info": "Increases the critical hit damage of the user by 10% for 3 sec on deflect<br/>Maximum speed Stab is available on deflect<br/>Maximum speed World Sunder is available on deflect<br/>Offensive defense ability",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -1221,7 +1221,7 @@ var skill_data_BM = {
         "icon": "skill_icon_blademaster_1_19.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": "Deflects multiple attacks for 0.5 sec",
-        "sub_info": "Cooldown of Lightning Slash is decreased by 1 sec on deflect<br/>Increases the critical hit damage of the user by 10% for 3 sec on deflect<br/>Maximum speed Stab is available on deflect<br/>Maximum speed World Sunder is available on deflect",
+        "sub_info": "Cooldown of Lightning Slash is decreased by 1 sec on deflect<br/>Increases the critical hit damage of the user by 10% for 3 sec on deflect<br/>Maximum speed Stab is available on deflect<br/>Maximum speed World Sunder is available on deflect<br/>Offensive defense ability",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
