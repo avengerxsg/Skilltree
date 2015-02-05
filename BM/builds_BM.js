@@ -15,3 +15,14 @@ function diel_pve_build1() {
     }(jQuery));
 }
 // PvP-------------------------------------------------------------------------------------------------------------
+
+var builds = {
+    "pve01": {
+        "type": "PvE",
+        "name": "General Build",
+        "req": "Lv50 H12",
+        "bfunc": "diel_pve_build1();",
+        "desc_title": "General BM Build by Di'el",
+        "desc": "No description"
+    }
+};

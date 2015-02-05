@@ -28,7 +28,7 @@ for (d in changelog) {
             }
 		}
 		categories = categories.substring(0, categories.length - 2);
-		tab = "<li><a href=\"#\" onclick=\"expand();\"><p class=\"builder\">" + categories + "</p> <p class=\"levelreq\"></p><p class=\"title\">" + changelog[d].date + "</p></li>";
+		tab = "<li><a href=\"javaScript:void(0);\" onclick=\"expand();\"><p class=\"builder\">" + categories + "</p> <p class=\"levelreq\"></p><p class=\"title\">" + changelog[d].date + "</p></a></li>";
 		var desc = "";
         var b;
 		for (b in changelog[d].attrib) {

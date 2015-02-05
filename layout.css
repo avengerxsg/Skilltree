@@ -110,7 +110,7 @@ a {
 }
 
 .date {
-    color:#eab614;
+    color:#6dc0cd;
     font-weight:400;
     height:31px;
     font-size:16px
@@ -209,7 +209,25 @@ ul.tabs a.current,ul.tabs a.current:hover,ul.tabs li.current a {
 
 /* initially all panes are hidden */
 .panes {
-    height:95%
+    height:95%;
+    overflow-y:auto;
+}
+
+.panes::-webkit-scrollbar {
+    width:8px;
+    background-color:rgba(0,0,0,0.75)
+}
+
+.panes::-webkit-scrollbar-thumb {
+    background-color:rgba(90, 90, 90, 0.75);
+    border-radius:3px
+}
+
+.panes {
+    scrollbar-track-color:rgba(0,0,0,0.75);
+    scrollbar-face-color:rgba(49,48,43,0.75);
+    scrollbar-highlight-color:rgba(49,48,43,0.75);
+    scrollbar-shadow-color:rgba(0,0,0,0.75)
 }
 
 /* tab pane styling */

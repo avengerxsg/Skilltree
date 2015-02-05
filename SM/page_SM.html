@@ -19,7 +19,6 @@
 
 <script src="../jquerytools.js"></script>
 <script src="../extra.js"></script>
-<script src="builds_SM.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
 <script>
   WebFont.load({
@@ -51,36 +50,17 @@
 				<div class="builds">
 					<ul class="tabs" id="buildlist">
 						<li><a href="javaScript:void(0);" onclick="blank();" style="display:none;">Blank Template</a></li>
-						<p class="sideheader">Featured PvE Builds</p>
-							<li><a href="javaScript:void(0);" onclick="diel_pve_build1();">
-								<p class="builder">Di'el's</p>
-								<p class="levelreq">Lv50 H12</p>
-								<p class="title">Default Build</p>
-							</a></li>
-						<p class="sideheader">Featured PvP Builds</p>
-							<li><a href="javaScript:void(0);" onclick="diel_pvp_build1();">
-								<p class="builder">Di'el's</p>
-								<p class="levelreq">Lv50 H12</p>
-								<p class="title">1v1 Build</p>
-							</a></li>
 					</ul>
-					<div class="panes">
-						<div>
-							</div>
-						<div>
-							<p class="date">Default LBM Build by Di'el</p>
-							This is a build I normally use for most situations<br>
-							</div>
-						<!-- pve-pvp boundary -->
-						<div>
-							<p class="date">1v1 Build by Di'el</p>
-							No description<br>
-							</div>
+					<div class="panes" id="panedesc">
+						<div></div>
 					</div>
 					<ul class="back">
 						<li><a onclick="blank();">Back</a></li>
 					</ul>
 				</div>
+                
+                <script src="builds_SM.js"></script>
+                <script src="../classsidebar.js"></script>
 			</div>
 			<div id="mainsection">
 				<section class="wrap_mytraining">
