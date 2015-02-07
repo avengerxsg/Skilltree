@@ -280,8 +280,8 @@ var category_data_KF = {
     "21158": {
         "skill_id": "21158",
         "tree_id": "21106",
-        "name2_refine": "Flame Stomp<br>열화각",
-        "name2_refine_en": "Flame Stomp",
+        "name2_refine": "Flare Stomp<br>열화각",
+        "name2_refine_en": "Flare Stomp",
         "pc_level": "6",
         "pc_mastery_level": null,
         "complete_quest": null,
@@ -1006,8 +1006,8 @@ var category_data_KF = {
     "21385": {
         "skill_id": "21385",
         "tree_id": "1",
-        "name2_refine": "Flame Kick<br>비염각",
-        "name2_refine_en": "Flame Kick",
+        "name2_refine": "Blaze Kick<br>비염각",
+        "name2_refine_en": "Blaze Kick",
         "pc_level": "32",
         "pc_mastery_level": null,
         "complete_quest": null,
@@ -1136,8 +1136,8 @@ var category_data_KF = {
     "21114": {
         "skill_id": "21114",
         "tree_id": "1",
-        "name2_refine": "Twist Arm<br>팔꺾기",
-        "name2_refine_en": "Twist Arm",
+        "name2_refine": "Arm Twist<br>팔꺾기",
+        "name2_refine_en": "Arm Twist",
         "pc_level": "40",
         "pc_mastery_level": null,
         "complete_quest": null,

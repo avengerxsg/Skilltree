@@ -357,7 +357,7 @@ var skill_data_KF = {
         "icon": "skill_icon_kungfufighter_0_14.png",
         "main_info1": "Deals 16~18 damage",
         "main_info2": null,
-        "sub_info": "Heals the user 5% of the damage dealt<br/>Cooldown of Escape is decreased by 1 sec on hit<br/>Increases the evade of the user by 10% during use<br/>Generates 1 chi on evade during use<br/>Heals the user 1% of their maximum health on evade",
+        "sub_info": "Heals the user 5% of the damage dealt<br/>Cooldown of Escape is decreased by 1 sec on hit<br/>Increases the evade of the user by 10% during use<br/>Generates 1 chi on evade during use<br/>Heals the user 1% of their maximum health on evade during use",
         "consume_sp": null,
         "ui_sp_heal_value": "1",
         "skill_info": {
@@ -4769,7 +4769,7 @@ var skill_data_KF = {
     },
     "KungfuMaster_Attack_Armbar_Lv1": {
         "id": "21114",
-        "name": "Twist Arm - 팔꺾기",
+        "name": "Arm Twist - 팔꺾기",
         "icon": "skill_icon_kungfufighter_0_9.png",
         "main_info1": "Deals 60~70 damage",
         "main_info2": null,
@@ -5409,7 +5409,7 @@ var skill_data_KF = {
     },
     "KungfuMaster_Attack_AxeKick_Lv1": {
         "id": "21158",
-        "name": "Flame Stomp - 열화각",
+        "name": "Flare Stomp - 열화각",
         "icon": "skill_icon_kungfufighter_1_45.png",
         "main_info1": "Deals 48~112 damage",
         "main_info2": "Knocks downed foes into the air",
@@ -5441,7 +5441,7 @@ var skill_data_KF = {
     },
     "KungfuMaster_Attack_AxeKick_Lv32": {
         "id": "21158",
-        "name": "Flame Stomp - 열화각",
+        "name": "Flare Stomp - 열화각",
         "icon": "skill_icon_kungfufighter_1_45.png",
         "main_info1": "Deals 48~112 damage",
         "main_info2": "Knocks downed foes into the air<br/>Knocks nearby foes down for 3 sec",
@@ -5473,7 +5473,7 @@ var skill_data_KF = {
     },
     "KungfuMaster_Attack_AxeKick_Lv33": {
         "id": "21158",
-        "name": "Flame Stomp - 열화각",
+        "name": "Flare Stomp - 열화각",
         "icon": "skill_icon_kungfufighter_1_45.png",
         "main_info1": "Deals 48~112 damage",
         "main_info2": "Knocks downed foes into the air<br/>Knocks nearby foes down for 3 sec",
@@ -5603,9 +5603,9 @@ var skill_data_KF = {
         "id": "21181",
         "name": "Air Kick - 공중차기",
         "icon": "skill_icon_kungfufighter_0_18.png",
-        "main_info1": "Knocks foes back into the air",
-        "main_info2": "Deals 66~77 damage",
-        "sub_info": "Increases the evade chance of the user by 100% during use",
+        "main_info1": "Deals 66~77 damage",
+        "main_info2": null,
+        "sub_info": "Knocks foes back into the air<br/>Increases the evade chance of the user by 100% during use",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5635,9 +5635,9 @@ var skill_data_KF = {
         "id": "21182",
         "name": "Air Slam - 공중찍기",
         "icon": "skill_icon_kungfufighter_0_19.png",
-        "main_info1": "Ends the target's airborne status",
-        "main_info2": "Deals 78~91 damage",
-        "sub_info": "Increases the evade chance of the user by 100% during use",
+        "main_info1": "Deals 78~91 damage",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Increases the evade chance of the user by 100% during use",
         "consume_sp": "3",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -6657,7 +6657,7 @@ var skill_data_KF = {
     },
     "KungfuMaster_Attack_FireDragonKick_Lv1": {
         "id": "21385",
-        "name": "Flame Kick - 비염각",
+        "name": "Blaze Kick - 비염각",
         "icon": "skill_icon_kungfufighter_1_13.png",
         "main_info1": "Knocks foes down for 2 sec",
         "main_info2": "Deals 12~14 damage",
