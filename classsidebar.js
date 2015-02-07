@@ -1,4 +1,4 @@
-/*global $, builds */
+/*global $, builds, job_desc */
 
 var help = {
     "How to Use": "Basic Controls<li>Left click to learn</li><li>Right click to unlearn</li><li>Hover to display changes on the tooltip</li><br>Extra Features<li>Choose a featured build from this list on the right to instantly display a preset build</li><li>You can also save/load your own builds by using the \"Save/Load Build\" button on the top right</li><br>How damage is calculated<br>Skill damage is calculated by using the following formula:<li>Min damage = (attack - weapon constant) * skill multiplier</li><li>Max damage = (attack + weapon constant) * skill multiplier</li><li>Skill multiplier depends on the skill, attribute, and talent</li><li>Weapon constant depends on the weapon the character is holding</li>For this skill tree, all skills assume the following:<li>The character has an attack of 13 for all levels</li><li>The character does not have a weapon equipped (weapon constant = 1)</li><br>Level and skill points<li>Characters earn 1 skill point starting from level 15 to 50</li><li>Characters earn 5 skill points upon leveling to divine level 1</li><li>Characters earn 1 skill point for every even divine level</li><li>Characters earn 2 skill points for every odd divine level</li>",
@@ -6,6 +6,10 @@ var help = {
 };
 
 $("#buildlist").append("<p class=\"sideheader\">Class Information</p>");
+
+var cinfo = "<div id=\"cinfo\"><p id=\"cname\">" + job_desc.name + "</p><div class=\"videoWrapper\">" + job_desc.video + "</div><table><tr><td>Difficulty</td><td>" + job_desc.diff + "</td></tr><tr><td>Race</td><td>" + job_desc.race + "</td></tr></table>" + job_desc.desc + "</div>";
+
+$("#buildlist").append(cinfo);
 
 $("#buildlist").append("<p class=\"sideheader\">Featured Builds</p>");
 

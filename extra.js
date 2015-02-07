@@ -1,5 +1,5 @@
 /*jslint nomen: true */
-/*global $, jQuery, alert, confirm, eval, _training */
+/*global $, jQuery, alert, confirm, eval, _training, YT, onPlayerReady*/
 
 function blank() {
     "use strict";
@@ -189,4 +189,28 @@ function queryUrl(job) {
 			return;
 		}
 	}
+}
+
+var tag = document.createElement('script');
+
+tag.src = "//www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    "use strict";
+    player = new YT.Player('ytplayer', {
+        events: {
+            'onReady': onPlayerReady
+        }
+    });
+}
+
+function onPlayerReady() {
+    "use strict";
+    // Mute!
+    player.mute();
+    //player.playVideo();
 }
