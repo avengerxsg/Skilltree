@@ -1,6 +1,15 @@
 /*jslint nomen: true */
 /*global jQuery */
 
+
+var job_desc = {
+    "name": "Blade Master",
+    "diff": "●●●◐○",
+    "race": "Jin, Kun",
+    "desc": "no description",
+    "video": "<iframe id=\"ytplayer\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/jBKJbMNSkeU?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1\" frameborder=\"0\" allowfullscreen></iframe>"
+};
+
 var _training;
 // PvE-------------------------------------------------------------------------------------------------------------
 function diel_pve_build1() {
