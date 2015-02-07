@@ -17980,10 +17980,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV1",
-                "tooltip-group": "Sub",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -18068,10 +18068,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV11",
-                "tooltip-group": "Sub",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -18156,10 +18156,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV12",
-                "tooltip-group": "Sub",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -18244,6 +18244,28 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        "m2": {
+            "0": {
+                "skill": "BladeMaster_Sword_upper_slash_LV13",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": "T_stun_kneel",
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
         "sub": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV13",
@@ -18258,26 +18280,6 @@ var data_skill_tooltip = {
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "BladeMaster_Sword_upper_slash_LV13",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -18352,6 +18354,28 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        "m2": {
+            "0": {
+                "skill": "BladeMaster_Sword_upper_slash_LV14",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": "T_stun_kneel",
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
         "sub": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV14",
@@ -18386,26 +18410,6 @@ var data_skill_tooltip = {
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "BladeMaster_Sword_upper_slash_LV14",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -18480,10 +18484,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV21",
-                "tooltip-group": "Sub",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -18568,6 +18572,28 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        "m2": {
+            "0": {
+                "skill": "BladeMaster_Sword_upper_slash_LV22",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": "T_stun_kneel",
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
         "sub": {
             "0": {
                 "skill": "BladeMaster_Sword_upper_slash_LV22",
@@ -18582,26 +18608,6 @@ var data_skill_tooltip = {
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "BladeMaster_Sword_upper_slash_LV22",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
