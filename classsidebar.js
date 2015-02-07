@@ -7,7 +7,7 @@ var help = {
 
 $("#buildlist").append("<p class=\"sideheader\">Class Information</p>");
 
-var cinfo = "<div id=\"cinfo\"><p id=\"cname\">" + job_desc.name + "</p><div class=\"videoWrapper\">" + job_desc.video + "</div><table><tr><td>Difficulty</td><td><p style=\"font-family:Gulim\">" + job_desc.diff + "</p></td></tr><tr><td>Race</td><td>" + job_desc.race + "</td></tr></table>" + job_desc.desc + "</div>";
+var cinfo = "<div id=\"cinfo\"><p id=\"cname\">" + job_desc.name + "</p><div class=\"videoWrapper\">" + job_desc.video + "</div><table><tr><td>Difficulty</td><td><p style=\"font-family:hvgafix\">" + job_desc.diff + "</p></td></tr><tr><td>Race</td><td>" + job_desc.race + "</td></tr></table>" + job_desc.desc + "</div>";
 
 $("#buildlist").append(cinfo);
 
