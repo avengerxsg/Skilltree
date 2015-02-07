@@ -2117,7 +2117,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_7.png",
         "main_info1": "Blocks attacks from the front for 4 sec",
         "main_info2": "Deals 6~7 damage",
-        "sub_info": "Knocks foes back 12m and down them for 3 sec<br/>Knocks foes that resist knock back down for 3 sec<br/>Knocks foes that can be chained with knock back down for 3 sec<br/>Generates 20% chi on block<br/>Heals the user 20% of their maximum health over 4 sec<br/>Cannot be deflected",
+        "sub_info": "Knocks foes back 12m and knocks them down for 3 sec<br/>Knocks foes that resist knock back down for 3 sec<br/>Knocks foes that can be chained with knock back down for 3 sec<br/>Generates 20% chi on block<br/>Heals the user 20% of their maximum health over 4 sec<br/>Cannot be deflected",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {

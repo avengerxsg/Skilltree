@@ -2299,7 +2299,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Pulls nearby foes and down them for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
+        "sub_info": "Pulls nearby foes and knocks them down for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2331,7 +2331,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and down them for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
+        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and knocks them down for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2363,7 +2363,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and down them for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
+        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and knocks them down for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
