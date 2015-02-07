@@ -7784,6 +7784,26 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
+            },
+            "1": {
+                "skill": "BladeMaster_Sword_full_moon_slash_LV23",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_recall_to_caster_hit",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
             }
         },
         "sub": {
@@ -7808,26 +7828,6 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             },
             "1": {
-                "skill": "BladeMaster_Sword_full_moon_slash_LV23",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_recall_to_caster_hit",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
                 "skill": "BladeMaster_Sword_full_moon_slash_LV23",
                 "tooltip-group": "Sub",
                 "ect-order": "CTE",
