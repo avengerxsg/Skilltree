@@ -5477,7 +5477,7 @@ var skill_data_BM = {
         "icon": "skill_icon_blademaster_0_23.png",
         "main_info1": "Deals 2~3 damage",
         "main_info2": "Charge to the target",
-        "sub_info": "Decreases the movement speed of foes by 50% for 8 sec on hit<br/>Disables charge abilities of foes for 6 sec<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Extends the duration of status effects of foes up to 2 sec",
+        "sub_info": "Decreases the movement speed of foes by 50% for 8 sec on hit<br/>Disables charge abilities of foes for 6 sec<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Extends the duration of status effects of foes up to 2 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "2",
         "skill_info": {

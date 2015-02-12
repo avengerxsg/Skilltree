@@ -5445,7 +5445,7 @@ var skill_data_AS = {
         "icon": "skill_icon_assassin_0_42.png",
         "main_info1": "Places Circle of Flight",
         "main_info2": null,
-        "sub_info": "Moves nearby meditating, incapacitated, dead allies to the circle<br/>Art of Flight cannot be used if the circle is out of sight",
+        "sub_info": "Moves nearby meditating, incapacitated allies to the circle<br/>Art of Flight cannot be used if the circle is out of sight",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5477,7 +5477,7 @@ var skill_data_AS = {
         "icon": "skill_icon_assassin_0_42.png",
         "main_info1": "Places Circle of Flight",
         "main_info2": null,
-        "sub_info": "Circle lasts 10 sec longer<br/>Art of Flight cannot be used if the circle is out of sight<br/>Moves nearby meditating, incapacitated, dead allies to the circle",
+        "sub_info": "Circle lasts 10 sec longer<br/>Art of Flight cannot be used if the circle is out of sight<br/>Moves nearby meditating, incapacitated allies to the circle",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5509,7 +5509,7 @@ var skill_data_AS = {
         "icon": "skill_icon_assassin_0_42.png",
         "main_info1": "Places Circle of Flight",
         "main_info2": null,
-        "sub_info": "Decreases the meditation time of nearby meditating allies by 6 sec<br/>Circle lasts 10 sec longer<br/>Art of Flight cannot be used if the circle is out of sight<br/>Moves nearby meditating, incapacitated, dead allies to the circle",
+        "sub_info": "Decreases the meditation time of nearby meditating allies by 6 sec<br/>Circle lasts 10 sec longer<br/>Art of Flight cannot be used if the circle is out of sight<br/>Moves nearby meditating, incapacitated allies to the circle",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {

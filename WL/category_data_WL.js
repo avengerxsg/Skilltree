@@ -813,8 +813,8 @@ var category_data_WL = {
     "28800": {
         "skill_id": "28800",
         "tree_id": "28800",
-        "name2_refine": "Extinguish<br>소멸",
-        "name2_refine_en": "Extinguish",
+        "name2_refine": "Expire<br>소멸",
+        "name2_refine_en": "Expire",
         "pc_level": "45",
         "pc_mastery_level": null,
         "complete_quest": null,

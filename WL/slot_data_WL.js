@@ -9371,8 +9371,8 @@ var slot_data_WL = {
                 "max_variation_level": "1",
                 "variation_id": "11",
                 "tooltip_alias": "Warlock_Summoned_Active_SuicideBoom_Lv11",
-                "name2_refine": "Extinguish<br>소멸",
-                "name2_refine_en": "Extinguish",
+                "name2_refine": "Expire<br>소멸",
+                "name2_refine_en": "Expire",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -9446,8 +9446,8 @@ var slot_data_WL = {
                 "max_variation_level": "1",
                 "variation_id": "21",
                 "tooltip_alias": "Warlock_Summoned_Active_SuicideBoom_Lv21",
-                "name2_refine": "Extinguish<br>소멸",
-                "name2_refine_en": "Extinguish",
+                "name2_refine": "Expire<br>소멸",
+                "name2_refine_en": "Expire",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -9671,8 +9671,8 @@ var slot_data_WL = {
                 "max_variation_level": "1",
                 "variation_id": "31",
                 "tooltip_alias": "Warlock_Summoned_Active_SuicideBoom_Lv31",
-                "name2_refine": "Extinguish<br>소멸",
-                "name2_refine_en": "Extinguish",
+                "name2_refine": "Expire<br>소멸",
+                "name2_refine_en": "Expire",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -9896,8 +9896,8 @@ var slot_data_WL = {
                 "max_variation_level": "1",
                 "variation_id": "51",
                 "tooltip_alias": "Warlock_Summoned_Active_SuicideBoom_Lv51",
-                "name2_refine": "Extinguish<br>소멸",
-                "name2_refine_en": "Extinguish",
+                "name2_refine": "Expire<br>소멸",
+                "name2_refine_en": "Expire",
                 "variation_level": {
                     "0": null,
                     "1": "1",

@@ -4357,7 +4357,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_5.png",
         "main_info1": "Deals 12~14 damage",
         "main_info2": "Knocks foes down for 2 sec",
-        "sub_info": "Decreases the movement speed of foes by 30% for 6 sec<br/>Disables charge abilities of foes for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes hit suffer from Internal Bleeding for 12 sec",
+        "sub_info": "Decreases the movement speed of foes by 30% for 6 sec<br/>Disables charge abilities of foes for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes suffer from Internal Bleeding for 12 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
         "skill_info": {
@@ -4389,7 +4389,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_5.png",
         "main_info1": "Deals 12~14 damage",
         "main_info2": "Stuns foes for 2 sec<br/>Pulls foes",
-        "sub_info": "Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of the target by 60% for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes hit suffer from Internal Bleeding for 12 sec",
+        "sub_info": "Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of the target by 60% for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes suffer from Internal Bleeding for 12 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
         "skill_info": {
@@ -4453,7 +4453,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 12~14 damage over 4 hits",
         "main_info2": null,
-        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 2 times<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 2 times<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4485,7 +4485,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 12~14 damage over 4 hits",
         "main_info2": null,
-        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 4 times<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 4 times<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4549,7 +4549,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 90~105 damage over 5 hits",
         "main_info2": null,
-        "sub_info": "Sends out 6 blades at once<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Sends out 6 blades at once<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "6",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4581,7 +4581,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 90~105 damage over 5 hits",
         "main_info2": "Deals 60~70 explosive damage",
-        "sub_info": "Sends out 6 blades at once<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Sends out 6 blades at once<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "6",
         "ui_sp_heal_value": null,
         "skill_info": {
