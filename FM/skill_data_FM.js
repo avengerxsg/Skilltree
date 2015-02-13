@@ -1,4 +1,36 @@
 var skill_data_FM = {
+    "Blank": {
+        "id": "99999",
+        "name": "Blank",
+        "icon": "default_icon_00_24.png",
+        "main_info1": null,
+        "main_info2": null,
+        "sub_info": null,
+        "consume_sp": null,
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": " "
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": " "
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": " "
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": " "
+            }
+        }
+    },
     "ForceMaster_Deal_fast_energy_missile_Lv1": {
         "id": "22106",
         "name": "Shockwave - 충격파",
