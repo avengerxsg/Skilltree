@@ -23078,5 +23078,496 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         }
-    }
+    },
+	"destroyer_destruction_fever_r1_lv1_link": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_Lv1_Link",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "400,400",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_Lv1_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_instant_accel_max",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_Lv1_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "T_linked_catch_catchinhalation",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+    
+	"destroyer_destruction_fever_r1_1000_link": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_1000_Link",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "480,480",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_1000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_instant_accel_max",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_1000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "T_linked_catch_catchinhalation",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+    
+	"destroyer_destruction_fever_r1_2000_link": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "480,480",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_instant_accel_max",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_hp_drain_percent_damage",
+				"effect-arg-1": "5",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Destroyer_Catch_Pound_Lv1_SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "ë‚´ë‹¤ê½‚ê¸° ëª…ì¤‘ ì‹œ 4ì´ˆê°„ ê²©ë…¸ ì‚¬ìš© ê°€ëŠ¥"
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "T_linked_catch_catchinhalation",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Catch_Pound",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_destruction_fever_r1_3000_link": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "480,480",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_instant_accel_max",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_hp_drain_percent_damage",
+				"effect-arg-1": "5",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Destroyer_Catch_Pound_Lv1_SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "ë‚´ë‹¤ê½‚ê¸° ëª…ì¤‘ ì‹œ 4ì´ˆê°„ ê²©ë…¸ ì‚¬ìš© ê°€ëŠ¥"
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "T_linked_catch_catchinhalation",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Catch_Pound",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	}
 };

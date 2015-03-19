@@ -31,358 +31,310 @@ var skill_data_DE = {
             }
         }
     },
-    "Destroyer_Protection_Judgement_Lv1": {
-        "id": "24001",
-        "name": "Judgement - 심판",
-        "icon": "skill_icon_destroyer_0_31.png",
-        "main_info1": "Deals 12~14 damage",
-        "main_info2": null,
-        "sub_info": "Generates 10% chi per target hit",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_5",
-                "value": "3m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Protection_Judgement_1000": {
-        "id": "24001",
-        "name": "Judgement - 심판",
-        "icon": "skill_icon_destroyer_0_31.png",
-        "main_info1": "Deals 16~18 damage",
-        "main_info2": null,
-        "sub_info": "Generates 10% chi per target hit",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_5",
-                "value": "3m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Protection_Judgement_2000": {
-        "id": "24001",
-        "name": "Judgement - 심판",
-        "icon": "skill_icon_destroyer_0_31.png",
-        "main_info1": "Deals 16~18 damage",
-        "main_info2": null,
-        "sub_info": "Generates 10% chi per target hit",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_5",
-                "value": "5m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Protection_Judgement_3000": {
-        "id": "24001",
-        "name": "Judgement - 심판",
-        "icon": "skill_icon_destroyer_0_31.png",
-        "main_info1": "Deals 16~18 damage",
-        "main_info2": null,
-        "sub_info": "Generates 10% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical effect lasts 3 sec",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_5",
-                "value": "5m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Protection_Judgement_4000": {
-        "id": "24001",
-        "name": "Judgement - 심판",
-        "icon": "skill_icon_destroyer_0_31.png",
-        "main_info1": "Deals 16~18 damage",
-        "main_info2": null,
-        "sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical effect lasts 3 sec",
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_5",
-                "value": "5m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Protection_Judgement_5000": {
-        "id": "24001",
-        "name": "Judgement - 심판",
-        "icon": "skill_icon_destroyer_0_31.png",
-        "main_info1": "Deals 16~18 damage",
-        "main_info2": null,
-        "sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical effect lasts 3 sec<br/>Generates chi even when blocked, countered, deflected",
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_5",
-                "value": "5m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Destruction_Single_R1_0200": {
-        "id": "24001",
-        "name": "Fury - 격노",
-        "icon": "skill_icon_destroyer_1_39.png",
-        "main_info1": "Deals 12~14 damage",
-        "main_info2": null,
-        "sub_info": "Skill speed accelerates on recast",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "1.2 sec"
-            }
-        }
-    },
-    "Destroyer_Destruction_Single_R1_0400": {
-        "id": "24001",
-        "name": "Fury - 격노",
-        "icon": "skill_icon_destroyer_1_39.png",
-        "main_info1": "Deals 12~14 damage",
-        "main_info2": "Deals an additional 4~4 damage at maximum speed",
-        "sub_info": "Skill speed accelerates on recast",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "1.2 sec"
-            }
-        }
-    },
-    "Destroyer_Destruction_Single_R1_0500": {
-        "id": "24001",
-        "name": "Fury - 격노",
-        "icon": "skill_icon_destroyer_1_39.png",
-        "main_info1": "Deals 12~14 damage",
-        "main_info2": "Deals an additional 4~4 damage at maximum speed",
-        "sub_info": "Skill speed accelerates on recast<br/>Maximum speed on hit with Collide",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "1.2 sec"
-            }
-        }
-    },
-    "Destroyer_Destruction_Single_R1_0040": {
-        "id": "24001",
-        "name": "Fury - 격노",
-        "icon": "skill_icon_destroyer_1_39.png",
-        "main_info1": "Deals 12~14 damage",
-        "main_info2": null,
-        "sub_info": "Heals the user 10% of the damage dealt<br/>Skill speed accelerates on recast",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "1.2 sec"
-            }
-        }
-    },
-    "Destroyer_Destruction_Single_R1_0050": {
-        "id": "24001",
-        "name": "Fury - 격노",
-        "icon": "skill_icon_destroyer_1_39.png",
-        "main_info1": "Deals 12~14 damage",
-        "main_info2": null,
-        "sub_info": "Heals the user 10% of the damage dealt<br/>Heals the user 25% of the damage dealt at maximum speed<br/>Skill speed accelerates on recast",
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "1.2 sec"
-            }
-        }
-    },
+    "Destroyer_Protection_Judgement_Lv1": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 12~14 damage",
+		"main_info2": null,
+		"sub_info": "Generates 10% chi per target hit",
+		"consume_sp": null,
+		"ui_sp_heal_value": "10",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "3m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_1000": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 16~18 damage",
+		"main_info2": null,
+		"sub_info": "Generates 10% chi per target hit",
+		"consume_sp": null,
+		"ui_sp_heal_value": "10",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "3m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_2000": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 16~18 damage",
+		"main_info2": null,
+		"sub_info": "Generates 10% chi per target hit",
+		"consume_sp": null,
+		"ui_sp_heal_value": "10",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "5m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_3000": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 16~18 damage",
+		"main_info2": null,
+		"sub_info": "Generates 10% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"consume_sp": null,
+		"ui_sp_heal_value": "10",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "5m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_4000": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 16~18 damage",
+		"main_info2": null,
+		"sub_info": "피격된 적 만큼 내력 15% 회복<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"consume_sp": null,
+		"ui_sp_heal_value": "15",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "5m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_5000": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 16~18 damage",
+		"main_info2": null,
+		"sub_info": "피격된 적 만큼 내력 15% 회복<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec<br/>Generates chi even when blocked, countered, deflected",
+		"consume_sp": null,
+		"ui_sp_heal_value": "15",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "5m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_0400": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 16~18 damage",
+		"main_info2": null,
+		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"consume_sp": null,
+		"ui_sp_heal_value": "10",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "3m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
+	"Destroyer_Protection_Judgement_0500": 
+	{
+		"id": "24001",
+		"name": "Judgement - 심판",
+		"icon": "skill_icon_destroyer_0_31.png",
+		"main_info1": "Deals 18~21 damage",
+		"main_info2": null,
+		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"consume_sp": null,
+		"ui_sp_heal_value": "10",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_5",
+				"value": "3m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
     "Destroyer_Protection_Raging_Wind_Lv1": {
         "id": "24010",
         "name": "Hurricane - 광풍",
@@ -735,6 +687,159 @@ var skill_data_DE = {
             }
         }
     },
+    
+	"Destroyer_Destruction_Fever_R1_Lv1_Link": 
+	{
+		"id": "24020",
+		"name": "Fury - 격노",
+		"icon": "skill_icon_destroyer_1_39.png",
+		"main_info1": "Deals 48~56 damage",
+		"main_info2": null,
+		"sub_info": "Maximum speed",
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "4m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "0.4 sec"
+			}
+		}
+	},
+	"Destroyer_Destruction_Fever_R1_1000_Link": 
+	{
+		"id": "24020",
+		"name": "Fury - 격노",
+		"icon": "skill_icon_destroyer_1_39.png",
+		"main_info1": "Deals 58~67 damage",
+		"main_info2": null,
+		"sub_info": "Maximum speed",
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "4m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "0.4 sec"
+			}
+		}
+	},
+	"Destroyer_Destruction_Fever_R1_2000_Link": 
+	{
+		"id": "24020",
+		"name": "Fury - 격노",
+		"icon": "skill_icon_destroyer_1_39.png",
+		"main_info1": "Deals 58~67 damage",
+		"main_info2": null,
+		"sub_info": "Maximum speed<br/>Heals the user 5% of the damage dealt<br/>Fury can be used for 4 sec on hit with Slam",
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "4m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "0.4 sec"
+			}
+		}
+	},
+	"Destroyer_Destruction_Fever_R1_3000_Link": 
+	{
+		"id": "24020",
+		"name": "Fury - 격노",
+		"icon": "skill_icon_destroyer_1_39.png",
+		"main_info1": "Deals 58~67 damage",
+		"main_info2": null,
+		"sub_info": "Maximum speed<br/>Heals the user 5% of the damage dealt<br/>Generates 10% on critical hit<br/>Fury can be used for 4 sec on hit with Slam",
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "4m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "0.4 sec"
+			}
+		}
+	},
     "Destroyer_Protection_Axe_Chop_Lv1": {
         "id": "24030",
         "name": "Destroy - 파괴",

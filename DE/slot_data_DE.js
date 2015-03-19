@@ -1,752 +1,595 @@
 var slot_data_DE = {
-    "24001": {
-        "11": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_11",
-                "max_variation_level": "1",
-                "variation_id": "11",
-                "tooltip_alias": "Destroyer_Protection_Judgement_1000",
-                "name2_refine": "Judgement<br>심판",
+    "24001": 
+	{
+		"11": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_11",
+				"max_variation_level": "1",
+				"variation_id": "11",
+				"tooltip_alias": "Destroyer_Protection_Judgement_1000",
+				"name2_refine": "Judgement<br>심판",
                 "name2_refine_en": "Judgement",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 1,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_Judgement_1000",
-                    "1": "Destroyer_Destruction_Destruction_1000",
-                    "2": "Destroyer_Protection_Nemesis_1000",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": null,
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": null,
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "1급 1초식",
-                "training_icon": "skill_icon_destroyer_0_31.png",
-                "required_tp": 1
-            }
-        },
-        "21": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_12",
-                "max_variation_level": "1",
-                "variation_id": "12",
-                "tooltip_alias": "Destroyer_Protection_Judgement_2000",
-                "name2_refine": "Judgement<br>심판",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 1,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_1000",
+					"1": "Destroyer_Destruction_Destruction_1000",
+					"2": "Destroyer_Protection_Nemesis_1000",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "1급 1초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 1
+			}
+		},
+		"21": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_12",
+				"max_variation_level": "1",
+				"variation_id": "12",
+				"tooltip_alias": "Destroyer_Protection_Judgement_2000",
+				"name2_refine": "Judgement<br>심판",
                 "name2_refine_en": "Judgement",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 2,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_Judgement_2000",
-                    "1": "Destroyer_Destruction_Destruction_2000",
-                    "2": "Destroyer_Protection_Nemesis_2000",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_11",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "2급 1초식",
-                "training_icon": "skill_icon_destroyer_0_31.png",
-                "required_tp": 1
-            }
-        },
-        "22": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_22",
-                "max_variation_level": "1",
-                "variation_id": "22",
-                "tooltip_alias": "Destroyer_Destruction_Single_R1_0200",
-                "name2_refine": "Fury<br>격노",
-                "name2_refine_en": "Fury",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "1",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 6,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_Single_R1_0200",
-                    "1": "Destroyer_Destruction_Single_R2_0200",
-                    "2": "Destroyer_Destruction_Single_R3_0200",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_12",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_11",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "2급 2초식",
-                "training_icon": "skill_icon_destroyer_1_39.png",
-                "required_tp": 1
-            }
-        },
-        "31": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_13",
-                "max_variation_level": "1",
-                "variation_id": "13",
-                "tooltip_alias": "Destroyer_Protection_Judgement_3000",
-                "name2_refine": "Judgement<br>심판",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 2,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_2000",
+					"1": "Destroyer_Destruction_Destruction_2000",
+					"2": "Destroyer_Protection_Nemesis_2000",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24001_11",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "2급 1초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 1
+			}
+		},
+		"31": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_13",
+				"max_variation_level": "1",
+				"variation_id": "13",
+				"tooltip_alias": "Destroyer_Protection_Judgement_3000",
+				"name2_refine": "Judgement<br>심판",
                 "name2_refine_en": "Judgement",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 3,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_Judgement_3000",
-                    "1": "Destroyer_Destruction_Destruction_3000",
-                    "2": "Destroyer_Protection_Nemesis_3000",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_12",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "3급 1초식",
-                "training_icon": "skill_icon_destroyer_0_31.png",
-                "required_tp": 1
-            }
-        },
-        "41": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_14",
-                "max_variation_level": "1",
-                "variation_id": "14",
-                "tooltip_alias": "Destroyer_Protection_Judgement_4000",
-                "name2_refine": "Judgement<br>심판",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 3,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_3000",
+					"1": "Destroyer_Destruction_Destruction_3000",
+					"2": "Destroyer_Protection_Nemesis_3000",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24001_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "3급 1초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 1
+			}
+		},
+		"41": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_14",
+				"max_variation_level": "1",
+				"variation_id": "14",
+				"tooltip_alias": "Destroyer_Protection_Judgement_4000",
+				"name2_refine": "Judgement<br>심판",
                 "name2_refine_en": "Judgement",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "1",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 4,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_Judgement_4000",
-                    "1": "Destroyer_Destruction_Destruction_4000",
-                    "2": "Destroyer_Protection_Nemesis_4000",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_13",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "4급 1초식",
-                "training_icon": "skill_icon_destroyer_0_31.png",
-                "required_tp": 1
-            }
-        },
-        "42": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_24",
-                "max_variation_level": "1",
-                "variation_id": "24",
-                "tooltip_alias": "Destroyer_Destruction_Single_R1_0400",
-                "name2_refine": "Fury - 격노",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "1",
-                    "7": "1",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 7,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_Single_R1_0400",
-                    "1": "Destroyer_Destruction_Single_R2_0400",
-                    "2": "Destroyer_Destruction_Single_R3_0400",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_34",
-                    "1": "DE_24001_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "4급 2초식",
-                "training_icon": "skill_icon_destroyer_1_39.png",
-                "required_tp": 1
-            }
-        },
-        "43": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_34",
-                "max_variation_level": "1",
-                "variation_id": "34",
-                "tooltip_alias": "Destroyer_Destruction_Single_R1_0040",
-                "name2_refine": "Fury - 격노",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "1",
-                    "7": "0",
-                    "8": "0",
-                    "9": "1",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 9,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_Single_R1_0040",
-                    "1": "Destroyer_Destruction_Single_R2_0040",
-                    "2": "Destroyer_Destruction_Single_R3_0040",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_24",
-                    "1": "DE_24001_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "4급 3초식",
-                "training_icon": "skill_icon_destroyer_1_39.png",
-                "required_tp": 1
-            }
-        },
-        "51": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_15",
-                "max_variation_level": "1",
-                "variation_id": "15",
-                "tooltip_alias": "Destroyer_Protection_Judgement_5000",
-                "name2_refine": "Judgement<br>심판",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "1",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 4,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_4000",
+					"1": "Destroyer_Destruction_Destruction_4000",
+					"2": "Destroyer_Protection_Nemesis_4000",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24001_24",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24001_13",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "4급 1초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 1
+			}
+		},
+		"42": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_24",
+				"max_variation_level": "1",
+				"variation_id": "24",
+				"tooltip_alias": "Destroyer_Protection_Judgement_0400",
+				"name2_refine": "Judgement<br>심판",
                 "name2_refine_en": "Judgement",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "1",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 5,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_Judgement_5000",
-                    "1": "Destroyer_Destruction_Destruction_5000",
-                    "2": "Destroyer_Protection_Nemesis_5000",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_14",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": "Item.AcquirePlace.0028",
-                "complete_quest_name_refine": "Judgement Part 1",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Spiral Labyrinth",
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 1초식",
-                "training_icon": "skill_icon_destroyer_0_31.png",
-                "required_tp": 3
-            }
-        },
-        "52": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_25",
-                "max_variation_level": "1",
-                "variation_id": "25",
-                "tooltip_alias": "Destroyer_Destruction_Single_R1_0500",
-                "name2_refine": "Fury - 격노",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "1",
-                    "7": "1",
-                    "8": "1",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 8,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_Single_R1_0500",
-                    "1": "Destroyer_Destruction_Single_R2_0500",
-                    "2": "Destroyer_Destruction_Single_R3_0500",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_34",
-                    "1": "DE_24001_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_24",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": "Item.AcquirePlace.0028",
-                "complete_quest_name_refine": "Judgement Part 1",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Spiral Labyrinth",
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 2초식",
-                "training_icon": "skill_icon_destroyer_1_39.png",
-                "required_tp": 2
-            }
-        },
-        "53": {
-            "1": {
-                "tree_id": "24001",
-                "skill_id": "24001",
-                "alias": "DE_24001_35",
-                "max_variation_level": "1",
-                "variation_id": "35",
-                "tooltip_alias": "Destroyer_Destruction_Single_R1_0050",
-                "name2_refine": "Fury - 격노",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "1",
-                    "7": "0",
-                    "8": "0",
-                    "9": "1",
-                    "10": "1",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 10,
-                "train_skill_id": {
-                    "0": "24001",
-                    "1": "24002",
-                    "2": "24003",
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_Single_R1_0050",
-                    "1": "Destroyer_Destruction_Single_R2_0050",
-                    "2": "Destroyer_Destruction_Single_R3_0050",
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24001_24",
-                    "1": "DE_24001_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24001_34",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24001"
-                },
-                "complete_quest_desc": "Item.AcquirePlace.0226",
-                "complete_quest_name_refine": "Judgement Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Tomb of Sacrifice",
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 3초식",
-                "training_icon": "skill_icon_destroyer_1_39.png",
-                "required_tp": 2
-            }
-        }
-    },
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "1",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 6,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_0400",
+					"1": "Destroyer_Destruction_Destruction_0400",
+					"2": "Destroyer_Protection_Nemesis_0400",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24001_14",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24001_13",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "4급 2초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 1
+			}
+		},
+		"51": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_15",
+				"max_variation_level": "1",
+				"variation_id": "15",
+				"tooltip_alias": "Destroyer_Protection_Judgement_5000",
+				"name2_refine": "Judgement<br>심판",
+                "name2_refine_en": "Judgement",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "1",
+					"5": "1",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 5,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_5000",
+					"1": "Destroyer_Destruction_Destruction_5000",
+					"2": "Destroyer_Protection_Nemesis_5000",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24001_24",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24001_14",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": "Item.AcquirePlace.0028",
+				"complete_quest_name_refine": "Judgement Part 1",
+				"complete_quest_desc_refine": "<img src=\"http://static.plaync.co.kr/powerbook/bns/ui_resource/item_tooltip/tooltip_party.png\" class=\"icon_in_description\" /> Spiral Labyrinth",
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "5급 1초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 3
+			}
+		},
+		"52": 
+		{
+			"1": 
+			{
+				"tree_id": "24001",
+				"skill_id": "24001",
+				"alias": "DE_24001_25",
+				"max_variation_level": "1",
+				"variation_id": "25",
+				"tooltip_alias": "Destroyer_Protection_Judgement_0500",
+				"name2_refine": "Judgement<br>심판",
+                "name2_refine_en": "Judgement",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "1",
+					"7": "1",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 7,
+				"train_skill_id": 
+				{
+					"0": "24001",
+					"1": "24002",
+					"2": "24003",
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_Judgement_0500",
+					"1": "Destroyer_Destruction_Destruction_0500",
+					"2": "Destroyer_Protection_Nemesis_0500",
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24001_14",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24001_24",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24001"
+				},
+				"complete_quest_desc": "Item.AcquirePlace.0226",
+				"complete_quest_name_refine": "Judgement Part 2",
+				"complete_quest_desc_refine": "<img src=\"http://static.plaync.co.kr/powerbook/bns/ui_resource/item_tooltip/tooltip_party.png\" class=\"icon_in_description\" /> Tomb of Sacrifice",
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "5급 2초식",
+				"training_icon": "skill_icon_destroyer_0_31.png",
+				"required_tp": 2
+			}
+		}
+	},
     "24010": {
         "11": {
             "1": {
@@ -12202,6 +12045,258 @@ var slot_data_DE = {
             }
         }
     },
+    "24020": 
+	{
+		"11": 
+		{
+			"1": 
+			{
+				"tree_id": "24020",
+				"skill_id": "24020",
+				"alias": "DE_24020_11",
+				"max_variation_level": "1",
+				"variation_id": "11",
+				"tooltip_alias": "Destroyer_Destruction_Fever_R1_1000_Link",
+				"name2_refine": "Fury<br>격노",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 1,
+				"train_skill_id": 
+				{
+					"0": "24020",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_Fever_R1_1000_Link",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24020"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "Target seized, force gripped",
+				"matrix_name": "1급 1초식",
+				"training_icon": "skill_icon_destroyer_1_39.png",
+				"required_tp": 1
+			}
+		},
+		"21": 
+		{
+			"1": 
+			{
+				"tree_id": "24020",
+				"skill_id": "24020",
+				"alias": "DE_24020_12",
+				"max_variation_level": "1",
+				"variation_id": "12",
+				"tooltip_alias": "Destroyer_Destruction_Fever_R1_2000_Link",
+				"name2_refine": "Fury<br>격노",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 2,
+				"train_skill_id": 
+				{
+					"0": "24020",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_Fever_R1_2000_Link",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24020_11",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24020"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "Target seized, force gripped<br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
+				"matrix_name": "2급 1초식",
+				"training_icon": "skill_icon_destroyer_1_39.png",
+				"required_tp": 1
+			}
+		},
+		"31": 
+		{
+			"1": 
+			{
+				"tree_id": "24020",
+				"skill_id": "24020",
+				"alias": "DE_24020_13",
+				"max_variation_level": "1",
+				"variation_id": "13",
+				"tooltip_alias": "Destroyer_Destruction_Fever_R1_3000_Link",
+				"name2_refine": "Fury<br>격노",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 3,
+				"train_skill_id": 
+				{
+					"0": "24020",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_Fever_R1_3000_Link",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24020_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24020"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "Target seized, force gripped<br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
+				"matrix_name": "3급 1초식",
+				"training_icon": "skill_icon_destroyer_1_39.png",
+				"required_tp": 1
+			}
+		}
+	},
     "24091": {
         "11": {
             "1": {

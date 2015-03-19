@@ -908,6 +908,35 @@ var category_data_DE = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_01_1.png\' class=\'icon_in_description\' /> On critical hit  "
     },
+	"24020": 
+	{
+		"skill_id": "24020",
+		"tree_id": "24020",
+		"name2_refine": "Fury<br>격노",
+        "name2_refine_en": "Fury",
+		"pc_level": "36",
+		"pc_mastery_level": null,
+		"complete_quest": null,
+		"complete_quest_name": null,
+		"default_keycap": "LB",
+		"sort_no": "109",
+		"skill_icon": 
+		{
+			"1": "skill_icon_destroyer_1_39.png",
+			"11": "skill_icon_destroyer_1_39.png",
+			"12": "skill_icon_destroyer_1_39.png",
+			"13": "skill_icon_destroyer_1_39.png",
+			"14": "skill_icon_destroyer_1_39.png"
+		},
+		"tooltip_stance_type": 
+		{
+			"0": "파괴",
+			"1": null,
+			"2": null
+		},
+		"tooltip_stance_refine": null,
+		"tooltip_condition_refine": "Target seized, force gripped  "
+	},
     "24090": {
         "skill_id": "24090",
         "tree_id": "24090",
