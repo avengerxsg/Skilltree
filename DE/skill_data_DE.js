@@ -855,27 +855,27 @@ var skill_data_DE = {
 		{
 			"0": 
 			{
-				"name": "거리",
+				"name": "Range",
 				"type": "meter",
 				"value": "3m"
 			},
 			"1": 
 			{
-				"name": "영역",
+				"name": "Area",
 				"type": "range_0",
-				"value": "대상"
+				"value": "Target"
 			},
 			"2": 
 			{
-				"name": "시전",
+				"name": "Cast Time",
 				"type": "casting_time",
-				"value": "즉시"
+				"value": "Instant"
 			},
 			"3": 
 			{
-				"name": "재사용",
+				"name": "Cooldown",
 				"type": "recycle_time",
-				"value": "18초"
+				"value": "18 sec"
 			}
 		}
 	},
@@ -3311,326 +3311,196 @@ var skill_data_DE = {
             }
         }
     },
-    "Destroyer_Protection_DestructionCircle_Lv1": {
-        "id": "24091",
-        "name": "Flame Wheel - 열화륜",
-        "icon": "skill_icon_destroyer_1_19.png",
-        "main_info1": "User is invulnerable during use",
-        "main_info2": "Deals 30~35 damage over 2 hits",
-        "sub_info": null,
-        "consume_sp": "30",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_1",
-                "value": "2X4m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "30 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_1000": {
-        "id": "24091",
-        "name": "Flame Wheel - 열화륜",
-        "icon": "skill_icon_destroyer_1_19.png",
-        "main_info1": "User is invulnerable during use",
-        "main_info2": "Deals 30~35 damage over 2 hits",
-        "sub_info": null,
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_1",
-                "value": "2X4m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "30 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_2000": {
-        "id": "24091",
-        "name": "Flame Wheel - 열화륜",
-        "icon": "skill_icon_destroyer_1_19.png",
-        "main_info1": "User is invulnerable during use",
-        "main_info2": "Deals 30~35 damage over 2 hits",
-        "sub_info": "Heals the user 50% of the damage dealt",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_1",
-                "value": "2X4m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "30 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_4000": {
-        "id": "24091",
-        "name": "Flame Wheel - 열화륜",
-        "icon": "skill_icon_destroyer_1_19.png",
-        "main_info1": "User is invulnerable during use",
-        "main_info2": "Deals 30~35 damage over 2 hits",
-        "sub_info": "Heals the user 50% of the damage dealt<br/>Generates 30% chi on resist",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_1",
-                "value": "2X4m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "30 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_5000": {
-        "id": "24091",
-        "name": "Flame Wheel - 열화륜",
-        "icon": "skill_icon_destroyer_1_19.png",
-        "main_info1": "User is invulnerable during use",
-        "main_info2": "Deals 30~35 damage over 2 hits",
-        "sub_info": "Heals the user 50% of the damage dealt<br/>Generates 30% chi on resist<br/>Heals the user 5% of their maximum health on resist",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "From User"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_1",
-                "value": "2X4m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "30 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_0200": {
-        "id": "24091",
-        "name": "Inflaming Wheel - 격화륜",
-        "icon": "skill_icon_destroyer_1_32.png",
-        "main_info1": "Deals 24~28 damage",
-        "main_info2": "Deals an additional 72~84 damage to dazed, stunned foes",
-        "sub_info": null,
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "24 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_0300": {
-        "id": "24091",
-        "name": "Inflaming Wheel - 격화륜",
-        "icon": "skill_icon_destroyer_1_32.png",
-        "main_info1": "Deals 24~28 damage",
-        "main_info2": "Deals an additional 72~84 damage to dazed, stunned foes",
-        "sub_info": "Inflaming Wheel can be recast 1 more time after use",
-        "consume_sp": "10",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "24 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_0500": {
-        "id": "24091",
-        "name": "Inflaming Wheel - 격화륜",
-        "icon": "skill_icon_destroyer_1_32.png",
-        "main_info1": "Deals 60~70 damage",
-        "main_info2": "Deals an additional 72~84 damage to dazed, stunned foes",
-        "sub_info": "Inflaming Wheel can be recast 1 more time after use",
-        "consume_sp": "10",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "24 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_0030": {
-        "id": "24091",
-        "name": "Inflaming Wheel - 격화륜",
-        "icon": "skill_icon_destroyer_1_32.png",
-        "main_info1": "Knocks dazed, stunned foes into the air",
-        "main_info2": "Deals 24~28 damage",
-        "sub_info": "Deals an additional 72~84 damage to dazed, stunned foes",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_DestructionCircle_0050": {
-        "id": "24091",
-        "name": "Inflaming Wheel - 격화륜",
-        "icon": "skill_icon_destroyer_1_32.png",
-        "main_info1": "Knocks dazed, stunned foes into the air",
-        "main_info2": "Deals 24~28 damage",
-        "sub_info": "Deals an additional 72~84 damage to dazed, stunned foes<br/>Deflects multiple attacks for 0.5 sec",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
+	"Destroyer_Protection_DestructionCircle_Lv1": 
+	{
+		"id": "24091",
+		"name": "Flame Wheel - 열화륜",
+		"icon": "skill_icon_destroyer_1_19.png",
+		"main_info1": "User is invulnerable during use",
+		"main_info2": "Deals 30~35 damage over 2 hits",
+		"sub_info": null,
+		"consume_sp": "20",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_1",
+				"value": "2X4m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "24 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle_1000": 
+	{
+		"id": "24091",
+		"name": "Flame Wheel - 열화륜",
+		"icon": "skill_icon_destroyer_1_19.png",
+		"main_info1": "User is invulnerable during use",
+		"main_info2": "Deals 30~35 damage over 2 hits",
+		"sub_info": null,
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_1",
+				"value": "2X4m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "24 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle_2000": 
+	{
+		"id": "24091",
+		"name": "Flame Wheel - 열화륜",
+		"icon": "skill_icon_destroyer_1_19.png",
+		"main_info1": "User is invulnerable during use",
+		"main_info2": "Deals 30~35 damage over 2 hits",
+		"sub_info": "Heals the user 2% of their maximum health on resist",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_1",
+				"value": "2X4m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "24 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle_4000": 
+	{
+		"id": "24091",
+		"name": "Flame Wheel - 열화륜",
+		"icon": "skill_icon_destroyer_1_19.png",
+		"main_info1": "User is invulnerable during use",
+		"main_info2": "Deals 30~35 damage over 2 hits",
+		"sub_info": "Generates 30% chi on resist<br/>Heals the user 2% of their maximum health on resist",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_1",
+				"value": "2X4m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "24 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle_5000": 
+	{
+		"id": "24091",
+		"name": "Flame Wheel - 열화륜",
+		"icon": "skill_icon_destroyer_1_19.png",
+		"main_info1": "User is invulnerable during use",
+		"main_info2": "Deals 30~35 damage over 2 hits",
+		"sub_info": "Generates 30% chi on resist<br/>Heals the user 5% of their maximum health on resist",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_1",
+				"value": "2X4m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "24 sec"
+			}
+		}
+	},
     "Destroyer_Protection_Countercrush_Lv1": {
         "id": "24100",
         "name": "Annihilate - 분쇄",
@@ -4495,6 +4365,273 @@ var skill_data_DE = {
             }
         }
     },
+    
+	"Destroyer_Protection_DestructionCircle2_Lv1": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Knocks foes into the air",
+		"main_info2": "Deals 60~70 damage",
+		"sub_info": "Charge to the target",
+		"consume_sp": "20",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle2_1000": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Knocks foes into the air",
+		"main_info2": "Deals 60~70 damage",
+		"sub_info": "Charge to the target",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle2_2000": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Knocks foes into the air",
+		"main_info2": "Deals 60~70 damage",
+		"sub_info": "Ignores charge ability disable<br/>Charge to the target",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle2_5000": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Knocks foes into the air",
+		"main_info2": "Deals 60~70 damage",
+		"sub_info": "Ignores charge ability disable<br/>Charge to the target<br/>Ignores defense",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle2_0200": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Deals 108~126 damage",
+		"main_info2": null,
+		"sub_info": "Charge to the target",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle2_0300": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Deals 108~126 damage",
+		"main_info2": null,
+		"sub_info": "Charge to the target<br/>Generates 30% chi on critical hit",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
+	"Destroyer_Protection_DestructionCircle2_0500": 
+	{
+		"id": "24122",
+		"name": "Inflaming Wheel - 격화륜",
+		"icon": "skill_icon_destroyer_1_32.png",
+		"main_info1": "Deals 108~126 damage",
+		"main_info2": null,
+		"sub_info": "Charge to the target<br/>Generates 120% chi over 5 sec on critical hit",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "16m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "18 sec"
+			}
+		}
+	},
     "Destroyer_Catch_HeadButt_Lv1": {
         "id": "24130",
         "name": "Headbutt - 박치기",

@@ -12918,700 +12918,1395 @@ var data_skill_tooltip = {
             }
         }
     },
-    "destroyer_protection_destructioncircle_lv1": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_repeat",
-                "effect-arg-1": "2",
-                "effect-arg-2": "250,250",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_1000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_1000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_1000",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_repeat",
-                "effect-arg-1": "2",
-                "effect-arg-2": "250,250",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_2000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_2000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_2000",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_repeat",
-                "effect-arg-1": "2",
-                "effect-arg-2": "250,250",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_2000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_drain_percent_damage",
-                "effect-arg-1": "50",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_4000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_4000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_4000",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_repeat",
-                "effect-arg-1": "2",
-                "effect-arg-2": "250,250",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_4000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_drain_percent_damage",
-                "effect-arg-1": "50",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_DestructionCircle_4000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "30",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_immuned",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_5000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_5000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_5000",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_repeat",
-                "effect-arg-1": "2",
-                "effect-arg-2": "250,250",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_drain_percent_damage",
-                "effect-arg-1": "50",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_DestructionCircle_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "30",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_immuned",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Protection_DestructionCircle_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_heal",
-                "effect-arg-1": "5",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_immuned",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_0200": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0200",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "200,200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0200",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "600,600",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_0300": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0300",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "200,200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0300",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "600,600",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0300",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_additional_use",
-                "effect-arg-1": "1",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_after_using",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_0500": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0500",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "500,500",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0500",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "600,600",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0500",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_additional_use",
-                "effect-arg-1": "1",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_after_using",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_0030": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0030",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0030",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "200,200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0030",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "600,600",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_destructioncircle_0050": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0050",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0050",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "200,200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_DestructionCircle_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "600,600",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_kneel",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_DestructionCircle_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_bounce_time",
-                "effect-arg-1": "500",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
+	"destroyer_protection_destructioncircle_lv1": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_Lv1",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_immune",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_Lv1",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage_repeat",
+				"effect-arg-1": "2",
+				"effect-arg-2": "250,250",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle_1000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_1000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_immune",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_1000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage_repeat",
+				"effect-arg-1": "2",
+				"effect-arg-2": "250,250",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle_2000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_2000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_immune",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_2000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage_repeat",
+				"effect-arg-1": "2",
+				"effect-arg-2": "250,250",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_hp_heal",
+				"effect-arg-1": "2",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_immuned",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle_4000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_4000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_immune",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_4000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage_repeat",
+				"effect-arg-1": "2",
+				"effect-arg-2": "250,250",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "30",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_immuned",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_hp_heal",
+				"effect-arg-1": "2",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_immuned",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle_5000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_5000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_immune",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_5000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage_repeat",
+				"effect-arg-1": "2",
+				"effect-arg-2": "250,250",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "30",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_immuned",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_hp_heal",
+				"effect-arg-1": "5",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_immuned",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_lv1": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_Lv1",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_midair1",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_Lv1",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "500,500",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_Lv1",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_Lv1",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_Lv1",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_Lv1",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_1000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_1000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_midair1",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_1000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "500,500",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_1000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_1000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_1000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_1000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_2000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_midair1",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "500,500",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_ignore_dashblock",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_2000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_5000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_midair1",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "M2",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "500,500",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_ignore_dashblock",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_defence_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_5000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_0200": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0200",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "900,900",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0200",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0200",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0200",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0200",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_0300": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0300",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "900,900",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0300",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0300",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "30",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0300",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0300",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0300",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_destructioncircle2_0500": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0500",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "900,900",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0500",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_dash",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0500",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal_DOT",
+				"effect-arg-1": "5000",
+				"effect-arg-2": "120",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0500",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_Wrath_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0500",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_DestructionCircle2_0500",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_Destroyer_Protection_BackDash_Lv1",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
     "destroyer_protection_countercrush_lv1": {
         "m1": {
             "0": {

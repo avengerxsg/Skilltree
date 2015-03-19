@@ -990,37 +990,66 @@ var category_data_DE = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": null
     },
-    "24091": {
-        "skill_id": "24091",
-        "tree_id": "24091",
-        "name2_refine": "Flame Wheel<br>열화륜",
+	"24091": 
+	{
+		"skill_id": "24091",
+		"tree_id": "24091",
+		"name2_refine": "Flame Wheel<br>열화륜",
         "name2_refine_en": "Flame Wheel",
-        "pc_level": "36",
-        "pc_mastery_level": null,
-        "complete_quest": null,
-        "complete_quest_name": null,
-        "default_keycap": "C",
-        "sort_no": "93",
-        "skill_icon": {
-            "1": "skill_icon_destroyer_1_19.png",
-            "11": "skill_icon_destroyer_1_19.png",
-            "12": "skill_icon_destroyer_1_19.png",
-            "14": "skill_icon_destroyer_1_19.png",
-            "15": "skill_icon_destroyer_1_19.png",
-            "22": "skill_icon_destroyer_1_32.png",
-            "23": "skill_icon_destroyer_1_32.png",
-            "25": "skill_icon_destroyer_1_32.png",
-            "33": "skill_icon_destroyer_1_32.png",
-            "35": "skill_icon_destroyer_1_32.png"
-        },
-        "tooltip_stance_type": {
-            "0": "파괴",
-            "1": null,
-            "2": null
-        },
-        "tooltip_stance_refine": null,
-        "tooltip_condition_refine": null
-    },
+		"pc_level": "36",
+		"pc_mastery_level": null,
+		"complete_quest": null,
+		"complete_quest_name": null,
+		"default_keycap": "C",
+		"sort_no": "93",
+		"skill_icon": 
+		{
+			"1": "skill_icon_destroyer_1_19.png",
+			"11": "skill_icon_destroyer_1_19.png",
+			"12": "skill_icon_destroyer_1_19.png",
+			"14": "skill_icon_destroyer_1_19.png",
+			"15": "skill_icon_destroyer_1_19.png"
+		},
+		"tooltip_stance_type": 
+		{
+			"0": "파괴",
+			"1": null,
+			"2": null
+		},
+		"tooltip_stance_refine": null,
+		"tooltip_condition_refine": null
+	},
+	"24122": 
+	{
+		"skill_id": "24122",
+		"tree_id": "24122",
+		"name2_refine": "Inflaming Wheel<br>격화륜",
+        "name2_refine_en": "Inflaming Wheel",
+		"pc_level": "36",
+		"pc_mastery_level": null,
+		"complete_quest": null,
+		"complete_quest_name": null,
+		"default_keycap": "C",
+		"sort_no": "93",
+		"skill_icon": 
+		{
+			"1": "skill_icon_destroyer_1_32.png",
+			"11": "skill_icon_destroyer_1_32.png",
+			"12": "skill_icon_destroyer_1_32.png",
+			"15": "skill_icon_destroyer_1_32.png",
+			"22": "skill_icon_destroyer_1_32.png",
+			"23": "skill_icon_destroyer_1_32.png",
+			"25": "skill_icon_destroyer_1_32.png"
+		},
+		"tooltip_stance_type": 
+		{
+			"0": "파괴",
+			"1": null,
+			"2": null
+		},
+		"tooltip_stance_refine": null,
+		"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  "
+	},
     "24590": {
         "skill_id": "24590",
         "tree_id": "1",

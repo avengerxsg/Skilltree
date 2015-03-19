@@ -11596,681 +11596,850 @@ var slot_data_DE = {
 			}
 		}
 	},
-    "24091": {
-        "11": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_11",
-                "max_variation_level": "1",
-                "variation_id": "11",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_1000",
-                "name2_refine": "Flame Wheel<br>열화륜",
+	"24091": 
+	{
+		"11": 
+		{
+			"1": 
+			{
+				"tree_id": "24091",
+				"skill_id": "24091",
+				"alias": "DE_24091_11",
+				"max_variation_level": "1",
+				"variation_id": "11",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle_1000",
+				"name2_refine": "Flame Wheel<br>열화륜",
                 "name2_refine_en": "Flame Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 1,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_1000",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": null,
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": null,
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "1급 1초식",
-                "training_icon": "skill_icon_destroyer_1_19.png",
-                "required_tp": 1
-            }
-        },
-        "21": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_12",
-                "max_variation_level": "1",
-                "variation_id": "12",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_2000",
-                "name2_refine": "Flame Wheel<br>열화륜",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 1,
+				"train_skill_id": 
+				{
+					"0": "24091",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle_1000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24091"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "1급 1초식",
+				"training_icon": "skill_icon_destroyer_1_19.png",
+				"required_tp": 1
+			}
+		},
+		"21": 
+		{
+			"1": 
+			{
+				"tree_id": "24091",
+				"skill_id": "24091",
+				"alias": "DE_24091_12",
+				"max_variation_level": "1",
+				"variation_id": "12",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle_2000",
+				"name2_refine": "Flame Wheel<br>열화륜",
                 "name2_refine_en": "Flame Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 2,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_2000",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_11",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "2급 1초식",
-                "training_icon": "skill_icon_destroyer_1_19.png",
-                "required_tp": 1
-            }
-        },
-        "22": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_22",
-                "max_variation_level": "1",
-                "variation_id": "22",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_0200",
-                "name2_refine": "Inflaming Wheel<br>격화륜",
-                "name2_refine_en": "Inflaming Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 5,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_0200",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_12",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_11",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "2급 2초식",
-                "training_icon": "skill_icon_destroyer_1_32.png",
-                "required_tp": 1
-            }
-        },
-        "32": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_23",
-                "max_variation_level": "1",
-                "variation_id": "23",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_0300",
-                "name2_refine": "Inflaming Wheel<br>격화륜",
-                "name2_refine_en": "Inflaming Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "1",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 6,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_0300",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_12",
-                    "1": "DE_24091_33",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "3급 2초식",
-                "training_icon": "skill_icon_destroyer_1_32.png",
-                "required_tp": 1
-            }
-        },
-        "33": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_33",
-                "max_variation_level": "1",
-                "variation_id": "33",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_0030",
-                "name2_refine": "Inflaming Wheel<br>격화륜",
-                "name2_refine_en": "Inflaming Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "1",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 8,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_0030",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_12",
-                    "1": "DE_24091_23",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "3급 3초식",
-                "training_icon": "skill_icon_destroyer_1_32.png",
-                "required_tp": 1
-            }
-        },
-        "41": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_14",
-                "max_variation_level": "1",
-                "variation_id": "14",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_4000",
-                "name2_refine": "Flame Wheel<br>열화륜",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 2,
+				"train_skill_id": 
+				{
+					"0": "24091",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle_2000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24091_11",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24091"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "2급 1초식",
+				"training_icon": "skill_icon_destroyer_1_19.png",
+				"required_tp": 1
+			}
+		},
+		"41": 
+		{
+			"1": 
+			{
+				"tree_id": "24091",
+				"skill_id": "24091",
+				"alias": "DE_24091_14",
+				"max_variation_level": "1",
+				"variation_id": "14",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle_4000",
+				"name2_refine": "Flame Wheel<br>열화륜",
                 "name2_refine_en": "Flame Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 3,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_4000",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_12",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "4급 1초식",
-                "training_icon": "skill_icon_destroyer_1_19.png",
-                "required_tp": 1
-            }
-        },
-        "51": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_15",
-                "max_variation_level": "1",
-                "variation_id": "15",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_5000",
-                "name2_refine": "Flame Wheel<br>열화륜",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 3,
+				"train_skill_id": 
+				{
+					"0": "24091",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle_4000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24091_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24091"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "4급 1초식",
+				"training_icon": "skill_icon_destroyer_1_19.png",
+				"required_tp": 1
+			}
+		},
+		"51": 
+		{
+			"1": 
+			{
+				"tree_id": "24091",
+				"skill_id": "24091",
+				"alias": "DE_24091_15",
+				"max_variation_level": "1",
+				"variation_id": "15",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle_5000",
+				"name2_refine": "Flame Wheel<br>열화륜",
                 "name2_refine_en": "Flame Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "1",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 4,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_5000",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_14",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 1초식",
-                "training_icon": "skill_icon_destroyer_1_19.png",
-                "required_tp": 2
-            }
-        },
-        "52": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_25",
-                "max_variation_level": "1",
-                "variation_id": "25",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_0500",
-                "name2_refine": "Inflaming Wheel<br>격화륜",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "1",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 4,
+				"train_skill_id": 
+				{
+					"0": "24091",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle_5000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24091_14",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24091"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "5급 1초식",
+				"training_icon": "skill_icon_destroyer_1_19.png",
+				"required_tp": 2
+			}
+		}
+	},
+	"24122": 
+	{
+		"11": 
+		{
+			"1": 
+			{
+				"tree_id": "24122",
+				"skill_id": "24122",
+				"alias": "DE_24122_11",
+				"max_variation_level": "1",
+				"variation_id": "11",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle2_1000",
+				"name2_refine": "Inflaming Wheel<br>격화륜",
                 "name2_refine_en": "Inflaming Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "1",
-                    "7": "1",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 7,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_0500",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_12",
-                    "1": "DE_24091_33",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_23",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 2초식",
-                "training_icon": "skill_icon_destroyer_1_32.png",
-                "required_tp": 2
-            }
-        },
-        "53": {
-            "1": {
-                "tree_id": "24091",
-                "skill_id": "24091",
-                "alias": "DE_24091_35",
-                "max_variation_level": "1",
-                "variation_id": "35",
-                "tooltip_alias": "Destroyer_Protection_DestructionCircle_0050",
-                "name2_refine": "Inflaming Wheel<br>격화륜",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 1,
+				"train_skill_id": 
+				{
+					"0": "24122",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle2_1000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24122"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  ",
+				"matrix_name": "1급 1초식",
+				"training_icon": "skill_icon_destroyer_1_32.png",
+				"required_tp": 1
+			}
+		},
+		"21": 
+		{
+			"1": 
+			{
+				"tree_id": "24122",
+				"skill_id": "24122",
+				"alias": "DE_24122_12",
+				"max_variation_level": "1",
+				"variation_id": "12",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle2_2000",
+				"name2_refine": "Inflaming Wheel<br>격화륜",
                 "name2_refine_en": "Inflaming Wheel",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "1",
-                    "9": "1",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 9,
-                "train_skill_id": {
-                    "0": "24091",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_DestructionCircle_0050",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24091_12",
-                    "1": "DE_24091_23",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24091_33",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24091"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 3초식",
-                "training_icon": "skill_icon_destroyer_1_32.png",
-                "required_tp": 3
-            }
-        }
-    }
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 2,
+				"train_skill_id": 
+				{
+					"0": "24122",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle2_2000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24122_22",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24122_11",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24122"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  ",
+				"matrix_name": "2급 1초식",
+				"training_icon": "skill_icon_destroyer_1_32.png",
+				"required_tp": 1
+			}
+		},
+		"22": 
+		{
+			"1": 
+			{
+				"tree_id": "24122",
+				"skill_id": "24122",
+				"alias": "DE_24122_22",
+				"max_variation_level": "1",
+				"variation_id": "22",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle2_0200",
+				"name2_refine": "Inflaming Wheel<br>격화륜",
+                "name2_refine_en": "Inflaming Wheel",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "1",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 4,
+				"train_skill_id": 
+				{
+					"0": "24122",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle2_0200",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24122_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24122_11",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24122"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  ",
+				"matrix_name": "2급 2초식",
+				"training_icon": "skill_icon_destroyer_1_32.png",
+				"required_tp": 1
+			}
+		},
+		"32": 
+		{
+			"1": 
+			{
+				"tree_id": "24122",
+				"skill_id": "24122",
+				"alias": "DE_24122_23",
+				"max_variation_level": "1",
+				"variation_id": "23",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle2_0300",
+				"name2_refine": "Inflaming Wheel<br>격화륜",
+                "name2_refine_en": "Inflaming Wheel",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "1",
+					"5": "1",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 5,
+				"train_skill_id": 
+				{
+					"0": "24122",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle2_0300",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24122_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24122_22",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24122"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  ",
+				"matrix_name": "3급 2초식",
+				"training_icon": "skill_icon_destroyer_1_32.png",
+				"required_tp": 1
+			}
+		},
+		"51": 
+		{
+			"1": 
+			{
+				"tree_id": "24122",
+				"skill_id": "24122",
+				"alias": "DE_24122_15",
+				"max_variation_level": "1",
+				"variation_id": "15",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle2_5000",
+				"name2_refine": "Inflaming Wheel<br>격화륜",
+                "name2_refine_en": "Inflaming Wheel",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 3,
+				"train_skill_id": 
+				{
+					"0": "24122",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle2_5000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24122_22",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24122_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24122"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  ",
+				"matrix_name": "5급 1초식",
+				"training_icon": "skill_icon_destroyer_1_32.png",
+				"required_tp": 2
+			}
+		},
+		"52": 
+		{
+			"1": 
+			{
+				"tree_id": "24122",
+				"skill_id": "24122",
+				"alias": "DE_24122_25",
+				"max_variation_level": "1",
+				"variation_id": "25",
+				"tooltip_alias": "Destroyer_Protection_DestructionCircle2_0500",
+				"name2_refine": "Inflaming Wheel<br>격화륜",
+                "name2_refine_en": "Inflaming Wheel",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "1",
+					"5": "1",
+					"6": "1",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 6,
+				"train_skill_id": 
+				{
+					"0": "24122",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_DestructionCircle2_0500",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": "DE_24122_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24122_23",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24122"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  ",
+				"matrix_name": "5급 2초식",
+				"training_icon": "skill_icon_destroyer_1_32.png",
+				"required_tp": 2
+			}
+		}
+	}
 };
