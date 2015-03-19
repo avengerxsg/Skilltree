@@ -9807,536 +9807,102 @@ var data_skill_tooltip = {
 			}
 		}
 	},
-    "destroyer_protection_counteruppercut_0200": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0200",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0200",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "250,250",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0200",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_counteruppercut_0300": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0300",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0300",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_initilize_recycle_skill",
-                "effect-arg-1": "Destroyer_Protection_CounterUppercut_0200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical_skill",
-                "condition-arg-1": "Destroyer_Protection_Fear_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_CounterUppercut_0300",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "250,250",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0300",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_counteruppercut_0500": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0500",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0500",
-                "tooltip-group": null,
-                "ect-order": "CTE",
-                "effect-attribute": "E_initilize_recycle_skill_all",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_kill_skill",
-                "condition-arg-1": "Destroyer_Protection_Fear_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0500",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_initilize_recycle_skill",
-                "effect-arg-1": "Destroyer_Protection_CounterUppercut_0200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical_skill",
-                "condition-arg-1": "Destroyer_Protection_Fear_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_CounterUppercut_0500",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "250,250",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0500",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_counteruppercut_0030": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0030",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0030",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "450,450",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0030",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_counteruppercut_0040": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0040",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0040",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "450,450",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_CounterUppercut_0040",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_stat_down_duration",
-                "effect-arg-1": "5000",
-                "effect-arg-2": "UI.CharacterInfo.Defence",
-                "effect-arg-3": "20",
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0040",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_counteruppercut_0050": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0050",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "450,450",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_CounterUppercut_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dash",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Protection_CounterUppercut_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_stat_down_duration",
-                "effect-arg-1": "5000",
-                "effect-arg-2": "UI.CharacterInfo.Defence",
-                "effect-arg-3": "20",
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "Destroyer_Protection_CounterUppercut_0050",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
+	"destroyer_protection_counteruppercut_4000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_CounterUppercut_4000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_midair1",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_CounterUppercut_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "450,450",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_CounterUppercut_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_stat_down_duration",
+				"effect-arg-1": "5000",
+				"effect-arg-2": "UI.CharacterInfo.Defence",
+				"effect-arg-3": "20",
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"condition": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_CounterUppercut_4000",
+				"tooltip-group": "CONDITION",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_T_enemy_down",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
     "destroyer_protection_fear_lv1": {
         "m1": {
             "0": {
