@@ -340,8 +340,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -372,8 +372,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -403,9 +403,9 @@ var skill_data_DE = {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
-        "main_info1": "Deals 50~59 damage",
-        "main_info2": null,
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info1": "Deals 34~39 damage",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability<br/>Ignores defense",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -435,9 +435,9 @@ var skill_data_DE = {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
-        "main_info1": "Deals 50~59 damage",
-        "main_info2": null,
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
+        "main_info1": "Deals 34~39 damage",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability<br/>Ignores defense<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -467,9 +467,9 @@ var skill_data_DE = {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
-        "main_info1": "Deals 50~59 damage",
-        "main_info2": null,
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
+        "main_info1": "Deals 34~39 damage",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Increases the movement speed of the user by 80% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability<br/>Ignores defense<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -500,8 +500,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -532,8 +532,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "User takes 25% less damage for the first attack received<br/>Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "User takes 25% less damage for the first attack received<br/>Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -564,8 +564,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "Deflects an attack for 0.5 sec<br/>Increases the movement speed of the user by 60% during use<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Deflects an attack for 0.5 sec<br/>Increases the movement speed of the user by 60% during use<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>Generates 30% chi on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -596,8 +596,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "Deflects multiple attacks for 0.5 sec<br/>Cooldown of Collide is decreased by 9 sec on the first deflect<br/>Removes charge ability disable on deflect<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Deflects multiple attacks for 0.5 sec<br/>Cooldown of Collide is decreased by 9 sec on the first deflect<br/>Removes charge ability disable on deflect<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Generates 30% chi on deflect<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -628,8 +628,8 @@ var skill_data_DE = {
         "name": "Seize Hurricane - 장악광풍",
         "icon": "skill_icon_destroyer_1_21.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": null,
-        "sub_info": "Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability<br/>Cures the user of Internal Bleeding",
+        "main_info2": "User is immune to daze, stun, knock back during use",
+        "sub_info": "Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability<br/>Cures the user of Internal Bleeding",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -660,8 +660,8 @@ var skill_data_DE = {
         "name": "Typhoon - 태풍",
         "icon": "skill_icon_destroyer_1_40.png",
         "main_info1": "Deals 162~189 damage",
-        "main_info2": null,
-        "sub_info": "Mobile during use<br/>Decreases the movement speed of the user by 30% during use<br/>Ignores defense<br/>User is immune to down, daze, stun, knock back, knock up, pull, force grip during use<br/>Typhoon can be recast<br/>Removes immobilizing effects on the user<br/>Deals 39~46 damage on recast",
+        "main_info2": "User is immune to down, daze, stun, knock back, knock up, pull, force grip during use",
+        "sub_info": "Mobile during use<br/>Decreases the movement speed of the user by 30% during use<br/>Ignores defense<br/>Typhoon can be recast<br/>Removes immobilizing effects on the user once<br/>Deals 39~46 damage on recast",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2549,7 +2549,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_43.png",
         "main_info1": "Deals 42~49 damage",
         "main_info2": "Deals 84~98 damage over 8 sec",
-        "sub_info": "Decreases the movement speed of foes by 40%<br/>User is immune to down, daze, stun, knock back while within the area<br/>Increases the defense of the user by 200% while within the area<br/>Doubles health regeneration from damage dealt within the area",
+        "sub_info": "Decreases the movement speed of foes by 40%<br/>User is immune to down, daze, stun, knock back while within the area<br/>Increases the defense of the user by 400% while within the area<br/>Doubles health regeneration from damage dealt within the area",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2645,7 +2645,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_43.png",
         "main_info1": "Deals 42~49 damage",
         "main_info2": "Deals an additional 54~63 damage to downed, suppressed foes for the first hit<br/>Deals 84~98 damage over 8 sec",
-        "sub_info": "Maximum speed Destroy, Fury is available while within the area<br/>All attacks dealt while within the area deal an additional 6~7 damage",
+        "sub_info": "Destroy, Fury deals 20% additional damage while within the area<br/>All attacks dealt while within the area deal an additional 6~7 damage",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3275,7 +3275,7 @@ var skill_data_DE = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "1 min 30 sec"
+                "value": "1 min"
             }
         }
     },
@@ -3307,7 +3307,7 @@ var skill_data_DE = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "1 min 30 sec"
+                "value": "1 min"
             }
         }
     },
@@ -3731,9 +3731,9 @@ var skill_data_DE = {
         "id": "24100",
         "name": "Annihilate - 분쇄",
         "icon": "skill_icon_destroyer_0_60.png",
-        "main_info1": "Deals 54~63 damage",
+        "main_info1": "Deals 144~168 damage",
         "main_info2": "Deals an additional 78~91 damage to dazed, stunned, seized, force gripped foes",
-        "sub_info": "Annihilate can be recast up to 2 times on critical hit to dazed, stunned, seized, force gripped foes<br/>Charge to the target",
+        "sub_info": "Charge to the target",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3763,7 +3763,7 @@ var skill_data_DE = {
         "id": "24100",
         "name": "Annihilate - 분쇄",
         "icon": "skill_icon_destroyer_0_60.png",
-        "main_info1": "Deals 54~63 damage",
+        "main_info1": "Deals 144~168 damage",
         "main_info2": "Deals an additional 78~91 damage to dazed, stunned, seized, force gripped foes",
         "sub_info": "Cooldown of Annihilate is refreshed on kill<br/>Annihilate can be recast up to 2 times on critical hit to dazed, stunned, seized, force gripped foes<br/>Charge to the target",
         "consume_sp": "20",
@@ -4949,7 +4949,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target",
+        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target<br/>Generates 120% chi over 4 sec",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4981,7 +4981,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target",
+        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target<br/>Generates 160% chi over 6 sec",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
