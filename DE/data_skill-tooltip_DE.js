@@ -9363,416 +9363,450 @@ var data_skill_tooltip = {
             }
         }
     },
-    "destroyer_destruction_anklecutoff_lv1": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "190,190",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_destruction_anklecutoff_1000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_1000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_1000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "190,190",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_1000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_stat_down",
-                "effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
-                "effect-arg-2": "30",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_destruction_anklecutoff_2000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_2000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_2000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "190,190",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_2000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_stat_down",
-                "effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
-                "effect-arg-2": "30",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_2000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_move_block",
-                "effect-arg-1": "6000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_destruction_anklecutoff_3000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_3000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "190,190",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_stat_down",
-                "effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
-                "effect-arg-2": "30",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_move_block",
-                "effect-arg-1": "6000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_defence_penetrate",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_destruction_anklecutoff_5000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_5000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "190,190",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_stat_down",
-                "effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
-                "effect-arg-2": "30",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_move_block",
-                "effect-arg-1": "6000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "Destroyer_Destruction_AnkleCutOff_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_defence_penetrate",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
+	"destroyer_destruction_anklecutoff_lv1": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_Lv1",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_down",
+				"effect-arg-1": "2000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_Lv1",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "190,190",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_destruction_anklecutoff_1000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_1000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_down",
+				"effect-arg-1": "2000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_1000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "190,190",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_1000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_stat_down",
+				"effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
+				"effect-arg-2": "30",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_destruction_anklecutoff_2000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_2000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_down",
+				"effect-arg-1": "2000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "190,190",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_stat_down",
+				"effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
+				"effect-arg-2": "30",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_move_block",
+				"effect-arg-1": "6000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_destruction_anklecutoff_3000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_3000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_down",
+				"effect-arg-1": "2000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "190,190",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_stat_down",
+				"effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
+				"effect-arg-2": "30",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_move_block",
+				"effect-arg-1": "6000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_defence_penetrate",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_destruction_anklecutoff_5000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_5000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_down",
+				"effect-arg-1": "2000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "190,190",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_stat_down",
+				"effect-arg-1": "SkillTooltipAttr.text.Ability.MoveSpeed",
+				"effect-arg-2": "30",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_move_block",
+				"effect-arg-1": "6000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "Destroyer_Destruction_AnkleCutOff_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_defence_penetrate",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
     "destroyer_protection_counteruppercut_0200": {
         "m1": {
             "0": {

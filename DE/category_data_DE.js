@@ -748,16 +748,16 @@ var category_data_DE = {
         "sort_no": "96",
         "skill_icon": {
             "1": "skill_icon_destroyer_1_5.png",
-            "11": "skill_icon_destroyer_1_5.png",
-            "12": "skill_icon_destroyer_1_5.png",
-            "13": "skill_icon_destroyer_1_5.png",
-            "15": "skill_icon_destroyer_1_5.png",
-            "22": "skill_icon_destroyer_0_23.png",
-            "23": "skill_icon_destroyer_0_23.png",
-            "25": "skill_icon_destroyer_0_23.png",
-            "33": "skill_icon_destroyer_0_23.png",
-            "34": "skill_icon_destroyer_0_23.png",
-            "35": "skill_icon_destroyer_0_23.png"
+			"11": "skill_icon_destroyer_1_5.png",
+			"12": "skill_icon_destroyer_1_5.png",
+			"13": "skill_icon_destroyer_1_5.png",
+			"15": "skill_icon_destroyer_1_5.png",
+			"22": "skill_icon_destroyer_0_23.png",
+			"23": "skill_icon_destroyer_0_23.png",
+			"25": "skill_icon_destroyer_0_23.png",
+			"33": "skill_icon_destroyer_0_23.png",
+			"34": "skill_icon_destroyer_0_23.png",
+			"35": "skill_icon_destroyer_0_23.png"
         },
         "tooltip_stance_type": {
             "0": "파괴",
@@ -932,7 +932,7 @@ var category_data_DE = {
 			"2": null
 		},
 		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": "Target seized, force gripped  "
+		"tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png' />Target seized, force gripped  "
 	},
     "24090": {
         "skill_id": "24090",

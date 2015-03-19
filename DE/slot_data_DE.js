@@ -8883,758 +8883,430 @@ var slot_data_DE = {
             }
         }
     },
-    "24080": {
-        "11": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_11",
-                "max_variation_level": "1",
-                "variation_id": "11",
-                "tooltip_alias": "Destroyer_Destruction_AnkleCutOff_1000",
-                "name2_refine": "Sever<br>절단",
-                "name2_refine_en": "Sever",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 1,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_AnkleCutOff_1000",
-                    "1": "Destroyer_Protection_Fear_1000",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": null,
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": null,
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "1급 1초식",
-                "training_icon": "skill_icon_destroyer_1_5.png",
-                "required_tp": 1
-            }
-        },
-        "21": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_12",
-                "max_variation_level": "1",
-                "variation_id": "12",
-                "tooltip_alias": "Destroyer_Destruction_AnkleCutOff_2000",
-                "name2_refine": "Sever<br>절단",
-                "name2_refine_en": "Sever",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "0",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 2,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_AnkleCutOff_2000",
-                    "1": "Destroyer_Protection_Fear_2000",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_11",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "2급 1초식",
-                "training_icon": "skill_icon_destroyer_1_5.png",
-                "required_tp": 1
-            }
-        },
-        "22": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_22",
-                "max_variation_level": "1",
-                "variation_id": "22",
-                "tooltip_alias": "Destroyer_Protection_CounterUppercut_0200",
-                "name2_refine": "Catapult<br>쳐올리기",
-                "name2_refine_en": "Catapult",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 5,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_CounterUppercut_0200",
-                    "1": "Destroyer_Protection_Fear_0200",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_12",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_11",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  ",
-                "matrix_name": "2급 2초식",
-                "training_icon": "skill_icon_destroyer_0_23.png",
-                "required_tp": 1
-            }
-        },
-        "31": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_13",
-                "max_variation_level": "1",
-                "variation_id": "13",
-                "tooltip_alias": "Destroyer_Destruction_AnkleCutOff_3000",
-                "name2_refine": "Sever<br>절단",
-                "name2_refine_en": "Sever",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "0",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 3,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_AnkleCutOff_3000",
-                    "1": "Destroyer_Protection_Fear_3000",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_12",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "3급 1초식",
-                "training_icon": "skill_icon_destroyer_1_5.png",
-                "required_tp": 1
-            }
-        },
-        "32": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_23",
-                "max_variation_level": "1",
-                "variation_id": "23",
-                "tooltip_alias": "Destroyer_Protection_CounterUppercut_0300",
-                "name2_refine": "Catapult<br>쳐올리기",
-                "name2_refine_en": "Catapult",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "1",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 6,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_CounterUppercut_0300",
-                    "1": "Destroyer_Protection_Fear_0300",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_33",
-                    "1": "DE_24080_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  ",
-                "matrix_name": "3급 2초식",
-                "training_icon": "skill_icon_destroyer_0_22.png",
-                "required_tp": 1
-            }
-        },
-        "33": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_33",
-                "max_variation_level": "1",
-                "variation_id": "33",
-                "tooltip_alias": "Destroyer_Protection_CounterUppercut_0030",
-                "name2_refine": "Catapult<br>쳐올리기",
-                "name2_refine_en": "Catapult",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "1",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 8,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_CounterUppercut_0030",
-                    "1": "Destroyer_Protection_Fear_0030",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_23",
-                    "1": "DE_24080_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  ",
-                "matrix_name": "3급 3초식",
-                "training_icon": "skill_icon_destroyer_0_23.png",
-                "required_tp": 1
-            }
-        },
-        "43": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_34",
-                "max_variation_level": "1",
-                "variation_id": "34",
-                "tooltip_alias": "Destroyer_Protection_CounterUppercut_0040",
-                "name2_refine": "Catapult<br>쳐올리기",
-                "name2_refine_en": "Catapult",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "1",
-                    "9": "1",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 9,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_CounterUppercut_0040",
-                    "1": "Destroyer_Protection_Fear_0040",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_23",
-                    "1": "DE_24080_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_33",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": null,
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  ",
-                "matrix_name": "4급 3초식",
-                "training_icon": "skill_icon_destroyer_0_23.png",
-                "required_tp": 1
-            }
-        },
-        "51": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_15",
-                "max_variation_level": "1",
-                "variation_id": "15",
-                "tooltip_alias": "Destroyer_Destruction_AnkleCutOff_5000",
-                "name2_refine": "Sever<br>절단",
-                "name2_refine_en": "Sever",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "1",
-                    "3": "1",
-                    "4": "1",
-                    "5": "0",
-                    "6": "0",
-                    "7": "0",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 4,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Destruction_AnkleCutOff_5000",
-                    "1": "Destroyer_Protection_Fear_5000",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_22",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_13",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": null,
-                "matrix_name": "5급 1초식",
-                "training_icon": "skill_icon_destroyer_1_5.png",
-                "required_tp": 2
-            }
-        },
-        "52": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_25",
-                "max_variation_level": "1",
-                "variation_id": "25",
-                "tooltip_alias": "Destroyer_Protection_CounterUppercut_0500",
-                "name2_refine": "Catapult<br>쳐올리기",
-                "name2_refine_en": "Catapult",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "1",
-                    "7": "1",
-                    "8": "0",
-                    "9": "0",
-                    "10": "0",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 7,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_CounterUppercut_0500",
-                    "1": "Destroyer_Protection_Fear_0500",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_33",
-                    "1": "DE_24080_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_23",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  ",
-                "matrix_name": "5급 2초식",
-                "training_icon": "skill_icon_destroyer_0_22.png",
-                "required_tp": 3
-            }
-        },
-        "53": {
-            "1": {
-                "tree_id": "24080",
-                "skill_id": "24080",
-                "alias": "DE_24080_35",
-                "max_variation_level": "1",
-                "variation_id": "35",
-                "tooltip_alias": "Destroyer_Protection_CounterUppercut_0050",
-                "name2_refine": "Catapult<br>쳐올리기",
-                "name2_refine_en": "Catapult",
-                "variation_level": {
-                    "0": null,
-                    "1": "1",
-                    "2": "0",
-                    "3": "0",
-                    "4": "0",
-                    "5": "1",
-                    "6": "0",
-                    "7": "0",
-                    "8": "1",
-                    "9": "1",
-                    "10": "1",
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0"
-                },
-                "variation_index": 10,
-                "train_skill_id": {
-                    "0": "24080",
-                    "1": "24083",
-                    "2": null,
-                    "3": null
-                },
-                "train_skill_alias": {
-                    "0": "Destroyer_Protection_CounterUppercut_0050",
-                    "1": "Destroyer_Protection_Fear_0050",
-                    "2": null,
-                    "3": null
-                },
-                "pc_level": "1",
-                "pc_mastery_level": null,
-                "exclusive_train": {
-                    "0": "DE_24080_23",
-                    "1": "DE_24080_12",
-                    "2": null,
-                    "3": null
-                },
-                "prev_train": {
-                    "0": "DE_24080_34",
-                    "1": null,
-                    "2": null,
-                    "3": null
-                },
-                "parent_train": {
-                    "0": "24080"
-                },
-                "complete_quest_desc": null,
-                "complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
-                "complete_quest_desc_refine": null,
-                "complete_achievement_name_refine": null,
-                "tooltip_stance_type": {
-                    "0": "파괴",
-                    "1": null,
-                    "2": null
-                },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  ",
-                "matrix_name": "5급 3초식",
-                "training_icon": "skill_icon_destroyer_0_23.png",
-                "required_tp": 2
-            }
-        }
-    },
+    
+	"24080": 
+	{
+		"11": 
+		{
+			"1": 
+			{
+				"tree_id": "24080",
+				"skill_id": "24080",
+				"alias": "DE_24080_11",
+				"max_variation_level": "1",
+				"variation_id": "11",
+				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_1000",
+				"name2_refine": "절단",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "0",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 1,
+				"train_skill_id": 
+				{
+					"0": "24080",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_AnkleCutOff_1000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24026",
+					"1": "24080"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "1급 1초식",
+				"training_icon": "skill_icon_destroyer_1_5.png",
+				"required_tp": 1
+			}
+		},
+		"21": 
+		{
+			"1": 
+			{
+				"tree_id": "24080",
+				"skill_id": "24080",
+				"alias": "DE_24080_12",
+				"max_variation_level": "1",
+				"variation_id": "12",
+				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_2000",
+				"name2_refine": "절단",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 2,
+				"train_skill_id": 
+				{
+					"0": "24080",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_AnkleCutOff_2000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24080_11",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24026",
+					"1": "24080"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "2급 1초식",
+				"training_icon": "skill_icon_destroyer_1_5.png",
+				"required_tp": 1
+			}
+		},
+		"31": 
+		{
+			"1": 
+			{
+				"tree_id": "24080",
+				"skill_id": "24080",
+				"alias": "DE_24080_13",
+				"max_variation_level": "1",
+				"variation_id": "13",
+				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_3000",
+				"name2_refine": "절단",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 3,
+				"train_skill_id": 
+				{
+					"0": "24080",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_AnkleCutOff_3000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24080_12",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24026",
+					"1": "24080"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "3급 1초식",
+				"training_icon": "skill_icon_destroyer_1_5.png",
+				"required_tp": 1
+			}
+		},
+		"41": 
+		{
+			"1": 
+			{
+				"tree_id": "24080",
+				"skill_id": "24026",
+				"alias": "DE_24080_14",
+				"max_variation_level": "0",
+				"variation_id": "1",
+				"tooltip_alias": "Destroyer_Protection_CounterUppercut_4000",
+				"name2_refine": "쳐올리기",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "0",
+					"2": "0",
+					"3": "0",
+					"4": "0",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 0,
+				"train_skill_id": 
+				{
+					"0": "24026",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Protection_CounterUppercut_4000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24080_13",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24026",
+					"1": "24080"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": null,
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": "<img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> 적 다운  ",
+				"matrix_name": "4급 1초식",
+				"training_icon": "skill_icon_destroyer_0_23.png",
+				"required_tp": 1
+			}
+		},
+		"51": 
+		{
+			"1": 
+			{
+				"tree_id": "24080",
+				"skill_id": "24080",
+				"alias": "DE_24080_15",
+				"max_variation_level": "1",
+				"variation_id": "15",
+				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_5000",
+				"name2_refine": "절단",
+				"variation_level": 
+				{
+					"0": null,
+					"1": "1",
+					"2": "1",
+					"3": "1",
+					"4": "1",
+					"5": "0",
+					"6": "0",
+					"7": "0",
+					"8": "0",
+					"9": "0",
+					"10": "0",
+					"11": "0",
+					"12": "0",
+					"13": "0",
+					"14": "0",
+					"15": "0",
+					"16": "0"
+				},
+				"variation_index": 4,
+				"train_skill_id": 
+				{
+					"0": "24080",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"train_skill_alias": 
+				{
+					"0": "Destroyer_Destruction_AnkleCutOff_5000",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"pc_level": "1",
+				"pc_mastery_level": null,
+				"exclusive_train": 
+				{
+					"0": null,
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"prev_train": 
+				{
+					"0": "DE_24080_14",
+					"1": null,
+					"2": null,
+					"3": null
+				},
+				"parent_train": 
+				{
+					"0": "24026",
+					"1": "24080"
+				},
+				"complete_quest_desc": null,
+				"complete_quest_name_refine": "\"It is said this Hongmun secret is only found in legends.\"",
+				"complete_quest_desc_refine": null,
+				"complete_achievement_name_refine": null,
+				"tooltip_stance_type": 
+				{
+					"0": "파괴",
+					"1": null,
+					"2": null
+				},
+				"tooltip_stance_refine": null,
+				"tooltip_condition_refine": null,
+				"matrix_name": "5급 1초식",
+				"training_icon": "skill_icon_destroyer_1_5.png",
+				"required_tp": 2
+			}
+		}
+	},
     "24100": {
         "11": {
             "1": {
@@ -11747,7 +11419,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "<img src=\'../img/buff_debuff_icon_00_42.png' />Target seized, force gripped",
+				"tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png' />Target seized, force gripped",
 				"matrix_name": "1급 1초식",
 				"training_icon": "skill_icon_destroyer_1_39.png",
 				"required_tp": 1
@@ -11830,7 +11502,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "<img src=\'../img/buff_debuff_icon_00_42.png' />Target seized, force gripped<br/><img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
+				"tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png' />Target seized, force gripped<br/><img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
 				"matrix_name": "2급 1초식",
 				"training_icon": "skill_icon_destroyer_1_39.png",
 				"required_tp": 1
@@ -11913,7 +11585,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "<img src=\'../img/buff_debuff_icon_00_42.png' />Target seized, force gripped<br/><img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
+				"tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png' />Target seized, force gripped<br/><img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
 				"matrix_name": "3급 1초식",
 				"training_icon": "skill_icon_destroyer_1_39.png",
 				"required_tp": 1
