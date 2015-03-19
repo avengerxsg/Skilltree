@@ -1,774 +1,685 @@
 var data_skill_tooltip = {
-    "destroyer_protection_judgement_lv1": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_per_hit",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_judgement_1000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_1000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_1000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_per_hit",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_judgement_2000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_2000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_2000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_per_hit",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "destroyer_protection_judgement_3000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_3000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_per_hit",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_Judgement_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_next_skill_critical",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attacked_using",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Protection_Judgement_3000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "치명 효과 발동시 3초간 지속"
-            }
-        }
-    },
-    "destroyer_protection_judgement_4000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_4000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_4000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "15",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_per_hit",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_Judgement_4000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_next_skill_critical",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attacked_using",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Protection_Judgement_4000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "치명 효과 발동시 3초간 지속"
-            }
-        }
-    },
-    "destroyer_protection_judgement_5000": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_5000",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Protection_Judgement_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_sp_heal",
-                "effect-arg-1": "15",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_per_hit",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Protection_Judgement_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_next_skill_critical",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attacked_using",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Protection_Judgement_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "치명 효과 발동시 3초간 지속"
-            },
-            "3": {
-                "skill": "Destroyer_Protection_Judgement_5000",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Protection_Judgement_5000.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "막기, 반격, 튕기기 경우에도 내력 회복"
-            }
-        }
-    },
-    "destroyer_destruction_single_r1_0200": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0200",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0200",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Destruction_Single_R1_0100.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "반복 사용 시 가속. 명중, 막기, 회피 시에도 적용"
-            }
-        }
-    },
-    "destroyer_destruction_single_r1_0400": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0400",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0400",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "30,30",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_cast_accel_max",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0400",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Destruction_Single_R1_0100.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "반복 사용 시 가속. 명중, 막기, 회피 시에도 적용"
-            }
-        }
-    },
-    "destroyer_destruction_single_r1_0500": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0500",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0500",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "30,30",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_cast_accel_max",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0500",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Destruction_Single_R1_0100.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "반복 사용 시 가속. 명중, 막기, 회피 시에도 적용"
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_Single_R1_0500",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Destruction_Single_R1_0200.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "격돌 명중 시 최대 가속"
-            }
-        }
-    },
-    "destroyer_destruction_single_r1_0040": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0040",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0040",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_drain_percent_damage",
-                "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_Single_R1_0040",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Destruction_Single_R1_0100.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "반복 사용 시 가속. 명중, 막기, 회피 시에도 적용"
-            }
-        }
-    },
-    "destroyer_destruction_single_r1_0050": {
-        "m1": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0050",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "Destroyer_Destruction_Single_R1_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_drain_percent_damage",
-                "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "Destroyer_Destruction_Single_R1_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_drain_percent_damage",
-                "effect-arg-1": "25",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_cast_accel_max",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "Destroyer_Destruction_Single_R1_0050",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill3.Destroyer_Destruction_Single_R1_0100.SUB_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "반복 사용 시 가속. 명중, 막기, 회피 시에도 적용"
-            }
-        }
-    },
+	"destroyer_protection_judgement_lv1": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_Lv1",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "100,100",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_Lv1",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_judgement_1000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_1000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_1000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_judgement_2000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_2000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_2000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"destroyer_protection_judgement_3000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_3000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_Judgement_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_next_skill_critical",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attacked_using",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_Judgement_3000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "치명 효과 발동시 3초간 지속"
+			}
+		}
+	},
+	"destroyer_protection_judgement_4000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_4000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "15",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_Judgement_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_next_skill_critical",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attacked_using",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_Judgement_4000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "치명 효과 발동시 3초간 지속"
+			}
+		}
+	},
+	"destroyer_protection_judgement_5000": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_5000",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "15",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_Judgement_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_next_skill_critical",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attacked_using",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_Judgement_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "치명 효과 발동시 3초간 지속"
+			},
+			"3": 
+			{
+				"skill": "Destroyer_Protection_Judgement_5000",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Judgement_5000.SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "막기, 반격, 튕기기 경우에도 내력 회복"
+			}
+		}
+	},
+	"destroyer_protection_judgement_0400": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0400",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0400",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0400",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_additional_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0400",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_next_skill_critical",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attacked_using",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0400",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "치명 효과 발동시 3초간 지속"
+			}
+		}
+	},
+	"destroyer_protection_judgement_0500": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0500",
+				"tooltip-group": "M1",
+				"ect-order": "CTE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "150,150",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0500",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_per_hit",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0500",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_additional_sp_heal",
+				"effect-arg-1": "10",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "UC_I_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0500",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": "E_next_skill_critical",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attacked_using",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "Destroyer_Protection_Judgement_0500",
+				"tooltip-group": "SUB",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill3.Destroyer_Protection_Judgement_3000.SUB_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "치명 효과 발동시 3초간 지속"
+			}
+		}
+	},
     "destroyer_protection_raging_wind_lv1": {
         "m1": {
             "0": {
