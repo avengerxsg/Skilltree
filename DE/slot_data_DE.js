@@ -8896,7 +8896,8 @@ var slot_data_DE = {
 				"max_variation_level": "1",
 				"variation_id": "11",
 				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_1000",
-				"name2_refine": "절단",
+				"name2_refine": "Sever<br>절단",
+                "name2_refine_en": "Sever",
 				"variation_level": 
 				{
 					"0": null,
@@ -8980,7 +8981,8 @@ var slot_data_DE = {
 				"max_variation_level": "1",
 				"variation_id": "12",
 				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_2000",
-				"name2_refine": "절단",
+				"name2_refine": "Sever<br>절단",
+                "name2_refine_en": "Sever",
 				"variation_level": 
 				{
 					"0": null,
@@ -9064,7 +9066,8 @@ var slot_data_DE = {
 				"max_variation_level": "1",
 				"variation_id": "13",
 				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_3000",
-				"name2_refine": "절단",
+				"name2_refine": "Sever<br>절단",
+                "name2_refine_en": "Sever",
 				"variation_level": 
 				{
 					"0": null,
@@ -9148,7 +9151,8 @@ var slot_data_DE = {
 				"max_variation_level": "0",
 				"variation_id": "1",
 				"tooltip_alias": "Destroyer_Protection_CounterUppercut_4000",
-				"name2_refine": "쳐올리기",
+				"name2_refine": "Catapult<br>쳐올리기",
+                "name2_refine_en": "Catapult",
 				"variation_level": 
 				{
 					"0": null,
@@ -9232,7 +9236,8 @@ var slot_data_DE = {
 				"max_variation_level": "1",
 				"variation_id": "15",
 				"tooltip_alias": "Destroyer_Destruction_AnkleCutOff_5000",
-				"name2_refine": "절단",
+				"name2_refine": "Sever<br>절단",
+                "name2_refine_en": "Sever",
 				"variation_level": 
 				{
 					"0": null,

@@ -735,6 +735,30 @@ var category_data_DE = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png\' class=\'icon_in_description\' /> While suppressed  "
     },
+    "24026": 
+	{
+		"skill_id": "24026",
+		"tree_id": "24080",
+		"name2_refine": "Catapult<br>쳐올리기",
+		"pc_level": "22",
+		"pc_mastery_level": null,
+		"complete_quest": null,
+		"complete_quest_name": null,
+		"default_keycap": "4",
+		"sort_no": "96",
+		"skill_icon": 
+		{
+			"1": "skill_icon_destroyer_0_23.png"
+		},
+		"tooltip_stance_type": 
+		{
+			"0": "파괴",
+			"1": null,
+			"2": null
+		},
+		"tooltip_stance_refine": null,
+		"tooltip_condition_refine": "<img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target downed  "
+    },
     "24080": {
         "skill_id": "24080",
         "tree_id": "24080",

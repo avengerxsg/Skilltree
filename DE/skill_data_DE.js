@@ -840,6 +840,45 @@ var skill_data_DE = {
 			}
 		}
 	},
+    
+	"Destroyer_Protection_CounterUppercut_4000": 
+	{
+		"id": "24026",
+		"name": "Catapult - 쳐올리기",
+		"icon": "skill_icon_destroyer_0_23.png",
+		"main_info1": "Knocks foes into the air",
+		"main_info2": null,
+		"sub_info": "Deals 54~63 damage<br/>Decreases the defense of foes by 20% for 5 sec",
+		"consume_sp": "10",
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "거리",
+				"type": "meter",
+				"value": "3m"
+			},
+			"1": 
+			{
+				"name": "영역",
+				"type": "range_0",
+				"value": "대상"
+			},
+			"2": 
+			{
+				"name": "시전",
+				"type": "casting_time",
+				"value": "즉시"
+			},
+			"3": 
+			{
+				"name": "재사용",
+				"type": "recycle_time",
+				"value": "18초"
+			}
+		}
+	},
     "Destroyer_Protection_Axe_Chop_Lv1": {
         "id": "24030",
         "name": "Destroy - 파괴",
@@ -2885,198 +2924,6 @@ var skill_data_DE = {
                 "name": "Cooldown",
                 "type": "recycle_time",
                 "value": "30 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_CounterUppercut_0200": {
-        "id": "24080",
-        "name": "Catapult - 쳐올리기",
-        "icon": "skill_icon_destroyer_0_23.png",
-        "main_info1": "Knocks foes into the air",
-        "main_info2": null,
-        "sub_info": "Deals 30~35 damage",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_4",
-                "value": "3m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_CounterUppercut_0300": {
-        "id": "24080",
-        "name": "Catapult - 쳐올리기",
-        "icon": "skill_icon_destroyer_0_23.png",
-        "main_info1": "Knocks foes into the air",
-        "main_info2": null,
-        "sub_info": "Cooldown of Catapult is refreshed on critical hit with Abyss<br/>Deals 30~35 damage",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_4",
-                "value": "3m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_CounterUppercut_0500": {
-        "id": "24080",
-        "name": "Catapult - 쳐올리기",
-        "icon": "skill_icon_destroyer_0_23.png",
-        "main_info1": "Knocks foes into the air",
-        "main_info2": null,
-        "sub_info": "Cooldown of Catapult is refreshed on critical hit with Abyss<br/>Deals 30~35 damage",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_4",
-                "value": "3m"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_CounterUppercut_0030": {
-        "id": "24080",
-        "name": "Catapult - 쳐올리기",
-        "icon": "skill_icon_destroyer_0_23.png",
-        "main_info1": "Knocks foes into the air",
-        "main_info2": null,
-        "sub_info": "Deals 54~63 damage",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_CounterUppercut_0040": {
-        "id": "24080",
-        "name": "Catapult - 쳐올리기",
-        "icon": "skill_icon_destroyer_0_23.png",
-        "main_info1": "Knocks foes into the air",
-        "main_info2": null,
-        "sub_info": "Deals 54~63 damage<br/>Decreases the defense of foes by 20% for 5 sec",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
-            }
-        }
-    },
-    "Destroyer_Protection_CounterUppercut_0050": {
-        "id": "24080",
-        "name": "Catapult - 쳐올리기",
-        "icon": "skill_icon_destroyer_0_23.png",
-        "main_info1": "Knocks foes into the air",
-        "main_info2": null,
-        "sub_info": "Deals 54~63 damage<br/>Charge to the target<br/>Decreases the defense of foes by 20% for 5 sec",
-        "consume_sp": "20",
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "18 sec"
             }
         }
     },
