@@ -9206,8 +9206,8 @@ var slot_data_DE = {
 				},
 				"parent_train": 
 				{
-					"0": "24026",
-					"1": "24080"
+					"0": "24080",
+					"1": "24026"
 				},
 				"complete_quest_desc": null,
 				"complete_quest_name_refine": null,
