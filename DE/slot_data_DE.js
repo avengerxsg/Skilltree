@@ -9220,7 +9220,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "<img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> 적 다운  ",
+				"tooltip_condition_refine": "<img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target downed  ",
 				"matrix_name": "4급 1초식",
 				"training_icon": "skill_icon_destroyer_0_23.png",
 				"required_tp": 1
