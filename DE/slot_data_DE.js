@@ -490,7 +490,7 @@ var slot_data_DE = {
 				},
 				"complete_quest_desc": "Item.AcquirePlace.0028",
 				"complete_quest_name_refine": "Judgement Part 1",
-				"complete_quest_desc_refine": "<img src=\"http://static.plaync.co.kr/powerbook/bns/ui_resource/item_tooltip/tooltip_party.png\" class=\"icon_in_description\" /> Spiral Labyrinth",
+				"complete_quest_desc_refine": "<img src=\"../img/item_tooltip/tooltip_party.png\" class=\"icon_in_description\" /> Spiral Labyrinth",
 				"complete_achievement_name_refine": null,
 				"tooltip_stance_type": 
 				{
@@ -574,7 +574,7 @@ var slot_data_DE = {
 				},
 				"complete_quest_desc": "Item.AcquirePlace.0226",
 				"complete_quest_name_refine": "Judgement Part 2",
-				"complete_quest_desc_refine": "<img src=\"http://static.plaync.co.kr/powerbook/bns/ui_resource/item_tooltip/tooltip_party.png\" class=\"icon_in_description\" /> Tomb of Sacrifice",
+				"complete_quest_desc_refine": "<img src=\"../img/item_tooltip/tooltip_party.png\" class=\"icon_in_description\" /> Tomb of Sacrifice",
 				"complete_achievement_name_refine": null,
 				"tooltip_stance_type": 
 				{
@@ -11747,7 +11747,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "Target seized, force gripped",
+				"tooltip_condition_refine": "<img src=\'../img/buff_debuff_icon_00_42.png' />Target seized, force gripped",
 				"matrix_name": "1급 1초식",
 				"training_icon": "skill_icon_destroyer_1_39.png",
 				"required_tp": 1
@@ -11830,7 +11830,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "Target seized, force gripped<br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
+				"tooltip_condition_refine": "<img src=\'../img/buff_debuff_icon_00_42.png' />Target seized, force gripped<br/><img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
 				"matrix_name": "2급 1초식",
 				"training_icon": "skill_icon_destroyer_1_39.png",
 				"required_tp": 1
@@ -11913,7 +11913,7 @@ var slot_data_DE = {
 					"2": null
 				},
 				"tooltip_stance_refine": null,
-				"tooltip_condition_refine": "Target seized, force gripped<br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
+				"tooltip_condition_refine": "<img src=\'../img/buff_debuff_icon_00_42.png' />Target seized, force gripped<br/><img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> After using Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_3.png\' class=\'icon_in_description\' /> After using Slam  ",
 				"matrix_name": "3급 1초식",
 				"training_icon": "skill_icon_destroyer_1_39.png",
 				"required_tp": 1
