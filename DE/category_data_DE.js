@@ -740,6 +740,7 @@ var category_data_DE = {
 		"skill_id": "24026",
 		"tree_id": "24080",
 		"name2_refine": "Catapult<br>쳐올리기",
+        "name2_refine_en": "Catapult",
 		"pc_level": "22",
 		"pc_mastery_level": null,
 		"complete_quest": null,
