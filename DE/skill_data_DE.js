@@ -190,7 +190,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 16~18 damage",
 		"main_info2": null,
-		"sub_info": "피격된 적 만큼 내력 15% 회복<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
 		"consume_sp": null,
 		"ui_sp_heal_value": "15",
 		"skill_info": 
@@ -228,7 +228,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 16~18 damage",
 		"main_info2": null,
-		"sub_info": "피격된 적 만큼 내력 15% 회복<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec<br/>Generates chi even when blocked, countered, deflected",
+		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec<br/>Generates chi even when blocked, countered, deflected",
 		"consume_sp": null,
 		"ui_sp_heal_value": "15",
 		"skill_info": 
