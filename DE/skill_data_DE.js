@@ -152,7 +152,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 16~18 damage",
 		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"sub_info": "Generates 10% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
 		"consume_sp": null,
 		"ui_sp_heal_value": "10",
 		"skill_info": 
@@ -190,7 +190,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 16~18 damage",
 		"main_info2": null,
-		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
 		"consume_sp": null,
 		"ui_sp_heal_value": "15",
 		"skill_info": 
@@ -228,7 +228,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 16~18 damage",
 		"main_info2": null,
-		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec<br/>Generates chi even when blocked, countered, deflected",
+		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec<br/>Generates chi even when blocked, countered, deflected",
 		"consume_sp": null,
 		"ui_sp_heal_value": "15",
 		"skill_info": 
@@ -266,7 +266,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 16~18 damage",
 		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
 		"consume_sp": null,
 		"ui_sp_heal_value": "10",
 		"skill_info": 
@@ -304,7 +304,7 @@ var skill_data_DE = {
 		"icon": "skill_icon_destroyer_0_31.png",
 		"main_info1": "Deals 18~21 damage",
 		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical bonus lasts for 3 sec",
+		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
 		"consume_sp": null,
 		"ui_sp_heal_value": "10",
 		"skill_info": 
@@ -940,7 +940,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 45~53 damage",
+        "main_info1": "Deals 48~56 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -972,7 +972,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 45~53 damage",
+        "main_info1": "Deals 48~56 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Costs 20 chi on recast<br/>Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -1004,7 +1004,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 45~53 damage",
+        "main_info1": "Deals 48~56 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Maximum speed<br/>Destroy is available while using Seize",
         "consume_sp": "20",
@@ -1036,7 +1036,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 45~53 damage",
+        "main_info1": "Deals 48~56 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Ignores defense<br/>Maximum speed<br/>Destroy is available while using Seize",
         "consume_sp": "20",
@@ -1068,7 +1068,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 45~53 damage",
+        "main_info1": "Deals 54~63 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Heals the user 20% of the damage dealt<br/>Costs 20 chi on recast<br/>Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -1100,7 +1100,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 45~53 damage",
+        "main_info1": "Deals 54~63 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Destroy can be instantly recast at no cost on critical hit<br/>Heals the user 20% of the damage dealt<br/>Costs 20 chi on recast<br/>Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -6792,205 +6792,51 @@ var skill_data_DE = {
             }
         }
     },
-    "Destroyer_Catch_Rcombo_Lv1": {
-        "id": "24260",
-        "name": "Wedge - 쐐기",
-        "icon": "skill_icon_destroyer_0_10.png",
-        "main_info1": "Deals 10~11 damage",
-        "main_info2": null,
-        "sub_info": null,
-        "consume_sp": null,
-        "ui_sp_heal_value": "10",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Catch_Rcombo_1000": {
-        "id": "24260",
-        "name": "Wedge - 쐐기",
-        "icon": "skill_icon_destroyer_0_10.png",
-        "main_info1": "Deals 10~11 damage",
-        "main_info2": null,
-        "sub_info": null,
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Catch_Rcombo_2000": {
-        "id": "24260",
-        "name": "Wedge - 쐐기",
-        "icon": "skill_icon_destroyer_0_10.png",
-        "main_info1": "Deals 10~11 damage",
-        "main_info2": null,
-        "sub_info": "Increases Critical by 5%<br/>Critical increase stacks up to 10 times<br/>Critical increase stacks resets on critical hit",
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Catch_Rcombo_3000": {
-        "id": "24260",
-        "name": "Wedge - 쐐기",
-        "icon": "skill_icon_destroyer_0_10.png",
-        "main_info1": "Deals 10~11 damage",
-        "main_info2": null,
-        "sub_info": "Increases Critical by 5%<br/>Critical increase stacks up to 10 times<br/>Defense reduction stacks up to 5 times<br/>Critical increase stacks resets on critical hit<br/>Decreases the defense of foes by 10% on critical hit",
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Catch_Rcombo_0200": {
-        "id": "24260",
-        "name": "Wedge - 쐐기",
-        "icon": "skill_icon_destroyer_0_10.png",
-        "main_info1": "Deals 10~11 damage",
-        "main_info2": null,
-        "sub_info": "Heals the user 100% of the damage dealt",
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
-    "Destroyer_Catch_Rcombo_0300": {
-        "id": "24260",
-        "name": "Wedge - 쐐기",
-        "icon": "skill_icon_destroyer_0_10.png",
-        "main_info1": "Deals 10~11 damage",
-        "main_info2": null,
-        "sub_info": "Heals the user 100% of the damage dealt<br/>Generates 20% additional threat<br/>Threat increase stacks up to 5 times",
-        "consume_sp": null,
-        "ui_sp_heal_value": "15",
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": "3m"
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": "Target"
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": "Instant"
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": "Instant"
-            }
-        }
-    },
+	"Destroyer_Catch_Rcombo_Lv1": 
+	{
+		"id": "24260",
+		"name": "Wedge - 쐐기",
+		"icon": "skill_icon_destroyer_0_10.png",
+		"main_info1": "Deals 10~11 damage",
+		"main_info2": null,
+		"sub_info": "Heals the user 100% of the damage dealt",
+		"consume_sp": null,
+		"ui_sp_heal_value": "20",
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "3m"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "Instant"
+			}
+		}
+	},
     "Destroyer_Destruction_SoulMask_R1_Lv1": {
         "id": "24590",
         "name": "Awakened Fury - 각성 격노",
         "icon": "skill_icon_destroyer_1_47.png",
         "main_info1": "Deals 60~70 damage<br/>Available while Spiritualized",
         "main_info2": null,
-        "sub_info": "Maximum speed<br/>Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit bonus lasts for 3 sec<br/>Does not generate threat",
+        "sub_info": "Maximum speed<br/>Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec<br/>Does not generate threat",
         "consume_sp": null,
         "ui_sp_heal_value": "15",
         "skill_info": {

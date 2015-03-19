@@ -34,16 +34,13 @@ var category_data_DE = {
         "sort_no": "109",
         "skill_icon": {
             "1": "skill_icon_destroyer_0_31.png",
-            "11": "skill_icon_destroyer_0_31.png",
-            "12": "skill_icon_destroyer_0_31.png",
-            "13": "skill_icon_destroyer_0_31.png",
-            "14": "skill_icon_destroyer_0_31.png",
-            "15": "skill_icon_destroyer_0_31.png",
-            "22": "skill_icon_destroyer_1_39.png",
-            "24": "skill_icon_destroyer_1_39.png",
-            "25": "skill_icon_destroyer_1_39.png",
-            "34": "skill_icon_destroyer_1_39.png",
-            "35": "skill_icon_destroyer_1_39.png"
+			"11": "skill_icon_destroyer_0_31.png",
+			"12": "skill_icon_destroyer_0_31.png",
+			"13": "skill_icon_destroyer_0_31.png",
+			"14": "skill_icon_destroyer_0_31.png",
+			"15": "skill_icon_destroyer_0_31.png",
+			"24": "skill_icon_destroyer_0_31.png",
+			"25": "skill_icon_destroyer_0_31.png"
         },
         "tooltip_stance_type": {
             "0": "파괴",
