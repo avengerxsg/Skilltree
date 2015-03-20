@@ -719,8 +719,8 @@ var category_data_FM = {
     "22244": {
         "skill_id": "22244",
         "tree_id": "1",
-        "name2_refine": "Shift Step<br>전신보",
-        "name2_refine_en": "Shift Step",
+        "name2_refine": "Flame Step<br>화신보",
+        "name2_refine_en": "Flame Step",
         "pc_level": "30",
         "pc_mastery_level": "0",
         "complete_quest": null,
@@ -741,8 +741,8 @@ var category_data_FM = {
     "22245": {
         "skill_id": "22245",
         "tree_id": "1",
-        "name2_refine": "Shift Step<br>전신보",
-        "name2_refine_en": "Shift Step",
+        "name2_refine": "Frost Step<br>한신보",
+        "name2_refine_en": "Frost Step",
         "pc_level": "30",
         "pc_mastery_level": "0",
         "complete_quest": null,
