@@ -9872,8 +9872,8 @@ var slot_data_SM = {
                 "max_variation_level": "1",
                 "variation_id": "7",
                 "tooltip_alias": "SwordMaster_Sword_WindySlash_LV2",
-                "name2_refine": "Cruel Moon<br>참월",
-                "name2_refine_en": "Cruel Moon",
+                "name2_refine": "Moon Cleave<br>참월",
+                "name2_refine_en": "Moon Cleave",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -10097,8 +10097,8 @@ var slot_data_SM = {
                 "max_variation_level": "1",
                 "variation_id": "8",
                 "tooltip_alias": "SwordMaster_Sword_WindySlash_LV2",
-                "name2_refine": "Cruel Moon<br>참월",
-                "name2_refine_en": "Cruel Moon",
+                "name2_refine": "Moon Cleave<br>참월",
+                "name2_refine_en": "Moon Cleave",
                 "variation_level": {
                     "0": null,
                     "1": "1",

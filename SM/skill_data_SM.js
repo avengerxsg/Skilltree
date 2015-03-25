@@ -3425,7 +3425,7 @@ var skill_data_SM = {
     },
     "SwordMaster_Sword_WindySlash_LV1": {
         "id": "27144",
-        "name": "Cruel Moon - 참월",
+        "name": "Moon Cleave - 참월",
         "icon": "skill_icon_swordmaster_2_22.png",
         "main_info1": "Deals 84~98 damage",
         "main_info2": "Deals an additional 72~84 damage to dazed, stunned, seized, force gripped foes",
@@ -3457,7 +3457,7 @@ var skill_data_SM = {
     },
     "SwordMaster_Sword_WindySlash_LV2": {
         "id": "27144",
-        "name": "Cruel Moon - 참월",
+        "name": "Moon Cleave - 참월",
         "icon": "skill_icon_swordmaster_2_22.png",
         "main_info1": "Deals 84~98 damage",
         "main_info2": "Deals an additional 72~84 damage to dazed, stunned, seized, force gripped foes",
