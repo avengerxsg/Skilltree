@@ -4507,7 +4507,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_26.png",
         "main_info1": "Knocks foes down for 3 sec",
         "main_info2": null,
-        "sub_info": "Familiar plants a bomb<br/>Down combination instantly applied<br/>Deals 36~42 damage",
+        "sub_info": "Familiar plants a bomb<br/>Synergy down applied<br/>Deals 36~42 damage",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {

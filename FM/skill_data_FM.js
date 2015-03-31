@@ -1669,7 +1669,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_57.png",
         "main_info1": "Deals 10~11 damage",
         "main_info2": "Stuns foes for 2 sec<br/>Freezes foes for 5 sec",
-        "sub_info": "Creates 1 Frost Orb on hit<br/>Cures the user of Internal Bleeding<br/>Increases the defense of the user by 10% on using frost spells<br/>Stun combination instantly applied",
+        "sub_info": "Creates 1 Frost Orb on hit<br/>Cures the user of Internal Bleeding<br/>Increases the defense of the user by 10% on using frost spells<br/>Synergy stun applied",
         "consume_sp": null,
         "ui_sp_heal_value": "2",
         "skill_info": {
@@ -1701,7 +1701,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_57.png",
         "main_info1": "Deals 10~11 damage",
         "main_info2": "Stuns foes for 2 sec<br/>Freezes foes for 5 sec",
-        "sub_info": "Cooldown of Glacier Palm, Glacial Torren is refreshed on critical hit<br/>Creates 1 Frost Orb on hit<br/>Cures the user of Internal Bleeding<br/>Increases the defense of the user by 10% on using frost spells<br/>Stun combination instantly applied",
+        "sub_info": "Cooldown of Glacier Palm, Glacial Torren is refreshed on critical hit<br/>Creates 1 Frost Orb on hit<br/>Cures the user of Internal Bleeding<br/>Increases the defense of the user by 10% on using frost spells<br/>Stun synergy instantly applied",
         "consume_sp": null,
         "ui_sp_heal_value": "2",
         "skill_info": {
