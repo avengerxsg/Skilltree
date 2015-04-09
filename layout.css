@@ -75,7 +75,7 @@ ul {
     z-index: 2;
     min-height: 100%;
     padding: 180px 0 0 0;
-    background: #000 url(../img/home.jpg) no-repeat center 2px;
+    background: #000 url(img/home.jpg) no-repeat center 2px;
     background-size: 100% auto;
 }
 
