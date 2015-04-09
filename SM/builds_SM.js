@@ -1,14 +1,6 @@
 /*jslint nomen: true */
 /*global jQuery */
 
-var job_desc = {
-    "name": "Lyn Blade Master",
-    "diff": "●●◐○○",
-    "race": "Lyn",
-    "desc": "no description",
-    "video": "<iframe id=\"ytplayer\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/kshVx2xIqzc?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1\" frameborder=\"0\" allowfullscreen></iframe>"
-};
-
 var _training;
 // PvE-------------------------------------------------------------------------------------------------------------
 function diel_pve_essential() {
@@ -47,30 +39,3 @@ function diel_pvp_build1() {
         });
     }(jQuery));
 }
-
-var builds = {
-    "pve01": {
-        "type": "PvE",
-        "name": "Essential",
-        "req": "Lv50 H1",
-        "bfunc": "diel_pve_essential();",
-        "desc_title": "Essential LBM Build by Di'el",
-        "desc": "No description"
-    },
-    "pve02": {
-        "type": "PvE",
-        "name": "General Build",
-        "req": "Lv50 H12",
-        "bfunc": "diel_pve_build1();",
-        "desc_title": "General LBM Build by Di'el",
-        "desc": "No description"
-    },
-    "pvp01": {
-        "type": "PvP",
-        "name": "1v1",
-        "req": "Lv50 H12",
-        "bfunc": "diel_pvp_build1();",
-        "desc_title": "1v1 PvP Build by Di'el",
-        "desc": "No description"
-    }
-};
