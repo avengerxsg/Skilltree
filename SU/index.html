@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../img/favicon.ico">
 
-    <title>Kung-Fu Master Skill Tree Simulator</title>
+    <title>Summoner Skill Tree Simulator</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,24 +33,24 @@
         <![endif]-->
 </head>
 
-<body class="screen" onload="queryUrl('KF');">
+<body class="screen" onload="queryUrl('SU');">
     <div class="navmenu navmenu-default navmenu-fixed-left">
         <ul class="nav navmenu-nav">
-            <li><a class="m1" href="../BM/page_BM.html"><span>Blade Master</span></a>
+            <li><a class="m1" href="../BM/"><span>Blade Master</span></a>
             </li>
-            <li class="active"><a class="m2" href="../KF/page_KF.html"><span>Kung-Fu Master</span></a>
+            <li><a class="m2" href="../KF/"><span>Kung-Fu Master</span></a>
             </li>
-            <li><a class="m3" href="../DE/page_DE.html"><span>Destroyer</span></a>
+            <li><a class="m3" href="../DE/"><span>Destroyer</span></a>
             </li>
-            <li><a class="m4" href="../FM/page_FM.html"><span>Force Master</span></a>
+            <li><a class="m4" href="../FM/"><span>Force Master</span></a>
             </li>
             <li><a class="m5" href="../AS/page_AS.html"><span>Assassin</span></a>
             </li>
-            <li><a class="m6" href="../SU/page_SU.html"><span>Summoner</span></a>
+            <li class="active"><a class="m6" href="../SU/"><span>Summoner</span></a>
             </li>
-            <li><a class="m7" href="../SM/page_SM.html"><span>Lyn Blade Master</span></a>
+            <li><a class="m7" href="../SM/"><span>Lyn Blade Master</span></a>
             </li>
-            <li><a class="m8" href="../WL/page_WL.html"><span>Warlock</span></a>
+            <li><a class="m8" href="../WL/"><span>Warlock</span></a>
             </li>
         </ul>
     </div>
@@ -212,8 +212,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" onclick="generateBuild()">Generate Code</button>
-                    <button type="button" class="btn btn-primary" onclick="applyBuild('KF')">Apply Code</button>
-                    <button type="button" class="btn btn-primary" onclick="generateUrl('KF')">Generate Url </button>
+                    <button type="button" class="btn btn-primary" onclick="applyBuild('SU')">Apply Code</button>
+                    <button type="button" class="btn btn-primary" onclick="generateUrl('SU')">Generate Url </button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -229,7 +229,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="navbar-header">
-                    <a class="navbar-brand" id="home" href="../index.html"><span>Blade & Soul Skill Tree Simulator<span class="text-muted"> by Di'el</span></span></a>
+                    <a class="navbar-brand" id="home" href="../"><span>Blade & Soul Skill Tree Simulator<span class="text-muted"> by Di'el</span></span></a>
                 </div>
                 <div id="navbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -257,10 +257,10 @@
             <script src="../jquerytools.js"></script>
 
             <script src="../training.min.js"></script>
-            <script src="../KF/category_data_KF.js"></script>
-            <script src="../KF/slot_data_KF.js"></script>
-            <script src="../KF/skill_data_KF.js"></script>
-            <script src="../KF/data_skill-tooltip_KF.js"></script>
+            <script src="../SU/category_data_SU.js"></script>
+            <script src="../SU/slot_data_SU.js"></script>
+            <script src="../SU/skill_data_SU.js"></script>
+            <script src="../SU/data_skill-tooltip_SU.js"></script>
             <script src="../data_skill-tooltip-attribute.js"></script>
 
             <script type="text/javascript">
@@ -277,7 +277,7 @@
                             containerSelector: ".trWrap",
                             level: 50,
                             masteryLevel: 12,
-                            job: "KF",
+                            job: "SU",
                             masteryTitle: "Divine Level ",
                             maxLevel: 50
                         });
@@ -297,11 +297,11 @@
             <div class="container main-content">
 
                 <h2 class="featurette-heading">Class Information.</h2>
-                <h2 class="lead">Kung-Fu Master</h2>
+                <h2 class="lead">Summoner</h2>
                 <div class="row featurette">
                     <div class="col-md-6">
                         <div class="video embed-responsive embed-responsive-16by9">
-                            <iframe id="ytplayer" class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/cB6411ctQBU?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                            <iframe id="ytplayer" class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Jms-nORWKlg?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -309,12 +309,12 @@
                             <tr>
                                 <td>Difficulty</td>
                                 <td>
-                                    <p style="font-family:hvgafix">●●●●◐</p>
+                                    <p style="font-family:hvgafix">●●○○○</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Playable Race</td>
-                                <td>Jin, Gon</td>
+                                <td>Lyn</td>
                             </tr>
                         </table>
                         <p class="desc">No description... yet</p>
@@ -349,7 +349,7 @@
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="../bootstrap/js/jasny-bootstrap.min.js"></script>
     <script src="../extra.js"></script>
-    <script src="builds_KF.js"></script>
+    <script src="builds_SU.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 </body>
