@@ -203,3 +203,9 @@ $(document).ready(function () {
         }
     });
 });
+
+$('.modal').on('hidden.bs.modal', function (event) {
+    setTimeout(function () {
+        $('[data-toggle="modal"]').blur();
+    });
+});
