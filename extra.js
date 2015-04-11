@@ -45,7 +45,7 @@ function generateBuild() {
 function generateUrl(job) {
     "use strict";
     var obj = objToJSONString(_training.getSendDataObj()),
-        base = "dakaringer.github.io/BnS-ST/" + job + "/page_" + job + ".html?build=";
+        base = "bnstree.com/" + job + "/";
     document.getElementById('codearea').value = base + obj;
 }
 
