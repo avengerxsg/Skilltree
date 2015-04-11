@@ -1,0 +1,20 @@
+	<div class="navmenu navmenu-default navmenu-fixed-left">
+        <ul class="nav navmenu-nav">
+            <li {% if page.job == 'BM' %}class="active"{% endif %}><a href="{{ "/BM/" | prepend: site.baseurl }}"><span>Blade Master</span></a>
+            </li>
+            <li {% if page.job == 'KF' %}class="active"{% endif %}><a href="{{ "/KF/" | prepend: site.baseurl }}"><span>Kung-Fu Master</span></a>
+            </li>
+            <li {% if page.job == 'DE' %}class="active"{% endif %}><a href="{{ "/DE/" | prepend: site.baseurl }}"><span>Destroyer</span></a>
+            </li>
+            <li {% if page.job == 'FM' %}class="active"{% endif %}><a href="{{ "/FM/" | prepend: site.baseurl }}"><span>Force Master</span></a>
+            </li>
+            <li {% if page.job == 'AS' %}class="active"{% endif %}><a href="{{ "/AS/" | prepend: site.baseurl }}"><span>Assassin</span></a>
+            </li>
+            <li {% if page.job == 'SU' %}class="active"{% endif %}><a href="{{ "/SU/" | prepend: site.baseurl }}"><span>Summoner</span></a>
+            </li>
+            <li {% if page.job == 'SM' %}class="active"{% endif %}><a href="{{ "/SM/" | prepend: site.baseurl }}"><span>Lyn Blade Master</span></a>
+            </li>
+            <li {% if page.job == 'WL' %}class="active"{% endif %}><a href="{{ "/WL/" | prepend: site.baseurl }}"><span>Warlock</span></a>
+            </li>
+        </ul>
+    </div>

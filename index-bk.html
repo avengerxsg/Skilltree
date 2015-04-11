@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>BnS Skill Tree Simulator by Di'el</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61749626-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- Custom styles for this template -->
+    <link href="layout.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="navmenu navmenu-default navmenu-fixed-left">
+        <ul class="nav navmenu-nav">
+            <li><a class="m1" href="BM/"><span>Blade Master</span></a>
+            </li>
+            <li><a class="m2" href="KF/"><span>Kung-Fu Master</span></a>
+            </li>
+            <li><a class="m3" href="DE/"><span>Destroyer</span></a>
+            </li>
+            <li><a class="m4" href="FM/"><span>Force Master</span></a>
+            </li>
+            <li><a class="m5" href="AS/"><span>Assassin</span></a>
+            </li>
+            <li><a class="m6" href="SU/"><span>Summoner</span></a>
+            </li>
+            <li><a class="m7" href="SM/"><span>Lyn Blade Master</span></a>
+            </li>
+            <li><a class="m8" href="WL/"><span>Warlock</span></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="canvas">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="home" href="/"><span>Blade & Soul Skill Tree Simulator<span class="text-muted"> by Di'el</span></span></a>
+                </div>
+
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <!--<img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">-->
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Fully translated.</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <!--<img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">-->
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Build, Save, Share.</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <!--<img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">-->
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Detailed Guides and Builds</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- /.carousel -->
+
+        <div class="main-bg">
+            <div class="container main-content">
+
+                <h2 class="featurette-heading">About.</h2>
+                <div class="row featurette">
+                    <div class="col-md-12">
+                        <p class="lead">This is a fully English translated interactive skill tree simulator for Blade & Soul, a Korean Martial Fantasy MMORPG, with guides provided to help foreign players enjoy the game to its fullest.</p>
+                        <br>
+                        <p>The skill trees are based on BnS KR. Skills may or may not be the same as the ones you would see in other servers. Everything is manually translated to English by me. Most skill names are accurate direct translations while some were given reasonable new names because they were difficult to translate. Some tooltips may be a bit different from the original for better consistency and clarity.
+                            <br>
+                            <br> This project was made possible by using many parts of the HTML, CSS, and JavaScript codes from the official BnS KR website. Some elements were modified for better presentation and some parts of the script was heavily modified to fix some bugs and behaviors and to add new features such as the build list, the save/load box, and url generator. Background images are either from the official BnS KR website posted by users or captured by me.
+                            <br>
+                            <br> This project is open sourced and is available on <a href="http://bit.ly/1AFTgca">Github</a>.
+                            <br> In fact, this page is hosted with Github Pages.</p>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <h2 class="featurette-heading">News.</h2>
+                <div class="row featurette">
+                    <div class="col-md-3">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="active"><a href="#tab_5" data-toggle="pill">April 10, 2015</a>
+                            </li>
+                            <li><a href="#tab_4" data-toggle="pill">April 9, 2015</a>
+                            </li>
+                            <li><a href="#tab_3" data-toggle="pill">March 19, 2015</a>
+                            </li>
+                            <li><a href="#tab_2" data-toggle="pill">January 29, 2015</a>
+                            </li>
+                            <li><a href="#tab_1" data-toggle="pill">March 27, 2015</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content col-md-8">
+                        <h3>News</h3>
+                        <div class="tab-pane active" id="tab_5">
+                            <p>Site Update:
+                                <br>Domain name added!
+                                <li>You can now go to this site with a proper url, bnstree.com! No more weird Github links! (they still work though)</li>
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="tab_4">
+                            <p>Site Update:
+                                <br>Newer and better interface!
+                                <li>Responsive design! Go ahead and rescale your window</li>
+                                <li>Touch friendly! Better compatibility with devices with touchscreens</li>
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="tab_3">
+                            <p>Skill Update:
+                                <br>Buffs for Destroyer, Force Master, Summoner
+                                <br>
+                                <br>Destroyer
+                                <br>Judgement + Fury
+                                <li>Now have separate skill trees and can be used independently</li>
+                                <li>See the new trees for further details</li>
+                                <br>Wedge
+                                <li>No longer has a skill tree but now has the old T2C2 effects by default</li>
+                                <br>Destroy
+                                <li>Damage of C2, C3 is increased</li>
+                                <br>Abyss
+                                <li>No longer has a skill tree</li>
+                                <li>Damage increased</li>
+                                <li>+30% movement speed and defense, charge disable for 4 sec effects added</li>
+                                <br>Hurricane
+                                <li>C3 now generates 30% chi on deflect</li>
+                                <li>C1 now ignores defense</li>
+                                <li>T5C1 now gives +80% movement speed from 60% and removes immobilize effects multiple times during use</li>
+                                <br>Stomp
+                                <li>T5C3 gives 20% increased damage for Fury, Destroy but no longer gives max speed Fury, Destroy</li>
+                                <li>Fixed T5C2 displaying wrong defense % increase</li>
+                                <br>Sever + Catapult
+                                <li>Now have separate skill trees and can be used independently</li>
+                                <li>See the new trees for further details</li>
+                                <br>Slam
+                                <li>T3C2 now gives 120% chi over 4 sec</li>
+                                <br>Flame Wheel + Inflaming Wheel
+                                <li>Now have separate skill trees and can be used independently</li>
+                                <li>See the new trees for further details</li>
+                                <br>Adamant
+                                <li>Cooldown of T4C2 reduced to 1 min from 1 min 30 sec</li>
+                                <br>Annihilate
+                                <li>T4C1 no longer can be casted 2 times in a row but damage is increased to compensate</li>
+                                <br>
+                                <br>Force Master
+                                <br>Frost Palm
+                                <li>No longer has 30% chance to freeze enemies</li>
+                                <li>Damage increased</li>
+                                <br>Pyrodragon/Pyroblast
+                                <li>C1, C3 damage increased</li>
+                                <li>C3 cost reduced to 2 from 3</li>
+                                <br>Ice Flower
+                                <li>T3C2 no longer heals but generates 100% chi instead</li>
+                                <li>Not in the skill tree but allies can now press [F] to get out of Ice Prison</li>
+                                <br>Dragon Wave
+                                <li>C1 damage increased to seized, force gripped enemies</li>
+                                <br>Cryoblast
+                                <li>Now instantly applies synergy stun (double stun)</li>
+                                <br>Shift Step
+                                <li>Skill names changed to Flame/Frost Step</li>
+                                <br>
+                                <br>Summoner
+                                <br>Hornet
+                                <li>C3 cooldown reduced to 6 sec from 9 sec</li>
+                                <li>C4 cost reduced to 2 from 3</li>
+                                <li>C4 cast time reduced to 0.3 sec from 0.5</li>
+                                <li>C4 is instantly cast on crit</li>
+                                <li>T3C4 no longer instantly cast on enemies under status effects and instead deals additional damage on instant cast</li>
+                                <li>T5C4 is instantly cast on seized, force gripped enemies and generates 1 chi, down from 2, on critical hit</li>
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="tab_2">
+                            <p>Site Update:
+                                <br>You can now generate links to your build and load builds directly from the link!
+                                <li>This option can be found in the Save/Load menu</li>
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="tab_1">
+                            <p>Announcement:
+                                <br>Changelog has been cleared and from now on will only be used to update big changes rather than simple minor translation fixes here and there. That said, you can still access the more detailed(?) commit history at <a href=\ "https://github.com/dakaringer/BnS-ST/commits/gh-pages\">Github</a>.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jasny-bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
