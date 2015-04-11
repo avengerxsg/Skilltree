@@ -1,20 +1,18 @@
 Documentation
 
 Author: Di'el aka dakaringer
-Project: BnS Skill Tree
+Project: BnS Tree
 
-Di'el's Skill Tree Simulator for Blade & Soul
-This is a skill tree simulator for all classes of Blade & Soul.
-This was done possible by reading the source (using the view source button of a browser) of the official
-Blade & Soul korean website. Most functions should work without an internet connection. Only some images 
-are downloaded from other sites.
+Skill Tree Simulator for Blade & Soul
 
+This is a skill tree simulator for all classes of Blade & Soul. This was done possible by reading the source markup of the official Blade & Soul korean website.
+This project is hosted on Github Pages with a custom domain (bnstree.com)
 
 
 Disclaimer:
 
 The following files (used for the skill tree itself) is made by ncsoft. 
-Most of those are modified by me for translating, fixing bugs and optimizing webpage size.
+Most of these were heavily modified by me for translation, fixing bugs and optimizing webpage + user experience.
 
 data_skill-tooltip.js (split into separate files for each class)
 data_skill-tooltip-attribute.js
@@ -25,38 +23,32 @@ category_data_XX.js
 slot_data_XX.js
 skill_data_XX.js
 
-
-Some codes like jquerytools.js are codes I found floating in the internet.
 Background images are taken by me or found on the bns kr screenshot forum.
 Skill images are directly from the bns kr website.
+
+
+This project was remade on the Bootstrap framework for responsive design.
+Big credits to Jasny (https://github.com/jasny/bootstrap) for the Bootstrap extension and starting template.
+
 
 If you are going to use, modify and/or host this project yourself, please give credit to where it belongs.
 
 
 
 
-Filename + description:
+How it works:
 
-data_skill-tooltip-attribute.js
- - nested javascript objects describing various type of a tooltip description.
- 
-extra.js
- - misc. javascript functions
- 
-jquerytools.js
- - used for the sidebar tabs and dynamic descriptions
- 
-training.min.js
- - the main underlying functions of the skill tree itself. (advise not to touch unless you feel adventurous or know what you're doing)
- 
-layout.css
- - styling for the basic layout of the page
- 
-training2.css
- - styling for the skill tree
- 
-main.html
- - the main intro page
+Skill Tree
+Most of the functions for the skill tree is defined in training.min.js. Modify this if you want to change its behavior.
+The skills themselves are defined in each class folders. Modify skill_data to edit the tooltips (most of the translations); modify category_data to edit the list on the left; modify slot_data to edit the tree.
+data_skill-tooltip-attribute and data_skill-tooltip defines the behavior of displaying changes between talents on the tooltips. builds.js have preset builds saved.
+
+Other functions of the website are defined in extra.js
+
+For styling, training2.css defines the style of the tree and everything else is defined in layout.css (with the exception of some Bootstrap elements)
+
+
+
 
 AS = assassin
 BM = blade master
@@ -66,38 +58,3 @@ KF = kung-fu master
 SM = lyn blade master
 SU = summoner
 WL = warlock
-
-In each class(XX) folder....
-bg.css - style used to set the background image on the sidebar
-bg_tree.png
- - the background image
- 
-category_data_XX.js
- - lists the skills shown on the right of the tree
- 
-data_skill-tooltip_XX.js
- - defines each tooltip description to its type in data_skill-tooltip-attribute.js mainly for the add/mod labels
- 
-skill_data_XX.js
- - tooltip data (change this if you want to translate the tooltip)
- 
-slot_data_XX.js
- - defines the layout of the tree for each skill and links each talent to its tooltip data in skill_data_XX.js
- - if a skill isn't here it doesn't have a tree and the skill id in slot_data_XX will link it to the tooltip data in skill_data_XX.js instead
- 
-XXbuilds.js
- - list of preset builds. Functions are called from this file to apply the JSON string.
- 
-skillXX.html
- - the page itself
- 
- 
- 
-img folder
-- contains various image resources
-
-
-
-simplifier
-- isn't directly related to the website
-- it's a tool I made to quickly optimize data_skill-tooltip-attribute.js and skill_data_XX.js by cutting unused lines of code
