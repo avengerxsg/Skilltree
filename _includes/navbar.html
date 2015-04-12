@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-header">
-                <a class="navbar-brand" id="home" href="{{ "/" | prepend: site.baseurl }}"><span>Blade & Soul Skill Tree Simulator<span class="text-muted"> by Di'el</span></span></a>
+                <a class="navbar-brand" id="home" href="{% if page.type != 'home' %}..{% endif %}"><span>Blade & Soul Skill Tree Simulator<span class="text-muted"> by Di'el</span></span></a>
             </div>
             {% if page.type != 'home' %}
             <div id="navbar">

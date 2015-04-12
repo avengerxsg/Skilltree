@@ -8,15 +8,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="{{ "/img/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="icon" href="{% if page.type != 'home' %}..{% endif %}/img/favicon.ico">
 
     <link rel="canonical" href="http://bnstree.com/{{ page.job }}" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ "/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/bootstrap/css/jasny-bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{% if page.type != 'home' %}..{% endif %}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% if page.type != 'home' %}..{% endif %}/bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -36,9 +36,9 @@
     </script>
 
     <!-- Custom styles for this template -->
-    <link href="{{ "/layout.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+    <link href="{% if page.type != 'home' %}..{% endif %}/layout.css" rel="stylesheet"> 
     {% if page.type != 'home' %}
-    <link rel="stylesheet" type="text/css" href="{{ "/training2.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="../training2.css" />
     <style>
         .tooltipWrap {
             background: url('bg_tree.png') rgba(0, 0, 0, 0.0) no-repeat right bottom;
