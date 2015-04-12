@@ -11,6 +11,3 @@ github_username:  dakaringer
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-redirect-from
