@@ -2,12 +2,11 @@
 layout: default
 ---
     <div class="training-content container">
-        <progress id="pbar" value="100" max="100"></progress>
         <div class="trWrap" id="trainingWrap"></div>
 
-        <script src="../jquerytools.js"></script>
+        <script src="../jquery_171.js"></script>
 
-        <script src="../training.min.js"></script>
+        <script src="../training.js"></script>
         <script src="../{{ page.job }}/category_data_{{ page.job }}.js"></script>
         <script src="../{{ page.job }}/slot_data_{{ page.job }}.js"></script>
         <script src="../{{ page.job }}/skill_data_{{ page.job }}.js"></script>
@@ -38,8 +37,6 @@ layout: default
                     var _$resetAllSkillBtn = $("#resetAllSkill");
                 });
             })(jQuery);
-
-            document.getElementById('pbar').setAttribute('style', 'display:none;');
         </script>
     </div>
     

@@ -1,16 +1,7 @@
 /*jslint nomen: true */
-/*global $, jQuery, alert, confirm, eval, _training*/
+/*global $, YT, jQuery, alert, confirm, eval, _training*/
 
-function reset() {
-    "use strict";
-    _training.resetSelectedSkill();
-}
-
-function reset_all() {
-    "use strict";
-    _training.resetAllSkill();
-}
-
+//Build functions
 function objToJSONString(obj) {
     "use strict";
     var isArray = (obj && obj.join && obj.pop && obj.push && obj.reverse && obj.shift && obj.slice && obj.splice),
@@ -35,20 +26,6 @@ function objToJSONString(obj) {
     return (isArray ? "[" : "{") + results.join(", ") + (isArray ? "]" : "}");
 }
 
-//document.getElementById("mytextarea").readOnly = true;
-function generateBuild() {
-    "use strict";
-    var obj = objToJSONString(_training.getSendDataObj());
-    document.getElementById('codearea').value = obj;
-}
-
-function generateUrl(job) {
-    "use strict";
-    var obj = objToJSONString(_training.getSendDataObj()),
-        base = "bnstree.com/" + job + "/?build=";
-    document.getElementById('codearea').value = base + obj;
-}
-
 function trim(st) {
     "use strict";
     while (st) {
@@ -66,6 +43,12 @@ function trim(st) {
         }
     }
     return st;
+}
+
+function generateBuild() {
+    "use strict";
+    var obj = objToJSONString(_training.getSendDataObj());
+    document.getElementById('codearea').value = obj;
 }
 
 function applyBuild(job) {
@@ -93,11 +76,14 @@ function applyBuild(job) {
     }
 }
 
-var tempScrollTop;
-$(window).scroll(function () {
+
+// Url functions
+function generateUrl(job) {
     "use strict";
-    tempScrollTop = $("div.categoryBody").scrollTop();
-});
+    var obj = objToJSONString(_training.getSendDataObj()),
+        base = "bnstree.com/" + job + "/?build=";
+    document.getElementById('codearea').value = base + obj;
+}
 
 function getQueryVariable(variable) {
     "use strict";
@@ -140,13 +126,21 @@ function queryUrl(job) {
     }
 }
 
+
+// Youtube functions
 var tag = document.createElement('script');
+var player;
+var firstScriptTag = document.getElementsByTagName('script')[0];
 
 tag.src = "//www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-var player;
+function onPlayerReady() {
+    "use strict";
+    // Mute!
+    player.mute();
+    //player.playVideo();
+}
 
 function onYouTubeIframeAPIReady() {
     "use strict";
@@ -157,18 +151,14 @@ function onYouTubeIframeAPIReady() {
     });
 }
 
-function onPlayerReady() {
-    "use strict";
-    // Mute!
-    player.mute();
-    //player.playVideo();
-}
 
+// Skill tree resize functions
 function setSize() {
-    var width = $('.container').width();
-    var height = $('.trWrap').height();
-    var scale
-    var hscale
+    "use strict";
+    var width = $('.container').width(),
+        height = $('.trWrap').height(),
+        scale,
+        hscale;
 
     if (window.matchMedia('(max-width: 991px)').matches) {
         scale = width / 515;
@@ -189,12 +179,14 @@ function setSize() {
 }
 
 $(window).resize(function () {
+    "use strict";
     setSize();
 });
 
 $(document).ready(function () {
+    "use strict";
     setSize();
-    
+
     var $body = $(document);
     $body.bind('scroll', function () {
         // "Disable" the horizontal scroll.
@@ -204,7 +196,16 @@ $(document).ready(function () {
     });
 });
 
+
+// Misc. functions
+var tempScrollTop;
+$(window).scroll(function () {
+    "use strict";
+    tempScrollTop = $("div.categoryBody").scrollTop();
+});
+
 $('.modal').on('hidden.bs.modal', function (event) {
+    "use strict";
     setTimeout(function () {
         $('[data-toggle="modal"]').blur();
     });

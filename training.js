@@ -6,7 +6,7 @@
 var nc;
 var current;
 nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = {}),
-    function() {
+    function () {
         "use strict";
         nc.bns.training.Model = {}, nc.bns.training.Model.SORT_INPUT_ARR = ["LB", "RB", "F", "TAB", "1", "2", "3", "4", "Z", "X", "C", "V", "Q", "E", "W", "S", "NONE"], nc.bns.training.Model.SORT_INPUT_OBJ = {
             LB: {
@@ -114,9 +114,9 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
     }();
 var nc;
 nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = {}),
-    function(a) {
+    function (a) {
         "use strict";
-        nc.bns.training.select = {}, nc.bns.training.select.SelectLevel = function(b) {
+        nc.bns.training.select = {}, nc.bns.training.select.SelectLevel = function (b) {
             function c() {
                 h = a("> strong", m), i = a(".ly_level", m).get(0), f(!1);
                 for (var b, c = j, g = k; g >= c; c++) b = document.createElement("li"), a(b).text(String(c)), a(b).on("click", e), i.appendChild(b), n.push(b);
@@ -125,22 +125,22 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function d(b) {
                 switch (b.preventDefault(), b.stopPropagation(), b.type) {
-                    case "click":
-                        o ? (f(!1), o = !1) : (f(!0), o = !0, a(g).trigger({
-                            type: nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL
-                        }))
+                case "click":
+                    o ? (f(!1), o = !1) : (f(!0), o = !0, a(g).trigger({
+                        type: nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL
+                    }))
                 }
             }
 
             function e(b) {
                 switch (b.preventDefault(), b.type) {
-                    case "click":
-                        var c = b.currentTarget,
-                            d = a(c).text();
-                        h.text(d), a(g).trigger({
-                            type: nc.bns.training.select.SelectLevel.SELECT_LEVEL,
-                            level: parseInt(d)
-                        })
+                case "click":
+                    var c = b.currentTarget,
+                        d = a(c).text();
+                    h.text(d), a(g).trigger({
+                        type: nc.bns.training.select.SelectLevel.SELECT_LEVEL,
+                        level: parseInt(d)
+                    })
                 }
             }
 
@@ -148,15 +148,15 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 i && (i.style.display = a ? "block" : "none")
             }
             var g = this;
-            g.destroy = function() {
+            g.destroy = function () {
                 if (m) {
                     a(m).off("click", d);
                     for (var b, c = 0, f = n.length; f > c; c++) b = n[c], a(b).off("click", e);
                     n = []
                 }
-            }, g.displayLevel = function(a) {
+            }, g.displayLevel = function (a) {
                 h.text(String(a))
-            }, g.openByExternal = function(a) {
+            }, g.openByExternal = function (a) {
                 f(a), o = a
             };
             var h, i, j = b.minLevelCanUseSkillPoint,
@@ -166,29 +166,29 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 n = [],
                 o = !1;
             return c(), g
-        }, nc.bns.training.select.SelectLevel.SELECT_LEVEL = "SELECT_LEVEL", nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL = "OPEN_SELECT_LEVEL", nc.bns.training.select.SelectMasteryLevel = function(b) {
+        }, nc.bns.training.select.SelectLevel.SELECT_LEVEL = "SELECT_LEVEL", nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL = "OPEN_SELECT_LEVEL", nc.bns.training.select.SelectMasteryLevel = function (b) {
             function c() {
                 h = a("> strong", j), i = a(".ly_level", j).get(0), f(!1), k || a(j).css("cursor", "auto")
             }
 
             function d(b) {
                 switch (b.preventDefault(), b.stopPropagation(), b.type) {
-                    case "click":
-                        l ? (f(!1), l = !1) : (f(!0), l = !0, a(g).trigger({
-                            type: nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL
-                        }))
+                case "click":
+                    l ? (f(!1), l = !1) : (f(!0), l = !0, a(g).trigger({
+                        type: nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL
+                    }))
                 }
             }
 
             function e(b) {
                 switch (b.preventDefault(), b.type) {
-                    case "click":
-                        var c = b.currentTarget,
-                            d = a(c).text();
-                        h.text(d), a(g).trigger({
-                            type: nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL,
-                            level: parseInt(d)
-                        })
+                case "click":
+                    var c = b.currentTarget,
+                        d = a(c).text();
+                    h.text(d), a(g).trigger({
+                        type: nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL,
+                        level: parseInt(d)
+                    })
                 }
             }
 
@@ -196,19 +196,19 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 i && (i.style.display = a ? "block" : "none")
             }
             var g = this;
-            g.destroy = function() {
+            g.destroy = function () {
                 if (j) {
                     a(j).off("click", d);
                     for (var b, c = a("li", j), f = 0, g = c.size(); g > f; f++) b = c[f], a(b).off("click", e)
                 }
-            }, g.openByExternal = function(a) {
+            }, g.openByExternal = function (a) {
                 f(a), l = a
-            }, g.switchMasteryLevelLange = function(b) {
+            }, g.switchMasteryLevelLange = function (b) {
                 a(i).empty();
                 for (var c, d = parseInt(b), f = 0, g = d; g >= f; f++) c = document.createElement("li"), a(c).text(String(f)), i.appendChild(c), a(c).on("click", e)
-            }, g.displayMasteryLevel = function(a) {
+            }, g.displayMasteryLevel = function (a) {
                 h.text(String(a))
-            }, g.setMouseInteraction = function(b) {
+            }, g.setMouseInteraction = function (b) {
                 nc.bns.training.Model.editable && (a(j).off("click", d), b ? (a(j).on("click", d), a(j).css("cursor", "pointer")) : a(j).css("cursor", "auto"))
             };
             var h, i, j = b.container,
@@ -219,9 +219,9 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
     }(jQuery);
 var nc;
 nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = {}),
-    function(a) {
+    function (a) {
         "use strict";
-        nc.bns.training.category = {}, nc.bns.training.category.Contents = function(b) {
+        nc.bns.training.category = {}, nc.bns.training.category.Contents = function (b) {
             function c(a, b) {
                 var c = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(a),
                     d = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(b);
@@ -248,44 +248,44 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function g(b) {
                 switch (b.preventDefault(), b.stopPropagation(), b.type) {
-                    case nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST:
-                        var c = b.skillId;
-                        a(n).trigger({
-                            type: nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST,
-                            skillId: c
-                        })
+                case nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST:
+                    var c = b.skillId;
+                    a(n).trigger({
+                        type: nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST,
+                        skillId: c
+                    })
                 }
             }
 
             function h(b) {
                 switch (b.preventDefault(), b.stopPropagation(), b.type) {
-                    case nc.bns.training.category.SortMenu.CLICK_SORT_MENU:
-                        var c = parseInt(b.index);
-                        if (u == c) return;
-                        v = i(c), w.sortListBySortOptionIndex(v, c), x.activateMenu(c), u = c, a(n).trigger({
-                            type: nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU,
-                            sortOptionIndex: u
-                        })
+                case nc.bns.training.category.SortMenu.CLICK_SORT_MENU:
+                    var c = parseInt(b.index);
+                    if (u == c) return;
+                    v = i(c), w.sortListBySortOptionIndex(v, c), x.activateMenu(c), u = c, a(n).trigger({
+                        type: nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU,
+                        sortOptionIndex: u
+                    })
                 }
             }
 
             function i(a) {
                 var b = null;
                 switch (a) {
-                    case 1:
-                        b = p;
-                        break;
-                    case 2:
-                        b = r
+                case 1:
+                    b = p;
+                    break;
+                case 2:
+                    b = r
                 }
                 return b
             }
 
             function j(a) {
                 var b = a;
-                return b.sort(function(a, b) {
+                return b.sort(function (a, b) {
                     return parseInt(b.sort_no) - parseInt(a.sort_no)
-                }), b.sort(function(a, b) {
+                }), b.sort(function (a, b) {
                     return parseInt(a.skill_id) - parseInt(b.skill_id)
                 }), b
             }
@@ -308,9 +308,9 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function l(a) {
                 var b = a;
-                return b.sort(function(a, b) {
+                return b.sort(function (a, b) {
                     return parseInt(a.pc_level) - parseInt(b.pc_level)
-                }), b.sort(function(a, b) {
+                }), b.sort(function (a, b) {
                     return parseInt(a.skill_id) - parseInt(b.skill_id)
                 }), b
             }
@@ -328,20 +328,20 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 return c
             }
             var n = this;
-            n.destroy = function() {
+            n.destroy = function () {
                 a(s).empty(), w && (a(w).unbind(nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST, g), w.destroy(), w = null), x && (a(x).unbind(nc.bns.training.category.SortMenu.CLICK_SORT_MENU, h), x.destroy(), x = null)
-            }, n.reset = function() {
+            }, n.reset = function () {
                 f(), v = i(u), w.sortListBySortOptionIndex(v, u)
-            }, n.setCategoryContainerPosY = function(a) {
+            }, n.setCategoryContainerPosY = function (a) {
                 w && w.setContainerPosYByExternal(a)
-            }, n.getSkillIdOfFirstSkillList = function() {
+            }, n.getSkillIdOfFirstSkillList = function () {
                 var a = i(u),
                     b = a[0],
                     c = b[0];
                 return String(c.skill_id)
-            }, n.sortListBySortOptionIndexByExternal = function() {
+            }, n.sortListBySortOptionIndexByExternal = function () {
                 v = i(u), w.sortListBySortOptionIndex(v, u)
-            }, n.setSkillListsStatusByExternal = function(a) {
+            }, n.setSkillListsStatusByExternal = function (a) {
                 function b(a, b) {
                     var c, d, f, h, i = "",
                         j = !1;
@@ -367,7 +367,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 if (a) {
                     var e = {};
-                    e.setPrevTrainVariationObj = function(a, b, c, d) {
+                    e.setPrevTrainVariationObj = function (a, b, c, d) {
                         var f = !1,
                             g = null,
                             h = c.prev_train[0];
@@ -378,27 +378,27 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     for (var o in a)
                         if (nc.bns.training.util.CheckUtil.available(nc.bns.training.Model.SLOT_OBJ_JSON[o])) g = a[o], h = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationId(o, g), j = {}, j.skillId = String(o), j.learnedSkillVariationId = String(g), j.learnedSkillAlias = h.alias, j.learnedSkillTooltipAlias = h.tooltip_alias, j.name2_refine = h.name2_refine, j.consumedSkillPoint = nc.bns.training.util.SearchDataUtil.getConsumedSkillPoint(nc.bns.training.Model.SLOT_OBJ_JSON[o], g, h.alias), m.push(j);
                         else if (g = a[o], k = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o)) switch (k.skillType) {
-                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                            l = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(k.tree_id);
-                            var p, q, r = nc.bns.training.Model.SLOT_OBJ_JSON[String(k.tree_id)],
-                                s = !1;
-                            for (var t in r) {
-                                p = r[t];
-                                for (var x in p)
-                                    if (q = p[x], q.skill_id == k.skill_id && q.variation_id == g) {
-                                        s = !0;
-                                        break
-                                    }
-                                if (s) break
-                            }
-                            if (s) {
-                                n.push(q), l.learnedSkillVariationId = q.variation_id, l.learnedSkillAlias = q.alias, l.learnedSkillTooltipAlias = q.tooltip_alias;
-                                var y = null;
-                                e.setPrevTrainVariationObj(e, r, q, y), y && l.name2_refine != y.name2_refine && (l.name2_refine = y.name2_refine, l.initJamostr = nc.bns.training.util.StringUtil.getInitialJamoStr(l.name2_refine.charAt(0), nc.bns.training.Model.SORT_NAME_ARR)), l.consumedSkillPoint = nc.bns.training.util.SearchDataUtil.getConsumedSkillPoint(r, g, q.alias)
-                            }
-                            break;
-                        case nc.bns.training.Model.SKILL_TYPE_NONE:
-                            b(o, g)
+                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        l = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(k.tree_id);
+                        var p, q, r = nc.bns.training.Model.SLOT_OBJ_JSON[String(k.tree_id)],
+                            s = !1;
+                        for (var t in r) {
+                            p = r[t];
+                            for (var x in p)
+                                if (q = p[x], q.skill_id == k.skill_id && q.variation_id == g) {
+                                    s = !0;
+                                    break
+                                }
+                            if (s) break
+                        }
+                        if (s) {
+                            n.push(q), l.learnedSkillVariationId = q.variation_id, l.learnedSkillAlias = q.alias, l.learnedSkillTooltipAlias = q.tooltip_alias;
+                            var y = null;
+                            e.setPrevTrainVariationObj(e, r, q, y), y && l.name2_refine != y.name2_refine && (l.name2_refine = y.name2_refine, l.initJamostr = nc.bns.training.util.StringUtil.getInitialJamoStr(l.name2_refine.charAt(0), nc.bns.training.Model.SORT_NAME_ARR)), l.consumedSkillPoint = nc.bns.training.util.SearchDataUtil.getConsumedSkillPoint(r, g, q.alias)
+                        }
+                        break;
+                    case nc.bns.training.Model.SKILL_TYPE_NONE:
+                        b(o, g)
                     } else b(o, g);
                     for (var z, A, B = [], C = 0, D = m.length; D > C; C++) {
                         z = m[C];
@@ -421,22 +421,22 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                         w.activateSkillListBySkillIdByExternal(nc.bns.training.Model.lastSelectedSkillListSkillId)
                     }
                 }
-            }, n.setTreeSkillListStatusToShareSkillListByExternal = function(a, b) {
+            }, n.setTreeSkillListStatusToShareSkillListByExternal = function (a, b) {
                 c(a, b)
-            }, n.setTreeSkillListStatusToAcquisitionSkillListByExternal = function(a, b) {
+            }, n.setTreeSkillListStatusToAcquisitionSkillListByExternal = function (a, b) {
                 d(a, b)
-            }, n.consumePointToSkillListInCategoryContainer = function(a, b) {
+            }, n.consumePointToSkillListInCategoryContainer = function (a, b) {
                 var c = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(a);
                 c && (c.consumedSkillPoint += b, w.setConsumePointToSkillList(a, c.consumedSkillPoint))
-            }, n.replaceNormalSkillListThumbInCategoryContainer = function(a, b) {
+            }, n.replaceNormalSkillListThumbInCategoryContainer = function (a, b) {
                 var c = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(a),
                     d = "";
                 c.skill_icon && (d = nc.bns.training.Model.SKILL_IMG_URL_FRONT + c.skill_icon[String(b)]), w.setSkillListThumbnail(a, d)
-            }, n.activateCategorySkillListBySkillId = function(a) {
+            }, n.activateCategorySkillListBySkillId = function (a) {
                 w.activateSkillListBySkillIdByExternal(a)
-            }, n.replaceSkillListInCategoryContainer = function(a, b, c, d) {
+            }, n.replaceSkillListInCategoryContainer = function (a, b, c, d) {
                 e(a, b, c, d)
-            }, n.getSkillListPosYInCategoryContainer = function(a) {
+            }, n.getSkillListPosYInCategoryContainer = function (a) {
                 var b = w.getSkillListPosYByExternal(a);
                 return b
             };
@@ -460,15 +460,15 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             }), a(w).bind(nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST, g), x = new nc.bns.training.category.SortMenu({
                 container: a(".menuWrap", s).get(0)
             }), a(x).bind(nc.bns.training.category.SortMenu.CLICK_SORT_MENU, h), x.activateMenu(u), n
-        }, nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST = "TRIGGER_SELECT_SKILL_LIST", nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU = "TRIGGER_SELECT_SORT_MENU", nc.bns.training.category.SortMenu = function(b) {
+        }, nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST = "TRIGGER_SELECT_SKILL_LIST", nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU = "TRIGGER_SELECT_SORT_MENU", nc.bns.training.category.SortMenu = function (b) {
             function c(b) {
                 switch (b.preventDefault(), b.type) {
-                    case "click":
-                        var c = b.currentTarget;
-                        a(e).trigger({
-                            type: nc.bns.training.category.SortMenu.CLICK_SORT_MENU,
-                            index: c.index
-                        })
+                case "click":
+                    var c = b.currentTarget;
+                    a(e).trigger({
+                        type: nc.bns.training.category.SortMenu.CLICK_SORT_MENU,
+                        index: c.index
+                    })
                 }
             }
 
@@ -476,12 +476,12 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 for (var c, d = 0, e = j.length; e > d; d++) c = j[d], c.index != b ? a(c).removeClass("selected") : a(c).addClass("selected")
             }
             var e = this;
-            e.destroy = function() {
+            e.destroy = function () {
                 if (j)
                     for (var b, d = 0, e = j.length; e > d; d++) b = j[d], a(b).unbind("click", c)
-            }, e.getContainer = function() {
+            }, e.getContainer = function () {
                 return f
-            }, e.activateMenu = function(a) {
+            }, e.activateMenu = function (a) {
                 d(a)
             };
             var f = b.container,
@@ -490,7 +490,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             a(f).append(g + h);
             for (var i, j = a("span", f), k = 0, l = j.length; l > k; k++) i = j[k], i.index = k + 1, a(i).bind("click", c);
             return e
-        }, nc.bns.training.category.SortMenu.CLICK_SORT_MENU = "CLICK_SORT_MENU", nc.bns.training.category.CategoryContainer = function(b) {
+        }, nc.bns.training.category.SortMenu.CLICK_SORT_MENU = "CLICK_SORT_MENU", nc.bns.training.category.CategoryContainer = function (b) {
             function c() {
                 r && (r.style.position = "relative"), d(), k(0), i()
             }
@@ -502,9 +502,9 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     c = "";
                     for (var d, e, f = a.tree_id, g = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationId(f, b), h = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[f], g.alias), i = 0, j = h.length; j > i; i++)
                         if (d = h[i], e = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(d.skill_id)) switch (e.skillType) {
-                            case "":
-                                return c = a.skill_icon[d.variation_id] ? a.skill_icon[d.variation_id] : a.skill_icon[1] ? a.skill_icon[1] : "";
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        case "":
+                            return c = a.skill_icon[d.variation_id] ? a.skill_icon[d.variation_id] : a.skill_icon[1] ? a.skill_icon[1] : "";
+                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
                         }
                     return c || (c = a.skill_icon[1] ? a.skill_icon[1] : ""), c
                 }
@@ -512,9 +512,9 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 function c(a, b) {
                     for (var c, d, e = "", f = a.tree_id, g = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationId(f, b), h = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[f], g.alias), i = 0, j = h.length; j > i; i++)
                         if (c = h[i], d = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c.skill_id)) switch (d.skillType) {
-                            case "":
-                                return e = c.name2_refine;
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        case "":
+                            return e = c.name2_refine;
+                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
                         }
                     if ("" === e) {
                         var k = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(f);
@@ -526,11 +526,11 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 for (var d, e, g, h, i, j, k, m, n, o, p = [], q = 0, w = s.length; w > q; q++)
                     if (h = s[q], h && h.length > 0) {
                         switch (i = document.createElement("dl"), a(i).addClass = "category_type", a(r).append(i), u) {
-                            case "default_keycap":
-                                d = nc.bns.training.Model.SORT_INPUT_OBJ[h[u]].category;
-                                break;
-                            case "pc_level":
-                                d = h[u]
+                        case "default_keycap":
+                            d = nc.bns.training.Model.SORT_INPUT_OBJ[h[u]].category;
+                            break;
+                        case "pc_level":
+                            d = h[u]
                         }
                         g = "<dt><strong>" + d + "</strong></dt><dd><ul></ul></dd>", a(i).append(g);
                         for (var x = 0, y = h.length; y > x; x++) {
@@ -547,15 +547,15 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                             else if (m.disable == nc.bns.training.Model.SKILL_TYPE_HIDDEN) {
                                 a(k).addClass("hide");
                             } else switch (m.skillType) {
-                                case "":
-                                    break;
-                                case nc.bns.training.Model.SKILL_TYPE_NONE:
-                                    a("em.name", k).addClass("single");
-                                    break;
-                                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                    a(k).addClass("disable");
-                                    break;
-                                case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                            case "":
+                                break;
+                            case nc.bns.training.Model.SKILL_TYPE_NONE:
+                                a("em.name", k).addClass("single");
+                                break;
+                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                                a(k).addClass("disable");
+                                break;
+                            case nc.bns.training.Model.SKILL_TYPE_SHARE:
                             }
                             parseInt(m.consumedSkillPoint) > 0 && p.push(m)
                         }
@@ -570,12 +570,12 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     F = p[H];
                     for (var J = 0, K = v.length; K > J; J++)
                         if (G = v[J], G.getSkillId() == F.skill_id) switch (G.setDisplayConsumedSkillPoint(parseInt(F.consumedSkillPoint)), F.skillType) {
-                            case "":
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                G.setTypeStatus(F.consumedSkillPoint > 0 ? "" : nc.bns.training.Model.SKILL_TYPE_ACQUISITION);
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                        case "":
+                            break;
+                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                            G.setTypeStatus(F.consumedSkillPoint > 0 ? "" : nc.bns.training.Model.SKILL_TYPE_ACQUISITION);
+                            break;
+                        case nc.bns.training.Model.SKILL_TYPE_SHARE:
                         }
                 }
             }
@@ -587,13 +587,13 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function f(b) {
                 switch (b.preventDefault(), b.stopPropagation(), b.type) {
-                    case nc.bns.training.category.CategorySkillList.CLICK_CATEGORY_SKILL_LIST:
-                        h(b.target);
-                        var c = b.skillId;
-                        a(p).trigger({
-                            type: nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST,
-                            skillId: c
-                        })
+                case nc.bns.training.category.CategorySkillList.CLICK_CATEGORY_SKILL_LIST:
+                    h(b.target);
+                    var c = b.skillId;
+                    a(p).trigger({
+                        type: nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST,
+                        skillId: c
+                    })
                 }
             }
 
@@ -611,8 +611,8 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function j(b) {
                 switch (b.type) {
-                    case "mousewheel":
-                    case "DOMMouseScroll":
+                case "mousewheel":
+                case "DOMMouseScroll":
                 }
             }
 
@@ -621,11 +621,11 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             function l(a) {
                 var b = "";
                 switch (a) {
-                    case 1:
-                        b = "default_keycap";
-                        break;
-                    case 2:
-                        b = "pc_level"
+                case 1:
+                    b = "default_keycap";
+                    break;
+                case 2:
+                    b = "pc_level"
                 }
                 return b
             }
@@ -645,14 +645,14 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 return b
             }
             var p = this;
-            p.destroy = function() {
+            p.destroy = function () {
                 if (v) {
                     for (var b, c = 0, d = v.length; d > c; c++) b = v[c], a(b).bind(nc.bns.training.category.CategorySkillList.CLICK_CATEGORY_SKILL_LIST, f);
                     v = null
                 }
-            }, p.activateSkillListBySkillIdByExternal = function(a) {
+            }, p.activateSkillListBySkillIdByExternal = function (a) {
                 g(a)
-            }, p.getSkillListPosYByExternal = function(b) {
+            }, p.getSkillListPosYByExternal = function (b) {
                 for (var c, d = 0, e = !1, f = 0, g = v.length; g > f; f++)
                     if (c = v[f], c.getSkillId() == b) {
                         e = !0;
@@ -670,15 +670,15 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     }
                 }
                 return d
-            }, p.sortListBySortOptionIndex = function(b, c) {
+            }, p.sortListBySortOptionIndex = function (b, c) {
                 a(r).empty(), s = b, t = c, d(), k(0), i()
-            }, p.setSkillListThumbnail = function(a, b) {
+            }, p.setSkillListThumbnail = function (a, b) {
                 n(a, b)
-            }, p.setConsumePointToSkillList = function(a, b) {
+            }, p.setConsumePointToSkillList = function (a, b) {
                 m(a, b)
-            }, p.setSkillListTypeStatus = function(a, b) {
+            }, p.setSkillListTypeStatus = function (a, b) {
                 e(a, b)
-            }, p.setContainerPosYByExternal = function(b) {
+            }, p.setContainerPosYByExternal = function (b) {
                 var c = parseInt(a(q).height()),
                     d = parseInt(a(r).height()),
                     e = c - d;
@@ -691,46 +691,46 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 u = "",
                 v = [];
             return c(), p
-        }, nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST = "SELECT_SKILL_LIST", nc.bns.training.category.CategorySkillList = function(b) {
+        }, nc.bns.training.category.CategoryContainer.SELECT_SKILL_LIST = "SELECT_SKILL_LIST", nc.bns.training.category.CategorySkillList = function (b) {
             function c() {
                 f = a(".point", g), a(g).bind("click", d)
             }
 
             function d(b) {
                 switch (b.preventDefault(), b.type) {
-                    case "click":
-                        a(e).trigger({
-                            type: nc.bns.training.category.CategorySkillList.CLICK_CATEGORY_SKILL_LIST,
-                            target: g,
-                            skillId: i
-                        })
+                case "click":
+                    a(e).trigger({
+                        type: nc.bns.training.category.CategorySkillList.CLICK_CATEGORY_SKILL_LIST,
+                        target: g,
+                        skillId: i
+                    })
                 }
             }
             var e = this;
-            e.getContainer = function() {
+            e.getContainer = function () {
                 return g
-            }, e.activate = function() {
+            }, e.activate = function () {
                 current = i;
                 a(g).addClass("selected")
-            }, e.deactivate = function() {
+            }, e.deactivate = function () {
                 a(g).removeClass("selected")
-            }, e.getConsumedSkillPoint = function() {
+            }, e.getConsumedSkillPoint = function () {
                 return j
-            }, e.getSkillId = function() {
+            }, e.getSkillId = function () {
                 return i
-            }, e.setTypeStatus = function(b) {
+            }, e.setTypeStatus = function (b) {
                 var c = !1;
                 if (a(g).hasClass("lock") && (c = !0), !c) switch (a(g).removeClass(), b) {
-                    case "":
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                        a(g).addClass("disable");
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                case "":
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                    a(g).addClass("disable");
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_SHARE:
                 }
-            }, e.setDisplayConsumedSkillPoint = function(a) {
+            }, e.setDisplayConsumedSkillPoint = function (a) {
                 0 >= a ? f.removeClass("point_able") : (f.addClass("point_able"), f.text(String(a))), j = a
-            }, e.setThumbnail = function(b) {
+            }, e.setThumbnail = function (b) {
                 var c = b ? b : "",
                     d = a(".thumb > img", g).get(0);
                 d && d.src !== b && (d.src = c)
@@ -744,12 +744,12 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
     }(jQuery);
 var nc;
 nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = {}),
-    function($) {
+    function ($) {
         nc.bns.training.util = {}, nc.bns.training.util.StringUtil = {
-            trim: function(a) {
+            trim: function (a) {
                 return a.replace(/^\s+/, "").replace(/\s+$/, "")
             },
-            getFixedPostPositionStr: function(a, b) {
+            getFixedPostPositionStr: function (a, b) {
                 function c(a, b) {
                     return "을" == a || "를" == a ? b ? "을" : "를" : "이" == a || "가" == a ? b ? "이" : "가" : "은" == a || "는" == a ? b ? "은" : "는" : "과" == a || "와" == a ? b ? "과" : "와" : a
                 }
@@ -758,47 +758,47 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 var d = a.charCodeAt(a.length - 1);
                 return 44032 > d || d > 55203 ? b : (d - 44032) % 28 !== 0 ? c(b, !0) : c(b, !1)
             },
-            getInitialJamoStr: function(a, b) {
+            getInitialJamoStr: function (a, b) {
                 var c, d = a.charCodeAt();
                 return d >= 44032 && 55203 >= d ? (c = Math.floor((d - 44032) / 588), c = String(b[c])) : c = d >= 32 && 126 >= d ? 32 == d ? " " : String.fromCharCode(92 == d ? d : d) : String.fromCharCode(d), c
             }
         }, nc.bns.training.util.ArrayUtil = {
-            indexOf: function(a, b) {
+            indexOf: function (a, b) {
                 for (var c = 0, d = a.length; d > c; c++)
                     if (a[c] === b) return c;
                 return -1
             },
-            getElement: function(a, b) {
+            getElement: function (a, b) {
                 for (var c = 0, d = a.length; d > c; c++)
                     if (a[c] === b) return b;
                 return null
             },
-            getMaxNumberByArr: function(a) {
-                return a.sort(function(a, b) {
+            getMaxNumberByArr: function (a) {
+                return a.sort(function (a, b) {
                     return a - b
                 }), a[a.length - 1]
             },
-            removeElement: function(a, b) {
+            removeElement: function (a, b) {
                 var c = nc.bns.training.util.ArrayUtil.indexOf(a, b);
                 c >= 0 && a.splice(c, 1)
             }
         }, nc.bns.training.util.ObjectUtil = {
-            getSize: function(a) {
+            getSize: function (a) {
                 var b, c = 0;
                 for (b in a) a.hasOwnProperty(b) && c++;
                 return c
             },
-            getElementKeyNameArr: function(a) {
+            getElementKeyNameArr: function (a) {
                 var b, c = [];
                 for (b in a) a.hasOwnProperty(b) && c.push(b);
                 return c
             },
-            getElementArr: function(a) {
+            getElementArr: function (a) {
                 var b, c = [];
                 for (b in a) a.hasOwnProperty(b) && c.push(a[b]);
                 return c
             },
-            getAccumulatedNumberVal: function(a, b) {
+            getAccumulatedNumberVal: function (a, b) {
                 if (!b) return null;
                 if (void 0 === a[b]) return 0;
                 var c, d = 0;
@@ -811,17 +811,17 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 return d
             }
         }, nc.bns.training.util.CheckUtil = {
-            available: function(a) {
+            available: function (a) {
                 var b = !0;
                 return null == a || void 0 == a ? !1 : b
             }
         }, nc.bns.training.util.SearchDataUtil = {
-            getConsumedSkillPoint: function(a, b, c) {
+            getConsumedSkillPoint: function (a, b, c) {
                 var d = 0,
                     e = [],
                     f = "",
                     g = {};
-                g.makeConsumedPointArr = function(d, g) {
+                g.makeConsumedPointArr = function (d, g) {
                     var h, i, j = !1,
                         k = !1;
                     for (var l in a) {
@@ -863,7 +863,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 for (var h, i = 0, j = e.length; j > i; i++) h = parseInt(e[i]), 0 == h && (h = 1), d += h;
                 return d
             },
-            get1stVaridationObjHasTooltipAlias: function(a, b, c) {
+            get1stVaridationObjHasTooltipAlias: function (a, b, c) {
                 var d, e, f = null,
                     g = nc.bns.training.Model.SLOT_OBJ_JSON[String(a)],
                     h = !1;
@@ -874,7 +874,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 return f
             },
-            getVariationObjHasVariationId: function(a, b) {
+            getVariationObjHasVariationId: function (a, b) {
                 var c, d, e = null,
                     f = nc.bns.training.Model.SLOT_OBJ_JSON[String(a)],
                     g = !1;
@@ -885,7 +885,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 return e
             },
-            getVariationObjHasVariationIdAndAlias: function(a, b, c) {
+            getVariationObjHasVariationIdAndAlias: function (a, b, c) {
                 var d, e, f = null,
                     g = nc.bns.training.Model.SLOT_OBJ_JSON[String(a)],
                     h = !1;
@@ -896,7 +896,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 return f
             },
-            getCustomVariationObjHasSkillIdAndVariationId: function(a, b, c) {
+            getCustomVariationObjHasSkillIdAndVariationId: function (a, b, c) {
                 var d, e, f = null,
                     g = nc.bns.training.Model.SLOT_OBJ_JSON[String(a)],
                     h = !1;
@@ -917,23 +917,23 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 return f
             }
-        }, nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr = function(a) {
+        }, nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr = function (a) {
             for (var b = !1, c = null, d = 0, e = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR.length; e > d; d++)
                 if (c = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR[d], String(c.skill_id) == a) {
                     b = !0;
                     break
                 }
             return b ? c : null
-        }, nc.bns.training.util.SearchDataUtil.getAcquisitionSkillListObjFromCustomGlobalModelArrByTreeId = function(a) {
+        }, nc.bns.training.util.SearchDataUtil.getAcquisitionSkillListObjFromCustomGlobalModelArrByTreeId = function (a) {
             for (var b, c = [], d = 0, e = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR.length; e > d; d++) b = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR[d], b.skillType == nc.bns.training.Model.SKILL_TYPE_ACQUISITION && b.tree_id == a && b.tree_id != b.skill_id && c.push(b);
             return c
-        }, nc.bns.training.util.SearchDataUtil.getShareSkillListObjFromCustomGlobalModelArrByTreeId = function(a) {
+        }, nc.bns.training.util.SearchDataUtil.getShareSkillListObjFromCustomGlobalModelArrByTreeId = function (a) {
             for (var b, c = [], d = 0, e = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR.length; e > d; d++) b = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR[d], b.skillType == nc.bns.training.Model.SKILL_TYPE_SHARE && b.tree_id == a && b.tree_id != b.skill_id && c.push(b);
             return c
-        }, nc.bns.training.util.SearchDataUtil.getShareSkillListObjArrFromCustomGlobalModelArr = function() {
+        }, nc.bns.training.util.SearchDataUtil.getShareSkillListObjArrFromCustomGlobalModelArr = function () {
             for (var a, b = [], c = 0, d = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR.length; d > c; c++) a = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR[c], a.skillType == nc.bns.training.Model.SKILL_TYPE_SHARE && b.push(a);
             return b
-        }, nc.bns.training.util.SearchDataUtil.getVariationObjFromSkillSlotDataByAlias = function(a, b) {
+        }, nc.bns.training.util.SearchDataUtil.getVariationObjFromSkillSlotDataByAlias = function (a, b) {
             var c, d, e = !1;
             for (var f in a) {
                 c = a[f];
@@ -945,10 +945,10 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 if (e) break
             }
             return e ? d : null
-        }, nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId = function(a, b) {
+        }, nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId = function (a, b) {
             var c = [],
                 d = {};
-            return d.makeTrainSkillIdArr = function(d, e) {
+            return d.makeTrainSkillIdArr = function (d, e) {
                 var f, g, h, i = !1,
                     j = !1;
                 for (var k in a) {
@@ -971,10 +971,10 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 j && d.makeTrainSkillIdArr(d, !0)
             }, d.makeTrainSkillIdArr(d, !1), c
-        }, nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs = function(a, b) {
+        }, nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs = function (a, b) {
             var c = [],
                 d = {};
-            return d.makeTrainSkillVariationObjArr = function(d, e) {
+            return d.makeTrainSkillVariationObjArr = function (d, e) {
                 var f, g, h = !1,
                     i = !1;
                 for (var j in a) {
@@ -993,10 +993,10 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 i && d.makeTrainSkillVariationObjArr(d, !0)
             }, d.makeTrainSkillVariationObjArr(d, !1), c
-        }, nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillVariationObjs = function(a, b) {
+        }, nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillVariationObjs = function (a, b) {
             var c = [],
                 d = {};
-            return d.makeTrainSkillVariationObjArr = function(d, e) {
+            return d.makeTrainSkillVariationObjArr = function (d, e) {
                 var f, g, h = !1,
                     i = !1;
                 for (var j in a) {
@@ -1028,7 +1028,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
                 i && d.makeTrainSkillVariationObjArr(d, !0)
             }, d.makeTrainSkillVariationObjArr(d, !1), c
-        }, nc.bns.training.tree = {}, nc.bns.training.tooltip = {}, nc.bns.training.Training = function(_options) {
+        }, nc.bns.training.tree = {}, nc.bns.training.tooltip = {}, nc.bns.training.Training = function (_options) {
             function init($flag_initializeFirst, $jsonObj) {
                 function getFlagNoTrainingSkill() {
                     if ("1" == _tmpObj.tree_id) return !0;
@@ -1045,31 +1045,31 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
                 function selectLevelEventHandler(a) {
                     switch (a.preventDefault(), a.stopPropagation(), a.type) {
-                        case nc.bns.training.select.SelectLevel.SELECT_LEVEL:
-                            var b = a.level;
-                            if (b == nc.bns.training.Model.level) return;
-                            if (b < nc.bns.training.Model.level) {
-                                var c = {
-                                    character_level: b,
-                                    character_mastery_level: 0,
-                                    character_job: nc.bns.training.Model.job,
-                                    json_slot_data: {}
-                                };
-                                b < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL ? resettingByJsonDataObj(c) : b >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (resettingByJsonDataObj(c), _selectMasteryLevel.switchMasteryLevelLange(parseInt(nc.bns.training.Model.MASTERY_LEVEL_RANGE_BY_LEVEL_OBJ[String(nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE)])), _selectMasteryLevel.displayMasteryLevel(nc.bns.training.Model.masteryLevel))
-                            } else {
-                                var d, e = nc.bns.training.Model.level;
-                                switch (e < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL ? d = "level50Under" : e >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (d = "level50Over"), d) {
-                                    case "level50Under":
-                                        nc.bns.training.Model.level = b, nc.bns.training.Model.masteryLevel = 0, nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, _categoryContents.sortListBySortOptionIndexByExternal(), _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), resetTreeContentsAndTooltipContentsBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointTotalByExternal(nc.bns.training.Model.skillPointTotal), b < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL || b >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (bindMasterySelectLevelInteraction(!0), _selectMasteryLevel.switchMasteryLevelLange(parseInt(nc.bns.training.Model.MASTERY_LEVEL_RANGE_BY_LEVEL_OBJ[String(nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE)])), _selectMasteryLevel.displayMasteryLevel(nc.bns.training.Model.masteryLevel), _selectMasteryLevel.setMouseInteraction(!0));
-                                        break;
-                                    case "level50Over":
-                                        b >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (nc.bns.training.Model.level = b, nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, _categoryContents.sortListBySortOptionIndexByExternal(), _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), resetTreeContentsAndTooltipContentsBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointTotalByExternal(nc.bns.training.Model.skillPointTotal))
-                                }
-                                _categoryContents.setCategoryContainerPosY(nc.bns.training.Model.wheelScrollCategoryContainerPosY)
+                    case nc.bns.training.select.SelectLevel.SELECT_LEVEL:
+                        var b = a.level;
+                        if (b == nc.bns.training.Model.level) return;
+                        if (b < nc.bns.training.Model.level) {
+                            var c = {
+                                character_level: b,
+                                character_mastery_level: 0,
+                                character_job: nc.bns.training.Model.job,
+                                json_slot_data: {}
+                            };
+                            b < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL ? resettingByJsonDataObj(c) : b >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (resettingByJsonDataObj(c), _selectMasteryLevel.switchMasteryLevelLange(parseInt(nc.bns.training.Model.MASTERY_LEVEL_RANGE_BY_LEVEL_OBJ[String(nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE)])), _selectMasteryLevel.displayMasteryLevel(nc.bns.training.Model.masteryLevel))
+                        } else {
+                            var d, e = nc.bns.training.Model.level;
+                            switch (e < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL ? d = "level50Under" : e >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (d = "level50Over"), d) {
+                            case "level50Under":
+                                nc.bns.training.Model.level = b, nc.bns.training.Model.masteryLevel = 0, nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, _categoryContents.sortListBySortOptionIndexByExternal(), _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), resetTreeContentsAndTooltipContentsBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointTotalByExternal(nc.bns.training.Model.skillPointTotal), b < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL || b >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (bindMasterySelectLevelInteraction(!0), _selectMasteryLevel.switchMasteryLevelLange(parseInt(nc.bns.training.Model.MASTERY_LEVEL_RANGE_BY_LEVEL_OBJ[String(nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE)])), _selectMasteryLevel.displayMasteryLevel(nc.bns.training.Model.masteryLevel), _selectMasteryLevel.setMouseInteraction(!0));
+                                break;
+                            case "level50Over":
+                                b >= nc.bns.training.Model.LEVEL_SWITCH_MASTERY_LEVEL_RANGE && (nc.bns.training.Model.level = b, nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, _categoryContents.sortListBySortOptionIndexByExternal(), _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), resetTreeContentsAndTooltipContentsBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointTotalByExternal(nc.bns.training.Model.skillPointTotal))
                             }
-                            break;
-                        case nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL:
-                            _selectMasteryLevel && _selectMasteryLevel.openByExternal(!1), setBodyMouseInteractionForCloseMasteryLevelSelectUI(!0)
+                            _categoryContents.setCategoryContainerPosY(nc.bns.training.Model.wheelScrollCategoryContainerPosY)
+                        }
+                        break;
+                    case nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL:
+                        _selectMasteryLevel && _selectMasteryLevel.openByExternal(!1), setBodyMouseInteractionForCloseMasteryLevelSelectUI(!0)
                     }
                 }
 
@@ -1079,124 +1079,124 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
                 function bodyMouseEventHandler(a) {
                     switch (a.preventDefault(), a.stopPropagation(), a.type) {
-                        case "click":
-                            _selectLevel && _selectLevel.openByExternal(!1), _selectMasteryLevel && _selectMasteryLevel.openByExternal(!1), setBodyMouseInteractionForCloseMasteryLevelSelectUI(!1)
+                    case "click":
+                        _selectLevel && _selectLevel.openByExternal(!1), _selectMasteryLevel && _selectMasteryLevel.openByExternal(!1), setBodyMouseInteractionForCloseMasteryLevelSelectUI(!1)
                     }
                 }
 
                 function selectMasteryLevelEventHandler(a) {
                     switch (a.preventDefault(), a.stopPropagation(), a.type) {
-                        case nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL:
-                            _selectLevel && _selectLevel.openByExternal(!1), _selectMasteryLevel && _selectMasteryLevel.openByExternal(!0), setBodyMouseInteractionForCloseMasteryLevelSelectUI(!0);
-                            break;
-                        case nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL:
-                            var b = a.level;
-                            if (b == nc.bns.training.Model.masteryLevel) return;
-                            if (b < nc.bns.training.Model.masteryLevel) {
-                                var c = {
-                                    character_level: nc.bns.training.Model.level,
-                                    character_mastery_level: b,
-                                    character_job: nc.bns.training.Model.job,
-                                    json_slot_data: {}
-                                };
-                                resettingByJsonDataObj(c)
-                            } else nc.bns.training.Model.level = nc.bns.training.Model.level, nc.bns.training.Model.masteryLevel = b, nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, resetTreeContentsAndTooltipContentsBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointTotalByExternal(nc.bns.training.Model.skillPointTotal)
+                    case nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL:
+                        _selectLevel && _selectLevel.openByExternal(!1), _selectMasteryLevel && _selectMasteryLevel.openByExternal(!0), setBodyMouseInteractionForCloseMasteryLevelSelectUI(!0);
+                        break;
+                    case nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL:
+                        var b = a.level;
+                        if (b == nc.bns.training.Model.masteryLevel) return;
+                        if (b < nc.bns.training.Model.masteryLevel) {
+                            var c = {
+                                character_level: nc.bns.training.Model.level,
+                                character_mastery_level: b,
+                                character_job: nc.bns.training.Model.job,
+                                json_slot_data: {}
+                            };
+                            resettingByJsonDataObj(c)
+                        } else nc.bns.training.Model.level = nc.bns.training.Model.level, nc.bns.training.Model.masteryLevel = b, nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, resetTreeContentsAndTooltipContentsBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointTotalByExternal(nc.bns.training.Model.skillPointTotal)
                     }
                 }
 
                 function categoryContentsEventHandler(a) {
                     switch (a.preventDefault(), a.type) {
-                        case nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST:
-                            setTreeContentsAndTooltipContentsBySkillId(String(a.skillId));
-                            break;
-                        case nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU:
-                            var b = a.sortOptionIndex;
-                            nc.bns.training.Model.sortOptionIndex = b, _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), nc.bns.training.Model.wheelScrollCategoryContainerPosY = 0
+                    case nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST:
+                        setTreeContentsAndTooltipContentsBySkillId(String(a.skillId));
+                        break;
+                    case nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU:
+                        var b = a.sortOptionIndex;
+                        nc.bns.training.Model.sortOptionIndex = b, _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), nc.bns.training.Model.wheelScrollCategoryContainerPosY = 0
                     }
                 }
 
                 function treeContentsEventHandler(a) {
                     switch (a.preventDefault(), a.type) {
-                        case nc.bns.training.tree.Contents.MOUSEOVER_SLOT:
-                            _tooltipContents.displayDiffData(a);
-                            break;
-                        case nc.bns.training.tree.Contents.MOUSEOUT_SLOT:
-                            _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId);
-                            break;
-                        case nc.bns.training.tree.Contents.CONSUME_SKILL_POINT:
-                            var b = a.skillId,
-                                c = a.treeId,
-                                d = a.prevTrainSkillIdArr,
-                                e = a.skillType,
-                                f = a.slotType,
-                                g = a.switchSkillData,
-                                h = a.variationData,
-                                i = a.required_tp,
-                                j = !1,
-                                k = "";
-                            if (nc.bns.training.Model.skillPointConsumed >= nc.bns.training.Model.skillPointTotal) return;
-                            if (nc.bns.training.Model.skillPointConsumed + i > nc.bns.training.Model.skillPointTotal) return;
-                            switch (nc.bns.training.Model.skillPointConsumed += i, nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, e) {
-                                case "":
-                                    switch (f) {
-                                        case nc.bns.training.Model.SLOT_ACQUISITION:
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
-                                            break;
-                                        case "":
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), h && _categoryContents.replaceNormalSkillListThumbInCategoryContainer(c, h.variation_id), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
-                                            break;
-                                        case nc.bns.training.Model.SLOT_REPLACE:
-                                            if (!g) return;
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _categoryContents.replaceSkillListInCategoryContainer(b, g.variationId, g.alias, g.skillName), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !0, k = c
-                                    }
-                                    break;
-                                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                    switch (f) {
-                                        case nc.bns.training.Model.SLOT_ACQUISITION:
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
-                                            break;
-                                        case "":
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
-                                            break;
-                                        case nc.bns.training.Model.SLOT_REPLACE:
-                                            if (!g) return;
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _categoryContents.replaceSkillListInCategoryContainer(b, g.variationId, g.alias, g.skillName), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !0, k = nc.bns.training.Model.lastSelectedSkillListSkillId
-                                    }
-                                    break;
-                                case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                                    switch (f) {
-                                        case nc.bns.training.Model.SLOT_ACQUISITION:
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
-                                            break;
-                                        case "":
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
-                                            break;
-                                        case nc.bns.training.Model.SLOT_REPLACE:
-                                            if (!g) return;
-                                            _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _categoryContents.replaceSkillListInCategoryContainer(b, g.variationId, g.alias, g.skillName), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !0, k = nc.bns.training.Model.lastSelectedSkillListSkillId
-                                    }
+                    case nc.bns.training.tree.Contents.MOUSEOVER_SLOT:
+                        _tooltipContents.displayDiffData(a);
+                        break;
+                    case nc.bns.training.tree.Contents.MOUSEOUT_SLOT:
+                        _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId);
+                        break;
+                    case nc.bns.training.tree.Contents.CONSUME_SKILL_POINT:
+                        var b = a.skillId,
+                            c = a.treeId,
+                            d = a.prevTrainSkillIdArr,
+                            e = a.skillType,
+                            f = a.slotType,
+                            g = a.switchSkillData,
+                            h = a.variationData,
+                            i = a.required_tp,
+                            j = !1,
+                            k = "";
+                        if (nc.bns.training.Model.skillPointConsumed >= nc.bns.training.Model.skillPointTotal) return;
+                        if (nc.bns.training.Model.skillPointConsumed + i > nc.bns.training.Model.skillPointTotal) return;
+                        switch (nc.bns.training.Model.skillPointConsumed += i, nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal - nc.bns.training.Model.skillPointConsumed, e) {
+                        case "":
+                            switch (f) {
+                            case nc.bns.training.Model.SLOT_ACQUISITION:
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
+                                break;
+                            case "":
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), h && _categoryContents.replaceNormalSkillListThumbInCategoryContainer(c, h.variation_id), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
+                                break;
+                            case nc.bns.training.Model.SLOT_REPLACE:
+                                if (!g) return;
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _categoryContents.replaceSkillListInCategoryContainer(b, g.variationId, g.alias, g.skillName), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !0, k = c
                             }
-                            if (setCategoryTreeSkillListStatusToTrainSkillLists(c, d), setCategoryTreeSkillListStatusToShareSkillLists(c), _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointConsumedByExternal(String(nc.bns.training.Model.skillPointConsumed)), j) {
-                                var l = _categoryContents.getSkillListPosYInCategoryContainer(k);
-                                _categoryContents.setCategoryContainerPosY(-l), nc.bns.training.Model.wheelScrollCategoryContainerPosY = -l
-                            } else _categoryContents.setCategoryContainerPosY(nc.bns.training.Model.wheelScrollCategoryContainerPosY);
                             break;
-                        case nc.bns.training.tree.Contents.CANCEL_SKILL_POINT:
-                            var tempScrollTop;
-                            tempScrollTop = $("div.categoryBody").scrollTop();
-                            j = a.flag_changeSkillName;
-                            var m = getTrainAllSkillJsonData(),
-                                n = {
-                                    character_level: parseInt(nc.bns.training.Model.level),
-                                    character_mastery_level: parseInt(nc.bns.training.Model.masteryLevel),
-                                    character_job: String(nc.bns.training.Model.job),
-                                    json_slot_data: m
-                                };
-                            if (resettingByJsonDataObj(n), j) {
-                                var l = _categoryContents.getSkillListPosYInCategoryContainer(nc.bns.training.Model.lastSelectedSkillListSkillId);
-                                _categoryContents.setCategoryContainerPosY(-l), nc.bns.training.Model.wheelScrollCategoryContainerPosY = -l
-                            } else _categoryContents.setCategoryContainerPosY(nc.bns.training.Model.wheelScrollCategoryContainerPosY)
-                            $("div.categoryBody").scrollTop(tempScrollTop);
+                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                            switch (f) {
+                            case nc.bns.training.Model.SLOT_ACQUISITION:
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
+                                break;
+                            case "":
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
+                                break;
+                            case nc.bns.training.Model.SLOT_REPLACE:
+                                if (!g) return;
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _categoryContents.replaceSkillListInCategoryContainer(b, g.variationId, g.alias, g.skillName), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !0, k = nc.bns.training.Model.lastSelectedSkillListSkillId
+                            }
+                            break;
+                        case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                            switch (f) {
+                            case nc.bns.training.Model.SLOT_ACQUISITION:
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
+                                break;
+                            case "":
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !1;
+                                break;
+                            case nc.bns.training.Model.SLOT_REPLACE:
+                                if (!g) return;
+                                _categoryContents.consumePointToSkillListInCategoryContainer(c, i), _categoryContents.replaceSkillListInCategoryContainer(b, g.variationId, g.alias, g.skillName), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId), j = !0, k = nc.bns.training.Model.lastSelectedSkillListSkillId
+                            }
+                        }
+                        if (setCategoryTreeSkillListStatusToTrainSkillLists(c, d), setCategoryTreeSkillListStatusToShareSkillLists(c), _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.displaySkillPointConsumedByExternal(String(nc.bns.training.Model.skillPointConsumed)), j) {
+                            var l = _categoryContents.getSkillListPosYInCategoryContainer(k);
+                            _categoryContents.setCategoryContainerPosY(-l), nc.bns.training.Model.wheelScrollCategoryContainerPosY = -l
+                        } else _categoryContents.setCategoryContainerPosY(nc.bns.training.Model.wheelScrollCategoryContainerPosY);
+                        break;
+                    case nc.bns.training.tree.Contents.CANCEL_SKILL_POINT:
+                        var tempScrollTop;
+                        tempScrollTop = $("div.categoryBody").scrollTop();
+                        j = a.flag_changeSkillName;
+                        var m = getTrainAllSkillJsonData(),
+                            n = {
+                                character_level: parseInt(nc.bns.training.Model.level),
+                                character_mastery_level: parseInt(nc.bns.training.Model.masteryLevel),
+                                character_job: String(nc.bns.training.Model.job),
+                                json_slot_data: m
+                            };
+                        if (resettingByJsonDataObj(n), j) {
+                            var l = _categoryContents.getSkillListPosYInCategoryContainer(nc.bns.training.Model.lastSelectedSkillListSkillId);
+                            _categoryContents.setCategoryContainerPosY(-l), nc.bns.training.Model.wheelScrollCategoryContainerPosY = -l
+                        } else _categoryContents.setCategoryContainerPosY(nc.bns.training.Model.wheelScrollCategoryContainerPosY)
+                        $("div.categoryBody").scrollTop(tempScrollTop);
                     }
                 }
 
@@ -1209,7 +1209,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
 
                 function getHeaderStr() {
-                    var a = '<div class="header"><span class="job">'+nc.bns.training.Model.JOB_NAME_OBJ[nc.bns.training.Model.job]+'</span><span class="level select_level">Level <strong>' + nc.bns.training.Model.level + '</strong><span class="btn_level"></span><ul class="ly_level"></ul></span><span class="mastery_level select_level">' + nc.bns.training.Model.masteryTitle + "<strong>" + nc.bns.training.Model.masteryLevel + '</strong><span class="btn_level"></span><ul class="ly_level"><li>0</li></ul></span><span><a href="#" data-toggle="modal" class="btn_reset_all" data-target="#resetAll">Reset All</a></span><span><a href="#" data-toggle="modal" class="btn_reset" data-target="#reset">Reset Skill</a></span></div>';
+                    var a = '<div class="header"><span class="job">' + nc.bns.training.Model.JOB_NAME_OBJ[nc.bns.training.Model.job] + '</span><span class="level select_level">Level <strong>' + nc.bns.training.Model.level + '</strong><span class="btn_level"></span><ul class="ly_level"></ul></span><span class="mastery_level select_level">' + nc.bns.training.Model.masteryTitle + "<strong>" + nc.bns.training.Model.masteryLevel + '</strong><span class="btn_level"></span><ul class="ly_level"><li>0</li></ul></span><span><a href="#" data-toggle="modal" class="btn_reset_all" data-target="#resetAll">Reset All</a></span><span><a href="#" data-toggle="modal" class="btn_reset" data-target="#reset">Reset Skill</a></span></div>';
                     return a
                 }
                 setBodyMouseInteractionForCloseMasteryLevelSelectUI(!1), _contents ? $(_contents).empty() : _contents = $(options.containerSelector).get(0), $flag_initializeFirst ? (nc.bns.training.Model.level = parseInt(options.level), nc.bns.training.Model.masteryLevel = parseInt(options.masteryLevel), nc.bns.training.Model.level < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL ? (nc.bns.training.Model.masteryLevel = 0, flag_canUseSelectMastery = !1) : flag_canUseSelectMastery = !0, nc.bns.training.Model.job = String(options.job), nc.bns.training.Model.masteryTitle = String(options.masteryTitle), nc.bns.training.Model.maxLevel = parseInt(options.maxLevel), nc.bns.training.Model.editable = nc.bns.training.util.CheckUtil.available(options.editable) ? options.editable : !0) : (nc.bns.training.Model.level = parseInt($jsonObj.character_level), nc.bns.training.Model.masteryLevel = parseInt($jsonObj.character_mastery_level), nc.bns.training.Model.level < nc.bns.training.Model.MIN_LEVEL_CAN_USE_MASTERY_LEVEL ? (nc.bns.training.Model.masteryLevel = 0, flag_canUseSelectMastery = !1) : flag_canUseSelectMastery = !0, nc.bns.training.Model.job = String($jsonObj.character_job)), nc.bns.training.Model.skillPointTotal = nc.bns.training.Model.level < nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT ? 0 : nc.bns.training.Model.level - nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT + 1 + nc.bns.training.util.ObjectUtil.getAccumulatedNumberVal(nc.bns.training.Model.MASTERY_LEVEL_POINTS, String(nc.bns.training.Model.masteryLevel)), nc.bns.training.Model.skillPointConsumed = 0, nc.bns.training.Model.skillPointRemained = nc.bns.training.Model.skillPointTotal;
@@ -1245,8 +1245,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                         if (flag_break)
                             if (flag_acquisitionSkill) {
                                 _tmpObj.skillType = nc.bns.training.Model.SKILL_TYPE_ACQUISITION;
-                            }
-                            else {
+                            } else {
                                 var flag_existTreeId = !1;
                                 for (var index in variationObj.parent_train)
                                     if (variationObj.parent_train[index] == variationObj.tree_id) {
@@ -1274,23 +1273,23 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     treeWrapElementStr = '<div class="treeWrap"></div>',
                     tooltipWrapElementStr = '<div class="tooltipWrap"></div>';
                 if ($(_contents).append(categoryWrapElementStr), $(_contents).append(treeWrapElementStr), $(_contents).append(tooltipWrapElementStr), _categoryContents && ($(_categoryContents).unbind(nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST, categoryContentsEventHandler), $(_categoryContents).unbind(nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU, categoryContentsEventHandler), _categoryContents.destroy(), _categoryContents = null), _treeContents && ($(_treeContents).unbind(nc.bns.training.tree.Contents.CONSUME_SKILL_POINT, treeContentsEventHandler), $(_treeContents).unbind(nc.bns.training.tree.Contents.CANCEL_SKILL_POINT, treeContentsEventHandler), $(_treeContents).unbind(nc.bns.training.tree.Contents.MOUSEOVER_SLOT, treeContentsEventHandler), _treeContents.destroy(), _treeContents = null), _tooltipContents && (_tooltipContents.destroy(), _tooltipContents = null), _selectLevel && ($(_selectLevel).unbind(nc.bns.training.select.SelectLevel.SELECT_LEVEL, selectLevelEventHandler), $(_selectLevel).unbind(nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL, selectLevelEventHandler), _selectLevel.destroy(), _selectLevel = null), _selectMasteryLevel && ($(_selectMasteryLevel).unbind(nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL, selectMasteryLevelEventHandler), $(_selectMasteryLevel).unbind(nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL, selectMasteryLevelEventHandler), _selectMasteryLevel.destroy(), _selectMasteryLevel = null), _categoryContents = new nc.bns.training.category.Contents({
-                    container: $(".categoryWrap", _contents).get(0),
-                    objArr: nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR,
-                    sortOptionIndex: nc.bns.training.Model.sortOptionIndex
-                }), $(_categoryContents).bind(nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST, categoryContentsEventHandler), $(_categoryContents).bind(nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU, categoryContentsEventHandler), _treeContents = new nc.bns.training.tree.Contents({
-                    container: $(".treeWrap", _contents).get(0),
-                    objArr: nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR
-                }), $(_treeContents).bind(nc.bns.training.tree.Contents.CONSUME_SKILL_POINT, treeContentsEventHandler), $(_treeContents).bind(nc.bns.training.tree.Contents.CANCEL_SKILL_POINT, treeContentsEventHandler), $(_treeContents).bind(nc.bns.training.tree.Contents.MOUSEOVER_SLOT, treeContentsEventHandler), $(_treeContents).bind(nc.bns.training.tree.Contents.MOUSEOUT_SLOT, treeContentsEventHandler), _tooltipContents = new nc.bns.training.tooltip.Contents({
-                    container: $(".tooltipWrap", _contents).get(0)
-                }), _selectLevel = new nc.bns.training.select.SelectLevel({
-                    container: $(".level.select_level").get(0),
-                    minLevelCanUseSkillPoint: nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT,
-                    maxLevel: nc.bns.training.Model.maxLevel,
-                    editable: nc.bns.training.Model.editable
-                }), $(_selectLevel).bind(nc.bns.training.select.SelectLevel.SELECT_LEVEL, selectLevelEventHandler), $(_selectLevel).bind(nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL, selectLevelEventHandler), _selectMasteryLevel = new nc.bns.training.select.SelectMasteryLevel({
-                    container: $(".mastery_level.select_level").get(0),
-                    editable: nc.bns.training.Model.editable
-                }), $(_selectMasteryLevel).bind(nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL, selectMasteryLevelEventHandler), $(_selectMasteryLevel).bind(nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL, selectMasteryLevelEventHandler), $flag_initializeFirst) {
+                        container: $(".categoryWrap", _contents).get(0),
+                        objArr: nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR,
+                        sortOptionIndex: nc.bns.training.Model.sortOptionIndex
+                    }), $(_categoryContents).bind(nc.bns.training.category.Contents.TRIGGER_SELECT_SKILL_LIST, categoryContentsEventHandler), $(_categoryContents).bind(nc.bns.training.category.Contents.TRIGGER_SELECT_SORT_MENU, categoryContentsEventHandler), _treeContents = new nc.bns.training.tree.Contents({
+                        container: $(".treeWrap", _contents).get(0),
+                        objArr: nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR
+                    }), $(_treeContents).bind(nc.bns.training.tree.Contents.CONSUME_SKILL_POINT, treeContentsEventHandler), $(_treeContents).bind(nc.bns.training.tree.Contents.CANCEL_SKILL_POINT, treeContentsEventHandler), $(_treeContents).bind(nc.bns.training.tree.Contents.MOUSEOVER_SLOT, treeContentsEventHandler), $(_treeContents).bind(nc.bns.training.tree.Contents.MOUSEOUT_SLOT, treeContentsEventHandler), _tooltipContents = new nc.bns.training.tooltip.Contents({
+                        container: $(".tooltipWrap", _contents).get(0)
+                    }), _selectLevel = new nc.bns.training.select.SelectLevel({
+                        container: $(".level.select_level").get(0),
+                        minLevelCanUseSkillPoint: nc.bns.training.Model.MIN_LEVEL_CAN_USE_SKILL_POINT,
+                        maxLevel: nc.bns.training.Model.maxLevel,
+                        editable: nc.bns.training.Model.editable
+                    }), $(_selectLevel).bind(nc.bns.training.select.SelectLevel.SELECT_LEVEL, selectLevelEventHandler), $(_selectLevel).bind(nc.bns.training.select.SelectLevel.OPEN_SELECT_LEVEL, selectLevelEventHandler), _selectMasteryLevel = new nc.bns.training.select.SelectMasteryLevel({
+                        container: $(".mastery_level.select_level").get(0),
+                        editable: nc.bns.training.Model.editable
+                    }), $(_selectMasteryLevel).bind(nc.bns.training.select.SelectMasteryLevel.SELECT_MASTERY_LEVEL, selectMasteryLevelEventHandler), $(_selectMasteryLevel).bind(nc.bns.training.select.SelectMasteryLevel.OPEN_MASTERY_SELECT_LEVEL, selectMasteryLevelEventHandler), $flag_initializeFirst) {
                     var firstSortedSkillId = _categoryContents.getSkillIdOfFirstSkillList();
                     _categoryContents.activateCategorySkillListBySkillId(firstSortedSkillId), _treeContents.setSkillTree(firstSortedSkillId), _tooltipContents.setSkillToolTip(firstSortedSkillId), nc.bns.training.Model.lastSelectedSkillListSkillId = firstSortedSkillId
                 } else _categoryContents.activateCategorySkillListBySkillId(nc.bns.training.Model.lastSelectedSkillListSkillId), _treeContents.setSkillTree(nc.bns.training.Model.lastSelectedSkillListSkillId), _tooltipContents.setSkillToolTip(nc.bns.training.Model.lastSelectedSkillListSkillId);
@@ -1310,17 +1309,17 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 var b, c = a,
                     d = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c);
                 switch (d.skillType) {
-                    case nc.bns.training.Model.SKILL_TYPE_NONE:
-                        nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_NONE, _treeContents.setSkillTree(c), _tooltipContents.setSkillToolTip(c);
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                        nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_ACQUISITION, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                        nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_SHARE, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
-                        break;
-                    default:
-                        nc.bns.training.Model.lastSelectedSkillType = "", _treeContents.resetSkillTreeBySkillId(c), _tooltipContents.setSkillToolTip(c)
+                case nc.bns.training.Model.SKILL_TYPE_NONE:
+                    nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_NONE, _treeContents.setSkillTree(c), _tooltipContents.setSkillToolTip(c);
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                    nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_ACQUISITION, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                    nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_SHARE, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
+                    break;
+                default:
+                    nc.bns.training.Model.lastSelectedSkillType = "", _treeContents.resetSkillTreeBySkillId(c), _tooltipContents.setSkillToolTip(c)
                 }
                 nc.bns.training.Model.lastSelectedSkillListSkillId = c
             }
@@ -1329,17 +1328,17 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 var b, c = a,
                     d = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c);
                 switch (d.skillType) {
-                    case nc.bns.training.Model.SKILL_TYPE_NONE:
-                        nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_NONE, _treeContents.setSkillTree(c), _tooltipContents.setSkillToolTip(c);
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                        nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_ACQUISITION, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                        nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_SHARE, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
-                        break;
-                    default:
-                        nc.bns.training.Model.lastSelectedSkillType = "", _treeContents.setSkillTree(c), _tooltipContents.setSkillToolTip(c)
+                case nc.bns.training.Model.SKILL_TYPE_NONE:
+                    nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_NONE, _treeContents.setSkillTree(c), _tooltipContents.setSkillToolTip(c);
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                    nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_ACQUISITION, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                    nc.bns.training.Model.lastSelectedSkillType = nc.bns.training.Model.SKILL_TYPE_SHARE, b = String(d.tree_id), _treeContents.setTreeIdSkillTree(b, c), _tooltipContents.setSkillToolTip(c);
+                    break;
+                default:
+                    nc.bns.training.Model.lastSelectedSkillType = "", _treeContents.setSkillTree(c), _tooltipContents.setSkillToolTip(c)
                 }
                 nc.bns.training.Model.lastSelectedSkillListSkillId = c
             }
@@ -1369,11 +1368,11 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                             e = d[o];
                             for (var p in e)
                                 if (f = e[p], f.skill_id == a && f.variation_id == b && (c = {
-                                    slotNo: o,
-                                    tree_id: String(f.tree_id),
-                                    skill_id: m,
-                                    variation_id: String(f.variation_id)
-                                }, k = !0), k) break;
+                                        slotNo: o,
+                                        tree_id: String(f.tree_id),
+                                        skill_id: m,
+                                        variation_id: String(f.variation_id)
+                                    }, k = !0), k) break;
                             if (k) break
                         }
                         if (k) break
@@ -1409,23 +1408,23 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                     }
                                 }
                         } else if (e = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(m)) switch (e.skillType) {
-                        case "":
-                            break;
-                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                            var o = nc.bns.training.util.SearchDataUtil.getCustomVariationObjHasSkillIdAndVariationId(e.tree_id, e.skill_id, f);
-                            if (o) {
-                                for (var p, q, r = !1, s = 0, t = l.length; t > s; s++)
-                                    if (p = l[s], p.tree_id == o.tree_id) {
-                                        q = p, r = !0;
-                                        break
-                                    }
-                                r ? (g = String(q.slotNo), h = String(o.slotNo), i = parseInt(g.charAt(0)), j = parseInt(h.charAt(0)), j > i && (nc.bns.training.util.ArrayUtil.removeElement(l, q), l.push(o))) : l.push(o)
-                            }
-                            break;
-                        case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                            break;
-                        case nc.bns.training.Model.SKILL_TYPE_NONE:
-                            b(m, f)
+                    case "":
+                        break;
+                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        var o = nc.bns.training.util.SearchDataUtil.getCustomVariationObjHasSkillIdAndVariationId(e.tree_id, e.skill_id, f);
+                        if (o) {
+                            for (var p, q, r = !1, s = 0, t = l.length; t > s; s++)
+                                if (p = l[s], p.tree_id == o.tree_id) {
+                                    q = p, r = !0;
+                                    break
+                                }
+                            r ? (g = String(q.slotNo), h = String(o.slotNo), i = parseInt(g.charAt(0)), j = parseInt(h.charAt(0)), j > i && (nc.bns.training.util.ArrayUtil.removeElement(l, q), l.push(o))) : l.push(o)
+                        }
+                        break;
+                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                        break;
+                    case nc.bns.training.Model.SKILL_TYPE_NONE:
+                        b(m, f)
                     } else b(m, f);
                     for (var u = {}, s = 0, t = l.length; t > s; s++) d = l[s], u[String(d.skill_id)] = d.variation_id;
                     c.json_slot_data = u, resettingByJsonDataObj(c)
@@ -1433,7 +1432,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             }
             var _this = this,
                 options = _options;
-            _this.resetSelectedSkill = function() {
+            _this.resetSelectedSkill = function () {
                 var a = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(nc.bns.training.Model.lastSelectedSkillListSkillId);
                 if (a) {
                     var b = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(a.tree_id);
@@ -1455,7 +1454,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                         }
                     }
                 }
-            }, _this.resetAllSkill = function() {
+            }, _this.resetAllSkill = function () {
                 var a = {
                     character_level: nc.bns.training.Model.level,
                     character_mastery_level: nc.bns.training.Model.masteryLevel,
@@ -1463,12 +1462,12 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     json_slot_data: {}
                 };
                 resettingByJsonDataObj(a)
-            }, _this.getSendDataObj = function() {
+            }, _this.getSendDataObj = function () {
                 function a() {
                     function a(a, b, c) {
                         var d = [],
                             e = {};
-                        return e.makeTrainSkillVariationArr = function(e, f) {
+                        return e.makeTrainSkillVariationArr = function (e, f) {
                             var g, h, i = !1,
                                 j = !1;
                             for (var k in a) {
@@ -1493,19 +1492,19 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     }
                     for (var b, c, d = nc.bns.training.Model.CUSTOM_CATEGORY_OBJ_ARR, e = {}, f = 0, g = d.length; g > f; f++)
                         if (b = d[f], "" != b.learnedSkillVariationId) switch (b.skillType) {
-                            case "":
-                                if (c = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(String(b.skill_id), String(b.learnedSkillVariationId), String(b.learnedSkillAlias)))
-                                    if (c.skill_id != c.tree_id)
+                        case "":
+                            if (c = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(String(b.skill_id), String(b.learnedSkillVariationId), String(b.learnedSkillAlias)))
+                                if (c.skill_id != c.tree_id)
+                                    for (var h, i = a(nc.bns.training.Model.SLOT_OBJ_JSON[c.tree_id], c.variation_id, c.alias), j = 0, k = i.length; k > j; j++) {
+                                        h = i[j], e[String(h.skill_id)] = h.variation_id;
+                                        var l;
+                                        for (var m in h.train_skill_id) l = h.train_skill_id[m], nc.bns.training.util.CheckUtil.available(l) && (e[String(l)] = String(l == h.skill_id ? h.variation_id : h.variation_id))
+                                    } else
                                         for (var h, i = a(nc.bns.training.Model.SLOT_OBJ_JSON[c.tree_id], c.variation_id, c.alias), j = 0, k = i.length; k > j; j++) {
                                             h = i[j], e[String(h.skill_id)] = h.variation_id;
                                             var l;
                                             for (var m in h.train_skill_id) l = h.train_skill_id[m], nc.bns.training.util.CheckUtil.available(l) && (e[String(l)] = String(l == h.skill_id ? h.variation_id : h.variation_id))
-                                        } else
-                                            for (var h, i = a(nc.bns.training.Model.SLOT_OBJ_JSON[c.tree_id], c.variation_id, c.alias), j = 0, k = i.length; k > j; j++) {
-                                                h = i[j], e[String(h.skill_id)] = h.variation_id;
-                                                var l;
-                                                for (var m in h.train_skill_id) l = h.train_skill_id[m], nc.bns.training.util.CheckUtil.available(l) && (e[String(l)] = String(l == h.skill_id ? h.variation_id : h.variation_id))
-                                            }
+                                        }
                         }
                     return e
                 }
@@ -1516,12 +1515,12 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     json_slot_data: a()
                 };
                 return b
-            }, _this.loadGetJsonData = function(a) {
+            }, _this.loadGetJsonData = function (a) {
                 resettingByLoadJsonData(a)
             };
             var _contents, _categoryContents, _treeContents, _tooltipContents, _selectLevel, _selectMasteryLevel, flag_canUseSelectMastery = !0;
             return init(!0), _this
-        }, nc.bns.training.tooltip.Contents = function(a) {
+        }, nc.bns.training.tooltip.Contents = function (a) {
             function b(a) {
                 for (var b, c = a.split("_"), d = -1, e = 0, f = c.length; f > e; e++) {
                     if (b = c[e], b.search(/^[0-9]+/) >= 0) {
@@ -1584,7 +1583,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
                     function d() {
                         var d = {};
-                        d.matchM1Info = function(d) {
+                        d.matchM1Info = function (d) {
                             if (!(!O.length < 0)) {
                                 for (var e, f, g = !1, h = !1, o = !1, p = 0, q = O.length; q > p; p++) {
                                     if (g = !1, h = !1, o = !1, e = O[p], !e["target-attribute"] && !e["effect-attribute"] && !e["condition-attribute"] && e["default-text"]) {
@@ -1609,19 +1608,19 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                                 else {
                                                     var x = f["condition-attribute"];
                                                     switch (x) {
-                                                        case "C_during_skill":
-                                                            V = $(k).clone(), V.html(e.title + n + l), Z.push(V), U = $(m).clone(), U.html(f.title), Z.push(U), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0;
-                                                            break;
-                                                        case "C_after_using_skill2":
-                                                            for (var y, z = !1, A = 0, B = M.length; B > A; A++)
-                                                                if (y = M[A], y["condition-arg-1"] == e["condition-arg-1"] && y["condition-arg-2"] == e["condition-arg-2"]) {
-                                                                    f = y, z = !0;
-                                                                    break
-                                                                }
-                                                            z && (S = document.createTextNode(e.title), Z.push(S), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0);
-                                                            break;
-                                                        default:
-                                                            T = $(i).clone(), U = $(m).clone(), T.html(e.title + n + j), U.html(f.title), Z.push(T), Z.push(U), h = !0
+                                                    case "C_during_skill":
+                                                        V = $(k).clone(), V.html(e.title + n + l), Z.push(V), U = $(m).clone(), U.html(f.title), Z.push(U), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0;
+                                                        break;
+                                                    case "C_after_using_skill2":
+                                                        for (var y, z = !1, A = 0, B = M.length; B > A; A++)
+                                                            if (y = M[A], y["condition-arg-1"] == e["condition-arg-1"] && y["condition-arg-2"] == e["condition-arg-2"]) {
+                                                                f = y, z = !0;
+                                                                break
+                                                            }
+                                                        z && (S = document.createTextNode(e.title), Z.push(S), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0);
+                                                        break;
+                                                    default:
+                                                        T = $(i).clone(), U = $(m).clone(), T.html(e.title + n + j), U.html(f.title), Z.push(T), Z.push(U), h = !0
                                                     }
                                                 }
                                             if (o) break;
@@ -1637,7 +1636,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
                     function e() {
                         var d = {};
-                        d.matchM2Info = function(d) {
+                        d.matchM2Info = function (d) {
                             if (!(!P.length < 0)) {
                                 for (var e, f, g = !1, h = !1, o = !1, p = 0, q = P.length; q > p; p++) {
                                     if (g = !1, h = !1, o = !1, e = P[p], !e["target-attribute"] && !e["effect-attribute"] && !e["condition-attribute"] && e["default-text"]) {
@@ -1662,19 +1661,19 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                                 else {
                                                     var x = f["condition-attribute"];
                                                     switch (x) {
-                                                        case "C_during_skill":
-                                                            V = $(k).clone(), V.html(e.title + n + l), _.push(V), U = $(m).clone(), U.html(f.title), _.push(U), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0;
-                                                            break;
-                                                        case "C_after_using_skill2":
-                                                            for (var y, z = !1, A = 0, B = M.length; B > A; A++)
-                                                                if (y = M[A], y["condition-arg-1"] == e["condition-arg-1"] && y["condition-arg-2"] == e["condition-arg-2"]) {
-                                                                    f = y, z = !0;
-                                                                    break
-                                                                }
-                                                            z && (S = document.createTextNode(e.title), _.push(S), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0);
-                                                            break;
-                                                        default:
-                                                            T = $(i).clone(), U = $(m).clone(), T.html(e.title + n + j), U.html(f.title), _.push(T), _.push(U), h = !0
+                                                    case "C_during_skill":
+                                                        V = $(k).clone(), V.html(e.title + n + l), _.push(V), U = $(m).clone(), U.html(f.title), _.push(U), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0;
+                                                        break;
+                                                    case "C_after_using_skill2":
+                                                        for (var y, z = !1, A = 0, B = M.length; B > A; A++)
+                                                            if (y = M[A], y["condition-arg-1"] == e["condition-arg-1"] && y["condition-arg-2"] == e["condition-arg-2"]) {
+                                                                f = y, z = !0;
+                                                                break
+                                                            }
+                                                        z && (S = document.createTextNode(e.title), _.push(S), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0);
+                                                        break;
+                                                    default:
+                                                        T = $(i).clone(), U = $(m).clone(), T.html(e.title + n + j), U.html(f.title), _.push(T), _.push(U), h = !0
                                                     }
                                                 }
                                             if (o) break;
@@ -1690,7 +1689,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
                     function f() {
                         var d = {};
-                        d.matchSubInfo = function(d) {
+                        d.matchSubInfo = function (d) {
                             if (!(!Q.length < 0)) {
                                 for (var e, f, g = !1, h = !1, o = !1, p = 0, q = Q.length; q > p; p++) {
                                     if (g = !1, h = !1, o = !1, e = Q[p], !e["target-attribute"] && !e["effect-attribute"] && !e["condition-attribute"] && e["default-text"]) {
@@ -1715,19 +1714,19 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                                 else {
                                                     var x = f["condition-attribute"];
                                                     switch (x) {
-                                                        case "C_during_skill":
-                                                            V = $(k).clone(), V.html(e.title + n + l), ab.push(V), U = $(m).clone(), U.html(f.title), ab.push(U), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0;
-                                                            break;
-                                                        case "C_after_using_skill2":
-                                                            for (var y, z = !1, A = 0, B = M.length; B > A; A++)
-                                                                if (y = M[A], y["condition-arg-1"] == e["condition-arg-1"] && y["condition-arg-2"] == e["condition-arg-2"]) {
-                                                                    f = y, z = !0;
-                                                                    break
-                                                                }
-                                                            z && (S = document.createTextNode(e.title), ab.push(S), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0);
-                                                            break;
-                                                        default:
-                                                            T = $(i).clone(), U = $(m).clone(), T.html(e.title + n + j), U.html(f.title), ab.push(T), ab.push(U), h = !0
+                                                    case "C_during_skill":
+                                                        V = $(k).clone(), V.html(e.title + n + l), ab.push(V), U = $(m).clone(), U.html(f.title), ab.push(U), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0;
+                                                        break;
+                                                    case "C_after_using_skill2":
+                                                        for (var y, z = !1, A = 0, B = M.length; B > A; A++)
+                                                            if (y = M[A], y["condition-arg-1"] == e["condition-arg-1"] && y["condition-arg-2"] == e["condition-arg-2"]) {
+                                                                f = y, z = !0;
+                                                                break
+                                                            }
+                                                        z && (S = document.createTextNode(e.title), ab.push(S), nc.bns.training.util.ArrayUtil.removeElement(Q, e), nc.bns.training.util.ArrayUtil.removeElement(R, e), nc.bns.training.util.ArrayUtil.removeElement(M, f), o = !0);
+                                                        break;
+                                                    default:
+                                                        T = $(i).clone(), U = $(m).clone(), T.html(e.title + n + j), U.html(f.title), ab.push(T), ab.push(U), h = !0
                                                     }
                                                 }
                                             if (o) break;
@@ -1771,27 +1770,27 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                         z = F.main_info2 ? F.main_info2.split("<br/>") : [],
                         A = F.sub_info ? F.sub_info.split("<br/>") : [];
                     for (var B in v) switch (w = v[B], B) {
-                        case "m1":
-                            for (var C in w) x = w[C], x.title = y[parseInt(C)];
-                            break;
-                        case "m2":
-                            for (var C in w) x = w[C], x.title = z[parseInt(C)];
-                            break;
-                        case "sub":
-                            for (var C in w) x = w[C], x.title = A[parseInt(C)]
+                    case "m1":
+                        for (var C in w) x = w[C], x.title = y[parseInt(C)];
+                        break;
+                    case "m2":
+                        for (var C in w) x = w[C], x.title = z[parseInt(C)];
+                        break;
+                    case "sub":
+                        for (var C in w) x = w[C], x.title = A[parseInt(C)]
                     }
                     var w, x, D = G.main_info1 ? G.main_info1.split("<br/>") : [],
                         E = G.main_info2 ? G.main_info2.split("<br/>") : [],
                         J = G.sub_info ? G.sub_info.split("<br/>") : [];
                     for (var B in u) switch (w = u[B], B) {
-                        case "m1":
-                            for (var C in w) x = w[C], x.title = D[parseInt(C)];
-                            break;
-                        case "m2":
-                            for (var C in w) x = w[C], x.title = E[parseInt(C)];
-                            break;
-                        case "sub":
-                            for (var C in w) x = w[C], x.title = J[parseInt(C)]
+                    case "m1":
+                        for (var C in w) x = w[C], x.title = D[parseInt(C)];
+                        break;
+                    case "m2":
+                        for (var C in w) x = w[C], x.title = E[parseInt(C)];
+                        break;
+                    case "sub":
+                        for (var C in w) x = w[C], x.title = J[parseInt(C)]
                     }
                     var K, L, M = [];
                     for (var B in v) {
@@ -1805,14 +1804,14 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     for (var B in u) {
                         K = u[B];
                         for (var N in K) switch (L = K[N], String(L["tooltip-group"]).toUpperCase()) {
-                            case "M1":
-                                R.push(L), O.push(L);
-                                break;
-                            case "M2":
-                                R.push(L), P.push(L);
-                                break;
-                            case "SUB":
-                                R.push(L), Q.push(L)
+                        case "M1":
+                            R.push(L), O.push(L);
+                            break;
+                        case "M2":
+                            R.push(L), P.push(L);
+                            break;
+                        case "SUB":
+                            R.push(L), Q.push(L)
                         }
                     }
                     var S, T, U, V, W = document.createElement("div"),
@@ -1845,80 +1844,126 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     H = "",
                     I = "";
                 if ("" != E.learnedSkillVariationId) switch (x = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(nc.bns.training.Model.lastSelectedSkillListSkillId), x.skillType) {
+                case "":
+                    switch (D) {
                     case "":
-                        switch (D) {
-                            case "":
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
-                                for (var J, K = !1, L = 0, M = y.length; M > L; L++)
-                                    if (J = y[L], J.tooltipAlias == E.learnedSkillTooltipAlias) {
-                                        F = J, K = !0;
-                                        break
-                                    }
-                                if (K);
-                                else {
-                                    for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id != B && O.splice(L, 1);
-                                    if (O.length <= 0) F = y[0];
-                                    else {
-                                        var P = O[0];
-                                        F = f(P.tooltip_alias, y), F || (F = y[0])
-                                    }
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
+                        for (var J, K = !1, L = 0, M = y.length; M > L; L++)
+                            if (J = y[L], J.tooltipAlias == E.learnedSkillTooltipAlias) {
+                                F = J, K = !0;
+                                break
+                            }
+                        if (K);
+                        else {
+                            for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id != B && O.splice(L, 1);
+                            if (O.length <= 0) F = y[0];
+                            else {
+                                var P = O[0];
+                                F = f(P.tooltip_alias, y), F || (F = y[0])
+                            }
+                        }
+                        G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_REPLACE:
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_ACQUISITION:
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
+                        for (var J, K = !1, L = 0, M = y.length; M > L; L++)
+                            if (J = y[L], J.tooltipAlias == E.learnedSkillTooltipAlias) {
+                                F = J, K = !0;
+                                break
+                            }
+                        if (K) u(C, A);
+                        else {
+                            for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
+                            if (y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], O.length <= 0) F = y[0];
+                            else {
+                                var Q = O[0];
+                                F = f(Q.tooltip_alias, y)
+                            }
+                            F || A.skill_id != Q.skill_id && (y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[A.skill_id], F = y[0])
+                        }
+                        G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
+                    }
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                    switch (D) {
+                    case "":
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
+                        for (var J, K = !1, L = 0, M = y.length; M > L; L++)
+                            if (J = y[L], J.tooltipAlias == E.learnedSkillTooltipAlias) {
+                                F = J, K = !0;
+                                break
+                            }
+                        if (K) G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias];
+                        else {
+                            for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id != B && O.splice(L, 1);
+                            if (O.length <= 0) F = y[0];
+                            else {
+                                var P = O[0];
+                                F = f(P.tooltip_alias, y), F || (F = y[0])
+                            }
+                            G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias]
+                        }
+                        v(F, G, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_REPLACE:
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_ACQUISITION:
+                        if (x.skill_id != A.skill_id) {
+                            var K = !1;
+                            y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id];
+                            var R, S;
+                            for (var T in A.train_skill_alias)
+                                if (S = A.train_skill_alias[T]) {
+                                    for (var U = 0, V = y.length; V > U; U++)
+                                        if (R = y[U], R.tooltipAlias == S) {
+                                            F = R, K = !0;
+                                            break
+                                        }
+                                    if (K) break
                                 }
-                                G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_REPLACE:
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_ACQUISITION:
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
-                                for (var J, K = !1, L = 0, M = y.length; M > L; L++)
-                                    if (J = y[L], J.tooltipAlias == E.learnedSkillTooltipAlias) {
-                                        F = J, K = !0;
-                                        break
-                                    }
-                                if (K) u(C, A);
+                            if (K) {
+                                for (var N, E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
+                                if (O.length <= 0) F = y[0];
                                 else {
-                                    for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
-                                    if (y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], O.length <= 0) F = y[0];
-                                    else {
-                                        var Q = O[0];
-                                        F = f(Q.tooltip_alias, y)
+                                    var Q = O[0];
+                                    F = f(Q.tooltip_alias, y), F || (F = y[0])
+                                }
+                                G = f(A.tooltip_alias, y), w(F, G, G.id), A.skill_id != G.id ? s.displayAcquire(!1) : e(A), c(A)
+                            } else {
+                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
+                                for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
+                                if (O.length <= 0) F = y[0];
+                                else {
+                                    for (var W, R, K = !1, L = 0, M = O.length; M > L; L++) {
+                                        W = O[L];
+                                        for (var T in W.train_skill_alias)
+                                            if (S = W.train_skill_alias[T]) {
+                                                for (var U = 0, V = y.length; V > U; U++)
+                                                    if (R = y[U], R.tooltipAlias == S) {
+                                                        F = R, K = !0;
+                                                        break
+                                                    }
+                                                if (K) break
+                                            }
+                                        if (K) break
                                     }
-                                    F || A.skill_id != Q.skill_id && (y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[A.skill_id], F = y[0])
+                                    K || (F = y[0])
                                 }
                                 G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
-                        }
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                        switch (D) {
-                            case "":
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
-                                for (var J, K = !1, L = 0, M = y.length; M > L; L++)
-                                    if (J = y[L], J.tooltipAlias == E.learnedSkillTooltipAlias) {
-                                        F = J, K = !0;
-                                        break
-                                    }
-                                if (K) G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias];
-                                else {
-                                    for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id != B && O.splice(L, 1);
-                                    if (O.length <= 0) F = y[0];
-                                    else {
-                                        var P = O[0];
-                                        F = f(P.tooltip_alias, y), F || (F = y[0])
-                                    }
-                                    G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias]
-                                }
-                                v(F, G, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_REPLACE:
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_ACQUISITION:
-                                if (x.skill_id != A.skill_id) {
-                                    var K = !1;
-                                    y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id];
-                                    var R, S;
-                                    for (var T in A.train_skill_alias)
-                                        if (S = A.train_skill_alias[T]) {
+                            }
+                        } else {
+                            y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
+                            for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
+                            if (O.length <= 0) F = y[0];
+                            else {
+                                for (var W, R, K = !1, L = 0, M = O.length; M > L; L++) {
+                                    W = O[L];
+                                    for (var T in W.train_skill_alias)
+                                        if (S = W.train_skill_alias[T]) {
                                             for (var U = 0, V = y.length; V > U; U++)
                                                 if (R = y[U], R.tooltipAlias == S) {
                                                     F = R, K = !0;
@@ -1926,131 +1971,85 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                                 }
                                             if (K) break
                                         }
-                                    if (K) {
-                                        for (var N, E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
-                                        if (O.length <= 0) F = y[0];
-                                        else {
-                                            var Q = O[0];
-                                            F = f(Q.tooltip_alias, y), F || (F = y[0])
-                                        }
-                                        G = f(A.tooltip_alias, y), w(F, G, G.id), A.skill_id != G.id ? s.displayAcquire(!1) : e(A), c(A)
-                                    } else {
-                                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
-                                        for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
-                                        if (O.length <= 0) F = y[0];
-                                        else {
-                                            for (var W, R, K = !1, L = 0, M = O.length; M > L; L++) {
-                                                W = O[L];
-                                                for (var T in W.train_skill_alias)
-                                                    if (S = W.train_skill_alias[T]) {
-                                                        for (var U = 0, V = y.length; V > U; U++)
-                                                            if (R = y[U], R.tooltipAlias == S) {
-                                                                F = R, K = !0;
-                                                                break
-                                                            }
-                                                        if (K) break
-                                                    }
-                                                if (K) break
-                                            }
-                                            K || (F = y[0])
-                                        }
-                                        G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
-                                    }
-                                } else {
-                                    y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
-                                    for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
-                                    if (O.length <= 0) F = y[0];
-                                    else {
-                                        for (var W, R, K = !1, L = 0, M = O.length; M > L; L++) {
-                                            W = O[L];
-                                            for (var T in W.train_skill_alias)
-                                                if (S = W.train_skill_alias[T]) {
-                                                    for (var U = 0, V = y.length; V > U; U++)
-                                                        if (R = y[U], R.tooltipAlias == S) {
-                                                            F = R, K = !0;
-                                                            break
-                                                        }
-                                                    if (K) break
-                                                }
-                                            if (K) break
-                                        }
-                                        K || (F = y[0])
-                                    }
-                                    G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
+                                    if (K) break
                                 }
+                                K || (F = y[0])
+                            }
+                            G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
                         }
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                        switch (D) {
-                            case "":
-                                var X = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B];
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], X.length != y.length ? (y = X, _treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)) : (_treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = f(_treeSkillObj.learnedSkillTooltipAlias, y), G = f(A.tooltip_alias, y), w(F, G, x.skill_id), e(A), c(A));
-                                break;
-                            case nc.bns.training.Model.SLOT_REPLACE:
-                                var X = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B];
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], X.length != y.length ? (y = X, _treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)) : (_treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = f(_treeSkillObj.learnedSkillTooltipAlias, y), G = f(A.tooltip_alias, y), w(F, G, x.skill_id), e(A), c(A));
-                                break;
-                            case nc.bns.training.Model.SLOT_ACQUISITION:
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
-                                for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
-                                if (O.length <= 0) F = y[0];
-                                else {
-                                    var Y = O[0];
-                                    F = f(Y.tooltip_alias, y), F || (F = y[0])
-                                }
-                                G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
-                        }
-                } else switch (x = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(nc.bns.training.Model.lastSelectedSkillListSkillId), x.skillType) {
+                    }
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                    switch (D) {
                     case "":
-                        switch (D) {
-                            case "":
-                                u(B, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_REPLACE:
-                                u(B, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_ACQUISITION:
-                                u(C, A)
-                        }
+                        var X = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B];
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], X.length != y.length ? (y = X, _treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)) : (_treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = f(_treeSkillObj.learnedSkillTooltipAlias, y), G = f(A.tooltip_alias, y), w(F, G, x.skill_id), e(A), c(A));
                         break;
-                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                        switch (D) {
-                            case "":
-                                u(B, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_REPLACE:
-                                u(B, A);
-                                break;
-                            case nc.bns.training.Model.SLOT_ACQUISITION:
-                                var Z = null;
-                                if (x.skill_id != A.skill_id) {
-                                    y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id];
-                                    var _, S, K = !1;
-                                    for (var T in A.train_skill_alias)
-                                        if (S = A.train_skill_alias[T]) {
-                                            for (var U = 0, V = y.length; V > U; U++)
-                                                if (_ = y[U], _.tooltipAlias == S) {
-                                                    Z = _, K = !0;
-                                                    break
-                                                }
-                                            if (K) break
+                    case nc.bns.training.Model.SLOT_REPLACE:
+                        var X = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B];
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], X.length != y.length ? (y = X, _treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = nc.bns.training.Model.SKILL_OBJ_JSON[E.learnedSkillTooltipAlias], G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)) : (_treeSkillObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B), F = f(_treeSkillObj.learnedSkillTooltipAlias, y), G = f(A.tooltip_alias, y), w(F, G, x.skill_id), e(A), c(A));
+                        break;
+                    case nc.bns.training.Model.SLOT_ACQUISITION:
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[C], E = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(B);
+                        for (var N, O = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[B], E.learnedSkillAlias), L = O.length - 1; L >= 0; L--) N = O[L], N.skill_id == B && O.splice(L, 1);
+                        if (O.length <= 0) F = y[0];
+                        else {
+                            var Y = O[0];
+                            F = f(Y.tooltip_alias, y), F || (F = y[0])
+                        }
+                        G = nc.bns.training.Model.SKILL_OBJ_JSON[A.tooltip_alias], v(F, G, A)
+                    }
+                } else switch (x = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(nc.bns.training.Model.lastSelectedSkillListSkillId), x.skillType) {
+                case "":
+                    switch (D) {
+                    case "":
+                        u(B, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_REPLACE:
+                        u(B, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_ACQUISITION:
+                        u(C, A)
+                    }
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                    switch (D) {
+                    case "":
+                        u(B, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_REPLACE:
+                        u(B, A);
+                        break;
+                    case nc.bns.training.Model.SLOT_ACQUISITION:
+                        var Z = null;
+                        if (x.skill_id != A.skill_id) {
+                            y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id];
+                            var _, S, K = !1;
+                            for (var T in A.train_skill_alias)
+                                if (S = A.train_skill_alias[T]) {
+                                    for (var U = 0, V = y.length; V > U; U++)
+                                        if (_ = y[U], _.tooltipAlias == S) {
+                                            Z = _, K = !0;
+                                            break
                                         }
-                                    K ? (Z != y[0] ? (y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = Z) : (F = y[0], G = y[0]), w(F, G, x.skill_id), e(A), c(A)) : u(A.skill_id, A)
-                                } else u(C, A)
-                        }
+                                    if (K) break
+                                }
+                            K ? (Z != y[0] ? (y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = Z) : (F = y[0], G = y[0]), w(F, G, x.skill_id), e(A), c(A)) : u(A.skill_id, A)
+                        } else u(C, A)
+                    }
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                    switch (D) {
+                    case "":
+                        var X = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B];
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[nc.bns.training.Model.lastSelectedSkillListSkillId], X.length != y.length ? (y = X, z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = f(A.tooltip_alias, y), G || (G = y[0]), w(F, G, B)) : (z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = f(A.tooltip_alias, y), G || (G = y[0]), w(F, G, x.skill_id)), e(A), c(A);
                         break;
-                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                        switch (D) {
-                            case "":
-                                var X = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[B];
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[nc.bns.training.Model.lastSelectedSkillListSkillId], X.length != y.length ? (y = X, z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = f(A.tooltip_alias, y), G || (G = y[0]), w(F, G, B)) : (z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = f(A.tooltip_alias, y), G || (G = y[0]), w(F, G, x.skill_id)), e(A), c(A);
-                                break;
-                            case nc.bns.training.Model.SLOT_REPLACE:
-                                y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = f(A.tooltip_alias, y), G || (G = y[0]), w(F, G, x.skill_id), e(A), c(A);
-                                break;
-                            case nc.bns.training.Model.SLOT_ACQUISITION:
-                                u(C, A)
-                        }
+                    case nc.bns.training.Model.SLOT_REPLACE:
+                        y = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[x.skill_id], z = y[0], F = nc.bns.training.Model.SKILL_OBJ_JSON[b(z.tooltipAlias)], F || (F = nc.bns.training.Model.SKILL_OBJ_JSON[z.tooltipAlias]), G = f(A.tooltip_alias, y), G || (G = y[0]), w(F, G, x.skill_id), e(A), c(A);
+                        break;
+                    case nc.bns.training.Model.SLOT_ACQUISITION:
+                        u(C, A)
+                    }
                 }
             }
 
@@ -2111,9 +2110,9 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 m = document.createElement("span");
             $(m).addClass("ui_skill_del");
             var n = "&#32";
-            g.destroy = function() {}, g.displayDiffData = function(a) {
+            g.destroy = function () {}, g.displayDiffData = function (a) {
                 d(a)
-            }, g.setSkillToolTip = function(a) {
+            }, g.setSkillToolTip = function (a) {
                 function b(a) {
                     a.tooltip_stance_refine ? (q.displaySkillInfo(a.tooltip_stance_refine), q.displayStanceRefine(!0)) : q.displayStanceRefine(!1), a.tooltip_condition_refine ? (r.displaySkillInfo(a.tooltip_condition_refine), r.displayUseCondition(!0)) : r.displayUseCondition(!1), a.complete_achievement_name_refine ? (t.displaySkillInfo(a.complete_achievement_name_refine), t.displayUseCondition(!0)) : t.displayUseCondition(!1)
                 }
@@ -2137,60 +2136,60 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                         var k = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(j.tree_id);
                         if (!k) return;
                         if ("" != k.learnedSkillTooltipAlias) switch (j.skillType) {
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                for (var l, m = j.tree_id, n = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[m], k.learnedSkillAlias), v = n.length - 1; v >= 0; v--) l = n[v], l.skill_id == m && n.splice(v, 1);
-                                if (n.length <= 0) {
+                        case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                            for (var l, m = j.tree_id, n = nc.bns.training.util.SearchDataUtil.getPrevTrainedSkillVariationObjs(nc.bns.training.Model.SLOT_OBJ_JSON[m], k.learnedSkillAlias), v = n.length - 1; v >= 0; v--) l = n[v], l.skill_id == m && n.splice(v, 1);
+                            if (n.length <= 0) {
+                                i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a], h = i[0], o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
+                                var w = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
+                                c(w)
+                            } else {
+                                i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a];
+                                for (var x, y, z = !1, v = 0, A = n.length; A > v; v++) {
+                                    x = n[v];
+                                    for (var B in x.train_skill_alias)
+                                        if (trainSkillAliasStr = x.train_skill_alias[B], trainSkillAliasStr) {
+                                            for (var C = 0, D = i.length; D > C; C++)
+                                                if (y = i[C], y.tooltipAlias == trainSkillAliasStr) {
+                                                    h = y, z = !0;
+                                                    break
+                                                }
+                                            if (z) break
+                                        }
+                                    if (z) break
+                                }
+                                if (z)
+                                    if (h != i[0]) {
+                                        o.displayDesc(h), p.displaySkillInfo(h);
+                                        var E = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(m, String(k.learnedSkillVariationId), String(k.learnedSkillAlias));
+                                        E.tooltip_stance_refine ? (q.displaySkillInfo(E.tooltip_stance_refine), q.displayStanceRefine(!0)) : q.displayStanceRefine(!1), E.tooltip_condition_refine ? (r.displaySkillInfo(E.tooltip_condition_refine), r.displayUseCondition(!0)) : r.displayUseCondition(!1), E.complete_achievement_name_refine ? (t.displaySkillInfo(E.complete_achievement_name_refine), t.displayUseCondition(!0)) : t.displayUseCondition(!1), E.complete_quest_name_refine ? (E.complete_quest_desc_refine ? s.setEliteSkillInfo(String(E.complete_quest_name_refine), String(E.complete_quest_desc_refine)) : s.setLegendSkillInfo(String(E.complete_quest_name_refine)), s.displayAcquire(!0)) : s.displayAcquire(!1), c(E)
+                                    } else {
+                                        o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
+                                        var w = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
+                                        c(w)
+                                    } else {
+                                    h = i[0], o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
+                                    var F = nc.bns.training.util.SearchDataUtil.get1stVaridationObjHasTooltipAlias(m, j.skill_id, h.tooltipAlias);
+                                    c(F)
+                                }
+                            }
+                            break;
+                        case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                            i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a];
+                            var G = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[k.tree_id];
+                            if (i.length != G.length) {
+                                var F = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
+                                if (F.skill_id != j.skill_id) {
                                     i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a], h = i[0], o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
                                     var w = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
                                     c(w)
-                                } else {
-                                    i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a];
-                                    for (var x, y, z = !1, v = 0, A = n.length; A > v; v++) {
-                                        x = n[v];
-                                        for (var B in x.train_skill_alias)
-                                            if (trainSkillAliasStr = x.train_skill_alias[B], trainSkillAliasStr) {
-                                                for (var C = 0, D = i.length; D > C; C++)
-                                                    if (y = i[C], y.tooltipAlias == trainSkillAliasStr) {
-                                                        h = y, z = !0;
-                                                        break
-                                                    }
-                                                if (z) break
-                                            }
-                                        if (z) break
-                                    }
-                                    if (z)
-                                        if (h != i[0]) {
-                                            o.displayDesc(h), p.displaySkillInfo(h);
-                                            var E = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(m, String(k.learnedSkillVariationId), String(k.learnedSkillAlias));
-                                            E.tooltip_stance_refine ? (q.displaySkillInfo(E.tooltip_stance_refine), q.displayStanceRefine(!0)) : q.displayStanceRefine(!1), E.tooltip_condition_refine ? (r.displaySkillInfo(E.tooltip_condition_refine), r.displayUseCondition(!0)) : r.displayUseCondition(!1), E.complete_achievement_name_refine ? (t.displaySkillInfo(E.complete_achievement_name_refine), t.displayUseCondition(!0)) : t.displayUseCondition(!1), E.complete_quest_name_refine ? (E.complete_quest_desc_refine ? s.setEliteSkillInfo(String(E.complete_quest_name_refine), String(E.complete_quest_desc_refine)) : s.setLegendSkillInfo(String(E.complete_quest_name_refine)), s.displayAcquire(!0)) : s.displayAcquire(!1), c(E)
-                                        } else {
-                                            o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
-                                            var w = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
-                                            c(w)
-                                        } else {
-                                        h = i[0], o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
-                                        var F = nc.bns.training.util.SearchDataUtil.get1stVaridationObjHasTooltipAlias(m, j.skill_id, h.tooltipAlias);
-                                        c(F)
-                                    }
-                                }
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                                i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a];
-                                var G = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[k.tree_id];
-                                if (i.length != G.length) {
-                                    var F = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
-                                    if (F.skill_id != j.skill_id) {
-                                        i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a], h = i[0], o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
-                                        var w = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
-                                        c(w)
-                                    } else F && (d(F), e(F), c(F))
-                                } else {
-                                    h = f(k.learnedSkillTooltipAlias, i), h || (h = i[0]), g(j, h);
-                                    var H = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(a);
-                                    H && b(H);
-                                    var F = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
-                                    F && e(F), c(F)
-                                }
+                                } else F && (d(F), e(F), c(F))
+                            } else {
+                                h = f(k.learnedSkillTooltipAlias, i), h || (h = i[0]), g(j, h);
+                                var H = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(a);
+                                H && b(H);
+                                var F = nc.bns.training.util.SearchDataUtil.getVariationObjHasVariationIdAndAlias(k.tree_id, k.learnedSkillVariationId, k.learnedSkillAlias);
+                                F && e(F), c(F)
+                            }
                         } else {
                             i = nc.bns.training.Model.COLLECTION_ARRAY_HAS_SKILL_OBJ_JSON_BY_SKILL_ID[a], h = i[0], o.displayDesc(h), p.displaySkillInfo(h), b(j), s.displayAcquire(!1);
                             var I = nc.bns.training.Model.SLOT_OBJ_JSON[String(j.tree_id)],
@@ -2222,50 +2221,50 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             };
             var o, p, q, r, s, t, u, v = a.container;
             return e(), g
-        }, nc.bns.training.tooltip.DisplayRequiredTp = function(a) {
+        }, nc.bns.training.tooltip.DisplayRequiredTp = function (a) {
             function b() {
                 d = $(".required_tp", e)
             }
             var c = this;
-            c.destroy = function() {}, c.displayRequiredTp = function(a) {
+            c.destroy = function () {}, c.displayRequiredTp = function (a) {
                 a ? $(e).css("display", "block") : $(e).css("display", "none")
-            }, c.setRequiredTp = function(a) {
+            }, c.setRequiredTp = function (a) {
                 d.html(a)
             };
             var d, e = a.container;
             return b(), c
-        }, nc.bns.training.tooltip.DisplaySkillStanceRefine = function(a) {
+        }, nc.bns.training.tooltip.DisplaySkillStanceRefine = function (a) {
             function b() {
                 d = $("> dl > dd", e)
             }
             var c = this;
-            c.destroy = function() {}, c.displayStanceRefine = function(a) {
+            c.destroy = function () {}, c.displayStanceRefine = function (a) {
                 a ? $(e).css("display", "block") : $(e).css("display", "none")
-            }, c.displaySkillInfo = function(a) {
+            }, c.displaySkillInfo = function (a) {
                 d.html(a)
             };
             var d, e = a.container;
             return b(), c
-        }, nc.bns.training.tooltip.DisplaySkillUseCondition = function(a) {
+        }, nc.bns.training.tooltip.DisplaySkillUseCondition = function (a) {
             function b() {
                 d = $("> dl > dd", e)
             }
             var c = this;
-            c.destroy = function() {}, c.displayUseCondition = function(a) {
+            c.destroy = function () {}, c.displayUseCondition = function (a) {
                 a ? $(e).css("display", "block") : $(e).css("display", "none")
-            }, c.displaySkillInfo = function(a) {
+            }, c.displaySkillInfo = function (a) {
                 d.html(a)
             };
             var d, e = a.container;
             return b(), c
-        }, nc.bns.training.tooltip.DisplayAchievement = function(a) {
+        }, nc.bns.training.tooltip.DisplayAchievement = function (a) {
             function b() {
                 d = $("> dl > dd", e)
             }
             var c = this;
-            c.destroy = function() {}, c.displayUseCondition = function(a) {
+            c.destroy = function () {}, c.displayUseCondition = function (a) {
                 a ? $(e).css("display", "block") : $(e).css("display", "none")
-            }, c.displaySkillInfo = function(a) {
+            }, c.displaySkillInfo = function (a) {
                 d.html("");
                 var b = '<img src="../img/achievement.png" />',
                     c = " <span> " + a + "</span>",
@@ -2274,24 +2273,24 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             };
             var d, e = a.container;
             return b(), c
-        }, nc.bns.training.tooltip.DisplaySkillAcquire = function(a) {
+        }, nc.bns.training.tooltip.DisplaySkillAcquire = function (a) {
             function b() {
                 d = $(".elit_skill_name", h), e = $("> dl > dt", h), f = $("> dl > dd", h)
             }
             var c = this;
-            c.destroy = function() {}, c.displayAcquire = function(a) {
+            c.destroy = function () {}, c.displayAcquire = function (a) {
                 a ? $(h).css("display", "block") : $(h).css("display", "none")
-            }, c.setEliteSkillInfo = function(a, b) {
+            }, c.setEliteSkillInfo = function (a, b) {
                 d.text(String(a)), e.text(g);
                 var c = b.split("&#92;").join("");
                 f.empty(), f.html(c)
-            }, c.setLegendSkillInfo = function(a) {
+            }, c.setLegendSkillInfo = function (a) {
                 d.text(String(a)), e.text(""), f.empty()
             };
             var d, e, f, g = "Obtained from",
                 h = a.container;
             return b(), c
-        }, nc.bns.training.tooltip.DisplaySkillInfo = function(a) {
+        }, nc.bns.training.tooltip.DisplaySkillInfo = function (a) {
             function b() {
                 l = $(".meter > div", u), m = $(".range_0", u), n = $(".range_0 > div", u), o = $(".casting_time > div", u), p = $(".recycle_time > div", u)
             }
@@ -2346,7 +2345,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 return b
             }
             var k = this;
-            k.destroy = function() {}, k.displaySkillInfoDiff = function(a, b) {
+            k.destroy = function () {}, k.displaySkillInfoDiff = function (a, b) {
                 var d = a.skill_info,
                     j = [];
                 if (d)
@@ -2370,7 +2369,8 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                             var x = l.find(".ui_skill_mod");
                             x.length && x.text() === v.value && x.addClass("small")
                         }
-                    } else e(String(s[0].value)); if (String(j[1].value) != String(s[1].value) || String(j[1].type) != String(s[1].type)) {
+                    } else e(String(s[0].value));
+                    if (String(j[1].value) != String(s[1].value) || String(j[1].type) != String(s[1].type)) {
                         var y = String(j[1].value),
                             z = String(s[1].value);
                         if (c(y) && c(z)) f(s[1]), n.removeClass("diff");
@@ -2384,15 +2384,17 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                 D = $(".ui_skill_mod", n).get(0);
                             A != B ? y != t ? ($(C).addClass("range"), $(C).addClass(j[1].type), $(D).addClass("range"), $(D).addClass(s[1].type)) : m.removeClass().addClass(B) : m.removeClass().addClass(A)
                         }
-                    } else f(s[1]), n.removeClass("diff"); if (String(j[2].value) != String(s[2].value) || String(j[2].type) != String(s[2].type)) {
+                    } else f(s[1]), n.removeClass("diff");
+                    if (String(j[2].value) != String(s[2].value) || String(j[2].type) != String(s[2].type)) {
                         var u = '<p class="range">' + String(j[2].value) + '</p><p class="diff_arrow">▼</p><p class="ui_skill_mod">' + String(s[2].value) + "</p>";
                         g(u), o.addClass("diff")
-                    } else o.removeClass("diff"), g(String(s[2].value)); if (String(j[3].value) != String(s[3].value) || String(j[3].type) != String(s[3].type)) {
+                    } else o.removeClass("diff"), g(String(s[2].value));
+                    if (String(j[3].value) != String(s[3].value) || String(j[3].type) != String(s[3].type)) {
                         var u = '<p class="range">' + String(j[3].value) + '</p><p class="diff_arrow">▼</p><p class="ui_skill_mod">' + String(s[3].value) + "</p>";
                         h(u), p.addClass("diff")
                     } else h(String(s[3].value))
                 }
-            }, k.displaySkillInfo = function(a) {
+            }, k.displaySkillInfo = function (a) {
                 var b = a.skill_info,
                     c = [];
                 for (var i in b) c.push(b[i]);
@@ -2412,7 +2414,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 t = "Target",
                 u = a.container;
             return b(), k
-        }, nc.bns.training.tooltip.DisplayTooltipDesc = function(a) {
+        }, nc.bns.training.tooltip.DisplayTooltipDesc = function (a) {
             function b() {
                 n = $(".consumed_sp", t), o = $(".name", t), p = $(".thumb > img", t).get(0), q = $(".main_info1", t), r = $(".main_info2", t), s = $(".sub_info", t)
             }
@@ -2430,41 +2432,41 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 null != b.ui_sp_heal_value && (parseInt(b.ui_sp_heal_value) > 0 ? (i = k + b.ui_sp_heal_value, h = "HEAL") : h = "HEAL"), null != b.consume_sp && (parseInt(b.consume_sp) > 0 ? (i = l + b.consume_sp, h = "CONSUME") : h = "CONSUME"), 0 >= c && e > 0 && (g = "CONSUME"), c > 0 && 0 >= e && (g = "HEAL"), 0 >= d && f > 0 && (h = "CONSUME"), d > 0 && 0 >= f && (h = "HEAL");
                 var j = "";
                 switch (g) {
-                    case "NONE":
-                        switch (h) {
-                            case "HEAL":
-                                j = k + d + " chi";
-                                break;
-                            case "CONSUME":
-                                j = l + f + " chi";
-                                break;
-                            case "NONE":
-                                j = ""
-                        }
-                        break;
+                case "NONE":
+                    switch (h) {
                     case "HEAL":
-                        switch (h) {
-                            case "HEAL":
-                                j = c != d ? k + c + m + d + " chi" : 0 >= d ? "" + " chi" : k + d + " chi";
-                                break;
-                            case "CONSUME":
-                                j = k + c + m + l + f + " chi";
-                                break;
-                            case "NONE":
-                                j = k + c + m + "0" + " chi"
-                        }
+                        j = k + d + " chi";
                         break;
                     case "CONSUME":
-                        switch (h) {
-                            case "HEAL":
-                                j = l + e + " chi" + m + k + d + " chi";
-                                break;
-                            case "CONSUME":
-                                j = e != f ? l + e + m + f + " chi" : 0 >= f ? "" + " chi" : l + f + " chi";
-                                break;
-                            case "NONE":
-                                j = l + e + m + "0" + " chi"
-                        }
+                        j = l + f + " chi";
+                        break;
+                    case "NONE":
+                        j = ""
+                    }
+                    break;
+                case "HEAL":
+                    switch (h) {
+                    case "HEAL":
+                        j = c != d ? k + c + m + d + " chi" : 0 >= d ? "" + " chi" : k + d + " chi";
+                        break;
+                    case "CONSUME":
+                        j = k + c + m + l + f + " chi";
+                        break;
+                    case "NONE":
+                        j = k + c + m + "0" + " chi"
+                    }
+                    break;
+                case "CONSUME":
+                    switch (h) {
+                    case "HEAL":
+                        j = l + e + " chi" + m + k + d + " chi";
+                        break;
+                    case "CONSUME":
+                        j = e != f ? l + e + m + f + " chi" : 0 >= f ? "" + " chi" : l + f + " chi";
+                        break;
+                    case "NONE":
+                        j = l + e + m + "0" + " chi"
+                    }
                 }
                 n.text(j)
             }
@@ -2505,24 +2507,24 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 s.html(b)
             }
             var j = this;
-            j.destroy = function() {}, j.setAllInfoByExternal = function(a, b, c) {
+            j.destroy = function () {}, j.setAllInfoByExternal = function (a, b, c) {
                 g(a), h(b), i(c)
-            }, j.setSkillNameByExternal = function(a) {
+            }, j.setSkillNameByExternal = function (a) {
                 e(a.name)
-            }, j.setSkillThumbnailByExternal = function(a) {
+            }, j.setSkillThumbnailByExternal = function (a) {
                 f(nc.bns.training.Model.SKILL_IMG_URL_FRONT + a.icon)
-            }, j.setHealPointChangeDescByExternal = function(a, b) {
+            }, j.setHealPointChangeDescByExternal = function (a, b) {
                 c(a, b)
             };
             var k = "Generates ",
                 l = "Costs ",
                 m = " ▶ ";
-            j.displayDesc = function(a) {
+            j.displayDesc = function (a) {
                 d(a), e(a.name), f(nc.bns.training.Model.SKILL_IMG_URL_FRONT + a.icon), g(a.main_info1), h(a.main_info2), i(a.sub_info)
             };
             var n, o, p, q, r, s, t = a.container;
             return b(), j
-        }, nc.bns.training.tree.Contents = function(a) {
+        }, nc.bns.training.tree.Contents = function (a) {
             function b() {
                 var a = '<div class="tree_tp"><span class="consumed_tp">' + nc.bns.training.Model.skillPointConsumed + '</span> / <span class="total_tp">' + nc.bns.training.Model.skillPointTotal + '</span></div><p class="only"><em></em> does not have a skill tree.</p>';
                 $(j).append(a), m = $(".consumed_tp", j), n = $(".total_tp", j);
@@ -2539,39 +2541,39 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 a.preventDefault(), a.stopPropagation();
                 var b, c, d, e, f, g, h;
                 switch (a.type) {
-                    case nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT:
-                        b = a.skillId, c = a.treeId, d = a.prevTrainSkillIdArr, e = a.skillType, f = a.slotType, swtichSkillData = a.switchSkillData, g = a.variationData, h = a.required_tp, $(i).trigger({
-                            type: nc.bns.training.tree.Contents.CONSUME_SKILL_POINT,
-                            skillId: b,
-                            treeId: c,
-                            prevTrainSkillIdArr: d,
-                            skillType: e,
-                            slotType: f,
-                            switchSkillData: swtichSkillData,
-                            variationData: g,
-                            required_tp: h
-                        });
-                        break;
-                    case nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT:
-                        $(i).trigger({
-                            type: nc.bns.training.tree.Contents.CANCEL_SKILL_POINT,
-                            controlScrollContainerPosYSkillId: a.controlScrollContainerPosYSkillId,
-                            flag_changeSkillName: a.flag_changeSkillName
-                        });
-                        break;
-                    case nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM:
-                        $(i).trigger({
-                            type: nc.bns.training.tree.Contents.MOUSEOVER_SLOT,
-                            variationData: a.variationData,
-                            skillType: a.skillType,
-                            slotType: a.slotType
-                        });
-                        break;
-                    case nc.bns.training.tree.SkillTree.MOUSEOUT_SLOT_ITEM:
-                        $(i).trigger({
-                            type: nc.bns.training.tree.Contents.MOUSEOUT_SLOT,
-                            variationData: a.variationData
-                        })
+                case nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT:
+                    b = a.skillId, c = a.treeId, d = a.prevTrainSkillIdArr, e = a.skillType, f = a.slotType, swtichSkillData = a.switchSkillData, g = a.variationData, h = a.required_tp, $(i).trigger({
+                        type: nc.bns.training.tree.Contents.CONSUME_SKILL_POINT,
+                        skillId: b,
+                        treeId: c,
+                        prevTrainSkillIdArr: d,
+                        skillType: e,
+                        slotType: f,
+                        switchSkillData: swtichSkillData,
+                        variationData: g,
+                        required_tp: h
+                    });
+                    break;
+                case nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT:
+                    $(i).trigger({
+                        type: nc.bns.training.tree.Contents.CANCEL_SKILL_POINT,
+                        controlScrollContainerPosYSkillId: a.controlScrollContainerPosYSkillId,
+                        flag_changeSkillName: a.flag_changeSkillName
+                    });
+                    break;
+                case nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM:
+                    $(i).trigger({
+                        type: nc.bns.training.tree.Contents.MOUSEOVER_SLOT,
+                        variationData: a.variationData,
+                        skillType: a.skillType,
+                        slotType: a.slotType
+                    });
+                    break;
+                case nc.bns.training.tree.SkillTree.MOUSEOUT_SLOT_ITEM:
+                    $(i).trigger({
+                        type: nc.bns.training.tree.Contents.MOUSEOUT_SLOT,
+                        variationData: a.variationData
+                    })
                 }
             }
 
@@ -2585,13 +2587,13 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function f(a) {
                 switch (nc.bns.training.Model.lastSelectedSkillType) {
-                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                        var b = nc.bns.training.Model.SLOT_OBJ_JSON[a];
-                        l.resetSkillTree(b, a);
-                        break;
-                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                        var b = nc.bns.training.Model.SLOT_OBJ_JSON[a];
-                        l.resetSkillTree(b, a)
+                case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                    var b = nc.bns.training.Model.SLOT_OBJ_JSON[a];
+                    l.resetSkillTree(b, a);
+                    break;
+                case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                    var b = nc.bns.training.Model.SLOT_OBJ_JSON[a];
+                    l.resetSkillTree(b, a)
                 }
             }
 
@@ -2623,17 +2625,17 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }
             }
             var i = this;
-            i.destroy = function() {
+            i.destroy = function () {
                 l && ($(l).unbind(nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT, c), $(l).unbind(nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT, c), l.destroy(), l = null)
-            }, i.resetSkillTreeBySkillId = function(a) {
+            }, i.resetSkillTreeBySkillId = function (a) {
                 h(a)
-            }, i.setSkillTree = function(a) {
+            }, i.setSkillTree = function (a) {
                 g(a)
-            }, i.setTreeIdSkillTree = function(a, b) {
+            }, i.setTreeIdSkillTree = function (a, b) {
                 f(a, b)
-            }, i.displaySkillPointConsumedByExternal = function(a) {
+            }, i.displaySkillPointConsumedByExternal = function (a) {
                 d(a)
-            }, i.displaySkillPointTotalByExternal = function(a) {
+            }, i.displaySkillPointTotalByExternal = function (a) {
                 e(a)
             };
             var j = a.container,
@@ -2642,7 +2644,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 m = null,
                 n = null;
             return b(), i
-        }, nc.bns.training.tree.Contents.CONSUME_SKILL_POINT = "CONSUME_SKILL_POINT", nc.bns.training.tree.Contents.CANCEL_SKILL_POINT = "CANCEL_SKILL_POINT", nc.bns.training.tree.Contents.MOUSEOVER_SLOT = "MOUSEOVER_SLOT", nc.bns.training.tree.Contents.MOUSEOUT_SLOT = "MOUSEOUT_SLOT", nc.bns.training.tree.SkillTree = function(a) {
+        }, nc.bns.training.tree.Contents.CONSUME_SKILL_POINT = "CONSUME_SKILL_POINT", nc.bns.training.tree.Contents.CANCEL_SKILL_POINT = "CANCEL_SKILL_POINT", nc.bns.training.tree.Contents.MOUSEOVER_SLOT = "MOUSEOVER_SLOT", nc.bns.training.tree.Contents.MOUSEOUT_SLOT = "MOUSEOUT_SLOT", nc.bns.training.tree.SkillTree = function (a) {
             function b() {
                 c(!1)
             }
@@ -2761,13 +2763,13 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     }
                 } else
                     for (var B, g = 0, i = v.length; i > g; g++) switch (B = v[g], B.getSlotFrameType()) {
-                        case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL:
-                            B.setSlotStatus(nc.bns.training.tree.SkillSlotItem.STATUS_IMPOSSIBLE);
-                            break;
-                        case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_LEGEND:
-                            break;
-                        case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ELITE:
-                            B.setSlotStatus(nc.bns.training.tree.SkillSlotItem.STATUS_IMPOSSIBLE)
+                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL:
+                        B.setSlotStatus(nc.bns.training.tree.SkillSlotItem.STATUS_IMPOSSIBLE);
+                        break;
+                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_LEGEND:
+                        break;
+                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ELITE:
+                        B.setSlotStatus(nc.bns.training.tree.SkillSlotItem.STATUS_IMPOSSIBLE)
                     }
             }
 
@@ -2791,69 +2793,69 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     d = null,
                     e = null;
                 switch (a.type) {
-                    case nc.bns.training.tree.SkillSlotItem.MOUSEOUT_SKILL_SLOT_ITEM:
-                        d = a.variationData, $(p).trigger({
-                            type: nc.bns.training.tree.SkillTree.MOUSEOUT_SLOT_ITEM,
-                            variationData: d
+                case nc.bns.training.tree.SkillSlotItem.MOUSEOUT_SKILL_SLOT_ITEM:
+                    d = a.variationData, $(p).trigger({
+                        type: nc.bns.training.tree.SkillTree.MOUSEOUT_SLOT_ITEM,
+                        variationData: d
+                    });
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.MOUSEOVER_SKILL_SLOT_ITEM:
+                    if (e = a.target, !e) return;
+                    switch (b = a.variationData.skill_id, c = a.variationData.tree_id, d = a.variationData, nc.bns.training.Model.lastSelectedSkillType) {
+                    case "":
+                        skillListObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c), $(p).trigger(b != c ? {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: "",
+                            slotType: nc.bns.training.Model.SLOT_ACQUISITION
+                        } : skillListObj.name2_refine != a.variationData.name2_refine ? {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: "",
+                            slotType: nc.bns.training.Model.SLOT_REPLACE
+                        } : {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: "",
+                            slotType: ""
                         });
                         break;
-                    case nc.bns.training.tree.SkillSlotItem.MOUSEOVER_SKILL_SLOT_ITEM:
-                        if (e = a.target, !e) return;
-                        switch (b = a.variationData.skill_id, c = a.variationData.tree_id, d = a.variationData, nc.bns.training.Model.lastSelectedSkillType) {
-                            case "":
-                                skillListObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c), $(p).trigger(b != c ? {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: "",
-                                    slotType: nc.bns.training.Model.SLOT_ACQUISITION
-                                } : skillListObj.name2_refine != a.variationData.name2_refine ? {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: "",
-                                    slotType: nc.bns.training.Model.SLOT_REPLACE
-                                } : {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: "",
-                                    slotType: ""
-                                });
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                skillListObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c), $(p).trigger(b != c ? {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
-                                    slotType: nc.bns.training.Model.SLOT_ACQUISITION
-                                } : skillListObj.name2_refine != a.variationData.name2_refine ? {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
-                                    slotType: nc.bns.training.Model.SLOT_REPLACE
-                                } : {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
-                                    slotType: ""
-                                });
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                                skillListObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c), $(p).trigger(b != c ? {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
-                                    slotType: nc.bns.training.Model.SLOT_ACQUISITION
-                                } : skillListObj.name2_refine != a.variationData.name2_refine ? {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
-                                    slotType: nc.bns.training.Model.SLOT_REPLACE
-                                } : {
-                                    type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
-                                    variationData: d,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
-                                    slotType: ""
-                                })
-                        }
+                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        skillListObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c), $(p).trigger(b != c ? {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
+                            slotType: nc.bns.training.Model.SLOT_ACQUISITION
+                        } : skillListObj.name2_refine != a.variationData.name2_refine ? {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
+                            slotType: nc.bns.training.Model.SLOT_REPLACE
+                        } : {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
+                            slotType: ""
+                        });
+                        break;
+                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                        skillListObj = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(c), $(p).trigger(b != c ? {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
+                            slotType: nc.bns.training.Model.SLOT_ACQUISITION
+                        } : skillListObj.name2_refine != a.variationData.name2_refine ? {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
+                            slotType: nc.bns.training.Model.SLOT_REPLACE
+                        } : {
+                            type: nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM,
+                            variationData: d,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
+                            slotType: ""
+                        })
+                    }
                 }
             }
 
@@ -2908,171 +2910,171 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     o = "",
                     r = null;
                 switch (a.type) {
-                    case nc.bns.training.tree.SkillSlotItem.CLICK_SKILL_SLOT_ITEM:
-                        if (e = a.target, !e) return;
-                        if (nc.bns.training.Model.skillPointRemained <= 0) return;
-                        switch (f = e.getSlotNo(), k = a.variationData.skill_id, o = a.variationData.tree_id, r = a.variationData, nc.bns.training.Model.lastSelectedSkillType) {
-                            case "":
-                                var s = nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId(nc.bns.training.Model.SLOT_OBJ_JSON[o], r.alias);
-                                g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o), g.learnedSkillVariationId = String(r.variation_id), g.learnedSkillTooltipAlias = String(r.tooltip_alias), g.learnedSkillAlias = String(r.alias);
-                                var t = nc.bns.training.Model.skillPointRemained - r.required_tp;
-                                0 >= t ? c() : b(nc.bns.training.Model.SLOT_OBJ_JSON[o], t), k != o ? $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: "",
-                                    slotType: nc.bns.training.Model.SLOT_ACQUISITION,
-                                    switchSkillData: null,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                }) : g.name2_refine != a.variationData.name2_refine ? (d = {
-                                    variationId: g.learnedSkillVariationId,
-                                    alias: g.learnedSkillAlias,
-                                    skillName: r.name2_refine
-                                }, $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: "",
-                                    slotType: nc.bns.training.Model.SLOT_REPLACE,
-                                    switchSkillData: d,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                })) : $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: "",
-                                    slotType: "",
-                                    switchSkillData: null,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                });
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                var s = nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId(nc.bns.training.Model.SLOT_OBJ_JSON[o], r.alias);
-                                g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o), g.learnedSkillVariationId = String(r.variation_id), g.learnedSkillTooltipAlias = String(r.tooltip_alias), g.learnedSkillAlias = String(r.alias);
-                                var t = nc.bns.training.Model.skillPointRemained - r.required_tp;
-                                0 >= t ? c() : b(nc.bns.training.Model.SLOT_OBJ_JSON[o], t), k != o ? $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
-                                    slotType: nc.bns.training.Model.SLOT_ACQUISITION,
-                                    switchSkillData: null,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                }) : g.name2_refine != a.variationData.name2_refine ? (d = {
-                                    variationId: g.learnedSkillVariationId,
-                                    alias: g.learnedSkillAlias,
-                                    skillName: r.name2_refine
-                                }, $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
-                                    slotType: nc.bns.training.Model.SLOT_REPLACE,
-                                    switchSkillData: d,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                })) : $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
-                                    slotType: "",
-                                    switchSkillData: null,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                });
-                                break;
-                            case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                                var s = nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId(nc.bns.training.Model.SLOT_OBJ_JSON[o], r.alias);
-                                g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o), g.learnedSkillVariationId = String(a.variationData.variation_id), g.learnedSkillTooltipAlias = String(a.variationData.tooltip_alias), g.learnedSkillAlias = String(a.variationData.alias);
-                                var t = nc.bns.training.Model.skillPointRemained - r.required_tp;
-                                0 >= t ? c() : b(nc.bns.training.Model.SLOT_OBJ_JSON[o], t), k != o ? $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
-                                    slotType: nc.bns.training.Model.SLOT_ACQUISITION,
-                                    switchSkillData: null,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                }) : g.name2_refine != a.variationData.name2_refine ? (d = {
-                                    variationId: g.learnedSkillVariationId,
-                                    alias: g.learnedSkillAlias,
-                                    skillName: r.name2_refine
-                                }, $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
-                                    slotType: nc.bns.training.Model.SLOT_REPLACE,
-                                    switchSkillData: d,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                })) : $(p).trigger({
-                                    type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
-                                    skillId: k,
-                                    treeId: o,
-                                    prevTrainSkillIdArr: s,
-                                    skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
-                                    slotType: "",
-                                    switchSkillData: null,
-                                    variationData: r,
-                                    required_tp: parseInt(r.required_tp)
-                                })
-                        }
+                case nc.bns.training.tree.SkillSlotItem.CLICK_SKILL_SLOT_ITEM:
+                    if (e = a.target, !e) return;
+                    if (nc.bns.training.Model.skillPointRemained <= 0) return;
+                    switch (f = e.getSlotNo(), k = a.variationData.skill_id, o = a.variationData.tree_id, r = a.variationData, nc.bns.training.Model.lastSelectedSkillType) {
+                    case "":
+                        var s = nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId(nc.bns.training.Model.SLOT_OBJ_JSON[o], r.alias);
+                        g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o), g.learnedSkillVariationId = String(r.variation_id), g.learnedSkillTooltipAlias = String(r.tooltip_alias), g.learnedSkillAlias = String(r.alias);
+                        var t = nc.bns.training.Model.skillPointRemained - r.required_tp;
+                        0 >= t ? c() : b(nc.bns.training.Model.SLOT_OBJ_JSON[o], t), k != o ? $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: "",
+                            slotType: nc.bns.training.Model.SLOT_ACQUISITION,
+                            switchSkillData: null,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        }) : g.name2_refine != a.variationData.name2_refine ? (d = {
+                            variationId: g.learnedSkillVariationId,
+                            alias: g.learnedSkillAlias,
+                            skillName: r.name2_refine
+                        }, $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: "",
+                            slotType: nc.bns.training.Model.SLOT_REPLACE,
+                            switchSkillData: d,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        })) : $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: "",
+                            slotType: "",
+                            switchSkillData: null,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        });
                         break;
-                    case nc.bns.training.tree.SkillSlotItem.CLICK_MOUSE_RIGHT_BUTTON:
-                        var e = a.target;
-                        if (!e) return;
-                        f = e.getSlotNo();
-                        var r = a.prevVariationData,
-                            u = r.required_tp;
-                        k = r.skill_id, o = r.tree_id;
-                        var w, x = !1,
-                            y = "";
-                        switch (nc.bns.training.Model.lastSelectedSkillType) {
-                            case "":
-                                y = o;
-                            case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
-                                y = o;
-                            case nc.bns.training.Model.SKILL_TYPE_SHARE:
-                                y = o, w = nc.bns.training.Model.SLOT_OBJ_JSON[o], g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o);
-                                var z = n(o, g.learnedSkillAlias);
-                                if (z.length <= 0) return;
-                                for (var A, B = -1, C = 0, D = z.length; D > C; C++)
-                                    if (A = z[C], A.variation_id == r.variation_id && A.alias == r.alias) {
-                                        B = C;
-                                        break
-                                    }
-                                if (0 > B) return;
-                                if (0 === B) g.name2_refine != g.initName2Refine && (x = !0), g.learnedSkillVariationId = "", g.learnedSkillTooltipAlias = "", g.learnedSkillAlias = "", g.name2_refine = g.initName2Refine, g.initJamoStr = nc.bns.training.util.StringUtil.getInitialJamoStr(g.name2_refine.charAt(0), nc.bns.training.Model.SORT_NAME_ARR), g.consumedSkillPoint = 0;
-                                else {
-                                    var E = z[B - 1];
-                                    if (g.name2_refine != E.name2_refine) {
-                                        var F = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(E.skill_id);
-                                        x = "" != F.skillType ? !1 : !0
-                                    }
-                                    if (g.learnedSkillVariationId = String(E.variation_id), g.learnedSkillTooltipAlias = String(E.tooltip_alias), g.learnedSkillAlias = String(E.alias), g.name2_refine = E.name2_refine, g.initJamoStr = nc.bns.training.util.StringUtil.getInitialJamoStr(E.name2_refine.charAt(0), nc.bns.training.Model.SORT_NAME_ARR), g.consumedSkillPoint <= 0) return;
-                                    g.consumedSkillPoint = g.consumedSkillPoint - u
-                                }
-                        }
-                        $(p).trigger({
-                            type: nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT,
-                            controlScrollContainerPosYSkillId: y,
-                            flag_changeSkillName: x
+                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        var s = nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId(nc.bns.training.Model.SLOT_OBJ_JSON[o], r.alias);
+                        g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o), g.learnedSkillVariationId = String(r.variation_id), g.learnedSkillTooltipAlias = String(r.tooltip_alias), g.learnedSkillAlias = String(r.alias);
+                        var t = nc.bns.training.Model.skillPointRemained - r.required_tp;
+                        0 >= t ? c() : b(nc.bns.training.Model.SLOT_OBJ_JSON[o], t), k != o ? $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
+                            slotType: nc.bns.training.Model.SLOT_ACQUISITION,
+                            switchSkillData: null,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        }) : g.name2_refine != a.variationData.name2_refine ? (d = {
+                            variationId: g.learnedSkillVariationId,
+                            alias: g.learnedSkillAlias,
+                            skillName: r.name2_refine
+                        }, $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
+                            slotType: nc.bns.training.Model.SLOT_REPLACE,
+                            switchSkillData: d,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        })) : $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_ACQUISITION,
+                            slotType: "",
+                            switchSkillData: null,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        });
+                        break;
+                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                        var s = nc.bns.training.util.SearchDataUtil.getPrevTrainedAllSkillId(nc.bns.training.Model.SLOT_OBJ_JSON[o], r.alias);
+                        g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o), g.learnedSkillVariationId = String(a.variationData.variation_id), g.learnedSkillTooltipAlias = String(a.variationData.tooltip_alias), g.learnedSkillAlias = String(a.variationData.alias);
+                        var t = nc.bns.training.Model.skillPointRemained - r.required_tp;
+                        0 >= t ? c() : b(nc.bns.training.Model.SLOT_OBJ_JSON[o], t), k != o ? $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
+                            slotType: nc.bns.training.Model.SLOT_ACQUISITION,
+                            switchSkillData: null,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        }) : g.name2_refine != a.variationData.name2_refine ? (d = {
+                            variationId: g.learnedSkillVariationId,
+                            alias: g.learnedSkillAlias,
+                            skillName: r.name2_refine
+                        }, $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
+                            slotType: nc.bns.training.Model.SLOT_REPLACE,
+                            switchSkillData: d,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
+                        })) : $(p).trigger({
+                            type: nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT,
+                            skillId: k,
+                            treeId: o,
+                            prevTrainSkillIdArr: s,
+                            skillType: nc.bns.training.Model.SKILL_TYPE_SHARE,
+                            slotType: "",
+                            switchSkillData: null,
+                            variationData: r,
+                            required_tp: parseInt(r.required_tp)
                         })
+                    }
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.CLICK_MOUSE_RIGHT_BUTTON:
+                    var e = a.target;
+                    if (!e) return;
+                    f = e.getSlotNo();
+                    var r = a.prevVariationData,
+                        u = r.required_tp;
+                    k = r.skill_id, o = r.tree_id;
+                    var w, x = !1,
+                        y = "";
+                    switch (nc.bns.training.Model.lastSelectedSkillType) {
+                    case "":
+                        y = o;
+                    case nc.bns.training.Model.SKILL_TYPE_ACQUISITION:
+                        y = o;
+                    case nc.bns.training.Model.SKILL_TYPE_SHARE:
+                        y = o, w = nc.bns.training.Model.SLOT_OBJ_JSON[o], g = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(o);
+                        var z = n(o, g.learnedSkillAlias);
+                        if (z.length <= 0) return;
+                        for (var A, B = -1, C = 0, D = z.length; D > C; C++)
+                            if (A = z[C], A.variation_id == r.variation_id && A.alias == r.alias) {
+                                B = C;
+                                break
+                            }
+                        if (0 > B) return;
+                        if (0 === B) g.name2_refine != g.initName2Refine && (x = !0), g.learnedSkillVariationId = "", g.learnedSkillTooltipAlias = "", g.learnedSkillAlias = "", g.name2_refine = g.initName2Refine, g.initJamoStr = nc.bns.training.util.StringUtil.getInitialJamoStr(g.name2_refine.charAt(0), nc.bns.training.Model.SORT_NAME_ARR), g.consumedSkillPoint = 0;
+                        else {
+                            var E = z[B - 1];
+                            if (g.name2_refine != E.name2_refine) {
+                                var F = nc.bns.training.util.SearchDataUtil.getSkillListObjFromCustomGlobalModelArr(E.skill_id);
+                                x = "" != F.skillType ? !1 : !0
+                            }
+                            if (g.learnedSkillVariationId = String(E.variation_id), g.learnedSkillTooltipAlias = String(E.tooltip_alias), g.learnedSkillAlias = String(E.alias), g.name2_refine = E.name2_refine, g.initJamoStr = nc.bns.training.util.StringUtil.getInitialJamoStr(E.name2_refine.charAt(0), nc.bns.training.Model.SORT_NAME_ARR), g.consumedSkillPoint <= 0) return;
+                            g.consumedSkillPoint = g.consumedSkillPoint - u
+                        }
+                    }
+                    $(p).trigger({
+                        type: nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT,
+                        controlScrollContainerPosYSkillId: y,
+                        flag_changeSkillName: x
+                    })
                 }
             }
 
@@ -3130,13 +3132,13 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 return nc.bns.training.Model.skillPointRemained > 0 && (a = !0), a
             }
             var p = this;
-            p.destroy = function() {}, p.resetSkillTree = function(a, b) {
+            p.destroy = function () {}, p.resetSkillTree = function (a, b) {
                 c(!1), e(), g(a, b), u = String(b)
-            }, p.setSkillTree = function(a, b) {
+            }, p.setSkillTree = function (a, b) {
                 u != String(b) && (c(!1), e(), g(a, b), u = String(b))
-            }, p.emptySkillTree = function() {
+            }, p.emptySkillTree = function () {
                 $(r).empty(), $(r).removeClass()
-            }, p.displayNoSkillTreeDescription = function(a, b) {
+            }, p.displayNoSkillTreeDescription = function (a, b) {
                 e(), u = b, d(a), c(!0)
             };
             var q, r = a.container,
@@ -3145,7 +3147,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 u = "",
                 v = [];
             return b(), p
-        }, nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT = "CONSUME_SKILL_POINT", nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT = "CANCEL_SKILL_POINT", nc.bns.training.tree.SkillTree.SWITCH_SKILL_TYPE_REPLACE = "SWITCH_SKILL_TYPE_REPLACE", nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM = "MOUSEOVER_SLOT_ITEM", nc.bns.training.tree.SkillTree.MOUSEOUT_SLOT_ITEM = "MOUSEOUT_SLOT_ITEM", nc.bns.training.tree.ArrowManager = function(a) {
+        }, nc.bns.training.tree.SkillTree.CONSUME_SKILL_POINT = "CONSUME_SKILL_POINT", nc.bns.training.tree.SkillTree.CANCEL_SKILL_POINT = "CANCEL_SKILL_POINT", nc.bns.training.tree.SkillTree.SWITCH_SKILL_TYPE_REPLACE = "SWITCH_SKILL_TYPE_REPLACE", nc.bns.training.tree.SkillTree.MOUSEOVER_SLOT_ITEM = "MOUSEOVER_SLOT_ITEM", nc.bns.training.tree.SkillTree.MOUSEOUT_SLOT_ITEM = "MOUSEOUT_SLOT_ITEM", nc.bns.training.tree.ArrowManager = function (a) {
             function b() {
                 var a = nc.bns.training.util.ObjectUtil.getElementKeyNameArr(p),
                     b = nc.bns.training.util.ObjectUtil.getElementArr(p);
@@ -3226,11 +3228,11 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 return -1
             }
             var f = this;
-            f.destroy = function() {
+            f.destroy = function () {
                 $(o).empty(), arrowDataObjArr = []
-            }, f.getConnectionArrTotal = function() {
+            }, f.getConnectionArrTotal = function () {
                 return s
-            }, f.activateArrowsFromSlotToChildSlots = function(a) {
+            }, f.activateArrowsFromSlotToChildSlots = function (a) {
                 for (var b, c = a, d = [], e = 0, f = q.length; f > e; e++) b = q[e], b.prevTrainSlotNo == c && d.push(b.container);
                 for (var g, h = 0, f = d.length; f > h; h++) g = d[h], $(g).addClass("able");
                 for (var i, j = !1, e = 0, f = q.length; f > e; e++)
@@ -3243,15 +3245,15 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     for (var e = 0, f = q.length; f > e; e++) b = q[e], b.slotNo != a && b.prevTrainSlotNo == i.prevTrainSlotNo && d.push(b.container);
                     for (var h = 0, f = d.length; f > h; h++) g = d[h], $(g).removeClass("able")
                 }
-            }, f.deactivateArrowsFromSlotToChildSlots = function(a) {
+            }, f.deactivateArrowsFromSlotToChildSlots = function (a) {
                 arrowContainerArr = [];
                 for (var b = 0, c = q.length; c > b; b++) arrowInfoObj = q[b], arrowInfoObj.prevTrainSlotNo == a && arrowContainerArr.push(arrowInfoObj.container);
                 for (var d = 0, c = arrowContainerArr.length; c > d; d++) _arrowElement = arrowContainerArr[d], $(_arrowElement).removeClass("able")
-            }, f.activateArrowsFromRootToSlotAndGetArrowInfoObj = function(a) {
+            }, f.activateArrowsFromRootToSlotAndGetArrowInfoObj = function (a) {
                 var b = a,
                     c = [],
                     d = {};
-                d.setArrowContainerArr = function(a, b, c) {
+                d.setArrowContainerArr = function (a, b, c) {
                     for (var d, e = !1, f = 0, g = q.length; g > f; f++)
                         if (d = q[f], d.slotNo == b) {
                             e = !0, c.push(d);
@@ -3268,12 +3270,12 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }, d.setArrowContainerArr(d, b, c);
                 for (var e, f = 0, g = c.length; g > f; f++) e = c[f].container, $(e).addClass("able");
                 return c
-            }, f.getNextSkillItemsBySelectedSlotNo = function(a) {
+            }, f.getNextSkillItemsBySelectedSlotNo = function (a) {
                 for (var b, c = a, d = [], e = 0, f = q.length; f > e; e++) b = q[e], b.prevTrainSlotNo == c && d.push(b.slotNo);
                 return d
-            }, f.getConnectionArrTotal = function() {
+            }, f.getConnectionArrTotal = function () {
                 return s
-            }, f.getConnectionArrTotalBySkillId = function(a) {
+            }, f.getConnectionArrTotalBySkillId = function (a) {
                 for (var b, c = [], d = nc.bns.training.Model.SLOT_OBJ_JSON[String(a)], f = nc.bns.training.util.ObjectUtil.getElementKeyNameArr(d), g = nc.bns.training.util.ObjectUtil.getElementArr(d), h = [], i = 0, j = g.length; j > i; i++) b = g[i][1], b.slotNo = f[i], h.push(b);
                 for (var k, l, m, n = [], i = h.length - 1; i >= 0; i--) b = h[i], k = b.prev_train[0], k && (l = e(d, k), m = {
                     prevTrainSlotNo: String(l),
@@ -3281,7 +3283,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 }, n.push(m));
                 var o = [],
                     p = {};
-                p.setArrowConnectionArr = function(a, b, d, e) {
+                p.setArrowConnectionArr = function (a, b, d, e) {
                     if (e) {
                         if (b.length <= 0) return;
                         o = [];
@@ -3318,7 +3320,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 s = [],
                 t = [];
             return b(), f
-        }, nc.bns.training.tree.SkillSlotItem = function(a) {
+        }, nc.bns.training.tree.SkillSlotItem = function (a) {
             function b() {
                 q = nc.bns.training.util.ObjectUtil.getElementArr(n);
                 var a = "",
@@ -3336,17 +3338,17 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function d(a) {
                 switch (a.preventDefault(), a.type) {
-                    case "mouseover":
-                        e();
-                        break;
-                    case "mouseout":
-                        $(k).trigger(q.length > 1 ? {
-                            type: nc.bns.training.tree.SkillSlotItem.MOUSEOUT_SKILL_SLOT_ITEM,
-                            variationData: q[p]
-                        } : {
-                            type: nc.bns.training.tree.SkillSlotItem.MOUSEOUT_SKILL_SLOT_ITEM,
-                            variationData: r
-                        })
+                case "mouseover":
+                    e();
+                    break;
+                case "mouseout":
+                    $(k).trigger(q.length > 1 ? {
+                        type: nc.bns.training.tree.SkillSlotItem.MOUSEOUT_SKILL_SLOT_ITEM,
+                        variationData: q[p]
+                    } : {
+                        type: nc.bns.training.tree.SkillSlotItem.MOUSEOUT_SKILL_SLOT_ITEM,
+                        variationData: r
+                    })
                 }
             }
 
@@ -3370,40 +3372,40 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function g(a) {
                 switch (a) {
-                    case nc.bns.training.tree.SkillSlotItem.STATUS_DEFAULT:
-                        x = !1;
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.STATUS_PLUS:
-                        s.removeClass().addClass(v).addClass("plus"), i(!0), x = !1;
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.STATUS_PLUS_STEP:
-                        s.removeClass().addClass(v).addClass("plusstep"), i(!0), x = !1;
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.STATUS_COMPLETE:
-                        s.removeClass().addClass(v).addClass("complete"), i(!0), p = o, f(p), w = "", x = !0;
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.STATUS_IMPOSSIBLE:
-                        s.removeClass().addClass(v), i(!0), w = "impossible", x = !1;
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.STATUS_EXCLUSIVE:
-                        s.removeClass().addClass(v), i(!0), w = "exclusive", x = !1
+                case nc.bns.training.tree.SkillSlotItem.STATUS_DEFAULT:
+                    x = !1;
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.STATUS_PLUS:
+                    s.removeClass().addClass(v).addClass("plus"), i(!0), x = !1;
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.STATUS_PLUS_STEP:
+                    s.removeClass().addClass(v).addClass("plusstep"), i(!0), x = !1;
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.STATUS_COMPLETE:
+                    s.removeClass().addClass(v).addClass("complete"), i(!0), p = o, f(p), w = "", x = !0;
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.STATUS_IMPOSSIBLE:
+                    s.removeClass().addClass(v), i(!0), w = "impossible", x = !1;
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.STATUS_EXCLUSIVE:
+                    s.removeClass().addClass(v), i(!0), w = "exclusive", x = !1
                 }
                 t = a
             }
 
             function h(a) {
                 switch (a) {
-                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL:
-                        u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL, v = "slot";
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_LEGEND:
-                        s.addClass("elite_legend"), u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_LEGEND, v = "slot elite_legend";
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ELITE:
-                        s.addClass("elite"), u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ELITE, v = "slot elite";
-                        break;
-                    case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ACHIEVEMENT:
-                        s.addClass("achievement"), u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ACHIEVEMENT, v = "slot achievement"
+                case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL:
+                    u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL, v = "slot";
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_LEGEND:
+                    s.addClass("elite_legend"), u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_LEGEND, v = "slot elite_legend";
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ELITE:
+                    s.addClass("elite"), u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ELITE, v = "slot elite";
+                    break;
+                case nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ACHIEVEMENT:
+                    s.addClass("achievement"), u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_ACHIEVEMENT, v = "slot achievement"
                 }
             }
 
@@ -3413,95 +3415,95 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
 
             function j(a) {
                 switch (a.preventDefault(), a.stopPropagation(), a.type) {
-                    case "touchstart":
-                        s.addClass(w);
-                        break;
-                    case "touchend":
-                        if (x){
-                            if (0 >= p) return;
-                            var b = 0;
-                            0 >= b && (b = 0);
-                            var c = q[b];
-                            $(k).trigger({
-                                type: nc.bns.training.tree.SkillSlotItem.CLICK_MOUSE_RIGHT_BUTTON,
-                                prevVariationData: c
-                            })
-                            return;
-                        }
-                        if (nc.bns.training.Model.skillPointRemained <= 0) return;
-                        r = q[p], $(k).trigger({
-                            type: nc.bns.training.tree.SkillSlotItem.CLICK_SKILL_SLOT_ITEM,
-                            variationData: r
-                        }), e();
-                        break;
-                    case "mouseover":
-                        if (!w) return;
-                        s.addClass(w);
-                        break;
-                    case "mouseout":
-                        if (!w) return;
-                        s.removeClass(w);
-                        break;
-                    case "mousedown":
-                        break;
-                    case "click":
-                        if (x) return;
-                        if (nc.bns.training.Model.skillPointRemained <= 0) return;
-                        r = q[p], $(k).trigger({
-                            type: nc.bns.training.tree.SkillSlotItem.CLICK_SKILL_SLOT_ITEM,
-                            variationData: r
-                        }), e();
-                        break;
-                    case "contextmenu":
+                case "touchstart":
+                    s.addClass(w);
+                    break;
+                case "touchend":
+                    if (x) {
                         if (0 >= p) return;
-                        var b = p - 1;
+                        var b = 0;
                         0 >= b && (b = 0);
                         var c = q[b];
                         $(k).trigger({
                             type: nc.bns.training.tree.SkillSlotItem.CLICK_MOUSE_RIGHT_BUTTON,
                             prevVariationData: c
                         })
+                        return;
+                    }
+                    if (nc.bns.training.Model.skillPointRemained <= 0) return;
+                    r = q[p], $(k).trigger({
+                        type: nc.bns.training.tree.SkillSlotItem.CLICK_SKILL_SLOT_ITEM,
+                        variationData: r
+                    }), e();
+                    break;
+                case "mouseover":
+                    if (!w) return;
+                    s.addClass(w);
+                    break;
+                case "mouseout":
+                    if (!w) return;
+                    s.removeClass(w);
+                    break;
+                case "mousedown":
+                    break;
+                case "click":
+                    if (x) return;
+                    if (nc.bns.training.Model.skillPointRemained <= 0) return;
+                    r = q[p], $(k).trigger({
+                        type: nc.bns.training.tree.SkillSlotItem.CLICK_SKILL_SLOT_ITEM,
+                        variationData: r
+                    }), e();
+                    break;
+                case "contextmenu":
+                    if (0 >= p) return;
+                    var b = p - 1;
+                    0 >= b && (b = 0);
+                    var c = q[b];
+                    $(k).trigger({
+                        type: nc.bns.training.tree.SkillSlotItem.CLICK_MOUSE_RIGHT_BUTTON,
+                        prevVariationData: c
+                    })
                 }
             }
             var k = this;
-            k.destroy = function() {
+            k.destroy = function () {
                 c(!1), o = 1, q = [], p = 0, r = null, u = nc.bns.training.tree.SkillSlotItem.TYPE_FRAME_NORMAL, v = "slot"
-            }, k.getSlotFrameType = function() {
+            }, k.getSlotFrameType = function () {
                 return u
-            }, k.setSlotStatus = function(a) {
+            }, k.setSlotStatus = function (a) {
                 g(a)
-            }, k.setFrameType = function(a) {
+            }, k.setFrameType = function (a) {
                 h(a)
-            }, k.getSlotStatus = function() {
+            }, k.getSlotStatus = function () {
                 return t
-            }, k.setCurrentVariationStatus = function(a) {
+            }, k.setCurrentVariationStatus = function (a) {
                 p = parseInt(a)
-            }, k.getCurrentVariationStatus = function() {
+            }, k.getCurrentVariationStatus = function () {
                 return p
-            }, k.displayVariationStatus = function(a) {
+            }, k.displayVariationStatus = function (a) {
                 f(a)
-            }, k.getVariationTotal = function() {
+            }, k.getVariationTotal = function () {
                 return o
-            }, k.getSlotNo = function() {
+            }, k.getSlotNo = function () {
                 return m
-            }, k.setMouseInteraction = function(a) {
+            }, k.setMouseInteraction = function (a) {
                 i(a)
-            }, k.getFlagRemainVariation = function() {
+            }, k.getFlagRemainVariation = function () {
                 var a = !0;
                 return p >= o && (a = !1), a
-            }, k.addVariationStatusValue = function() {
+            }, k.addVariationStatusValue = function () {
                 p >= o || p++
-            }, k.subtractVariationStatusValue = function() {
+            }, k.subtractVariationStatusValue = function () {
                 0 >= p || p--
-            }, k.learnSkill = function() {
+            }, k.learnSkill = function () {
                 p >= o || f(p)
-            }, k.cancelSkill = function() {
+            }, k.cancelSkill = function () {
                 0 >= p || f(p)
-            }, k.getCurrentVariationPcLevel = function() {
+            }, k.getCurrentVariationPcLevel = function () {
                 return parseInt(r.pc_level)
-            }, k.getCurrentVariationName2Refine = function() {
+            }, k.getCurrentVariationName2Refine = function () {
                 return r.name2_refine
-            }, k.getCurrentVariationRequiredTp = function() {
+            }, k.getCurrentVariationRequiredTp = function () {
                 return r.required_tp
             };
             var l = a.container,

@@ -147,29 +147,6 @@ table {
     padding-top: 12px;
 }
 
-.navbar-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-}
-/* Flip around the padding for proper display in narrow viewports */
-
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.navbar-wrapper .navbar {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.navbar-wrapper .navbar .container {
-    width: auto;
-}
-
 .navbar-toggle {
     display: block;
     /* force showing the toggle */
@@ -182,12 +159,6 @@ table {
 
 .navmenu {
     z-index: 1;
-}
-
-.navbar-inverse .navbar-nav>.open>a,
-.navbar-inverse .navbar-nav>.open>a:focus,
-.navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: rgba(0, 0, 0, 0);
 }
 
 .navmenu-nav {
@@ -297,22 +268,6 @@ table {
     
     .dropdown:hover .dropdown-menu {
         display: block;
-    }
-    .navbar-wrapper {
-        margin-top: 20px;
-    }
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    /* The navbar becomes detached from the top, so we round the corners */
-    
-    .navbar-wrapper .navbar {
-        border-radius: 4px;
     }
     /* Bump up size of carousel content */
     
@@ -429,34 +384,4 @@ a,
 .modal-open .modal,
 .btn:focus {
     outline: none!important;
-}
-
-progress {
-    width: 1035px;
-    height: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    -webkit-appearance: none;
-    border: none
-}
-
-progress::-webkit-progress-bar {
-    background: transparent
-}
-
-progress::-webkit-progress-value {
-    background: transparent;
-    background-repeat: no-repeat;
-    background-image: url(img/progress.gif);
-    -webkit-animation: move 3s linear 0 infinite;
-    animation: move 3s linear 0 infinite
-}
-
-progress::-moz-progress-bar {
-    background: transparent;
-    background-repeat: no-repeat;
-    background-image: url(img/progress.gif);
-    -webkit-animation: move 3s linear 0 infinite;
-    animation: move 3s linear 0 infinite
 }
