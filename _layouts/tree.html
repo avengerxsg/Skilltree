@@ -1,0 +1,103 @@
+---
+layout: default
+---
+    <div class="training-content container">
+        <progress id="pbar" value="100" max="100"></progress>
+        <div class="trWrap" id="trainingWrap"></div>
+
+        <script src="{{ "/jquerytools.js" | prepend: site.baseurl }}"></script>
+
+        <script src="/training.min.js" | prepend: site.baseurl }}"></script>
+        <script src="/{{ page.job }}/category_data_{{ page.job }}.js" | prepend: site.baseurl }}"></script>
+        <script src="/{{ page.job }}/slot_data_{{ page.job }}.js" | prepend: site.baseurl }}"></script>
+        <script src="/{{ page.job }}/skill_data_{{ page.job }}.js" | prepend: site.baseurl }}"></script>
+        <script src="/{{ page.job }}/data_skill-tooltip_{{ page.job }}.js" | prepend: site.baseurl }}"></script>
+        <script src="/data_skill-tooltip-attribute.js" | prepend: site.baseurl }}"></script>
+
+        <script type="text/javascript">
+            var _training;
+
+            (function ($) {
+                $(document).ready(function () {
+                    if (String.prototype.trim == null)
+                        String.prototype.trim = function () {
+                            return this.replace(/^\s*/, "").replace(/\s*$/, "");
+                        }
+
+                    _training = new nc.bns.training.Training({
+                        containerSelector: ".trWrap",
+                        level: 50,
+                        masteryLevel: 12,
+                        job: "{{ page.job }}",
+                        masteryTitle: "Divine Level ",
+                        maxLevel: 50
+                    });
+
+                    //reset button
+                    var _$resetSkillBtn = $("#resetSkill");
+                    var _$resetAllSkillBtn = $("#resetAllSkill");
+                });
+            })(jQuery);
+
+            document.getElementById('pbar').setAttribute('style', 'display:none;');
+        </script>
+    </div>
+    
+    <div class="main-bg">
+        <div class="container main-content">
+
+            <h2 class="featurette-heading">Class Information.</h2>
+            <h2 class="lead">{{ page.fullname }}</h2>
+            <div class="row featurette">
+                <div class="col-md-6">
+                    <div class="video embed-responsive embed-responsive-16by9">
+                        <iframe id="ytplayer" class="embed-responsive-item" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <table>
+                        <tr>
+                            <td>Difficulty</td>
+                            <td>
+                                <p style="font-family:hvgafix">{{ page.difficulty }}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Playable Race</td>
+                            <td>{{ page.race }}</td>
+                        </tr>
+                    </table>
+                    <p class="desc">{{ content }}</p>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <h2 class="featurette-heading">Builds.</h2>
+            <div class="row featurette">
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                    {% for build in site.data.builds %}
+                    {% if page.job == build.job %}
+                        <li><a href="#tab_{{ build.entry }}" data-toggle="pill" onclick="{{ build.function }}">{{ build.name }}</a>
+                    {% endif %}
+                    {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="tab-content col-md-8">
+                    <h3>Build Description</h3>
+                    {% for build in site.data.builds %}
+                    {% if page.job == build.job %}
+                    <div class="tab-pane" id="tab_{{ build.entry }}">
+                        {{ build.description }}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </div>
+

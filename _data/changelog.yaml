@@ -1,6 +1,7 @@
 ---
 - entry: 5
   date: April 10, 2015
+  status: active
   description: |
     Site Update: Domain name added!
     <li>You can now go to this site with a proper url, bnstree.com! No more weird Github links! (they still work though)</li>
@@ -8,7 +9,6 @@
   
 - entry: 4
   date: April 9, 2015
-  status: active
   description: |
     Site Update: Newer and better interface!
     <li>Responsive design! Go ahead and rescale your window! Friendly for all screen sizes.</li>
@@ -16,7 +16,6 @@
   
 - entry: 3
   date: March 19, 2015
-  status: 
   description: |
     Skill Update: Buffs for Destroyer, Force Master, Summoner
     <br>
@@ -80,7 +79,6 @@
 
 - entry: 2
   date: January 29, 2015
-  status: 
   description: |
     Site Update: Share your builds!
     <br>You can now generate links to your build and load builds directly from the link!
@@ -88,7 +86,6 @@
 
 - entry: 1
   date: January 27, 2015
-  status: 
   description: |
     Announcement: BnS Tree 2.0
     <br>Changelog has been cleared and from now on will only be used to update big changes rather than simple minor translation fixes here and there. That said, you can still access the more detailed(?) commit history at <a href=\ "https://github.com/dakaringer/BnS-ST/commits/gh-pages\">Github</a>.</p>

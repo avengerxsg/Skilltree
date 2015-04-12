@@ -3,7 +3,7 @@
 
 var _training;
 // PvE-------------------------------------------------------------------------------------------------------------
-function diel_pve_essential() {
+function sm_pve_essential() {
     "use strict";
     (function ($) {
         $("#buildlist").animate({
@@ -15,7 +15,7 @@ function diel_pve_essential() {
     }(jQuery));
 }
 
-function diel_pve_build1() {
+function sm_pve_build1() {
     "use strict";
     (function ($) {
         $("#buildlist").animate({
@@ -28,7 +28,7 @@ function diel_pve_build1() {
 }
 // PvP-------------------------------------------------------------------------------------------------------------
 
-function diel_pvp_build1() {
+function sm_pvp_build1() {
     "use strict";
     (function ($) {
         $("#buildlist").animate({

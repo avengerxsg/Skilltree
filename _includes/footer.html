@@ -5,7 +5,7 @@
     <script src="{{ "/bootstrap/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/bootstrap/js/jasny-bootstrap.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/extra.js" | prepend: site.baseurl }}"></script>
-    {% if page.layout != 'home' %}<script src="builds_{{ page.job }}.js"></script>{% endif %}
+    {% if page.type != 'home' %}<script src="builds_{{ page.job }}.js"></script>{% endif %}
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="{{ "/bootstrap/js/ie10-viewport-bug-workaround.js" | prepend: site.baseurl }}"></script>
 </body>
