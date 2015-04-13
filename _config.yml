@@ -11,3 +11,5 @@ github_username:  dakaringer
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed

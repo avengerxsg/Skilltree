@@ -36,9 +36,10 @@
     </script>
 
     <!-- Custom styles for this template -->
-    <link href="{% if page.type != 'home' %}../{% endif %}layout.css" rel="stylesheet"> 
-    {% if page.type != 'home' %}
-    <link rel="stylesheet" type="text/css" href="../training2.css" />
+    {% if page.type == 'home' %}
+    <link href="css/main.css" rel="stylesheet"> 
+    {% else %}
+    <link href="../css/tree.css" rel="stylesheet">
     <style>
         .tooltipWrap {
             background: url('bg_tree.png') rgba(0, 0, 0, 0.0) no-repeat right bottom;

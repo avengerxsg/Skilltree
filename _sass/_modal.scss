@@ -1,0 +1,34 @@
+.modal-content {
+    background-color: $glass;
+    color: $default-font-color;
+    
+    li {
+        list-style-type: square;
+        list-style-position: inside;
+        text-indent: -1em;
+        padding-left: 1.5em;
+    }
+}
+
+
+.modal-title {
+    color: $gold;
+}
+
+
+.modal-header {
+    border-bottom: $border;
+}
+
+
+.modal-footer {
+    border-top: $border;
+}
+
+
+#codearea {
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}

@@ -10,8 +10,6 @@
 
 * {
     font-family: "NanumGothic", "Segoe UI", "Helvetica Neue";
-    margin: 0;
-    padding: 0
 }
 
 body,
@@ -70,20 +68,24 @@ ul {
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     border-top: 1px solid #31302B;
-}
-
-.main-content {
     padding-bottom: 100px;
 }
 
-.main-content p,
-li,
-table {
+
+.modal-content {
+    background-color:black;
     color: floralwhite;
 }
 
-.modal-body li {
-    color: black;
+.main-content {
+    color: floralwhite;
+}
+
+.modal-content li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1.5em;
 }
 
 .video {
@@ -115,9 +117,8 @@ table {
     }
 }
 
-.modal-body li,
 .tab-pane li {
-    list-style-type: disc;
+    list-style-type: square;
     list-style-position: inside;
     text-indent: -1em;
     padding-left: 1.5em;
@@ -170,13 +171,6 @@ table {
     margin-top: 0;
 }
 
-.tab-list {
-    min-height:300px;
-}
-
-.tab-pane {
-    color: floralwhite;
-}
 
 .navbar-toggle {
     z-index: 1;
@@ -293,7 +287,7 @@ table {
         padding: 10px 0 20px 0;
     }
     .canvas {
-        padding: 140px 0 0 0;
+        padding: 200px 0 0 0;
     }
 }
 /* Bootstrap Override
@@ -308,18 +302,13 @@ table {
     text-indent: 0;
 }
 
-.modal {
-    padding-right: 0px !important;
-}
 
-.navmenu-inverse,
-.navbar-default .navbar-offcanvas {
+.navmenu-inverse {
     background-color:#111;
     border-color: #31302B;
 }
 
-.navmenu-inverse .navmenu-nav>li>a,
-.navbar-default .navbar-offcanvas .navmenu-nav>li>a {
+.navmenu-inverse .navmenu-nav>li>a {
     color: #B29F69;
 }
 
@@ -337,9 +326,6 @@ table {
     
     background: linear-gradient(to left, rgba(25, 85, 130, 0), rgba(25, 85, 130, 1));
     /*Standard*/
-    
-    color: #eee;
-    text-decoration: none
 }
 
 .nav-pills>li>a:focus,
@@ -363,15 +349,9 @@ table {
     color: #aaa;
 }
 
-a,
-.modal-open .modal,
-.btn:focus {
-    outline: none!important;
-}
 
-.navbar-toggle {
-    border-width: 0px;
-}
+
+
 
 .navbar-toggle:hover {
     background-color: transparent !important;
