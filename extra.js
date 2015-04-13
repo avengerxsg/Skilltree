@@ -210,3 +210,8 @@ $('.modal').on('hidden.bs.modal', function (event) {
         $('[data-toggle="modal"]').blur();
     });
 });
+
+$(".canvas").click(function () {
+    "use strict";
+    $('[data-toggle="offcanvas"]').blur();
+});

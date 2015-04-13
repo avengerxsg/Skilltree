@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-    <div class="training-content container">
+    <div class="training-content">
         <div class="trWrap" id="trainingWrap"></div>
 
         <script src="../jquery_171.js"></script>
@@ -44,7 +44,7 @@ layout: default
         <div class="container main-content">
 
             <h2 class="featurette-heading">Class Information.</h2>
-            <h2 class="lead">{{ page.fullname }}</h2>
+            <h2 class="lead" style="margin-left:15px;">{{ page.fullname }}</h2>
             <div class="row featurette">
                 <div class="col-md-6">
                     <div class="video embed-responsive embed-responsive-16by9">
@@ -70,9 +70,13 @@ layout: default
 
             <hr class="featurette-divider">
 
-            <h2 class="featurette-heading">Builds.</h2>
+            <h2 class="featurette-heading">Di'el's Builds.</h2>
             <div class="row featurette">
-                <div class="col-md-3">
+                <div class="col-md-12" style="margin-bottom: 25px;">
+                    <p class="lead" style="margin-bottom:5px;">Example builds for most situations.</p>
+                    <p>Note: Selecting one of the builds below will overwrite all talents above.</p>
+                </div><br>
+                <div class="tab-list col-md-3">
                     <ul class="nav nav-pills nav-stacked">
                     {% for build in site.data.builds %}
                     {% if page.job == build.job %}
