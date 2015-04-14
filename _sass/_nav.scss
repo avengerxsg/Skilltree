@@ -63,6 +63,22 @@
     .dropdown:hover .dropdown-menu {
         display: block;
     }
+    
+    .dropdown-menu { 
+        background-color: $glass;
+        color: #9d9d9d;
+        border: $border;
+    }
+    
+    .dropdown-menu>li>a { 
+        color: #9d9d9d;
+        
+        &:hover,
+        &:focus {
+            background-color: rgba(80,80,80,0.5);
+            color: $default-font-color;
+        }
+    }
 }
 
 
@@ -72,11 +88,23 @@
  */
 .navmenu {
     z-index: 1;
+    -webkit-box-shadow: inset -20px 0px 15px -10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    inset -20px 0px 15px -10px rgba(0, 0, 0, 0.5);
+    box-shadow:         inset -20px 0px 15px -10px rgba(0, 0, 0, 0.5);
 }
 
 .navmenu-nav {
     margin-top: 200px;
     font-size: 16px;
+    
+    
+    p {
+        padding-left: 15px;
+        padding-bottom: 5px;
+        font-size: 18px;
+        color: #777;
+        border-bottom: 1px solid #777;
+    }
     
     li a {
         padding-left: 35px;

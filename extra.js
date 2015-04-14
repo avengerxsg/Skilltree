@@ -215,3 +215,9 @@ $(".canvas").click(function () {
     "use strict";
     $('[data-toggle="offcanvas"]').blur();
 });
+
+
+$(".dropdown").click(function () {
+    "use strict";
+    $('[data-toggle="dropdown"]').blur();
+});

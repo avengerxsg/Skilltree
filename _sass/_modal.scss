@@ -1,5 +1,5 @@
 .modal-content {
-    background-color: $glass;
+    background-color: rgba(30,30,30,0.9);
     color: $default-font-color;
     
     li {
@@ -27,6 +27,8 @@
 
 
 #codearea {
+    background-color: $glass;
+    border: $border;
     margin-top: 10px;
     width: 100%;
     height: 150px;

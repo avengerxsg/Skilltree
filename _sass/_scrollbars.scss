@@ -17,15 +17,11 @@ body::-webkit-scrollbar {
 }
 
 
-ul::-webkit-scrollbar {
-    width: 5px;
+ul, .modal, .categoryBody {
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
 }
-
-
-.categoryBody::-webkit-scrollbar {
-    width: 5px;
-}
-
 
 ::-webkit-scrollbar-thumb {
     background-color: $face-color;

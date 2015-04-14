@@ -7,11 +7,11 @@
                     <h4 class="modal-title" id="myModalLabel">Reset current skill?</h4>
                 </div>
                 <div class="modal-body">
-                    <p>This will unlearn all points from the currently selected skill.</p>
+                    <p>This will unlearn all talents from the currently selected skill.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" onclick="_training.resetSelectedSkill()" data-dismiss="modal">Reset Skill</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-warning" onclick="_training.resetSelectedSkill()" data-dismiss="modal">Reset Skill</button>
+                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>
@@ -26,11 +26,11 @@
                     <h4 class="modal-title" id="myModalLabel">Reset all skills?</h4>
                 </div>
                 <div class="modal-body">
-                    <p>This will unlearn all points from all skills.</p>
+                    <p>This will unlearn all talents from all skills.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" onclick="_training.resetAllSkill()" data-dismiss="modal">Reset All</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-warning" onclick="_training.resetAllSkill()" data-dismiss="modal">Reset All</button>
+                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
                     <li>Target cannot use offensive defense abilities</li>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -154,10 +154,10 @@
                     <textarea id="codearea"></textarea>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" onclick="generateBuild()">Generate Code</button>
-                    <button type="button" class="btn btn-primary" onclick="applyBuild('{{ page.job }}')">Apply Code</button>
-                    <button type="button" class="btn btn-primary" onclick="generateUrl('{{ page.job }}')">Generate Url </button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning" onclick="generateBuild()">Generate Code</button>
+                    <button type="button" class="btn btn-warning" onclick="applyBuild('{{ page.job }}')">Apply Code</button>
+                    <button type="button" class="btn btn-warning" onclick="generateUrl('{{ page.job }}')">Generate Url </button>
+                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
