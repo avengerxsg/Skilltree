@@ -451,7 +451,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                 z = '<div class="categoryBody"><div class="scrollCategoryBody"></div></div>',
                 A = '<div class="bgb"></div>',
                 B = '<div class="menuWrap">';
-            return a(s).append(y + z + A + B), w = new nc.bns.training.category.CategoryContainer({
+            return a(s).append( z + B), w = new nc.bns.training.category.CategoryContainer({
                 containerWrap: a(".categoryBody", s).get(0),
                 container: a(".categoryBody .scrollCategoryBody", s).get(0),
                 skillObjArr: t,
