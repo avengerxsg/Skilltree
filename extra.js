@@ -204,12 +204,14 @@ $(window).scroll(function () {
     tempScrollTop = $("div.categoryBody").scrollTop();
 });
 
+
 $('.modal').on('hidden.bs.modal', function (event) {
     "use strict";
     setTimeout(function () {
         $('[data-toggle="modal"]').blur();
     });
 });
+
 
 $(".canvas").click(function () {
     "use strict";
