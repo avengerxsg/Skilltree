@@ -34,3 +34,17 @@
     height: 150px;
     resize: none;
 }
+
+.btn {
+    border: none;
+}
+
+.btn-default {
+    background-color: #999;
+    color: $default-font-color;
+    
+    &:hover {
+        color: $default-font-color;
+        background-color: #555;
+    }
+}

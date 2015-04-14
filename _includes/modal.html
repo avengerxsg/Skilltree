@@ -11,7 +11,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-warning" onclick="_training.resetSelectedSkill()" data-dismiss="modal">Reset Skill</button>
-                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-warning" onclick="_training.resetAllSkill()" data-dismiss="modal">Reset All</button>
-                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
                     <li>Target cannot use offensive defense abilities</li>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -150,14 +150,14 @@
                 <div class="modal-body">
                     <p class="instructions">Generate your code and save your build with a simple text editor like notepad or paste your code in the box and hit apply to load your build.
                         <br>
-                        <br>You can also generate a url that you can use to link to your build. Keep in mind that the generated url can be very long. Consider using a url shortener.</p>
+                        <br>You can also generate a URL that you can use to link to your build. Keep in mind that the generated URL can be very long. Consider using a URL shortener.</p>
                     <textarea id="codearea"></textarea>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-warning" onclick="generateBuild()">Generate Code</button>
                     <button type="button" class="btn btn-warning" onclick="applyBuild('{{ page.job }}')">Apply Code</button>
-                    <button type="button" class="btn btn-warning" onclick="generateUrl('{{ page.job }}')">Generate Url </button>
-                    <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning" onclick="generateUrl('{{ page.job }}')">Generate URL </button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
