@@ -8,4 +8,6 @@ difficulty: ●●●○○
 race: Lyn, Kun
 youtube: https://www.youtube-nocookie.com/embed/CjbS4W6zf6Y?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1
 ---
-No description... yet.
+Force Masters manage their chi to perform powerful force attacks.
+
+They are ranged specailists that can protect allies with ice and manage multiple foes with powerful flames from afar.
