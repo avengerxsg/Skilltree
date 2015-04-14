@@ -3199,7 +3199,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     if (F.length > 0) {
                         for (var I, J, G = 0, H = F.length; H > G && (I = F[G], J = String(I.slotNo).charAt(1), f != J); G++);
                         var K = String(I.slotNo).charAt(0);
-                        if (parseInt(o) <= parseInt(K)) v = parseInt(d - 1) * i + g, w = parseInt(f - 1) * j + h, y = 1 >= t ? k - l : t * i - m - l, z.style.top = v + "px", z.style.left = w + "px", z.style.width = n + "px", z.style.height = y + "px", x = u * j, A.style.height = n + "px", A.style.top = v + y + "px", A.style.left = w + "px", A.style.width = x + "px", B.style.top = parseInt(A.style.top) + "px", B.style.left = w + x - 3 + "px";
+                        if (parseInt(o) <= parseInt(K)) v = parseInt(d - 1) * i + g, w = parseInt(f - 1) * j + h, y = 1 >= t ? k - l : t * i - m - l, z.style.top = v + "px", z.style.left = w + "px", z.style.width = n + "px", z.style.height = y + "px", x = u * j, A.style.height = n + "px", A.style.top = v + y + "px", A.style.left = w + "px", A.style.width = x + 2 + "px", B.style.top = parseInt(A.style.top) + "px", B.style.left = w + x - 3 + "px";
                         else {
                             var L = parseInt(K) - d;
                             v = parseInt(d - 1) * i + g, w = parseInt(f - 1) * j + h, y = 1 >= L ? k - l : L * i - m - l, z.style.top = v + "px", z.style.left = w + "px", z.style.width = n + "px", z.style.height = y + "px", x = u * j, A.style.height = n + "px", A.style.top = v + y + "px", A.style.left = w + "px", A.style.width = x + "px";
@@ -3209,7 +3209,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                             y = N * i, M.style.top = parseInt(A.style.top) + "px", M.style.left = w + x + "px", M.style.width = n + "px", M.style.height = y + "px", B.style.top = parseInt(A.style.top) + y + "px", B.style.left = w + x - 3 + "px"
                         }
                     } else v = parseInt(d - 1) * i + g, w = parseInt(f - 1) * j + h, y = 1 >= t ? k - l : t * i - m - l, z.style.top = v + "px", z.style.left = w + "px", z.style.width = n + "px", z.style.height = y + "px", x = u * j, A.style.height = n + "px", A.style.top = v + y + "px", A.style.left = w + "px", A.style.width = x + "px", B.style.top = parseInt(A.style.top) + "px", B.style.left = w + x - 3 + "px"
-                } else t = parseInt(o) - parseInt(d), v = parseInt(d - 1) * i + g, w = parseInt(f - 1) * j + h, y = 1 >= t ? k - l : t * i - m - l, z.style.top = v + "px", z.style.left = w + "px", z.style.width = n + "px", z.style.height = y + "px", A.style.display = "none", B.style.left = w - 3 + "px", B.style.top = parseInt(z.style.top) + parseInt(z.style.height) + "px";
+                } else t = parseInt(o) - parseInt(d), v = parseInt(d - 1) * i + g, w = parseInt(f - 1) * j + h, y = 1 >= t ? k - l : t * i - m - l, z.style.top = v + "px", z.style.left = w + "px", z.style.width = n + "px", z.style.height = y + 2 + "px", A.style.display = "none", B.style.left = w - 3 + "px", B.style.top = parseInt(z.style.top) + parseInt(z.style.height) + "px";
                 var O = {
                     container: s,
                     prevTrainSlotNo: String(b),
