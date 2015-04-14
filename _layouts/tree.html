@@ -86,15 +86,17 @@ layout: default
                     </ul>
                 </div>
 
-                <div class="tab-content col-md-9">
-                    <h3>Build Description</h3>
-                    {% for build in site.data.builds %}
-                    {% if page.job == build.job %}
-                    <div class="tab-pane" id="tab_{{ build.entry }}">
-                        {{ build.description }}
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <h3>Build Description</h3>
+                        {% for build in site.data.builds %}
+                        {% if page.job == build.job %}
+                        <div class="tab-pane" id="tab_{{ build.entry }}">
+                            {{ build.description }}
+                        </div>
+                        {% endif %}
+                        {% endfor %}
                     </div>
-                    {% endif %}
-                    {% endfor %}
                 </div>
             </div>
 

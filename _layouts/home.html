@@ -69,13 +69,15 @@ layout: default
                     </ul>
                 </div>
                 
-                <div class="tab-content col-md-9">
+                <div class="col-md-9">
+                    <div class="tab-content">
                     <h3>News</h3>
                     {% for change in site.data.changelog %}
                     <div class="tab-pane {% if change.status == 'active' %}active{% endif %}" id="tab_{{ change.entry }}">
                         {{ change.description }}
                     </div>
                     {% endfor %}
+                    </div>
                 </div>
             </div>
             
