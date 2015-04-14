@@ -51,7 +51,6 @@ html {
     z-index: 2;
     
     min-height:100%;
-    padding-top: 180px;
     
     background: #000 url(../img/home.jpg) no-repeat center 2px;
     background-size: 100% auto;
@@ -59,15 +58,10 @@ html {
     border-left: $border;
     margin-left: -1px;
     padding-right:1px;
-    
-    @media (max-width: 991px) {
-        padding-top: 200px;
-    }
 }
 
 
 .main-bg {
-    margin-top: 100px;
     background-color: $glass;
     border-top: $border;
     padding-bottom: 100px;
