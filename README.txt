@@ -26,6 +26,8 @@ skill_data_XX.js
 Background images are taken by me or found on the bns kr screenshot forum.
 Skill images are directly from the bns kr website.
 
+You can see "the_humble_beginning.html" to see where I started from.
+
 
 
 Major changes...
