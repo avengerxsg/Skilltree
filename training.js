@@ -492,7 +492,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
             return e
         }, nc.bns.training.category.SortMenu.CLICK_SORT_MENU = "CLICK_SORT_MENU", nc.bns.training.category.CategoryContainer = function (b) {
             function c() {
-                r && (r.style.position = "relative"), d(), k(0), i()
+                r && (r.style.position = ""), d(), k(0), i()
             }
 
             function d() {
