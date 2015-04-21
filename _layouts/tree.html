@@ -40,7 +40,34 @@ layout: default
     
     <div class="main-bg">
         <div class="container main-content">
-            
+
+            <h2 class="featurette-heading">Class Information.</h2>
+            <h2 class="lead" style="margin-left:15px;">{{ page.fullname }}</h2>
+            <div class="row featurette">
+                <div class="col-md-6">
+                    <div class="video embed-responsive embed-responsive-16by9">
+                        <iframe id="ytplayer" class="embed-responsive-item" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <table>
+                        <tr>
+                            <td>Difficulty</td>
+                            <td>
+                                <p style="font-family:hvgafix">{{ page.difficulty }}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Playable Race</td>
+                            <td>{{ page.race }}</td>
+                        </tr>
+                    </table>
+                    <p class="desc">{{ content }}</p>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
             <h2 class="featurette-heading">Di'el's Builds.</h2>
             <div class="row featurette">
                 <div class="col-md-12" style="margin-bottom: 25px;">
@@ -70,37 +97,6 @@ layout: default
                     </div>
                 </div>
             </div>
-            
-            <hr class="featurette-divider">
-
-            <h2 class="featurette-heading">Class Information.</h2>
-            <h2 class="lead" style="margin-left:15px;">{{ page.fullname }}</h2>
-            <div class="row featurette">
-                <div class="col-md-6">
-                    <div class="video embed-responsive embed-responsive-16by9">
-                        <iframe id="ytplayer" class="embed-responsive-item" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <table>
-                        <tr>
-                            <td>Difficulty</td>
-                            <td>
-                                <p style="font-family:hvgafix">{{ page.difficulty }}</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Playable Race</td>
-                            <td>{{ page.race }}</td>
-                        </tr>
-                    </table>
-                    <p class="desc">{{ content }}</p>
-                </div>
-            </div>
-
-            
-
-            
 
         </div>
         <!-- /.container -->
