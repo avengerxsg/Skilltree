@@ -78,7 +78,7 @@ layout: default
                     <ul class="nav nav-pills nav-stacked">
                     {% for build in site.data.builds %}
                     {% if page.job == build.job %}
-                        <li><a href="#tab_{{ build.entry }}" data-toggle="pill" onclick="{{ build.function }}">{{ build.name }}</a>
+                        <li><a href="#tab_{{ build.entry }}" data-toggle="pill" onclick="{{ build.function }}">{{ build.name }}</a></li>
                     {% endif %}
                     {% endfor %}
                     </ul>
