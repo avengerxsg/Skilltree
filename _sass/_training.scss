@@ -647,9 +647,13 @@ strong {
             
             em {
                 height: 21px;
-                padding-top: 5px;
+                padding-top: 3px;
             }
 
+            .diff {
+                    padding: 4px 0;
+                }
+            
             div {
                 padding: 16px 0;
                 
@@ -657,14 +661,16 @@ strong {
                     overflow: hidden;
                     padding-top: 2px;
                     line-height: 110%;
-                }
-                
-                .diff {
-                    padding: 2px 0 0;
+                    margin-bottom: 0;
                 }
                 
                 .diff_arrow {
+                    padding-top: 3px;
                     font-size: 8px;
+                }
+                
+                .ui_skill_mod {
+                    padding-top: 0;
                 }
             }
 
