@@ -810,57 +810,52 @@ var category_data_BM = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png\' class=\'icon_in_description\' /> While suppressed, seized, force gripped  "
     },
-    /* "20312": 
-	{
-		"skill_id": "20312",
-		"tree_id": "20105",
-		"name2_refine": "Lying Block<br>누워막기",
-		"name2_refine_en": "Lying Block",
-		"pc_level": "1",
-		"pc_mastery_level": null,
-		"complete_quest": null,
-		"complete_quest_name": null,
-		"default_keycap": "2",
-		"sort_no": "98",
-		"skill_icon": 
-		{
-			"1": "skill_icon_blademaster_0_59.png"
-		},
-		"tooltip_stance_type": 
-		{
-			"0": "검술",
-			"1": "발도술",
-			"2": "어검술"
-		},
-		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> While downed  "
-	},
-	"20106": 
-	{
-		"skill_id": "20106",
-		"tree_id": "20105",
-		"name2_refine": "Sword Barrier<br>검막",
-		"name2_refine_en": "Sword Barrier",
-		"pc_level": "1",
-		"pc_mastery_level": null,
-		"complete_quest": null,
-		"complete_quest_name": null,
-		"default_keycap": "F",
-		"sort_no": "98",
-		"skill_icon": 
-		{
-			"1": "skill_icon_blademaster_0_57.png",
-			"33": "buff_debuff_icon_02_57.png"
-		},
-		"tooltip_stance_type": 
-		{
-			"0": "검술",
-			"1": "발도술",
-			"2": "어검술"
-		},
-		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_blademaster_0_6.png\' class=\'icon_in_description\' /> Using Block  "
-	}, */
+    "20312": {
+        "skill_id": "20312",
+        "tree_id": "20105",
+        "name2_refine": "Lying Block<br>누워막기",
+        "name2_refine_en": "Lying Block",
+        "pc_level": "1",
+        "pc_mastery_level": null,
+        "complete_quest": null,
+        "complete_quest_name": null,
+        "default_keycap": "2",
+        "sort_no": "98",
+        "skill_icon": {
+            "1": "skill_icon_blademaster_0_59.png"
+        },
+        "tooltip_stance_type": {
+            "0": "검술",
+            "1": "발도술",
+            "2": "어검술"
+        },
+        "tooltip_stance_refine": null,
+        "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> While downed  "
+    },
+    "20106": {
+        "skill_id": "20106",
+        "tree_id": "20105",
+        "name2_refine": "Blade Barrier<br>검막",
+        "name2_refine_en": "Blade Barrier",
+        "pc_level": "6",
+        "pc_mastery_level": null,
+        "complete_quest": null,
+        "complete_quest_name": null,
+        "default_keycap": "F",
+        "sort_no": "98",
+        "skill_icon": {
+            "1": "skill_icon_blademaster_0_57.png",
+            "32": "skill_icon_blademaster_0_57.png",
+            "33": "buff_debuff_icon_02_57.png"
+        },
+        "tooltip_stance_type": {
+            "0": "검술",
+            "1": "발도술",
+            "2": "어검술"
+        },
+        "tooltip_stance_refine": null,
+        "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_blademaster_0_6.png\' class=\'icon_in_description\' /> Using Block  "
+    },
     "20600": {
         "skill_id": "20600",
         "tree_id": "20600",

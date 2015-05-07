@@ -1471,6 +1471,158 @@ var skill_data_BM = {
             }
         }
     },
+    "BladeMaster_Sword_blocking_Down_LV31": 
+	{
+		"id": "20312",
+		"name": "Lying Block - 누워막기",
+		"icon": "skill_icon_blademaster_0_59.png",
+		"main_info1": "Blocks attacks for 4 sec",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "12 sec"
+			}
+		}
+	},
+    "BladeMaster_Sword_blocking_LV1_Bubble": 
+	{
+		"id": "20106",
+		"name": "Blade Barrier - 검막",
+		"icon": "skill_icon_blademaster_0_57.png",
+		"main_info1": "User and allies within the area are invulnerable",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_4",
+				"value": "5m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
+    "BladeMaster_Sword_blocking_LV32_Bubble": 
+	{
+		"id": "20106",
+		"name": "Blade Barrier - 검막",
+		"icon": "skill_icon_blademaster_0_57.png",
+		"main_info1": "User and allies within the area are invulnerable",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_4",
+				"value": "5m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
+	"BladeMaster_Sword_blocking_LV33_Bubble": 
+	{
+		"id": "20106",
+		"name": "Soulblade Protection - 어검보호",
+		"icon": "buff_debuff_icon_02_57.png",
+		"main_info1": "User and nearby allies are invulnerable from the next 3 attacks",
+		"main_info2": null,
+		"sub_info": "Heals the user 10% of their maximum health",
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_4",
+				"value": "16m"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
     "BladeMaster_Sword_BackwardRoll_LV1": {
         "id": "20107",
         "name": "Backward Roll - 뒤구르기",
