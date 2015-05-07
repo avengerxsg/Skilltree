@@ -703,6 +703,82 @@ var skill_data_SM = {
             }
         }
     },
+	"SwordMaster_Sword_Breeze_Field_LV1": 
+	{
+		"id": "27150",
+		"name": "Cyclone - 회오리",
+		"icon": "skill_icon_swordmaster_2_13.png",
+		"main_info1": "User is invulnerable for 1.5 sec",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
+    "SwordMaster_Sword_Breeze_Field_LV23": 
+	{
+		"id": "27150",
+		"name": "Cyclone - 회오리",
+		"icon": "skill_icon_swordmaster_2_13.png",
+		"main_info1": "User is invulnerable for 1.5 sec",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
     "SwordMaster_Sword_vertical_cut_LV1": {
         "id": "27104",
         "name": "Sunder - 가르기",

@@ -1957,13 +1957,13 @@ var slot_data_SM = {
         "52": {
             "1": {
                 "tree_id": "27103",
-                "skill_id": "27103",
+                "skill_id": "27150",
                 "alias": "SM_27103_23",
                 "max_variation_level": "1",
                 "variation_id": "8",
-                "tooltip_alias": "SwordMaster_Sword_spin_slash_LV23",
-                "name2_refine": "Pinwheel<br>바람개비",
-                "name2_refine_en": "Pinwheel",
+                "tooltip_alias": "SwordMaster_Sword_Breeze_Field_LV23",
+                "name2_refine": "Cyclone<br>회오리",
+                "name2_refine_en": "Cyclone",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -1985,13 +1985,13 @@ var slot_data_SM = {
                 },
                 "variation_index": 7,
                 "train_skill_id": {
-                    "0": "27103",
+                    "0": "27150",
                     "1": null,
                     "2": null,
                     "3": null
                 },
                 "train_skill_alias": {
-                    "0": "SwordMaster_Sword_spin_slash_LV23",
+                    "0": "SwordMaster_Sword_Breeze_Field_LV23",
                     "1": null,
                     "2": null,
                     "3": null
@@ -2011,7 +2011,7 @@ var slot_data_SM = {
                     "3": null
                 },
                 "parent_train": {
-                    "0": "27103"
+                    "0": "27150"
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0121",
                 "complete_quest_name_refine": "Pinwheel Part 2",
@@ -2022,10 +2022,10 @@ var slot_data_SM = {
                     "1": "발도술",
                     "2": null
                 },
-                "tooltip_stance_refine": "<img src=\'../img/skill/blademaster_batto_sword_1.png\' class=\'icon_in_description\' /> Sword stance  ",
-                "tooltip_condition_refine": null,
+                "tooltip_stance_refine": null,
+                "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_swordmaster_0_3.png\' class=\'icon_in_description\' /> Using Pinwheel  ",
                 "matrix_name": "5급 2초식",
-                "training_icon": "skill_icon_swordmaster_0_3.png",
+                "training_icon": "skill_icon_swordmaster_2_13.png",
                 "required_tp": 2
             }
         },

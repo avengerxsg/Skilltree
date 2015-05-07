@@ -1258,7 +1258,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                     if (_tmpObj.skill_id == 27400 || _tmpObj.skill_id == 26214 || _tmpObj.skill_id == 21019 || _tmpObj.skill_id == 99999) {
                         _tmpObj.disable = nc.bns.training.Model.SKILL_TYPE_HIDDEN;
                     }
-                    if (_tmpObj.skill_id == 20106 || _tmpObj.skill_id == 20312) {
+                    if (_tmpObj.skill_id == 20106 || _tmpObj.skill_id == 20312 || _tmpObj.skill_id == 27150) {
                         _tmpObj.skillType = nc.bns.training.Model.SKILL_TYPE_ACQUISITION;
                     }
                     if (_tmpObj.skill_id == 28030) {
