@@ -199,7 +199,7 @@ var category_data_WL = {
     },
     "28610": {
         "skill_id": "28610",
-        "tree_id": "28500",
+        "tree_id": "28610",
         "name2_refine": "Blast<br>파",
         "name2_refine_en": "Blast",
         "pc_level": "2",

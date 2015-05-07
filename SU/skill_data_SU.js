@@ -5366,7 +5366,7 @@ var skill_data_SU = {
         }
     },
     "Summoned_Summon_PoisonBlow_Lv1": {
-        "id": "26214",
+        "id": "26213",
         "name": "Burst - 터뜨리기",
         "icon": "skill_icon_summon_0_44.png",
         "main_info1": "Deals 66~77 damage",
@@ -6038,7 +6038,7 @@ var skill_data_SU = {
         }
     },
     "Summoned_Summon_RearDash_Auto": {
-        "id": "26412",
+        "id": "26414",
         "name": "Swish - 샤샥",
         "icon": "skill_icon_summon_0_46.png",
         "main_info1": "Familiar moves behind the target",

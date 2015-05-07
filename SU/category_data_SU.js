@@ -665,6 +665,28 @@ var category_data_SU = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": "<img src=\'../img/skill/inventory_summoncat_1.png\' class=\'icon_in_description\' /> While the familiar is downed  "
     },
+    "26213": {
+        "skill_id": "26213",
+        "tree_id": "26213",
+        "name2_refine": "Detonate<br>터뜨리기",
+        "name2_refine_en": "Detonate",
+        "pc_level": "14",
+        "pc_mastery_level": null,
+        "complete_quest": null,
+        "complete_quest_name": null,
+        "default_keycap": "NONE",
+        "sort_no": null,
+        "skill_icon": {
+            "1": "skill_icon_summon_0_44.png"
+        },
+        "tooltip_stance_type": {
+            "0": "소환",
+            "1": null,
+            "2": null
+        },
+        "tooltip_stance_refine": null,
+        "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_22.png\' class=\'icon_in_description\' /> Target with 5 stacks of Poison  "
+    },
     "26214": {
         "skill_id": "26214",
         "tree_id": "26214",

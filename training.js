@@ -1255,7 +1255,7 @@ nc || (nc = {}), nc.bns || (nc.bns = {}), nc.bns.training || (nc.bns.training = 
                                 _tmpObj.skillType = flag_existTreeId ? nc.bns.training.Model.SKILL_TYPE_SHARE : nc.bns.training.Model.SKILL_TYPE_ACQUISITION
                             } else _tmpObj.skillType = nc.bns.training.Model.SKILL_TYPE_SHARE, treeObj || (_tmpObj.skillType = nc.bns.training.Model.SKILL_TYPE_NONE)
                     }
-                    if (_tmpObj.skill_id == 27400 || _tmpObj.skill_id == 21019 || _tmpObj.skill_id == 99999) {
+                    if (_tmpObj.skill_id == 27400 || _tmpObj.skill_id == 26214 || _tmpObj.skill_id == 21019 || _tmpObj.skill_id == 99999) {
                         _tmpObj.disable = nc.bns.training.Model.SKILL_TYPE_HIDDEN;
                     }
                     if (_tmpObj.skill_id == 20106 || _tmpObj.skill_id == 20312) {
