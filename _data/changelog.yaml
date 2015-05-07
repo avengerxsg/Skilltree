@@ -1,10 +1,16 @@
 ---
-- entry: 5
-  date: April 10, 2015
+- entry: 6
+  date: May 6, 2015
   status: active
   description: |
+    Site Update: Comment section added!
+    <li>You can now comment directly on the page! Powered by disqus.</li>
+
+- entry: 5
+  date: April 10, 2015
+  description: |
     Site Update: Domain name added!
-    <li>You can now go to this site with a proper url, bnstree.com! No more weird Github links! (they still work though)</li>
+    <li>You can now visit this site with a proper url, bnstree.com! No more weird Github links! (they still work though but are now deprecated)</li>
   
   
 - entry: 4
