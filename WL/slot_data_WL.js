@@ -1038,7 +1038,7 @@ var slot_data_WL = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Dimensional Bullet  Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": null,
@@ -1113,7 +1113,7 @@ var slot_data_WL = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Dimensional Bullet  Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": null,
