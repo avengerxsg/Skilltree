@@ -64,6 +64,7 @@ strong {
         z-index: 60;
         padding: 12px 10px 0 10px;
         color: $yellow;
+        text-decoration: none;
 
         span {
             font-size: 12px;
@@ -75,6 +76,7 @@ strong {
             float: left;
             margin-right: 15px;
             font-size: 12px;
+            text-decoration: none;
             
             &:hover > strong {
                 color: $default-font-color;
