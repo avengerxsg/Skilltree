@@ -115,7 +115,7 @@ var category_data_SM = {
         "pc_mastery_level": "0",
         "complete_quest": "253",
         "complete_quest_name": null,
-        "default_keycap": "F",
+        "default_keycap": "RB",
         "sort_no": "108",
         "skill_icon": {
             "1": "skill_icon_swordmaster_0_1.png",
