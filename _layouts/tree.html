@@ -72,13 +72,12 @@ layout: default
             <div class="row featurette">
                 <div class="col-md-12" style="margin-bottom: 25px;">
                     <p class="lead" style="margin-bottom:5px;">Example builds for most situations.</p>
-                    <p>Note: Selecting one of the builds below will overwrite all talents above.</p>
                 </div><br>
                 <div class="tab-list col-md-3">
                     <ul class="nav nav-pills nav-stacked">
                     {% for build in site.data.builds %}
                     {% if page.job == build.job %}
-                        <li><a href="#tab_{{ build.entry }}" data-toggle="pill" onclick="{{ build.function }}">{{ build.name }}</a></li>
+                        <li data-toggle="modal"  data-target="#applyBuild"><a href="#tab_{{ build.entry }}" onclick="changeBuild('{{ build.function }}')" data-toggle="pill">{{ build.name }}</a></li>
                     {% endif %}
                     {% endfor %}
                     </ul>

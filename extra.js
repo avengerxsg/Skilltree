@@ -223,3 +223,7 @@ $(".dropdown").click(function () {
     "use strict";
     $('[data-toggle="dropdown"]').blur();
 });
+
+function changeBuild(build) {
+    $("#applyBuildButton").attr("onclick", build);
+}
