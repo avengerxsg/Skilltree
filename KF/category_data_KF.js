@@ -1001,7 +1001,7 @@ var category_data_KF = {
             "2": null
         },
         "tooltip_stance_refine": null,
-        "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  "
+        "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  "
     },
     "21146": {
         "skill_id": "21146",

@@ -593,7 +593,7 @@ var category_data_SU = {
             "2": null
         },
         "tooltip_stance_refine": null,
-        "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_summon_0_17.png\' class=\'icon_in_description\' /> Target countered with Dandelion  <br/><img src=\'../img/skill/skill_icon_summon_0_10.png\' class=\'icon_in_description\' /> Target hit with pointless, Class1, Class2 Hornet <br/><img src=\'../img/skill/skill_icon_summon_0_8.png\' class=\'icon_in_description\' /> Target rooted  <br/><img src=\'../img/skill/skill_icon_summon_0_40.png\' class=\'icon_in_description\' /> Target with Ivy Poison  <br/><img src=\'../img/skill/skill_icon_summon_0_18.png\' class=\'icon_in_description\' /> Target hit with Class2 Press, UuDaDa  "
+        "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_summon_0_17.png\' class=\'icon_in_description\' /> Target countered with Dandelion  <br/><img src=\'../img/skill/skill_icon_summon_0_10.png\' class=\'icon_in_description\' /> Target hit with untrained, Class1, Class2 Hornet <br/><img src=\'../img/skill/skill_icon_summon_0_8.png\' class=\'icon_in_description\' /> Target rooted  <br/><img src=\'../img/skill/skill_icon_summon_0_40.png\' class=\'icon_in_description\' /> Target with Ivy Poison  <br/><img src=\'../img/skill/skill_icon_summon_0_18.png\' class=\'icon_in_description\' /> Target hit with Class2 Press, UuDaDa  "
     },
     "26114": {
         "skill_id": "26114",
