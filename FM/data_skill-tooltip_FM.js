@@ -21556,7 +21556,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "2": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv1",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "3": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv1",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -21704,7 +21725,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "4": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv11",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "5": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv11",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -21892,7 +21934,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "6": {
+            "6": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "7": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv12",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22100,7 +22163,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "7": {
+            "7": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "8": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv13",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22268,7 +22352,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "5": {
+            "5": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "6": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv21",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22496,7 +22601,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "8": {
+            "8": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "9": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv22",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22644,7 +22770,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "4": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv31",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "5": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv31",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22812,7 +22959,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "5": {
+            "5": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv32",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "6": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv32",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -24757,7 +24925,28 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
+            },
+            "1": 
+			{
+				"skill": "ForceMaster_Deal_rapid_cooling_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
         },
         "condition": {
             "0": {
@@ -24867,7 +25056,28 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": "얼음감옥 시 생명력 5% 회복"
-            }
+            },
+            "2": 
+			{
+				"skill": "ForceMaster_Deal_rapid_cooling_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
         },
         "condition": {
             "0": {

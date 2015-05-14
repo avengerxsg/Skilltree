@@ -1829,7 +1829,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_29.png",
         "main_info1": "Gives Ice Flower that lasts for 3 sec",
         "main_info2": "Applies to the user and allies",
-        "sub_info": "Ice Flower negates the damage and locks the holder in Ice Prison for 3 sec on receiving an attack",
+        "sub_info": "Ice Flower negates the damage and locks the holder in Ice Prison for 3 sec on receiving an attack<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -1861,7 +1861,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_29.png",
         "main_info1": "Gives Ice Flower that lasts for 3 sec",
         "main_info2": "Applies to the user and allies",
-        "sub_info": "Ice Flower negates the damage and locks the holder in Ice Prison for 3 sec on receiving an attack<br/>Generates 100% chi on entering Ice Prison",
+        "sub_info": "Ice Flower negates the damage and locks the holder in Ice Prison for 3 sec on receiving an attack<br/>Generates 100% chi on entering Ice Prison<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3301,7 +3301,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3333,7 +3333,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3365,7 +3365,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Deals 24~28 damage to nearby foes on exiting Crystallize<br/>Heals the user 100% of the damage dealt on exiting Crystallize<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Deals 24~28 damage to nearby foes on exiting Crystallize<br/>Heals the user 100% of the damage dealt on exiting Crystallize<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3397,7 +3397,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Knocks nearby foes back 5m on exiting Crystallize<br/>Deals 24~28 damage to nearby foes on exiting Crystallize<br/>Heals the user 100% of the damage dealt on exiting Crystallize<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Knocks nearby foes back 5m on exiting Crystallize<br/>Deals 24~28 damage to nearby foes on exiting Crystallize<br/>Heals the user 100% of the damage dealt on exiting Crystallize<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3429,7 +3429,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Freezes nearby foes for 5 sec on exiting Crystallize<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Freezes nearby foes for 5 sec on exiting Crystallize<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3461,7 +3461,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Nearby foes suffer from Frostbite for 6 sec on exiting Crystallize<br/>Freezes nearby foes for 5 sec on exiting Crystallize<br/>Move back 15m on exiting Crystallize<br/>User is invulnerable during travel<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 10% of their maximum health<br/>Heals the user an additional 2% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Nearby foes suffer from Frostbite for 6 sec on exiting Crystallize<br/>Freezes nearby foes for 5 sec on exiting Crystallize<br/>Move back 15m on exiting Crystallize<br/>User is invulnerable during travel<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3493,7 +3493,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 30% of their maximum health<br/>Heals the user an additional 5% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 30% of their maximum health<br/>Heals the user an additional 5% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3525,7 +3525,7 @@ var skill_data_FM = {
         "icon": "skill_icon_forcemaster_0_30.png",
         "main_info1": "User is invulnerable for 10 sec",
         "main_info2": null,
-        "sub_info": "Heals the user 30% of their maximum health<br/>Heals the user an additional 5% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>User is invulnerable for 1 sec after exiting Crystallize<br/>Increases the defense of the user by 10% on using frost spells",
+        "sub_info": "Heals the user 30% of their maximum health<br/>Heals the user an additional 5% of their maximum health on resist<br/>Generates 10 chi over 10 sec<br/>Movement and actions are restricted during use<br/>User is invulnerable for 1 sec after exiting Crystallize<br/>Removes all status effects<br/>Increases the defense of the user by 10% on using frost spells",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {

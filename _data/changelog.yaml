@@ -1,7 +1,16 @@
 ---
+- entry: 7
+  date: May 14, 2015
+  status: active
+  description: |
+    Tooltip Update: NC fixed some tooltips.
+    <br>
+    <br>Force Master    
+    <li>Fixed Crystalize not having "Remove all status effects" attribute in tooltips</li>
+    <li>Fixed Ice Flower not having "Increases the defense of the user by 10% on using frost spells" attribute in tooltips</li>
+
 - entry: 6
   date: May 6, 2015
-  status: active
   description: |
     Site Update: Comment section added!
     <li>You can now comment directly on the page! Powered by disqus.</li>
