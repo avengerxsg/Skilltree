@@ -1,11 +1,10 @@
 # Site settings
-title: BnS Tree
-email: your-email@domain.com
+title: Emperial.sg SkillTree Simulator for Blade & Soul Taiwan
+email: avengerx@emperial.sg
 description: > # this means to ignore newlines until "baseurl:"
-  Translated Blade and Soul Skill Trees for Enghlish Players
+  Translated Blade and Soul Skill Trees for English-Speaking Players
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bnstree.com" # the base hostname & protocol for your site
-github_username:  dakaringer
+url: "http://skilltree.emperial.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: redcarpet
