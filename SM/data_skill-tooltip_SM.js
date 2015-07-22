@@ -3319,6 +3319,98 @@ var data_skill_tooltip = {
             }
         }
     },
+    "swordmaster_sword_breeze_field_lv1": {
+        "m1": {
+            "0": {
+                "skill": "SwordMaster_Sword_Breeze_Field_LV1",
+                "tooltip-group": "M1",
+                "ect-order": "CTE",
+                "effect-attribute": "E_defence_duration",
+                "effect-arg-1": "4000",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
+        "condition": {
+            "0": {
+                "skill": "SwordMaster_Sword_Breeze_Field_LV1",
+                "tooltip-group": "CONDITION",
+                "ect-order": "CTE",
+                "effect-attribute": null,
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": "UC_S_Standard",
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        }
+    },
+    "swordmaster_sword_breeze_field_lv23": {
+        "m1": {
+            "0": {
+                "skill": "SwordMaster_Sword_Breeze_Field_LV23",
+                "tooltip-group": "M1",
+                "ect-order": "CTE",
+                "effect-attribute": "E_defence_duration",
+                "effect-arg-1": "4000",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
+        "condition": {
+            "0": {
+                "skill": "SwordMaster_Sword_Breeze_Field_LV23",
+                "tooltip-group": "CONDITION",
+                "ect-order": "CTE",
+                "effect-attribute": null,
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": "UC_S_Standard",
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        }
+    },
     "swordmaster_sword_force_catch_lv1": {
         "m1": {
             "0": {

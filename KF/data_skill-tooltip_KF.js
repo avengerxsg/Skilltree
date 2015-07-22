@@ -1376,10 +1376,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_PowerfulAttack_Lv32",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "40,40",
@@ -1422,10 +1422,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_PowerfulAttack_Lv33",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "40,40",
@@ -1442,10 +1442,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_PowerfulAttack_Lv33",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -3559,8 +3557,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3581,8 +3579,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3605,8 +3603,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3627,8 +3625,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3651,8 +3649,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3673,8 +3671,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3697,8 +3695,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3719,8 +3717,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3785,8 +3783,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv14",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3807,8 +3805,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv14",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3893,8 +3891,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv15",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -3915,8 +3913,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LowKick_Lv15",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -4720,10 +4718,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv12",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "350,350",
@@ -4740,10 +4738,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv12",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -4788,10 +4784,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv13",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "350,350",
@@ -4808,10 +4804,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv13",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -4856,10 +4850,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv14",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "350,350",
@@ -4876,10 +4870,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv14",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -4899,7 +4891,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "1": {
+            "2": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv14",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -4919,7 +4911,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "3": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv14",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -4939,7 +4931,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "3": {
+            "4": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv14",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -4984,10 +4976,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv15",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "650,650",
@@ -5004,10 +4996,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv15",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5027,7 +5017,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "1": {
+            "2": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv15",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5047,7 +5037,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "3": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv15",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5067,7 +5057,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "3": {
+            "4": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv15",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5087,7 +5077,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "5": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv15",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5115,8 +5105,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv21",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "350,350",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -5137,8 +5127,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv21",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
+                "effect-attribute": "E_kneel",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -5161,8 +5151,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv22",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "350,350",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -5183,8 +5173,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv22",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
+                "effect-attribute": "E_kneel",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -5246,10 +5236,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv31",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "400,400",
@@ -5266,10 +5256,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv31",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5314,10 +5302,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv32",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "400,400",
@@ -5334,10 +5322,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv32",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5357,7 +5343,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "1": {
+            "2": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv32",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5377,7 +5363,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "3": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv32",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5422,10 +5408,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
+        "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv33",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "400,400",
@@ -5442,10 +5428,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv33",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5465,7 +5449,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "1": {
+            "2": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv33",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5485,7 +5469,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "3": {
                 "skill": "KungfuMaster_Attack_HeavyPunch_Lv33",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5766,10 +5750,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv1",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -5812,10 +5796,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv11",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -5858,10 +5842,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv12",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -5904,10 +5888,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv13",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -5924,8 +5908,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv13",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -5956,6 +5942,28 @@ var data_skill_tooltip = {
                 "effect-attribute": "E_damage_repeat",
                 "effect-arg-1": "4",
                 "effect-arg-2": "1000,1000",
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
+        "m2": {
+            "0": {
+                "skill": "KungfuMaster_Attack_MartialDance_Lv21",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_dash",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6038,10 +6046,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv21",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -6058,8 +6066,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv21",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -6104,10 +6114,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv22",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -6124,8 +6134,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -6145,7 +6157,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -6190,10 +6202,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv23",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -6210,8 +6222,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv23",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -6231,7 +6245,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv23",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -6296,12 +6310,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv31",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -6364,32 +6376,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_MartialDance_Lv32",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dash",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
             },
             "1": {
                 "skill": "KungfuMaster_Attack_MartialDance_Lv32",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -6406,6 +6396,26 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
+            },
+            "2": {
+                "skill": "KungfuMaster_Attack_MartialDance_Lv32",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_dash",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
             }
         }
     },
@@ -6415,9 +6425,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down_to_knockback",
-                "effect-arg-1": "1100",
-                "effect-arg-2": "1000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6437,9 +6447,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
+                "effect-attribute": "E_down_to_knockback",
+                "effect-arg-1": "1100",
+                "effect-arg-2": "1000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6461,9 +6471,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down_to_knockback",
-                "effect-arg-1": "1100",
-                "effect-arg-2": "1000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6483,9 +6493,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
+                "effect-attribute": "E_down_to_knockback",
+                "effect-arg-1": "1100",
+                "effect-arg-2": "1000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6529,9 +6539,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down_to_knockback",
-                "effect-arg-1": "1100",
-                "effect-arg-2": "1000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6551,9 +6561,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
+                "effect-attribute": "E_down_to_knockback",
+                "effect-arg-1": "1100",
+                "effect-arg-2": "1000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6617,9 +6627,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down_to_knockback",
-                "effect-arg-1": "1100",
-                "effect-arg-2": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6639,9 +6649,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
+                "effect-attribute": "E_down_to_knockback",
+                "effect-arg-1": "1100",
+                "effect-arg-2": "3000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6765,9 +6775,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV14",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down_to_knockback",
-                "effect-arg-1": "1100",
-                "effect-arg-2": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6787,9 +6797,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV14",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
+                "effect-attribute": "E_down_to_knockback",
+                "effect-arg-1": "1100",
+                "effect-arg-2": "3000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6953,9 +6963,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV15",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_swoon_to_knockback",
-                "effect-arg-1": "2400",
-                "effect-arg-2": "30000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6975,9 +6985,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV15",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
+                "effect-attribute": "E_swoon_to_knockback",
+                "effect-arg-1": "2400",
+                "effect-arg-2": "30000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -6992,6 +7002,7 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        
         "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV15",
@@ -7161,8 +7172,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV21",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_stun",
-                "effect-arg-1": "1000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -7183,8 +7194,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV21",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_stun",
+                "effect-arg-1": "1000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -7200,6 +7211,7 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
+        
         "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV21",
@@ -7269,8 +7281,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV22",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -7291,8 +7303,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV22",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_stun",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -7377,8 +7389,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV23",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -7399,8 +7411,28 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_AreaAttack_LV23",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_stun",
+                "effect-arg-1": "2000",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            },
+            "1": {
+                "skill": "KungfuMaster_Attack_AreaAttack_LV23",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_recall",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -7443,26 +7475,6 @@ var data_skill_tooltip = {
                 "ect-order": "CTE",
                 "effect-attribute": "E_hp_heal",
                 "effect-arg-1": "10",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "KungfuMaster_Attack_AreaAttack_LV23",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_recall",
-                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -8601,8 +8613,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_PrickBlood",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "400,400",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -8623,8 +8635,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
+                "effect-attribute": "E_PrickBlood",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -8851,8 +8863,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_PrickBlood",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "400,400",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -8873,8 +8885,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
+                "effect-attribute": "E_PrickBlood",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -9101,8 +9113,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_PrickBlood",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "400,400",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -9123,8 +9135,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
+                "effect-attribute": "E_PrickBlood",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -9391,8 +9403,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_PrickBlood",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "400,400",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -9413,8 +9425,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
+                "effect-attribute": "E_PrickBlood",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -9741,8 +9753,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv21",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_PrickBlood",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "400,400",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -9763,8 +9775,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_PointBlood_Lv21",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
+                "effect-attribute": "E_PrickBlood",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10051,8 +10063,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "80,80",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10073,8 +10085,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "80,80",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10097,8 +10109,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "80,80",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10119,8 +10131,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "80,80",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10143,8 +10155,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "80,80",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10165,8 +10177,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "80,80",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10211,8 +10223,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "80,80",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10233,8 +10245,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "80,80",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10248,12 +10260,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv13",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -10270,8 +10280,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv13",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -10299,8 +10311,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv14",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "80,80",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10321,8 +10333,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv14",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "80,80",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "3000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -10336,12 +10348,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv14",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
@@ -10358,8 +10368,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv14",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -10379,7 +10391,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv14",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -10429,15 +10441,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv21",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "160,160",
+                "effect-attribute": "E_damage_zone_duration",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_mount_linked",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10451,15 +10463,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv21",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_zone_duration",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "160,160",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_mount_linked",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10497,15 +10509,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv22",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "160,160",
+                "effect-attribute": "E_damage_zone_duration",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_mount_linked",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10519,15 +10531,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_zone_duration",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "160,160",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_mount_linked",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10585,28 +10597,6 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv23",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "160,160",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_down_mount_linked",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Defend_CrushGround_Lv23",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
                 "effect-attribute": "E_damage_zone_duration",
                 "effect-arg-1": "10000",
                 "effect-arg-2": null,
@@ -10625,6 +10615,48 @@ var data_skill_tooltip = {
             },
             "1": {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv23",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_recall",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
+        "sub": {
+            "0": {
+                "skill": "KungfuMaster_Defend_CrushGround_Lv23",
+                "tooltip-group": "SUB",
+                "ect-order": "CTE",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "160,160",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": "T_down_mount_linked",
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            },
+            "1": {
+                "skill": "KungfuMaster_Defend_CrushGround_Lv23",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_instant_cast_sp_consume_none",
@@ -10634,26 +10666,6 @@ var data_skill_tooltip = {
                 "effect-arg-4": null,
                 "condition-attribute": "C_after_using_skill",
                 "condition-arg-1": "KungfuMaster_Attack_Skykick_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "KungfuMaster_Defend_CrushGround_Lv23",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_recall",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
                 "before-stance-attribute": null,
@@ -10693,15 +10705,35 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv24",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "160,160",
+                "effect-attribute": "E_damage_zone_duration",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_mount_linked",
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            },
+            "1": {
+                "skill": "KungfuMaster_Defend_CrushGround_Lv24",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_recall",
+                "effect-arg-1": null,
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10715,15 +10747,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv24",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_zone_duration",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "160,160",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_mount_linked",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10770,26 +10802,6 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "3": {
-                "skill": "KungfuMaster_Defend_CrushGround_Lv24",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_recall",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
             }
         }
     },
@@ -10821,15 +10833,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv31",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "160,160",
+                "effect-attribute": "E_damage_zone_duration",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_mount_linked",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10843,15 +10855,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv31",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_zone_duration",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "160,160",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_mount_linked",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10929,15 +10941,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv32",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "160,160",
+                "effect-attribute": "E_damage_zone_duration",
+                "effect-arg-1": "10000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_mount_linked",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -10951,15 +10963,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_CrushGround_Lv32",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage_zone_duration",
-                "effect-arg-1": "10000",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "160,160",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_mount_linked",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -11991,8 +12003,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12013,8 +12025,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12022,6 +12034,28 @@ var data_skill_tooltip = {
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            }
+        },
+        "sub": {
+            "0": {
+                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv1",
+                "tooltip-group": "SUB",
+                "ect-order": "CTE",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "450,450",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": "T_immune_air",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -12079,8 +12113,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12101,8 +12135,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12116,10 +12150,12 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv11",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "450,450",
@@ -12187,8 +12223,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12209,8 +12245,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12224,10 +12260,12 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv12",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "450,450",
@@ -12295,8 +12333,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12317,8 +12355,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12332,10 +12370,12 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv13",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "450,450",
@@ -12403,8 +12443,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv21",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12425,8 +12465,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv21",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12440,10 +12480,12 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv21",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "450,450",
@@ -12511,8 +12553,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv22",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12533,8 +12575,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv22",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12548,10 +12590,12 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv22",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "450,450",
@@ -12568,10 +12612,8 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
+            },
+            "1": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -12641,8 +12683,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv31",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12663,8 +12705,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv31",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12678,10 +12720,12 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv31",
-                "tooltip-group": "M2",
+                "tooltip-group": "SUB",
                 "ect-order": "CTE",
                 "effect-attribute": "E_damage_add",
                 "effect-arg-1": "450,450",
@@ -12769,8 +12813,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -12791,112 +12835,6 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "450,450",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_immune_air",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_Backstep_DownBackStep",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_HighKick_LeftSmash",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_defend_abdomenattack_lv33": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
                 "effect-attribute": "E_midair1",
                 "effect-arg-1": null,
                 "effect-arg-2": null,
@@ -12906,48 +12844,6 @@ var data_skill_tooltip = {
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "450,450",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_immune_air",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -12958,18 +12854,18 @@ var data_skill_tooltip = {
         },
         "sub": {
             "0": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
+                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable_skill",
-                "effect-arg-1": "KungfuMaster_Attack_BurstBlow_Lv1",
+                "effect-attribute": "E_damage_add",
+                "effect-arg-1": "450,450",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
-                "condition-attribute": "C_after_using",
+                "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_immune_air",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -12980,7 +12876,7 @@ var data_skill_tooltip = {
         },
         "condition": {
             "0": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
+                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
                 "tooltip-group": "CONDITION",
                 "ect-order": "CTE",
                 "effect-attribute": null,
@@ -13000,7 +12896,7 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             },
             "1": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
+                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
                 "tooltip-group": "CONDITION",
                 "ect-order": "CTE",
                 "effect-attribute": null,
@@ -13020,7 +12916,7 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             },
             "2": {
-                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv33",
+                "skill": "KungfuMaster_Defend_AbdomenAttack_Lv32",
                 "tooltip-group": "CONDITION",
                 "ect-order": "CTE",
                 "effect-attribute": null,
@@ -13047,9 +12943,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "500",
-                "effect-arg-2": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13069,9 +12965,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
-                "effect-arg-2": null,
+                "effect-attribute": "E_kneel_to_knockback",
+                "effect-arg-1": "500",
+                "effect-arg-2": "2000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13115,9 +13011,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "500",
-                "effect-arg-2": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13137,9 +13033,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
-                "effect-arg-2": null,
+                "effect-attribute": "E_kneel_to_knockback",
+                "effect-arg-1": "500",
+                "effect-arg-2": "2000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13183,9 +13079,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "500",
-                "effect-arg-2": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13205,9 +13101,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
-                "effect-arg-2": null,
+                "effect-attribute": "E_kneel_to_knockback",
+                "effect-arg-1": "500",
+                "effect-arg-2": "3000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13251,9 +13147,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "500",
-                "effect-arg-2": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13273,9 +13169,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
-                "effect-arg-2": null,
+                "effect-attribute": "E_kneel_to_knockback",
+                "effect-arg-1": "500",
+                "effect-arg-2": "3000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13341,9 +13237,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv14",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "500",
-                "effect-arg-2": "3000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
+                "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13363,9 +13259,9 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv14",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
-                "effect-arg-2": null,
+                "effect-attribute": "E_kneel_to_knockback",
+                "effect-arg-1": "500",
+                "effect-arg-2": "3000",
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
@@ -13715,8 +13611,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv31",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_knockback",
-                "effect-arg-1": "500",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -13737,8 +13633,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv31",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
+                "effect-attribute": "E_knockback",
+                "effect-arg-1": "500",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -13805,8 +13701,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv32",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_knockback",
-                "effect-arg-1": "500",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -13827,8 +13723,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv32",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
+                "effect-attribute": "E_knockback",
+                "effect-arg-1": "500",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -13915,8 +13811,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv33",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_knockback",
-                "effect-arg-1": "500",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -13937,8 +13833,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FinalAttack_Lv33",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
+                "effect-attribute": "E_knockback",
+                "effect-arg-1": "500",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -14435,15 +14331,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_JumpPunch_Lv21",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_target",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -14457,15 +14353,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_JumpPunch_Lv21",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_target",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -14523,15 +14419,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_JumpPunch_Lv22",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_target",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -14545,15 +14441,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_JumpPunch_Lv22",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_target",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -14651,15 +14547,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_JumpPunch_Lv23",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_midair1",
-                "effect-arg-1": null,
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "100,100",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": "T_down_target",
+                "target-attribute": null,
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -14673,15 +14569,15 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_JumpPunch_Lv23",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
+                "effect-attribute": "E_midair1",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
-                "target-attribute": null,
+                "target-attribute": "T_down_target",
                 "before-stance-attribute": null,
                 "after-stance-attribute": null,
                 "default-text": null,
@@ -15024,28 +14920,6 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Left_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Left_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
         "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_Commandskill_Left_Lv1",
@@ -15222,28 +15096,6 @@ var data_skill_tooltip = {
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Right_Lv11",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Right_Lv1",
                 "condition-arg-2": null,
                 "target-attribute": null,
                 "before-stance-attribute": null,
@@ -15440,28 +15292,6 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Left_Lv11",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Left_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
         "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_Commandskill_Left_Lv11",
@@ -15638,28 +15468,6 @@ var data_skill_tooltip = {
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Right_Lv12",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Right_Lv1",
                 "condition-arg-2": null,
                 "target-attribute": null,
                 "before-stance-attribute": null,
@@ -15856,28 +15664,6 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Left_Lv12",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Left_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
         "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_Commandskill_Left_Lv12",
@@ -16054,28 +15840,6 @@ var data_skill_tooltip = {
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Right_Lv13",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Right_Lv1",
                 "condition-arg-2": null,
                 "target-attribute": null,
                 "before-stance-attribute": null,
@@ -16312,28 +16076,6 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Left_Lv13",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Left_Lv1",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
         "sub": {
             "0": {
                 "skill": "KungfuMaster_Attack_Commandskill_Left_Lv13",
@@ -16550,28 +16292,6 @@ var data_skill_tooltip = {
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Right_Lv14",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Right_Lv1",
                 "condition-arg-2": null,
                 "target-attribute": null,
                 "before-stance-attribute": null,
@@ -16818,28 +16538,6 @@ var data_skill_tooltip = {
                 "effect-arg-4": null,
                 "condition-attribute": null,
                 "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Commandskill_Left_Lv14",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_enable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_input",
-                "condition-arg-1": "KungfuMaster_Attack_Commandskill_Left_Lv1",
                 "condition-arg-2": null,
                 "target-attribute": null,
                 "before-stance-attribute": null,
@@ -19533,8 +19231,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_TripleKick_Lv1",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -19555,8 +19253,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_TripleKick_Lv1",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -19643,8 +19341,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_TripleKick_Lv11",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -19665,8 +19363,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_TripleKick_Lv11",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -19770,11 +19468,11 @@ var data_skill_tooltip = {
     "kungfumaster_attack_triplekick_lv12": {
         "m1": {
             "0": {
-                "skill": "KungfuMaster_Attack_TripleKick_Lv12",
+                "skill": "kungfumaster_attack_triplekick_lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "150,150",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -19792,11 +19490,11 @@ var data_skill_tooltip = {
         },
         "m2": {
             "0": {
-                "skill": "KungfuMaster_Attack_TripleKick_Lv12",
+                "skill": "kungfumaster_attack_triplekick_lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20179,8 +19877,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FlameKick_Lv31",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_Stun",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "600,1000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20201,8 +19899,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_FlameKick_Lv31",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "600,1000",
+                "effect-attribute": "E_Stun",
+                "effect-arg-1": "2000",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20303,94 +20001,6 @@ var data_skill_tooltip = {
             }
         }
     },
-    "kungfumaster_attack_strongattack_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_StrongAttack_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down_to_knockback",
-                "effect-arg-1": "1100",
-                "effect-arg-2": "2000",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_StrongAttack_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_StrongAttack_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_TripleKick_FlameKick",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_StrongAttack_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_if_parry",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
     "kungfumaster_attack_leftsmash_lv1": {
         "m1": {
             "0": {
@@ -20414,10 +20024,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv1",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -20434,8 +20044,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv1",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -20502,10 +20114,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv11",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -20522,8 +20134,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv11",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -20593,8 +20207,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv12",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20615,8 +20229,28 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv12",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "2000",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            },
+            "1": {
+                "skill": "KungfuMaster_Attack_LeftSmash_Lv12",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_dash",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20634,26 +20268,6 @@ var data_skill_tooltip = {
         },
         "sub": {
             "0": {
-                "skill": "KungfuMaster_Attack_LeftSmash_Lv12",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dash",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv12",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -20723,8 +20337,8 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv13",
                 "tooltip-group": "M1",
                 "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
+                "effect-attribute": "E_damage",
+                "effect-arg-1": "300,300",
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20745,8 +20359,28 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv13",
                 "tooltip-group": "M2",
                 "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
+                "effect-attribute": "E_down",
+                "effect-arg-1": "2000",
+                "effect-arg-2": null,
+                "effect-arg-3": null,
+                "effect-arg-4": null,
+                "condition-attribute": null,
+                "condition-arg-1": null,
+                "condition-arg-2": null,
+                "target-attribute": null,
+                "before-stance-attribute": null,
+                "after-stance-attribute": null,
+                "default-text": null,
+                "skill-modify-diff-repeat-count": "1",
+                "is_public": "0",
+                "default-text-refine": null
+            },
+            "1": {
+                "skill": "KungfuMaster_Attack_LeftSmash_Lv13",
+                "tooltip-group": "M2",
+                "ect-order": "CTE",
+                "effect-attribute": "E_dash",
+                "effect-arg-1": null,
                 "effect-arg-2": null,
                 "effect-arg-3": null,
                 "effect-arg-4": null,
@@ -20767,26 +20401,6 @@ var data_skill_tooltip = {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv13",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
-                "effect-attribute": "E_dash",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_LeftSmash_Lv13",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
                 "effect-attribute": "E_cast_enable_skill",
                 "effect-arg-1": "KungfuMaster_Attack_PointBlood_Lv1",
                 "effect-arg-2": null,
@@ -20803,7 +20417,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv13",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -20890,10 +20504,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv21",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -20910,8 +20524,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv21",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -20931,7 +20547,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv21",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21018,10 +20634,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv22",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -21038,8 +20654,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21059,7 +20677,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21079,7 +20697,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "3": {
+            "2": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv22",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21166,10 +20784,10 @@ var data_skill_tooltip = {
                 "default-text-refine": null
             }
         },
-        "sub": {
+        "m2": {
             "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv23",
-                "tooltip-group": "SUB",
+                "tooltip-group": "M2",
                 "ect-order": "CTE",
                 "effect-attribute": "E_dash",
                 "effect-arg-1": null,
@@ -21186,8 +20804,10 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            },
-            "1": {
+            }
+        },
+        "sub": {
+            "0": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv23",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21207,7 +20827,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "1": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv23",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21227,7 +20847,7 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "3": {
+            "2": {
                 "skill": "KungfuMaster_Attack_LeftSmash_Lv23",
                 "tooltip-group": "SUB",
                 "ect-order": "CTE",
@@ -21279,160 +20899,6 @@ var data_skill_tooltip = {
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": "UC_I_after_using_StrongAttack",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_turnkick_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_TurnKick_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "850,850",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_TurnKick_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune_effect_attr_4",
-                "effect-arg-1": "KungfuMaster3_Attack_Counterenemy_counter_Lv1_Stun",
-                "effect-arg-2": "KungfuMaster3_Attack_HeavyPunch_Lv21_Kneel",
-                "effect-arg-3": "KungfuMaster3_Attack_Lowkick_Lv1_Down",
-                "effect-arg-4": "KungfuMaster3_Attack_AreaAttack_Lv1_Knockback",
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_TurnKick_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_if_attack_critical_BurstAbdomen",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_TurnKick_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_FinalAttack32",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "KungfuMaster_Attack_TurnKick_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_JusticePunch32",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_dragonkick_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DragonKick_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DragonKick_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_during_hyper_all",
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
@@ -21513,526 +20979,6 @@ var data_skill_tooltip = {
             }
         }
     },
-    "kungfumaster_attack_firedragonkick_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FireDragonKick_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FireDragonKick_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FireDragonKick_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_FireDragonKick_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_ignore_dashblock",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FireDragonKick_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_Backstep",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_pounding_first_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Pounding_First_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "940,940",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Pounding_First_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_mount",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_pounding_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Pounding_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_in_range",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Pounding_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Pounding_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_mount",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_headbut_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Headbut_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "260,260",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Headbut_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_hp_heal",
-                "effect-arg-1": "5",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Headbut_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_mount",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_armbar_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Armbar_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "500,500",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Armbar_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_defence_block",
-                "effect-arg-1": "10000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Armbar_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_mount",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_choke_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Choke_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_swoon",
-                "effect-arg-1": "30000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Choke_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_mount",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_poundingattack_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_PoundingAttack_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "80,80",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_PoundingAttack_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_cast_combo_enable",
-                "effect-arg-1": "3",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_PoundingAttack_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_mount",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_trampledown_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Trampledown_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "20,20",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Trampledown_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_exhaustion",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
     "kungfumaster_attack_uppercut_lv1": {
         "m1": {
             "0": {
@@ -22089,232 +21035,6 @@ var data_skill_tooltip = {
                 "effect-arg-3": null,
                 "effect-arg-4": null,
                 "condition-attribute": "UC_T_enemy_kneel_stun",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_uppercut2_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Uppercut2_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_midair3",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Uppercut2_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "550,550",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Uppercut2_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dodge_percent",
-                "effect-arg-1": "100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Uppercut2_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_midair",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_skykick_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Skykick_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dispel_midair",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Skykick_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "650,650",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Skykick_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dodge_percent",
-                "effect-arg-1": "100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Skykick_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_midair",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_defend_leftcounter_dash_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Defend_LeftCounter_dash_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dash",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Defend_LeftCounter_dash_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "40,40",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
                 "condition-arg-1": null,
                 "condition-arg-2": null,
                 "target-attribute": null,
@@ -23108,1120 +21828,6 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": "각성 효과 중 이동속도 50% 증가"
-            }
-        }
-    },
-    "kungfumaster_attack_windmill_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Windmill_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_escape_down",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Windmill_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_knockback",
-                "effect-arg-1": "200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_Windmill_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Windmill_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "1000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attacked_during_cast",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Windmill_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_during_down",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_downbackstep_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DownBackStep_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_escape_down_kneel_swoon",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DownBackStep_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_immune",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DownBackStep_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_during_kneel_down_swoon",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_downcounter_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DownCounter_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_counter_duration",
-                "effect-arg-1": "1500",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DownCounter_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_Kneel",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_success",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_DownCounter_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "150,150",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_success",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_DownCounter_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_during_down",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_flytakedown_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FlyTakeDown_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_mount",
-                "effect-arg-1": "3000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FlyTakeDown_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "300,300",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FlyTakeDown_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dispel_midair",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_FlyTakeDown_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_dodge_percent",
-                "effect-arg-1": "100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_FlyTakeDown_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_T_enemy_midair",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_burstabdomen_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "400,400",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "KungfuMaster_Attack_BurstAbdomen_Lv1_SUB1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "명중 시 점혈 사용 가능"
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "KungfuMaster_Attack_BurstAbdomen_Lv1_SUB2",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "점혈 단계 별 피해량 1/2/3/4배 증가"
-            },
-            "2": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "KungfuMaster_Attack_BurstAbdomen_Lv1_SUB3",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "점혈 단계 별 내력 2/4/6/8 추가 회복"
-            },
-            "3": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "KungfuMaster_Attack_BurstAbdomen_Lv1_SUB4",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "결빙 상태인 적 내력 50% 피해. 결빙 해제"
-            },
-            "4": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "KungfuMaster_Attack_BurstAbdomen_Lv1_SUB6",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "회피 후 사용 시 재사용 시간 50% 감소"
-            },
-            "5": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "KungfuMaster_Attack_BurstAbdomen_Lv1_SUB5",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "혈도 개방 효과 중 즉시 시전"
-            },
-            "6": {
-                "skill": "KungfuMaster_Attack_BurstAbdomen_Lv1",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_instant_cast",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_dodge",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_defend_heavyattack_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Defend_HeavyAttack_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_down",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Defend_HeavyAttack_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "250,250",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Defend_HeavyAttack_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_ifdodge",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_linked_attack_catch_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Linked_Attack_Catch_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "200,200",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Linked_Attack_Catch_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_during_catch_catchinhalation_linked",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_linked_escape_inhalation_lv1": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Linked_Escape_Inhalation_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_escape_mount_catch_catchinhalation",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_counter_during",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Linked_Escape_Inhalation_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "260,260",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_Linked_Escape_Inhalation_Lv1",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_during_linked",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "kungfumaster_attack_soulmask_pointblood_lv1_hid4": {
-        "m1": {
-            "0": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "M1",
-                "ect-order": "CTE",
-                "effect-attribute": "E_PrickBlood",
-                "effect-arg-1": "10000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_godpower_start",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "M2",
-                "ect-order": "CTE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "2000,2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_defence_penetrate",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "점혈 상태인 적 이동속도 10% 감소"
-            },
-            "2": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_2",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "점혈 명중 시 즉시 4단계"
-            },
-            "3": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_4",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "점혈 상태인 적 공격 시 3초간 기백 효과"
-            },
-            "4": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_5",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "기백 효과 중 치명 피해량 1% 증가. 최대 10중첩"
-            },
-            "5": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_6",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "10초간 혈도 개방 효과"
-            },
-            "6": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_99",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "혈도 개방 중 치명 50%, 치명 확률 100% 증가"
-            },
-            "7": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.Desc2.KungfuMaster_Attack_SoulMaks_PointBlood_Lv1_9",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "혈도 개방 효과 중 내력 10 회복"
-            },
-            "8": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_godpower_pointblood",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "9": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "SUB",
-                "ect-order": "CTE",
-                "effect-attribute": "E_enable_none_hate",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "condition": {
-            "0": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_HighKick",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_if_MartialDance_BackStep_immune",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_if_Leftdodge_Rightdodge_immune",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_BurstAbdomen",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "4": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_if_attack_critical_LeftSmash",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "5": {
-                "skill": "KungfuMaster_Attack_SoulMask_PointBlood_Lv1_hid4",
-                "tooltip-group": "CONDITION",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "UC_I_after_using_AnkleKick42",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
             }
         }
     }

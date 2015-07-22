@@ -1,4 +1,26 @@
 var category_data_SM = {
+    "99999": {
+        "skill_id": "99999",
+        "tree_id": "99999",
+        "name2_refine": "Blank",
+        "name2_refine_en": "Blank",
+        "pc_level": "0",
+        "pc_mastery_level": "0",
+        "complete_quest": null,
+        "complete_quest_name": null,
+        "default_keycap": "LB",
+        "sort_no": "0",
+        "skill_icon": {
+            "1": "default_icon_00_24.png"
+        },
+        "tooltip_stance_type": {
+            "0": null,
+            "1": null,
+            "2": null
+        },
+        "tooltip_stance_refine": null,
+        "tooltip_condition_refine": null
+    },
     "27100": {
         "skill_id": "27100",
         "tree_id": "27100",
@@ -62,6 +84,28 @@ var category_data_SM = {
         "tooltip_stance_refine": "<img src=\'../img/skill/blademaster_batto_sword_1.png\' class=\'icon_in_description\' /> Sword stance  ",
         "tooltip_condition_refine": null
     },
+    "27150": {
+        "skill_id": "27150",
+        "tree_id": "27103",
+        "name2_refine": "Cyclone<br>회오리",
+        "name2_refine_en": "Cyclone",
+        "pc_level": "1",
+        "pc_mastery_level": "0",
+        "complete_quest": null,
+        "complete_quest_name": null,
+        "default_keycap": "F",
+        "sort_no": "106",
+        "skill_icon": {
+            "1": "skill_icon_swordmaster_2_13.png"
+        },
+        "tooltip_stance_type": {
+            "0": "검술",
+            "1": "발도술",
+            "2": null
+        },
+        "tooltip_stance_refine": null,
+        "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_swordmaster_0_3.png\' class=\'icon_in_description\' /> Using Pinwheel  "
+    },
     "27104": {
         "skill_id": "27104",
         "tree_id": "27104",
@@ -70,7 +114,7 @@ var category_data_SM = {
         "pc_level": "1",
         "pc_mastery_level": "0",
         "complete_quest": "253",
-        "complete_quest_name": "6장. 수련의 시작",
+        "complete_quest_name": null,
         "default_keycap": "RB",
         "sort_no": "108",
         "skill_icon": {

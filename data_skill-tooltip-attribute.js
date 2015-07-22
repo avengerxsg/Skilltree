@@ -2303,6 +2303,18 @@ var data_skill_tooltip_attribute = {
         "is_public": "0",
         "text-refine": "<arg p=\"2:string\"/>의 추가 피해"
     },
+    "e_damage_add_nodify": {
+        "alias": "E_damage_add_nodify",
+        "arg-type-1": "damage-percent-min-max",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.damage_add",
+        "icon": null,
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "<arg p=\"2:string\"/>의 추가 피해"
+    },
     "e_damage_add_ember": {
         "alias": "E_damage_add_ember",
         "arg-type-1": "damage-percent",
@@ -2348,6 +2360,18 @@ var data_skill_tooltip_attribute = {
         "text": "SkillTooltipAttr.text.damage_DOT",
         "icon": null,
         "skill-modify-type": "damage",
+        "is_public": "0",
+        "text-refine": "<arg p=\"2:string\"/>간 <arg p=\"3:string\"/>의 피해"
+    },
+    "e_damage_dot_nodify": {
+        "alias": "E_damage_DOT_Nodify",
+        "arg-type-1": "time",
+        "arg-type-2": "damage-percent-min-max",
+        "arg-type-3": "counter",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.damage_DOT",
+        "icon": null,
+        "skill-modify-type": "none",
         "is_public": "0",
         "text-refine": "<arg p=\"2:string\"/>간 <arg p=\"3:string\"/>의 피해"
     },
@@ -2431,7 +2455,7 @@ var data_skill_tooltip_attribute = {
         "arg-type-4": "none",
         "text": "SkillTooltipAttr.text.damage_repeat",
         "icon": null,
-        "skill-modify-type": "none",
+        "skill-modify-type": "damage",
         "is_public": "0",
         "text-refine": "<arg p=\"2:string\"/>에 걸쳐 <arg p=\"3:string\"/>의 피해"
     },
@@ -2455,7 +2479,7 @@ var data_skill_tooltip_attribute = {
         "arg-type-4": "none",
         "text": "SkillTooltipAttr.text.damage_chain",
         "icon": null,
-        "skill-modify-type": "none",
+        "skill-modify-type": "damage",
         "is_public": "0",
         "text-refine": "최대 <arg p=\"2:string\"/>명의 적에게 연속하여 <arg p=\"3:string\"/>의 피해"
     },
@@ -6011,6 +6035,18 @@ var data_skill_tooltip_attribute = {
         "is_public": "0",
         "text-refine": "<arg p=\"2:string\"/>의 폭발 피해"
     },
+    "e_damage_explosion_nodify": {
+        "alias": "E_damage_explosion_Nodify",
+        "arg-type-1": "damage-percent-min-max",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.E_damage_explosion",
+        "icon": null,
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "<arg p=\"2:string\"/>의 폭발 피해"
+    },
     "e_melee_counter_duration": {
         "alias": "E_melee_counter_duration",
         "arg-type-1": "time",
@@ -8195,6 +8231,18 @@ var data_skill_tooltip_attribute = {
         "is_public": "0",
         "text-refine": "<arg p=\"2:string\"/>씩 피해 중첩"
     },
+    "e_damage_stack_modify": {
+        "alias": "E_damage_stack_Modify",
+        "arg-type-1": "damage-percent-min-max",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.E_damage_stack",
+        "icon": null,
+        "skill-modify-type": "damage",
+        "is_public": "0",
+        "text-refine": "<arg p=\"2:string\"/>씩 피해 중첩"
+    },
     "c_from_2nd_attack": {
         "alias": "C_from_2nd_attack",
         "arg-type-1": "none",
@@ -8806,6 +8854,18 @@ var data_skill_tooltip_attribute = {
         "skill-modify-type": "none",
         "is_public": "0",
         "text-refine": "후방이동, 뒤구르기 사용 후"
+    },
+    "uc_i_hit_kf_finalattack_1and3": {
+        "alias": "UC_I_hit_KF_FinalAttack_1and3",
+        "arg-type-1": "none",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.UC_I_hit_KF_FinalAttack_1and3",
+        "icon": "Skill_Icon_KungfuFighter_0,2",
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "철산고 무급, 1초식, 3초식으로 넉백 당한 적"
     },
     "uc_i_after_using_burstabdomen": {
         "alias": "UC_I_after_using_BurstAbdomen",
@@ -11482,5 +11542,89 @@ var data_skill_tooltip_attribute = {
         "skill-modify-type": "none",
         "is_public": "0",
         "text-refine": "제압, 장악, 흡공 상태인 적에게"
+    },
+    "uc_i_destroyer_protection_wrath": {
+        "alias": "UC_I_Destroyer_Protection_Wrath",
+        "arg-type-1": "skill",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.UC_I_Destroyer_Protection_Wrath",
+        "icon": "Skill_Icon_Destroyer_1,45",
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "분노 사용 후"
+    },
+    "uc_i_catch_pound": {
+        "alias": "UC_I_Catch_Pound",
+        "arg-type-1": "skill",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.UC_I_Catch_Pound",
+        "icon": "Skill_Icon_Destroyer_1,3",
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "내다꽂기 사용 후"
+    },
+    "e_dispel_moveblock": {
+        "alias": "E_dispel_Moveblock",
+        "arg-type-1": "none",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.dispel_Moveblock",
+        "icon": null,
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "이동 불가 상태 해제"
+    },
+    "e_dispel_moveblock_start": {
+        "alias": "E_dispel_Moveblock_start",
+        "arg-type-1": "none",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.dispel_Moveblock_start",
+        "icon": null,
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "시전 즉시 1회 이동 불가 상태 해제"
+    },
+    "uc_i_destroyer_protection_wrath_lv1": {
+        "alias": "UC_I_Destroyer_Protection_Wrath_Lv1",
+        "arg-type-1": "skill",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.UC_I_Destroyer_Protection_Wrath_Lv1",
+        "icon": "Skill_Icon_Destroyer_1,45",
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "분노 저항 시"
+    },
+    "uc_i_destroyer_protection_destructioncircle_lv1": {
+        "alias": "UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+        "arg-type-1": "skill",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.UC_I_Destroyer_Protection_DestructionCircle_Lv1",
+        "icon": "Skill_Icon_Destroyer_1,19",
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "열화륜 저항 시"
+    },
+    "uc_i_destroyer_protection_backdash_lv1": {
+        "alias": "UC_I_Destroyer_Protection_BackDash_Lv1",
+        "arg-type-1": "skill",
+        "arg-type-2": "none",
+        "arg-type-3": "none",
+        "arg-type-4": "none",
+        "text": "SkillTooltipAttr.text.UC_I_Destroyer_Protection_BackDash_Lv1",
+        "icon": "Skill_Icon_Destroyer_1,46",
+        "skill-modify-type": "none",
+        "is_public": "0",
+        "text-refine": "후퇴 저항 시"
     }
 };

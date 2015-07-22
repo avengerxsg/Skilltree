@@ -1488,7 +1488,7 @@ var slot_data_KF = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Explosive Fist Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": "체술",
@@ -1563,7 +1563,7 @@ var slot_data_KF = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Explosive Fist Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": "체술",
@@ -1713,7 +1713,7 @@ var slot_data_KF = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Explosive Fist Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": "체술",
@@ -3097,8 +3097,8 @@ var slot_data_KF = {
                 "max_variation_level": "0",
                 "variation_id": "1",
                 "tooltip_alias": "KungfuMaster_Attack_AxeKick_Lv1",
-                "name2_refine": "Flame Stomp<br>열화각",
-                "name2_refine_en": "Flame Stomp",
+                "name2_refine": "Flare Stomp<br>열화각",
+                "name2_refine_en": "Flare Stomp",
                 "variation_level": {
                     "0": null,
                     "1": "0",
@@ -3328,8 +3328,8 @@ var slot_data_KF = {
                 "max_variation_level": "1",
                 "variation_id": "32",
                 "tooltip_alias": "KungfuMaster_Attack_AxeKick_Lv32",
-                "name2_refine": "Flame Stomp<br>열화각",
-                "name2_refine_en": "Flame Stomp",
+                "name2_refine": "Flare Stomp<br>열화각",
+                "name2_refine_en": "Flare Stomp",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -3559,8 +3559,8 @@ var slot_data_KF = {
                 "max_variation_level": "1",
                 "variation_id": "33",
                 "tooltip_alias": "KungfuMaster_Attack_AxeKick_Lv33",
-                "name2_refine": "Flame Stomp<br>열화각",
-                "name2_refine_en": "Flame Stomp",
+                "name2_refine": "Flare Stomp<br>열화각",
+                "name2_refine_en": "Flare Stomp",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -8372,7 +8372,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  ",
                 "matrix_name": "1급 1초식",
                 "training_icon": "skill_icon_kungfufighter_0_46.png",
                 "required_tp": 1
@@ -8447,7 +8447,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  ",
                 "matrix_name": "2급 1초식",
                 "training_icon": "skill_icon_kungfufighter_0_46.png",
                 "required_tp": 1
@@ -8522,7 +8522,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  ",
                 "matrix_name": "2급 2초식",
                 "training_icon": "skill_icon_kungfufighter_0_46.png",
                 "required_tp": 1
@@ -8597,7 +8597,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  <br/><img src=\'../img/skill/skill_icon_kungfufighter_1_42.png\' class=\'icon_in_description\' /> After using Kaiten Kick  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  <br/><img src=\'../img/skill/skill_icon_kungfufighter_1_42.png\' class=\'icon_in_description\' /> After using Kaiten Kick  ",
                 "matrix_name": "2급 3초식",
                 "training_icon": "skill_icon_kungfufighter_1_42.png",
                 "required_tp": 1
@@ -8672,7 +8672,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  ",
                 "matrix_name": "3급 1초식",
                 "training_icon": "skill_icon_kungfufighter_0_46.png",
                 "required_tp": 1
@@ -8747,7 +8747,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  ",
                 "matrix_name": "3급 2초식",
                 "training_icon": "skill_icon_kungfufighter_0_46.png",
                 "required_tp": 1
@@ -8822,7 +8822,7 @@ var slot_data_KF = {
                     "2": null
                 },
                 "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  <br/><img src=\'../img/skill/skill_icon_kungfufighter_1_43.png\' class=\'icon_in_description\' /> After using Kaiten Kick, Advancing Fist  ",
+                "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  <br/><img src=\'../img/skill/skill_icon_kungfufighter_1_43.png\' class=\'icon_in_description\' /> After using Kaiten Kick, Advancing Fist  ",
                 "matrix_name": "3급 3초식",
                 "training_icon": "skill_icon_kungfufighter_1_43.png",
                 "required_tp": 1
@@ -11773,8 +11773,8 @@ var slot_data_KF = {
                 "max_variation_level": "1",
                 "variation_id": "22",
                 "tooltip_alias": "KungfuMaster_Attack_FlameKick_Lv22",
-                "name2_refine": "Flame Kick<br>화염각",
-                "name2_refine_en": "Flame Kick",
+                "name2_refine": "Blaze Kick<br>화염각",
+                "name2_refine_en": "Blaze Kick",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -11848,8 +11848,8 @@ var slot_data_KF = {
                 "max_variation_level": "1",
                 "variation_id": "31",
                 "tooltip_alias": "KungfuMaster_Attack_FlameKick_Lv31",
-                "name2_refine": "Flame Kick<br>화염각",
-                "name2_refine_en": "Flame Kick",
+                "name2_refine": "Blaze Kick<br>화염각",
+                "name2_refine_en": "Blaze Kick",
                 "variation_level": {
                     "0": null,
                     "1": "1",

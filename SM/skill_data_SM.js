@@ -1,4 +1,36 @@
 var skill_data_SM = {
+    "Blank": {
+        "id": "99999",
+        "name": "Blank",
+        "icon": "default_icon_00_24.png",
+        "main_info1": null,
+        "main_info2": null,
+        "sub_info": null,
+        "consume_sp": null,
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": " "
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": " "
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": " "
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": " "
+            }
+        }
+    },
     "SwordMaster_Sword_Rushing_Wind_LV1": {
         "id": "27100",
         "name": "Gale - 질풍",
@@ -325,7 +357,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 30~35 damage",
         "main_info2": null,
-        "sub_info": "User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -357,7 +389,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": null,
-        "sub_info": "User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -389,7 +421,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 50~59 damage",
         "main_info2": "Deals an additional 7~8 damage to dazed, stunned foes",
-        "sub_info": "User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -421,7 +453,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 50~59 damage",
         "main_info2": "Deals an additional 7~8 damage to dazed, stunned foes",
-        "sub_info": "Generates 1 chi per attack received by the user<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Generates 1 chi per attack received by the user<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -453,7 +485,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 50~59 damage",
         "main_info2": "Deals an additional 7~8 damage to dazed, stunned foes",
-        "sub_info": "Generates 1 chi per attack received by the user<br/>Reflects 6~7 damage received by the user<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Generates 1 chi per attack received by the user<br/>Reflects 6~7 damage received by the user<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -485,7 +517,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": null,
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -517,7 +549,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": null,
-        "sub_info": "Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>User takes 25% less damage for the first attack received<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>User takes 25% less damage for the first attack received<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -549,7 +581,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": null,
-        "sub_info": "Cyclone is available during use<br/>Cyclone gives the user invulnerability for 1.5 sec<br/>Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>User takes 25% less damage for the first attack received<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Cyclone is available during use<br/>Cyclone gives the user invulnerability for 1.5 sec<br/>Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>User takes 25% less damage for the first attack received<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -580,8 +612,8 @@ var skill_data_SM = {
         "name": "Pinwheel - 바람개비",
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "Deflects 1 attack for 0.5 sec",
-        "sub_info": "Generates 3 chi on deflect<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "main_info2": "Deflects an attack for 0.5 sec",
+        "sub_info": "Generates 3 chi on deflect<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -613,7 +645,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": "Deflects multiple attacks for 0.5 sec",
-        "sub_info": "Generates 3 chi on deflect<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Generates 3 chi on deflect<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -645,7 +677,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_3.png",
         "main_info1": "Deals 36~42 damage",
         "main_info2": "Deflects multiple attacks for 0.5 sec",
-        "sub_info": "Cooldown of Upward Slash is refreshed on deflect<br/>Generates 3 chi on deflect<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
+        "sub_info": "Cooldown of Upward Slash is refreshed on deflect<br/>Generates 3 chi on deflect<br/>User is immune to daze, stun, knock back during use<br/>Removes immobilizing effects on the user<br/>Increased number of spins<br/>Mobile during use<br/>Offensive defense ability",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -671,6 +703,82 @@ var skill_data_SM = {
             }
         }
     },
+	"SwordMaster_Sword_Breeze_Field_LV1": 
+	{
+		"id": "27150",
+		"name": "Cyclone - 회오리",
+		"icon": "skill_icon_swordmaster_2_13.png",
+		"main_info1": "User is invulnerable for 1.5 sec",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
+    "SwordMaster_Sword_Breeze_Field_LV23": 
+	{
+		"id": "27150",
+		"name": "Cyclone - 회오리",
+		"icon": "skill_icon_swordmaster_2_13.png",
+		"main_info1": "User is invulnerable for 1.5 sec",
+		"main_info2": null,
+		"sub_info": null,
+		"consume_sp": null,
+		"ui_sp_heal_value": null,
+		"skill_info": 
+		{
+			"0": 
+			{
+				"name": "Range",
+				"type": "meter",
+				"value": "From User"
+			},
+			"1": 
+			{
+				"name": "Area",
+				"type": "range_0",
+				"value": "Target"
+			},
+			"2": 
+			{
+				"name": "Cast Time",
+				"type": "casting_time",
+				"value": "Instant"
+			},
+			"3": 
+			{
+				"name": "Cooldown",
+				"type": "recycle_time",
+				"value": "45 sec"
+			}
+		}
+	},
     "SwordMaster_Sword_vertical_cut_LV1": {
         "id": "27104",
         "name": "Sunder - 가르기",
@@ -995,7 +1103,7 @@ var skill_data_SM = {
         "id": "27109",
         "name": "Kick - 발차기",
         "icon": "skill_icon_swordmaster_1_35.png",
-        "main_info1": "Knock down foes for 2 sec",
+        "main_info1": "Knocks foes down for 2 sec",
         "main_info2": "Deals 16~18 damage",
         "sub_info": null,
         "consume_sp": "1",
@@ -1027,7 +1135,7 @@ var skill_data_SM = {
         "id": "27109",
         "name": "Kick - 발차기",
         "icon": "skill_icon_swordmaster_1_35.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 16~18 damage",
         "sub_info": null,
         "consume_sp": "1",
@@ -1059,9 +1167,9 @@ var skill_data_SM = {
         "id": "27109",
         "name": "Kick - 발차기",
         "icon": "skill_icon_swordmaster_1_35.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 16~18 damage",
-        "sub_info": "Knock stunned foes unconscious for 30 sec",
+        "sub_info": "Knocks stunned foes unconscious for 30 sec",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -1091,9 +1199,9 @@ var skill_data_SM = {
         "id": "27109",
         "name": "Kick - 발차기",
         "icon": "skill_icon_swordmaster_1_35.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 16~18 damage",
-        "sub_info": "Knock stunned foes unconscious for 30 sec<br/>Decreases block, evade of foes by 50% for 5 sec",
+        "sub_info": "Knocks stunned foes unconscious for 30 sec<br/>Decreases block, evade of foes by 50% for 5 sec",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -1123,9 +1231,9 @@ var skill_data_SM = {
         "id": "27109",
         "name": "Kick - 발차기",
         "icon": "skill_icon_swordmaster_1_35.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 16~18 damage<br/>Charge to the target to use Kick",
-        "sub_info": "Knock stunned foes unconscious for 30 sec<br/>Decreases block, evade of foes by 50% for 5 sec",
+        "sub_info": "Knocks stunned foes unconscious for 30 sec<br/>Decreases block, evade of foes by 50% for 5 sec",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -1444,7 +1552,7 @@ var skill_data_SM = {
         "name": "Charge - 돌진",
         "icon": "skill_icon_swordmaster_1_23.png",
         "main_info1": "Deals 6~7 damage",
-        "main_info2": "Stuns foes for 2 sec<br/>Charge behind the target",
+        "main_info2": "Stuns foes for 2 sec<br/>Charge beyond the target",
         "sub_info": "User is invulnerable for 1 sec after use<br/>Disables charge abilities of foes for 6 sec<br/>Increases the movement speed of the user by 80% for 6 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "4",
@@ -1699,7 +1807,7 @@ var skill_data_SM = {
         "id": "27113",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_swordmaster_1_9.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 18~21 damage",
         "sub_info": null,
         "consume_sp": "3",
@@ -1731,7 +1839,7 @@ var skill_data_SM = {
         "id": "27113",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_swordmaster_1_9.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 18~21 damage",
         "sub_info": null,
         "consume_sp": "2",
@@ -1763,7 +1871,7 @@ var skill_data_SM = {
         "id": "27113",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_swordmaster_1_9.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 18~21 damage",
         "sub_info": "Disables charge abilities of foes for 6 sec",
         "consume_sp": "2",
@@ -1795,7 +1903,7 @@ var skill_data_SM = {
         "id": "27113",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_swordmaster_1_9.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 18~21 damage",
         "sub_info": "Disables charge abilities of foes for 6 sec",
         "consume_sp": "2",
@@ -1827,7 +1935,7 @@ var skill_data_SM = {
         "id": "27113",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_swordmaster_1_9.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 18~21 damage",
         "sub_info": "Ignores defense<br/>Generates 1 chi per target hit<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "2",
@@ -1859,7 +1967,7 @@ var skill_data_SM = {
         "id": "27113",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_swordmaster_1_9.png",
-        "main_info1": "Knock down foes for 3 sec",
+        "main_info1": "Knocks foes down for 3 sec",
         "main_info2": "Deals 18~21 damage",
         "sub_info": "Low Slash can be recast up to 2 times<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "2",
@@ -1989,7 +2097,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_13.png",
         "main_info1": "Move behind the target around their right",
         "main_info2": "User is invulnerable during use",
-        "sub_info": "Maximum speed Sunder is available after use<br/>Breaks the user out of freeze",
+        "sub_info": "Maximum speed Sunder is available after use<br/>Removes immobilizing effects on the user",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2021,7 +2129,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_13.png",
         "main_info1": "Move behind the target around their right",
         "main_info2": "User is invulnerable during use",
-        "sub_info": "Maximum speed Sunder is available after use<br/>Breaks the user out of freeze<br/>Counterattack [Q] is replaced with Counteroffensive",
+        "sub_info": "Maximum speed Sunder is available after use<br/>Removes immobilizing effects on the user<br/>Counterattack [Q] is replaced with Counteroffensive",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2053,7 +2161,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_13.png",
         "main_info1": "Move behind the target around their left",
         "main_info2": "User is invulnerable during use",
-        "sub_info": "Maximum speed Sunder is available after use<br/>Breaks the user out of freeze",
+        "sub_info": "Maximum speed Sunder is available after use<br/>Removes immobilizing effects on the user",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2085,7 +2193,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_2_21.png",
         "main_info1": "Move behind the target around their left",
         "main_info2": "User is invulnerable during use",
-        "sub_info": "Maximum speed Sunder is available after use<br/>Breaks the user out of freeze<br/>Counterattack [Q] is replaced with Counteroffensive<br/>Counterattack and Counteroffensive have separate cooldown",
+        "sub_info": "Maximum speed Sunder is available after use<br/>Removes immobilizing effects on the user<br/>Counterattack [Q] is replaced with Counteroffensive<br/>Counterattack and Counteroffensive have separate cooldown",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2149,7 +2257,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_47.png",
         "main_info1": "Move back 8m",
         "main_info2": "User is invulnerable during use",
-        "sub_info": "Breaks the user out of freeze<br/>Used by double tapping [S]",
+        "sub_info": "Removes immobilizing effects on the user<br/>Used by double tapping [S]",
         "consume_sp": null,
         "ui_sp_heal_value": "1",
         "skill_info": {
@@ -2179,7 +2287,7 @@ var skill_data_SM = {
         "id": "27119",
         "name": "Upward Slash - 올려베기",
         "icon": "skill_icon_swordmaster_1_10.png",
-        "main_info1": "Knock foes into the air",
+        "main_info1": "Knocks foes into the air",
         "main_info2": "Deals 41~48 damage",
         "sub_info": null,
         "consume_sp": "2",
@@ -2211,7 +2319,7 @@ var skill_data_SM = {
         "id": "27119",
         "name": "Upward Slash - 올려베기",
         "icon": "skill_icon_swordmaster_1_10.png",
-        "main_info1": "Knock foes into the air",
+        "main_info1": "Knocks foes into the air",
         "main_info2": "Deals 41~48 damage",
         "sub_info": "Upward Slash is available while in draw stance",
         "consume_sp": "2",
@@ -2245,7 +2353,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_17.png",
         "main_info1": "Deals 37~43 damage",
         "main_info2": null,
-        "sub_info": "Knock foes back into the air<br/>Increases the evade chance of the user by 100% during use",
+        "sub_info": "Knocks foes back into the air<br/>Increases the evade chance of the user by 100% during use",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2308,7 +2416,7 @@ var skill_data_SM = {
         "name": "Crash - 추락",
         "icon": "skill_icon_swordmaster_1_37.png",
         "main_info1": "Deals 46~53 damage",
-        "main_info2": "Knock down foes for 3 sec",
+        "main_info2": "Knocks foes down for 3 sec",
         "sub_info": "Ends the target's airborne status<br/>Increases the evade chance of the user by 100% during use",
         "consume_sp": "3",
         "ui_sp_heal_value": null,
@@ -2693,7 +2801,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_49.png",
         "main_info1": "Deals 22~25 damage up to 5 foes",
         "main_info2": null,
-        "sub_info": "Knock foes back into the air<br/>Increases the evade chance of the user by 100% during use",
+        "sub_info": "Knocks foes back into the air<br/>Increases the evade chance of the user by 100% during use",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2884,7 +2992,7 @@ var skill_data_SM = {
         "name": "Escape - 탈출",
         "icon": "skill_icon_swordmaster_1_11.png",
         "main_info1": "Escape from downed, dazed, stunned, unconscious status",
-        "main_info2": "Knock back foes 11m<br/>Deals 12~14 damage",
+        "main_info2": "Knocks foes back 11m<br/>Deals 12~14 damage",
         "sub_info": "User is invulnerable during use<br/>User is invulnerable for 0.5 sec after use<br/>Invunlerability ends on using another ability",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
@@ -2916,7 +3024,7 @@ var skill_data_SM = {
         "name": "Escape - 탈출",
         "icon": "skill_icon_swordmaster_1_11.png",
         "main_info1": "Escape from downed, dazed, stunned, unconscious status",
-        "main_info2": "Knock back foes 11m<br/>Deals 12~14 damage",
+        "main_info2": "Knocks foes back 11m<br/>Deals 12~14 damage",
         "sub_info": "User is invulnerable during use<br/>User is invulnerable for 0.5 sec after use<br/>Invunlerability ends on using another ability<br/>Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of foes by 30% for 6 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
@@ -2948,7 +3056,7 @@ var skill_data_SM = {
         "name": "Escape - 탈출",
         "icon": "skill_icon_swordmaster_1_11.png",
         "main_info1": "Escape from downed, dazed, stunned, unconscious status",
-        "main_info2": "Knock back foes 11m<br/>Deals 12~14 damage",
+        "main_info2": "Knocks foes back 11m<br/>Deals 12~14 damage",
         "sub_info": "User is invulnerable during use<br/>User is invulnerable for 0.5 sec after use<br/>Invunlerability ends on using another ability<br/>Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of foes by 30% for 6 sec<br/>Creates a barrier around the user equivalent to 10% of the user's maximum health that lasts for 5 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
@@ -3075,7 +3183,7 @@ var skill_data_SM = {
         "id": "27130",
         "name": "Blade Rush - 신검합일",
         "icon": "skill_icon_swordmaster_1_61.png",
-        "main_info1": "Charge behind the target",
+        "main_info1": "Charge beyond the target",
         "main_info2": "Stuns the target for 2 sec on hitting the target's back",
         "sub_info": "Deals 2~3 damage<br/>Decreases the movement speed of nearby foes by 30%",
         "consume_sp": null,
@@ -3393,7 +3501,7 @@ var skill_data_SM = {
     },
     "SwordMaster_Sword_WindySlash_LV1": {
         "id": "27144",
-        "name": "Cruel Moon - 참월",
+        "name": "Moon Cleave - 참월",
         "icon": "skill_icon_swordmaster_2_22.png",
         "main_info1": "Deals 84~98 damage",
         "main_info2": "Deals an additional 72~84 damage to dazed, stunned, seized, force gripped foes",
@@ -3425,7 +3533,7 @@ var skill_data_SM = {
     },
     "SwordMaster_Sword_WindySlash_LV2": {
         "id": "27144",
-        "name": "Cruel Moon - 참월",
+        "name": "Moon Cleave - 참월",
         "icon": "skill_icon_swordmaster_2_22.png",
         "main_info1": "Deals 84~98 damage",
         "main_info2": "Deals an additional 72~84 damage to dazed, stunned, seized, force gripped foes",
@@ -3493,7 +3601,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_51.png",
         "main_info1": "Counters an attack for 0.8 sec",
         "main_info2": null,
-        "sub_info": "Escape from downed status on counter<br/>Knock down the countered target for 3 sec on counter<br/>Deals 16~18 damage on counter",
+        "sub_info": "Escape from downed status on counter<br/>Knocks the countered foe down for 3 sec on counter<br/>Deals 16~18 damage on counter",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3749,7 +3857,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_4.png",
         "main_info1": "Force grip the target for 6 sec",
         "main_info2": "Pulls foes",
-        "sub_info": "Knock back nearby foes 8m<br/>Ignores defense<br/>Foes that resist Force Grip can be force gripped when they are stunned, downed, dazed, defending",
+        "sub_info": "Knocks nearby foes back 8m<br/>Ignores defense<br/>Foes that resist Force Grip can be force gripped when they are stunned, downed, dazed, defending",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3781,7 +3889,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_4.png",
         "main_info1": "Force grip the target for 6 sec",
         "main_info2": "Pulls foes",
-        "sub_info": "Knock back nearby foes 8m<br/>Decreases the movement speed of knocked back foes by 50% for 6 sec<br/>Disables charge abilities of foes knocked back for 6 sec<br/>Ignores defense<br/>Foes that resist Force Grip can be force gripped when they are stunned, downed, dazed, defending",
+        "sub_info": "Knocks nearby foes back 8m<br/>Decreases the movement speed of knocked back foes by 50% for 6 sec<br/>Disables charge abilities of foes knocked back for 6 sec<br/>Ignores defense<br/>Foes that resist Force Grip can be force gripped when they are stunned, downed, dazed, defending",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3813,7 +3921,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_0_4.png",
         "main_info1": "Force grip the target for 6 sec",
         "main_info2": "Pulls foes",
-        "sub_info": "Knock back nearby foes 8m and dazes them for 2 sec<br/>Decreases the movement speed of knocked back foes by 50% for 6 sec<br/>Disables charge abilities of foes knocked back for 6 sec<br/>Ignores defense<br/>Foes that resist Force Grip can be force gripped when they are stunned, downed, dazed, defending",
+        "sub_info": "Knocks nearby foes back 8m and dazes them for 2 sec<br/>Decreases the movement speed of knocked back foes by 50% for 6 sec<br/>Disables charge abilities of foes knocked back for 6 sec<br/>Ignores defense<br/>Foes that resist Force Grip can be force gripped when they are stunned, downed, dazed, defending",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3939,7 +4047,7 @@ var skill_data_SM = {
         "id": "27201",
         "name": "Slam - 내다꽂기",
         "icon": "skill_icon_swordmaster_0_5.png",
-        "main_info1": "Knock down the force gripped target for 3 sec",
+        "main_info1": "Knocks the force gripped foe down for 3 sec",
         "main_info2": "Deals 22~25 damage",
         "sub_info": null,
         "consume_sp": null,
@@ -4227,8 +4335,8 @@ var skill_data_SM = {
         "id": "27203",
         "name": "Throw - 던지기",
         "icon": "skill_icon_forcemaster_0_2.png",
-        "main_info1": "Knock back the force gripped target 15m",
-        "main_info2": "Knock the thrown target unconscious for 30 sec",
+        "main_info1": "Knocks the force gripped target back 15m",
+        "main_info2": "Knocks the thrown foe unconscious for 30 sec",
         "sub_info": "Deals 11~13 damage",
         "consume_sp": null,
         "ui_sp_heal_value": null,
@@ -4356,8 +4464,8 @@ var skill_data_SM = {
         "name": "Swallow Blade - 비연검",
         "icon": "skill_icon_swordmaster_1_5.png",
         "main_info1": "Deals 12~14 damage",
-        "main_info2": "Knock down foes for 2 sec",
-        "sub_info": "Decreases the movement speed of foes by 30% for 6 sec<br/>Disables charge abilities of foes for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes hit suffer from Internal Bleeding for 12 sec",
+        "main_info2": "Knocks foes down for 2 sec",
+        "sub_info": "Decreases the movement speed of foes by 30% for 6 sec<br/>Disables charge abilities of foes for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes suffer from Internal Bleeding for 12 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
         "skill_info": {
@@ -4389,7 +4497,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_5.png",
         "main_info1": "Deals 12~14 damage",
         "main_info2": "Stuns foes for 2 sec<br/>Pulls foes",
-        "sub_info": "Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of the target by 60% for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes hit suffer from Internal Bleeding for 12 sec",
+        "sub_info": "Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of the target by 60% for 6 sec<br/>Causes foes to bleed (1 stack)<br/>Foes suffer from Internal Bleeding for 12 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "3",
         "skill_info": {
@@ -4453,7 +4561,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 12~14 damage over 4 hits",
         "main_info2": null,
-        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 2 times<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 2 times<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4485,7 +4593,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 12~14 damage over 4 hits",
         "main_info2": null,
-        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 4 times<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Generates 2 chi per hit<br/>Generates 1 additional chi on critical hit<br/>Soulblade Tempest can be recast up to 4 times<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "1",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4549,7 +4657,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 90~105 damage over 5 hits",
         "main_info2": null,
-        "sub_info": "Sends out 6 blades at once<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Sends out 6 blades at once<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "6",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4581,7 +4689,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_56.png",
         "main_info1": "Deals 90~105 damage over 5 hits",
         "main_info2": "Deals 60~70 explosive damage",
-        "sub_info": "Sends out 6 blades at once<br/>Foes hit suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
+        "sub_info": "Sends out 6 blades at once<br/>Foes suffer from Internal Bleeding for 12 sec<br/>Cannot be deflected",
         "consume_sp": "6",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4611,7 +4719,7 @@ var skill_data_SM = {
         "id": "27304",
         "name": "Soulblade Discharge - 어검발산",
         "icon": "skill_icon_swordmaster_1_53.png",
-        "main_info1": "Knock back foes 11m",
+        "main_info1": "Knocks foes back 11m",
         "main_info2": "Deals 24~28 damage",
         "sub_info": null,
         "consume_sp": null,
@@ -4643,7 +4751,7 @@ var skill_data_SM = {
         "id": "27304",
         "name": "Soulblade Discharge - 어검발산",
         "icon": "skill_icon_swordmaster_1_53.png",
-        "main_info1": "Knock back foes 11m",
+        "main_info1": "Knocks foes back 11m",
         "main_info2": "Deals 24~28 damage",
         "sub_info": "Heals the user 100% of the damage dealt",
         "consume_sp": null,
@@ -5572,7 +5680,7 @@ var skill_data_SM = {
         "name": "Flash of Light - 일섬",
         "icon": "skill_icon_swordmaster_1_34.png",
         "main_info1": "Deals 84~98 damage",
-        "main_info2": "Charge behind the target",
+        "main_info2": "Charge beyond the target",
         "sub_info": "Flash of Light can be recast on critical hit up to 3 times",
         "consume_sp": null,
         "ui_sp_heal_value": null,
@@ -5604,7 +5712,7 @@ var skill_data_SM = {
         "name": "Flash of Light - 일섬",
         "icon": "skill_icon_swordmaster_1_34.png",
         "main_info1": "Deals 84~98 damage",
-        "main_info2": "Charge behind the target",
+        "main_info2": "Charge beyond the target",
         "sub_info": "Guaranteed critical hit to dazed, stunned, seized, force gripped foes<br/>Flash of Light can be recast on critical hit up to 3 times",
         "consume_sp": null,
         "ui_sp_heal_value": null,
@@ -5636,7 +5744,7 @@ var skill_data_SM = {
         "name": "Flash of Light - 일섬",
         "icon": "skill_icon_swordmaster_1_34.png",
         "main_info1": "Deals 84~98 damage",
-        "main_info2": "Charge behind the target",
+        "main_info2": "Charge beyond the target",
         "sub_info": "Cooldown of Flash of Light is refreshed on kill<br/>Generates 10 chi on kill<br/>Guaranteed critical hit to dazed, stunned, seized, force gripped foes<br/>Flash of Light can be recast on critical hit up to 3 times",
         "consume_sp": null,
         "ui_sp_heal_value": null,
@@ -5861,7 +5969,7 @@ var skill_data_SM = {
         "icon": "skill_icon_swordmaster_1_24.png",
         "main_info1": "Deals 9~10 damage up to 5 foes",
         "main_info2": "Dazes foes for 3 sec<br/>User is invulnerable during use",
-        "sub_info": "Charge to the target<br/>Knock dazed foes into the air",
+        "sub_info": "Charge to the target<br/>Knocks dazed foes into the air",
         "consume_sp": "2",
         "ui_sp_heal_value": null,
         "skill_info": {

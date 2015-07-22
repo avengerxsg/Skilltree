@@ -1309,1278 +1309,1320 @@ var data_skill_tooltip = {
             }
         }
     },
-    "forcemaster_deal_energy_cyclone_instant_lv1": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_duration",
-                "effect-arg-1": "6000",
-                "effect-arg-2": "ForceMaster_Deal_common_frostbite",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv11": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_duration",
-                "effect-arg-1": "6000",
-                "effect-arg-2": "ForceMaster_Deal_common_frostbite",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv12": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_duration",
-                "effect-arg-1": "6000",
-                "effect-arg-2": "ForceMaster_Deal_common_frostbite",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv13": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_duration",
-                "effect-arg-1": "6000",
-                "effect-arg-2": "ForceMaster_Deal_common_frostbite",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_probablity",
-                "effect-arg-1": "30",
-                "effect-arg-2": "5000",
-                "effect-arg-3": "ForceMaster_Deal_common_freezing",
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv14": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_duration",
-                "effect-arg-1": "10000",
-                "effect-arg-2": "ForceMaster_Deal_common_frostbite",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_probablity",
-                "effect-arg-1": "30",
-                "effect-arg-2": "5000",
-                "effect-arg-3": "ForceMaster_Deal_common_freezing",
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv15": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "130,130",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_duration",
-                "effect-arg-1": "10000",
-                "effect-arg-2": "ForceMaster_Deal_common_frostbite",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_defence_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_effect_only",
-                "condition-arg-1": "ForceMaster_Deal_common_frostbite",
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_attach_effect_probablity",
-                "effect-arg-1": "30",
-                "effect-arg-2": "5000",
-                "effect-arg-3": "ForceMaster_Deal_common_freezing",
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv21": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "210,210",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv22": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "210,210",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up_combo",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv23": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "210,210",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_enable_none_hate",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up_combo",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "4": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_energy_cyclone_instant_lv24": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "210,210",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_skill_critical",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_freezing",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_enable_none_hate",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up_combo",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "4": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "Sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_fire_speed_up",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "5": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stat_up",
-                "effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
-                "effect-arg-2": "10",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_using_ice_skill",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_ice",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
+	"forcemaster_deal_energy_cyclone_instant_lv1": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_attach_effect_duration",
+				"effect-arg-1": "6000",
+				"effect-arg-2": "ForceMaster_Deal_common_frostbite",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv1",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv11": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_attach_effect_duration",
+				"effect-arg-1": "6000",
+				"effect-arg-2": "ForceMaster_Deal_common_frostbite",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv11",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv12": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "130,130",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_attach_effect_duration",
+				"effect-arg-1": "6000",
+				"effect-arg-2": "ForceMaster_Deal_common_frostbite",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv12",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv13": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "300,300",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_attach_effect_duration",
+				"effect-arg-1": "6000",
+				"effect-arg-2": "ForceMaster_Deal_common_frostbite",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv13",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv14": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "300,300",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_attach_effect_duration",
+				"effect-arg-1": "10000",
+				"effect-arg-2": "ForceMaster_Deal_common_frostbite",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv14",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv15": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "300,300",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_attach_effect_duration",
+				"effect-arg-1": "10000",
+				"effect-arg-2": "ForceMaster_Deal_common_frostbite",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_defence_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_effect_only",
+				"condition-arg-1": "ForceMaster_Deal_common_frostbite",
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv15",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv21": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "400,400",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv21",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv22": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "400,400",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up_combo",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv22",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv23": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "400,400",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_enable_none_hate",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up_combo",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"4": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv23",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_energy_cyclone_instant_lv24": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "400,400",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_skill_critical",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_freezing",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_IceBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_enable_none_hate",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up_combo",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"4": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "Sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_fire_speed_up",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"5": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_energy_cyclone_instant_Lv24",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_ice",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
     "forcemaster_deal_fast_energy_missile_lv1": {
         "m1": {
             "0": {
@@ -4627,1512 +4669,1635 @@ var data_skill_tooltip = {
             }
         }
     },
-    "forcemaster_deal_fire_blast_lv1": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv1",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv1",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv1",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv1",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv1",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv11": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv11",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv11",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv11",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv11",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv11",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv12": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv12",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv12",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_hit",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv12",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv12",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv12",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv12",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv13": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv13",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv13",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_hit",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv13",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv13",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv13",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv13",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv14": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_linked",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_hit",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv14",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv15": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage_add",
-                "effect-arg-1": "100,100",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_stun_linked",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_cast_reduce_multi",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_hit",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "4": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv15",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv21": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_kneel",
-                "effect-arg-1": "2000",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_cast_enable_none_effect",
-                "effect-arg-1": "ForceMaster_Deal_magnetic_seal_Lv2_kneel",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_during_recycle_time",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv21",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv22": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "504",
-                "effect-arg-2": "2000",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_bounce_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_cast_enable_none_effect",
-                "effect-arg-1": "ForceMaster_Deal_magnetic_seal_Lv2_kneel",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_during_recycle_time",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv22",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv23": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "350,350",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "m2": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "M2",
-                "ect-order": "TCE",
-                "effect-attribute": "E_kneel_to_knockback",
-                "effect-arg-1": "504",
-                "effect-arg-2": "2000",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_defence_disable",
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "Sub",
-                "ect-order": "TCE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
-            },
-            "3": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_cast_enable_none_effect",
-                "effect-arg-1": "ForceMaster_Deal_magnetic_seal_Lv2_kneel",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_during_recycle_time",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv23",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv31": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv31",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "380,380",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv31",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv31",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv32": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv32",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "380,380",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv32",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv32",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "2",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_burn",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv32",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
-    "forcemaster_deal_fire_blast_lv33": {
-        "m1": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv33",
-                "tooltip-group": "M1",
-                "ect-order": "TCE",
-                "effect-attribute": "E_damage",
-                "effect-arg-1": "380,380",
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "sub": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv33",
-                "tooltip-group": "sub",
-                "ect-order": "CTE",
-                "effect-attribute": "E_bit_creation",
-                "effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": "C_if_attack_critical",
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "1": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv33",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "1",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            },
-            "2": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv33",
-                "tooltip-group": "sub",
-                "ect-order": "TCE",
-                "effect-attribute": "E_stack",
-                "effect-arg-1": "ForceMaster_Deal_embers",
-                "effect-arg-2": "2",
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": "T_burn",
-                "before-stance-attribute": null,
-                "after-stance-attribute": null,
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        },
-        "stance": {
-            "0": {
-                "skill": "ForceMaster_Deal_fire_blast_Lv33",
-                "tooltip-group": "Stance",
-                "ect-order": "CTE",
-                "effect-attribute": null,
-                "effect-arg-1": null,
-                "effect-arg-2": null,
-                "effect-arg-3": null,
-                "effect-arg-4": null,
-                "condition-attribute": null,
-                "condition-arg-1": null,
-                "condition-arg-2": null,
-                "target-attribute": null,
-                "before-stance-attribute": null,
-                "after-stance-attribute": "UC_S_fire",
-                "default-text": null,
-                "skill-modify-diff-repeat-count": "1",
-                "is_public": "0",
-                "default-text-refine": null
-            }
-        }
-    },
+	"forcemaster_deal_fire_blast_lv1": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv1",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "350,350",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv1",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv1",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv1",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv1",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv11": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv11",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "350,350",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv11",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv11",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv11",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv11",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv12": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv12",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "520,520",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_hit",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv12",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv12",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv13": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv13",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "520,520",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_hit",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv13",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv13",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv14": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "520,520",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage_add",
+				"effect-arg-1": "100,100",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_stun_linked",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_hit",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv14",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv15": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "520,520",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage_add",
+				"effect-arg-1": "100,100",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_stun_linked",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_cast_reduce_multi",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_hit",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"4": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv15",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv21": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "350,350",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_kneel",
+				"effect-arg-1": "2000",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_cast_enable_none_effect",
+				"effect-arg-1": "ForceMaster_Deal_magnetic_seal_Lv2_kneel",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_during_recycle_time",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv21",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv22": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "350,350",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_kneel_to_knockback",
+				"effect-arg-1": "504",
+				"effect-arg-2": "2000",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_bounce_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_cast_enable_none_effect",
+				"effect-arg-1": "ForceMaster_Deal_magnetic_seal_Lv2_kneel",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_during_recycle_time",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv22",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv23": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "350,350",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"m2": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "M2",
+				"ect-order": "TCE",
+				"effect-attribute": "E_kneel_to_knockback",
+				"effect-arg-1": "504",
+				"effect-arg-2": "2000",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_defence_disable",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_fire_blast_Lv1_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "아군의 동상, 결빙, 급랭, 얼음감옥 해제"
+			},
+			"3": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_cast_enable_none_effect",
+				"effect-arg-1": "ForceMaster_Deal_magnetic_seal_Lv2_kneel",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_during_recycle_time",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv23",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv31": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv31",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "550,550",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv31",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv31",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv32": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv32",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "550,550",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv32",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv32",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "2",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_burn",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv32",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
+	"forcemaster_deal_fire_blast_lv33": 
+	{
+		"m1": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv33",
+				"tooltip-group": "M1",
+				"ect-order": "TCE",
+				"effect-attribute": "E_damage",
+				"effect-arg-1": "550,550",
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"sub": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv33",
+				"tooltip-group": "sub",
+				"ect-order": "CTE",
+				"effect-attribute": "E_bit_creation",
+				"effect-arg-1": "ForceMaster_Deal_common_FireBit_1",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_attack_critical",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"1": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv33",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "1",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+			"2": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv33",
+				"tooltip-group": "sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stack",
+				"effect-arg-1": "ForceMaster_Deal_embers",
+				"effect-arg-2": "2",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": "T_burn",
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		},
+		"stance": 
+		{
+			"0": 
+			{
+				"skill": "ForceMaster_Deal_fire_blast_Lv33",
+				"tooltip-group": "Stance",
+				"ect-order": "CTE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": "UC_S_fire",
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
+		}
+	},
     "forcemaster_deal_cold_blast_lv1": {
         "m1": {
             "0": {
@@ -7658,7 +7823,28 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
+            },
+            "3": 
+			{
+				"skill": "ForceMaster_Deal_cold_blast_Lv31",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_cold_blast_Lv31_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "즉시 기절 합격 효과 적용"
+			}
         },
         "stance": {
             "0": {
@@ -7828,7 +8014,28 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
+            },
+            "4": 
+			{
+				"skill": "ForceMaster_Deal_cold_blast_Lv32",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": null,
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": "Skill.ForceMaster_Deal_cold_blast_Lv31_1",
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": "즉시 기절 합격 효과 적용"
+			}
         },
         "stance": {
             "0": {
@@ -21349,7 +21556,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "2": {
+            "2": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv1",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "3": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv1",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -21497,7 +21725,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "4": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv11",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "5": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv11",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -21685,7 +21934,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "6": {
+            "6": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv12",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "7": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv12",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -21893,7 +22163,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "7": {
+            "7": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv13",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "8": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv13",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22061,7 +22352,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "5": {
+            "5": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "6": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv21",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22289,7 +22601,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "8": {
+            "8": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "9": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv22",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22437,7 +22770,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "4": {
+            "4": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv31",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "5": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv31",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -22605,7 +22959,28 @@ var data_skill_tooltip = {
                 "is_public": "0",
                 "default-text-refine": null
             },
-            "5": {
+            "5": 
+			{
+				"skill": "ForceMaster_Deal_energy_wall_Lv32",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_dispel_debuff",
+				"effect-arg-1": null,
+				"effect-arg-2": null,
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": null,
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			},
+            "6": {
                 "skill": "ForceMaster_Deal_energy_wall_Lv32",
                 "tooltip-group": "Sub",
                 "ect-order": "TCE",
@@ -24550,7 +24925,28 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": null
-            }
+            },
+            "1": 
+			{
+				"skill": "ForceMaster_Deal_rapid_cooling_Lv21",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
         },
         "condition": {
             "0": {
@@ -24660,7 +25056,28 @@ var data_skill_tooltip = {
                 "skill-modify-diff-repeat-count": "1",
                 "is_public": "0",
                 "default-text-refine": "얼음감옥 시 생명력 5% 회복"
-            }
+            },
+            "2": 
+			{
+				"skill": "ForceMaster_Deal_rapid_cooling_Lv22",
+				"tooltip-group": "Sub",
+				"ect-order": "TCE",
+				"effect-attribute": "E_stat_up",
+				"effect-arg-1": "Effect.Name2.ForceMaster_Deal_common_coldforce_dmg_reduce",
+				"effect-arg-2": "10",
+				"effect-arg-3": null,
+				"effect-arg-4": null,
+				"condition-attribute": "C_if_using_ice_skill",
+				"condition-arg-1": null,
+				"condition-arg-2": null,
+				"target-attribute": null,
+				"before-stance-attribute": null,
+				"after-stance-attribute": null,
+				"default-text": null,
+				"skill-modify-diff-repeat-count": "1",
+				"is_public": "0",
+				"default-text-refine": null
+			}
         },
         "condition": {
             "0": {
