@@ -1,26 +1,4 @@
 var category_data_FM = {
-    "99999": {
-        "skill_id": "99999",
-        "tree_id": "99999",
-        "name2_refine": "Blank",
-        "name2_refine_en": "Blank",
-        "pc_level": "0",
-        "pc_mastery_level": "0",
-        "complete_quest": null,
-        "complete_quest_name": null,
-        "default_keycap": "LB",
-        "sort_no": "0",
-        "skill_icon": {
-            "1": "default_icon_00_24.png"
-        },
-        "tooltip_stance_type": {
-            "0": null,
-            "1": null,
-            "2": null
-        },
-        "tooltip_stance_refine": null,
-        "tooltip_condition_refine": null
-    },
     "22106": {
         "skill_id": "22106",
         "tree_id": "22106",
@@ -661,8 +639,8 @@ var category_data_FM = {
     "22238": {
         "skill_id": "22238",
         "tree_id": "22238",
-        "name2_refine": "Explosion<br>화염폭발",
-        "name2_refine_en": "Explosion",
+        "name2_refine": "Flame Explosion<br>화염폭발",
+        "name2_refine_en": "Flame Explosion",
         "pc_level": "28",
         "pc_mastery_level": "0",
         "complete_quest": null,
@@ -719,8 +697,8 @@ var category_data_FM = {
     "22244": {
         "skill_id": "22244",
         "tree_id": "1",
-        "name2_refine": "Flame Step<br>화신보",
-        "name2_refine_en": "Flame Step",
+        "name2_refine": "Shift Step<br>전신보",
+        "name2_refine_en": "Shift Step",
         "pc_level": "30",
         "pc_mastery_level": "0",
         "complete_quest": null,
@@ -741,8 +719,8 @@ var category_data_FM = {
     "22245": {
         "skill_id": "22245",
         "tree_id": "1",
-        "name2_refine": "Frost Step<br>한신보",
-        "name2_refine_en": "Frost Step",
+        "name2_refine": "Shift Step<br>전신보",
+        "name2_refine_en": "Shift Step",
         "pc_level": "30",
         "pc_mastery_level": "0",
         "complete_quest": null,
@@ -895,8 +873,8 @@ var category_data_FM = {
     "22120": {
         "skill_id": "22120",
         "tree_id": "22120",
-        "name2_refine": "Spreading Ember<br>불씨확산",
-        "name2_refine_en": "Spreading Ember",
+        "name2_refine": "Spread Ember<br>불씨확산",
+        "name2_refine_en": "Spread Ember",
         "pc_level": "42",
         "pc_mastery_level": "0",
         "complete_quest": null,

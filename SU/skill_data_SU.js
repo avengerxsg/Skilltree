@@ -1,36 +1,4 @@
 var skill_data_SU = {
-    "Blank": {
-        "id": "99999",
-        "name": "Blank",
-        "icon": "default_icon_00_24.png",
-        "main_info1": null,
-        "main_info2": null,
-        "sub_info": null,
-        "consume_sp": null,
-        "ui_sp_heal_value": null,
-        "skill_info": {
-            "0": {
-                "name": "Range",
-                "type": "meter",
-                "value": " "
-            },
-            "1": {
-                "name": "Area",
-                "type": "range_0",
-                "value": " "
-            },
-            "2": {
-                "name": "Cast Time",
-                "type": "casting_time",
-                "value": " "
-            },
-            "3": {
-                "name": "Cooldown",
-                "type": "recycle_time",
-                "value": " "
-            }
-        }
-    },
     "Summoner_SummonedJob_Striker_Lv1": {
         "id": "26000",
         "name": "Cat's Violence - 고양이의 폭력성",
@@ -473,7 +441,7 @@ var skill_data_SU = {
         "id": "26103",
         "name": "Entwine - 휘감기",
         "icon": "skill_icon_summon_0_4.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": null,
         "sub_info": "Deals 12~14 damage",
         "consume_sp": null,
@@ -1681,7 +1649,7 @@ var skill_data_SU = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "6 sec"
+                "value": "9 sec"
             }
         }
     },
@@ -1713,7 +1681,7 @@ var skill_data_SU = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "6 sec"
+                "value": "9 sec"
             }
         }
     },
@@ -1745,7 +1713,7 @@ var skill_data_SU = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "6 sec"
+                "value": "9 sec"
             }
         }
     },
@@ -1755,8 +1723,8 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_10.png",
         "main_info1": "Deals 45~53 damage",
         "main_info2": null,
-        "sub_info": "Instantly cast on critical hit<br/>Instantly cast while stealthed<br/>Mobile during use",
-        "consume_sp": "2",
+        "sub_info": "Instantly cast while stealthed<br/>Mobile during use",
+        "consume_sp": "3",
         "ui_sp_heal_value": null,
         "skill_info": {
             "0": {
@@ -1772,7 +1740,7 @@ var skill_data_SU = {
             "2": {
                 "name": "Cast Time",
                 "type": "casting_time",
-                "value": "0.3 sec"
+                "value": "0.5 sec"
             },
             "3": {
                 "name": "Cooldown",
@@ -1787,8 +1755,8 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_10.png",
         "main_info1": "Deals 45~53 damage",
         "main_info2": null,
-        "sub_info": "Deals an additional 18~21 damage on instant cast<br/>Instantly cast on critical hit<br/>Instantly cast while stealthed<br/>Mobile during use",
-        "consume_sp": "2",
+        "sub_info": "Instantly cast on dazed, stunned, seized, force gripped foes<br/>Instantly cast while stealthed<br/>Mobile during use",
+        "consume_sp": "3",
         "ui_sp_heal_value": null,
         "skill_info": {
             "0": {
@@ -1804,7 +1772,7 @@ var skill_data_SU = {
             "2": {
                 "name": "Cast Time",
                 "type": "casting_time",
-                "value": "0.3 sec"
+                "value": "0.5 sec"
             },
             "3": {
                 "name": "Cooldown",
@@ -1819,8 +1787,8 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_10.png",
         "main_info1": "Deals 45~53 damage",
         "main_info2": null,
-        "sub_info": "Deals an additional 18~21 damage on instant cast<br/>Generates 1 chi on critical hit<br/>Instantly cast on seized, force gripped foes<br/>Instantly cast on critical hit<br/>Instantly cast while stealthed<br/>Mobile during use",
-        "consume_sp": "2",
+        "sub_info": "Generates 2 chi on critical hit<br/>Instantly cast on dazed, stunned, seized, force gripped foes<br/>Instantly cast while stealthed<br/>Mobile during use",
+        "consume_sp": "3",
         "ui_sp_heal_value": null,
         "skill_info": {
             "0": {
@@ -1836,7 +1804,7 @@ var skill_data_SU = {
             "2": {
                 "name": "Cast Time",
                 "type": "casting_time",
-                "value": "0.3 sec"
+                "value": "0.5 sec"
             },
             "3": {
                 "name": "Cooldown",
@@ -2235,7 +2203,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Knocks foes back 10m<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from Cat except Stun, Down, Dazed, Unconscious, Airborne, Force Grip, Dominate<br/>Recalled familiar will await for orders",
+        "sub_info": "Knock back foes 10m<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from Cat except Stun, Down, Dazed, Unconscious, Airborne, Force Grip, Dominate<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2267,7 +2235,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Foxtail is available while the user is downed, dazed, stunned, unconscious<br/>Cooldown of Foxtail becomes 1 min if it is used while the user is downed, dazed, stunned, unconscious<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Familiar is invulnerable during travel<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders<br/>Knocks foes back 10m<br/>Cooldown of Evade is refreshed on hitting more than 4 foes",
+        "sub_info": "Foxtail is available while the user is downed, dazed, stunned, unconscious<br/>Cooldown of Foxtail becomes 1 min if it is used while the user is downed, dazed, stunned, unconscious<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Familiar is invulnerable during travel<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders<br/>Knock back foes 10m<br/>Cooldown of Evade is refreshed on hitting more than 4 foes",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2299,7 +2267,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Removes status effects<br/>Foxtail is available while the user is under status effects<br/>Cooldown of Foxtail becomes 1 min if it is used while the user is downed, dazed, stunned, unconscious<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Familiar is invulnerable during travel<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders<br/>Knocks foes back 10m<br/>Cooldown of Evade is refreshed on hitting more than 4 foes",
+        "sub_info": "Removes status effects<br/>Foxtail is available while the user is under status effects<br/>Cooldown of Foxtail becomes 1 min if it is used while the user is downed, dazed, stunned, unconscious<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Familiar is invulnerable during travel<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders<br/>Knock back foes 10m<br/>Cooldown of Evade is refreshed on hitting more than 4 foes",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2331,7 +2299,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Pulls nearby foes and knocks them down for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
+        "sub_info": "Pulls nearby foes and down them for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2363,7 +2331,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and knocks them down for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
+        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and down them for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2395,7 +2363,7 @@ var skill_data_SU = {
         "icon": "skill_icon_summon_0_14.png",
         "main_info1": "Calls the familiar to the user",
         "main_info2": "Deals 11~13 damage",
-        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and knocks them down for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
+        "sub_info": "Disables defense abilities for 8 sec<br/>Pulls nearby foes and down them for 3 sec<br/>Cooldown of Evade is refreshed on hitting more than 4 foes<br/>Basic Foxtail is used instead while Foxtail is on cooldown<br/>Removes status effects from the familiar except down, daze, stun, unconscious, airborne, suppress, seize, force grip<br/>Recalled familiar will await for orders",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2617,7 +2585,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>User is immune to stuns caused by deflect<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2649,7 +2617,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>User is immune to stuns caused by deflect<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2681,7 +2649,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>Heals the user and allies within the area 10% of their maximum health<br/>Cures the user of Internal Bleeding on hit with Burn Pollen<br/>User is immune to stuns caused by deflect<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2713,7 +2681,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>Heals the user and allies within the area 10% of their maximum health<br/>Cures the user of Internal Bleeding on hit with Burn Pollen<br/>User is immune to stuns caused by deflect<br/>Heals the user and allies 2% of their maximum health on resist<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2745,7 +2713,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>Heals the user and allies within the area 10% of their maximum health<br/>Cures the user of Internal Bleeding on hit with Burn Pollen<br/>User is immune to stuns caused by deflect<br/>Heals the user and allies 2% of their maximum health on resist<br/>Meditating allies are invulnerable<br/>Decreases the meditation time of meditating allies by 6 sec<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2777,7 +2745,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>User is immune to stuns caused by deflect<br/>Spreads to nearby the foes<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2809,7 +2777,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>User is immune to stuns caused by deflect<br/>Applies up to 5 stacks of Poison<br/>Spreads to nearby the foes<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -2841,7 +2809,7 @@ var skill_data_SU = {
         "id": "26111",
         "name": "Pollen - 꽃가루",
         "icon": "skill_icon_summon_0_16.png",
-        "main_info1": "User and allies within the area are invulnerable to projectiles for 10 sec",
+        "main_info1": "User and allies wiithin the area are invulnerable to projectiles",
         "main_info2": null,
         "sub_info": "Protects allies within the area from projectiles<br/>User is immune to stuns caused by deflect<br/>Cooldown of Pollen is refreshed on kill with Burn Pollen<br/>User and allies generate 10% chi over 10 sec<br/>Applies up to 5 stacks of Poison<br/>Spreads to nearby the foes<br/>Foes within the area cannot passively block, evade",
         "consume_sp": "2",
@@ -4281,7 +4249,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_summon_0_34.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": null,
         "sub_info": "Deals 18~21 damage",
         "consume_sp": null,
@@ -4313,7 +4281,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_summon_0_34.png",
-        "main_info1": "Knocks foes down for 4 sec",
+        "main_info1": "Knock down foes for 4 sec",
         "main_info2": null,
         "sub_info": "Deals 18~21 damage",
         "consume_sp": null,
@@ -4345,7 +4313,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_summon_0_34.png",
-        "main_info1": "Knocks foes down for 4 sec",
+        "main_info1": "Knock down foes for 4 sec",
         "main_info2": null,
         "sub_info": "Deals 18~21 damage",
         "consume_sp": null,
@@ -4377,7 +4345,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_summon_0_34.png",
-        "main_info1": "Knocks foes down for 4 sec",
+        "main_info1": "Knock down foes for 4 sec",
         "main_info2": null,
         "sub_info": "Deals 18~21 damage<br/>Decreases the movement speed of foes by 40%<br/>Disables charge abilities of foes for 8 sec",
         "consume_sp": null,
@@ -4409,7 +4377,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Low Slash - 하단베기",
         "icon": "skill_icon_summon_0_34.png",
-        "main_info1": "Knocks foes down for 4 sec",
+        "main_info1": "Knock down foes for 4 sec",
         "main_info2": null,
         "sub_info": "Deals 18~21 damage<br/>Low Slash can be recast up to 2 times<br/>Cooldown of Low Slash is increased by 12 sec if it is used 2 times<br/>Decreases the movement speed of foes by 40%<br/>Disables charge abilities of foes for 8 sec",
         "consume_sp": null,
@@ -4441,7 +4409,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Plant Bomb - 폭탄 설치",
         "icon": "skill_icon_summon_0_26.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": null,
         "sub_info": "Familiar plants a bomb<br/>Deals 36~42 damage",
         "consume_sp": null,
@@ -4473,7 +4441,7 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Plant Bomb - 폭탄 설치",
         "icon": "skill_icon_summon_0_26.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": null,
         "sub_info": "Familiar plants a bomb<br/>Deals 36~42 damage",
         "consume_sp": null,
@@ -4505,9 +4473,9 @@ var skill_data_SU = {
         "id": "26202",
         "name": "Plant Bomb - 폭탄 설치",
         "icon": "skill_icon_summon_0_26.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": null,
-        "sub_info": "Familiar plants a bomb<br/>Synergy down applied<br/>Deals 36~42 damage",
+        "sub_info": "Familiar plants a bomb<br/>Down combination instantly applied<br/>Deals 36~42 damage",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4921,7 +4889,7 @@ var skill_data_SU = {
         "id": "26208",
         "name": "Headbutt - 박치기",
         "icon": "skill_icon_summon_0_20.png",
-        "main_info1": "Knocks the suppressed foe unconscious for 30 sec",
+        "main_info1": "Knock the suppressed target unconscious for 30 sec",
         "main_info2": "Deals 42~49 damage",
         "sub_info": null,
         "consume_sp": "2",
@@ -5338,7 +5306,7 @@ var skill_data_SU = {
         "name": "Impact - 충격",
         "icon": "skill_icon_summon_0_25.png",
         "main_info1": "Dazes foes for 2 sec",
-        "main_info2": "Deals 84~98 damage<br/>Foes suffer from Internal Bleeding for 12 sec",
+        "main_info2": "Deals 84~98 damage<br/>Foes hit suffer from Internal Bleeding for 12 sec",
         "sub_info": null,
         "consume_sp": null,
         "ui_sp_heal_value": null,
@@ -5366,7 +5334,7 @@ var skill_data_SU = {
         }
     },
     "Summoned_Summon_PoisonBlow_Lv1": {
-        "id": "26213",
+        "id": "26214",
         "name": "Burst - 터뜨리기",
         "icon": "skill_icon_summon_0_44.png",
         "main_info1": "Deals 66~77 damage",
@@ -5401,7 +5369,7 @@ var skill_data_SU = {
         "id": "26215",
         "name": "Uppercut - 올려치기",
         "icon": "skill_icon_summon_0_29.png",
-        "main_info1": "Knocks foes into the air",
+        "main_info1": "Knock foes into the air",
         "main_info2": null,
         "sub_info": "Deals 30~35 damage",
         "consume_sp": "2",
@@ -5561,7 +5529,7 @@ var skill_data_SU = {
         "id": "26219",
         "name": "Boing Boing - 뿌잉뿌잉",
         "icon": "skill_icon_summon_0_5.png",
-        "main_info1": "Decreases the meditation time of the meditating summoner or ally by 6 sec",
+        "main_info1": "Decreases the meditation time of meditating summoner or allies by 6 sec",
         "main_info2": null,
         "sub_info": null,
         "consume_sp": null,
@@ -6038,7 +6006,7 @@ var skill_data_SU = {
         }
     },
     "Summoned_Summon_RearDash_Auto": {
-        "id": "26414",
+        "id": "26412",
         "name": "Swish - 샤샥",
         "icon": "skill_icon_summon_0_46.png",
         "main_info1": "Familiar moves behind the target",

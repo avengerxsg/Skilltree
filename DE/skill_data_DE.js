@@ -1,347 +1,363 @@
 var skill_data_DE = {
-    "Blank": {
-        "id": "99999",
-        "name": "Blank",
-        "icon": "default_icon_00_24.png",
-        "main_info1": null,
+    "Destroyer_Protection_Judgement_Lv1": {
+        "id": "24001",
+        "name": "Judgement - 심판",
+        "icon": "skill_icon_destroyer_0_31.png",
+        "main_info1": "Deals 12~14 damage",
         "main_info2": null,
-        "sub_info": null,
+        "sub_info": "Generates 10% chi per target hit",
         "consume_sp": null,
-        "ui_sp_heal_value": null,
+        "ui_sp_heal_value": "10",
         "skill_info": {
             "0": {
                 "name": "Range",
                 "type": "meter",
-                "value": " "
+                "value": "From User"
             },
             "1": {
                 "name": "Area",
-                "type": "range_0",
-                "value": " "
+                "type": "range_5",
+                "value": "3m"
             },
             "2": {
                 "name": "Cast Time",
                 "type": "casting_time",
-                "value": " "
+                "value": "Instant"
             },
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": " "
+                "value": "Instant"
             }
         }
     },
-    "Destroyer_Protection_Judgement_Lv1": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 12~14 damage",
-		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit",
-		"consume_sp": null,
-		"ui_sp_heal_value": "10",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "3m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_1000": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 16~18 damage",
-		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit",
-		"consume_sp": null,
-		"ui_sp_heal_value": "10",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "3m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_2000": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 16~18 damage",
-		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit",
-		"consume_sp": null,
-		"ui_sp_heal_value": "10",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "5m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_3000": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 16~18 damage",
-		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
-		"consume_sp": null,
-		"ui_sp_heal_value": "10",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "5m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_4000": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 16~18 damage",
-		"main_info2": null,
-		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
-		"consume_sp": null,
-		"ui_sp_heal_value": "15",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "5m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_5000": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 16~18 damage",
-		"main_info2": null,
-		"sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec<br/>Generates chi even when blocked, countered, deflected",
-		"consume_sp": null,
-		"ui_sp_heal_value": "15",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "5m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_0400": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 16~18 damage",
-		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
-		"consume_sp": null,
-		"ui_sp_heal_value": "10",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "3m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
-	"Destroyer_Protection_Judgement_0500": 
-	{
-		"id": "24001",
-		"name": "Judgement - 심판",
-		"icon": "skill_icon_destroyer_0_31.png",
-		"main_info1": "Deals 18~21 damage",
-		"main_info2": null,
-		"sub_info": "Generates 10% chi per target hit<br/> Generates 10% additional chi on critical hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec",
-		"consume_sp": null,
-		"ui_sp_heal_value": "10",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_5",
-				"value": "3m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
+    "Destroyer_Protection_Judgement_1000": {
+        "id": "24001",
+        "name": "Judgement - 심판",
+        "icon": "skill_icon_destroyer_0_31.png",
+        "main_info1": "Deals 16~18 damage",
+        "main_info2": null,
+        "sub_info": "Generates 10% chi per target hit",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_5",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Judgement_2000": {
+        "id": "24001",
+        "name": "Judgement - 심판",
+        "icon": "skill_icon_destroyer_0_31.png",
+        "main_info1": "Deals 16~18 damage",
+        "main_info2": null,
+        "sub_info": "Generates 10% chi per target hit",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_5",
+                "value": "5m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Judgement_3000": {
+        "id": "24001",
+        "name": "Judgement - 심판",
+        "icon": "skill_icon_destroyer_0_31.png",
+        "main_info1": "Deals 16~18 damage",
+        "main_info2": null,
+        "sub_info": "Generates 10% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical effect lasts 3 sec",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_5",
+                "value": "5m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Judgement_4000": {
+        "id": "24001",
+        "name": "Judgement - 심판",
+        "icon": "skill_icon_destroyer_0_31.png",
+        "main_info1": "Deals 16~18 damage",
+        "main_info2": null,
+        "sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical effect lasts 3 sec",
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_5",
+                "value": "5m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Judgement_5000": {
+        "id": "24001",
+        "name": "Judgement - 심판",
+        "icon": "skill_icon_destroyer_0_31.png",
+        "main_info1": "Deals 16~18 damage",
+        "main_info2": null,
+        "sub_info": "Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical effect lasts 3 sec<br/>Generates chi even when blocked, countered, deflected",
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_5",
+                "value": "5m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Destruction_Single_R1_0200": {
+        "id": "24001",
+        "name": "Fury - 격노",
+        "icon": "skill_icon_destroyer_1_39.png",
+        "main_info1": "Deals 12~14 damage",
+        "main_info2": null,
+        "sub_info": "Skill speed accelerates on recast",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "1.2 sec"
+            }
+        }
+    },
+    "Destroyer_Destruction_Single_R1_0400": {
+        "id": "24001",
+        "name": "Fury - 격노",
+        "icon": "skill_icon_destroyer_1_39.png",
+        "main_info1": "Deals 12~14 damage",
+        "main_info2": "Deals an additional 4~4 damage at maximum speed",
+        "sub_info": "Skill speed accelerates on recast",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "1.2 sec"
+            }
+        }
+    },
+    "Destroyer_Destruction_Single_R1_0500": {
+        "id": "24001",
+        "name": "Fury - 격노",
+        "icon": "skill_icon_destroyer_1_39.png",
+        "main_info1": "Deals 12~14 damage",
+        "main_info2": "Deals an additional 4~4 damage at maximum speed",
+        "sub_info": "Skill speed accelerates on recast<br/>Maximum speed on hit with Collide",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "1.2 sec"
+            }
+        }
+    },
+    "Destroyer_Destruction_Single_R1_0040": {
+        "id": "24001",
+        "name": "Fury - 격노",
+        "icon": "skill_icon_destroyer_1_39.png",
+        "main_info1": "Deals 12~14 damage",
+        "main_info2": null,
+        "sub_info": "Heals the user 10% of the damage dealt<br/>Skill speed accelerates on recast",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "1.2 sec"
+            }
+        }
+    },
+    "Destroyer_Destruction_Single_R1_0050": {
+        "id": "24001",
+        "name": "Fury - 격노",
+        "icon": "skill_icon_destroyer_1_39.png",
+        "main_info1": "Deals 12~14 damage",
+        "main_info2": null,
+        "sub_info": "Heals the user 10% of the damage dealt<br/>Heals the user 25% of the damage dealt at maximum speed<br/>Skill speed accelerates on recast",
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "1.2 sec"
+            }
+        }
+    },
     "Destroyer_Protection_Raging_Wind_Lv1": {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
+        "main_info2": null,
+        "sub_info": "Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -372,8 +388,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
+        "main_info2": null,
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -403,9 +419,9 @@ var skill_data_DE = {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
-        "main_info1": "Deals 34~39 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability<br/>Ignores defense",
+        "main_info1": "Deals 50~59 damage",
+        "main_info2": null,
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -435,9 +451,9 @@ var skill_data_DE = {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
-        "main_info1": "Deals 34~39 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability<br/>Ignores defense<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
+        "main_info1": "Deals 50~59 damage",
+        "main_info2": null,
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -467,9 +483,9 @@ var skill_data_DE = {
         "id": "24010",
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
-        "main_info1": "Deals 34~39 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Increases the movement speed of the user by 80% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user<br/>Offensive defense ability<br/>Ignores defense<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
+        "main_info1": "Deals 50~59 damage",
+        "main_info2": null,
+        "sub_info": "Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability<br/>Increases the defense of the user by 20% for 5 sec on hit up to 10 stacks",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -500,8 +516,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
+        "main_info2": null,
+        "sub_info": "Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -532,8 +548,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "User takes 25% less damage for the first attack received<br/>Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
+        "main_info2": null,
+        "sub_info": "User takes 25% less damage for the first attack received<br/>Increases the defense of the user by 400% during use<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -564,8 +580,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Deflects an attack for 0.5 sec<br/>Increases the movement speed of the user by 60% during use<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>Generates 30% chi on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
+        "main_info2": null,
+        "sub_info": "Deflects 1 attack for 0.5 sec<br/>Increases the movement speed of the user by 60% during use<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -596,8 +612,8 @@ var skill_data_DE = {
         "name": "Hurricane - 광풍",
         "icon": "skill_icon_destroyer_0_29.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Deflects multiple attacks for 0.5 sec<br/>Cooldown of Collide is decreased by 9 sec on the first deflect<br/>Removes charge ability disable on deflect<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Generates 30% chi on deflect<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability",
+        "main_info2": null,
+        "sub_info": "Deflects multiple attacks for 0.5 sec<br/>Cooldown of Collide is decreased by 9 sec on the first deflect<br/>Removes charge ability disable on deflect<br/>Increases the movement speed of the user by 30% for 3 sec on deflect<br/>User is immune to slows for 3 sec on deflect<br/>Increases the movement speed of the user by 60% during use<br/>Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -628,8 +644,8 @@ var skill_data_DE = {
         "name": "Seize Hurricane - 장악광풍",
         "icon": "skill_icon_destroyer_1_21.png",
         "main_info1": "Deals 36~42 damage",
-        "main_info2": "User is immune to daze, stun, knock back during use",
-        "sub_info": "Mobile during use<br/>Removes immobilizing effects on the user once<br/>Offensive defense ability<br/>Cures the user of Internal Bleeding",
+        "main_info2": null,
+        "sub_info": "Mobile during use<br/>User is immune to daze, stun, knock back during use<br/>Breaks the user out of freeze<br/>Offensive defense ability<br/>Cures the user of Internal Bleeding",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -660,8 +676,8 @@ var skill_data_DE = {
         "name": "Typhoon - 태풍",
         "icon": "skill_icon_destroyer_1_40.png",
         "main_info1": "Deals 162~189 damage",
-        "main_info2": "User is immune to down, daze, stun, knock back, knock up, pull, force grip during use",
-        "sub_info": "Mobile during use<br/>Decreases the movement speed of the user by 30% during use<br/>Ignores defense<br/>Typhoon can be recast<br/>Removes immobilizing effects on the user once<br/>Deals 39~46 damage on recast",
+        "main_info2": null,
+        "sub_info": "Mobile during use<br/>Decreases the movement speed of the user by 30% during use<br/>Ignores defense<br/>User is immune to down, daze, stun, knock back, knock up, pull, force grip during use<br/>Typhoon can be recast<br/>Breaks the user out of freeze<br/>Deals 39~46 damage on recast",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -687,198 +703,6 @@ var skill_data_DE = {
             }
         }
     },
-    
-	"Destroyer_Destruction_Fever_R1_Lv1_Link": 
-	{
-		"id": "24020",
-		"name": "Fury - 격노",
-		"icon": "skill_icon_destroyer_1_39.png",
-		"main_info1": "Deals 48~56 damage",
-		"main_info2": null,
-		"sub_info": "Maximum speed",
-		"consume_sp": null,
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "4m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "0.4 sec"
-			}
-		}
-	},
-	"Destroyer_Destruction_Fever_R1_1000_Link": 
-	{
-		"id": "24020",
-		"name": "Fury - 격노",
-		"icon": "skill_icon_destroyer_1_39.png",
-		"main_info1": "Deals 58~67 damage",
-		"main_info2": null,
-		"sub_info": "Maximum speed",
-		"consume_sp": null,
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "4m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "0.4 sec"
-			}
-		}
-	},
-	"Destroyer_Destruction_Fever_R1_2000_Link": 
-	{
-		"id": "24020",
-		"name": "Fury - 격노",
-		"icon": "skill_icon_destroyer_1_39.png",
-		"main_info1": "Deals 58~67 damage",
-		"main_info2": null,
-		"sub_info": "Maximum speed<br/>Heals the user 5% of the damage dealt<br/>Fury can be used for 4 sec on hit with Slam",
-		"consume_sp": null,
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "4m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "0.4 sec"
-			}
-		}
-	},
-	"Destroyer_Destruction_Fever_R1_3000_Link": 
-	{
-		"id": "24020",
-		"name": "Fury - 격노",
-		"icon": "skill_icon_destroyer_1_39.png",
-		"main_info1": "Deals 58~67 damage",
-		"main_info2": null,
-		"sub_info": "Maximum speed<br/>Heals the user 5% of the damage dealt<br/>Generates 10% on critical hit<br/>Fury can be used for 4 sec on hit with Slam",
-		"consume_sp": null,
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "4m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "0.4 sec"
-			}
-		}
-	},
-    
-	"Destroyer_Protection_CounterUppercut_4000": 
-	{
-		"id": "24026",
-		"name": "Catapult - 쳐올리기",
-		"icon": "skill_icon_destroyer_0_23.png",
-		"main_info1": "Knocks foes into the air",
-		"main_info2": null,
-		"sub_info": "Deals 54~63 damage<br/>Decreases the defense of foes by 20% for 5 sec",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "3m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
     "Destroyer_Protection_Axe_Chop_Lv1": {
         "id": "24030",
         "name": "Destroy - 파괴",
@@ -979,7 +803,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 48~56 damage",
+        "main_info1": "Deals 45~53 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -1011,7 +835,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 48~56 damage",
+        "main_info1": "Deals 45~53 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Costs 20 chi on recast<br/>Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -1043,7 +867,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 48~56 damage",
+        "main_info1": "Deals 45~53 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Maximum speed<br/>Destroy is available while using Seize",
         "consume_sp": "20",
@@ -1075,7 +899,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 48~56 damage",
+        "main_info1": "Deals 45~53 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Ignores defense<br/>Maximum speed<br/>Destroy is available while using Seize",
         "consume_sp": "20",
@@ -1107,7 +931,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 54~63 damage",
+        "main_info1": "Deals 45~53 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Heals the user 20% of the damage dealt<br/>Costs 20 chi on recast<br/>Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -1139,7 +963,7 @@ var skill_data_DE = {
         "id": "24030",
         "name": "Destroy - 파괴",
         "icon": "skill_icon_destroyer_0_46.png",
-        "main_info1": "Deals 54~63 damage",
+        "main_info1": "Deals 45~53 damage",
         "main_info2": "Deals an additional 6~7 damage to downed, suppressed foes",
         "sub_info": "Destroy can be instantly recast at no cost on critical hit<br/>Heals the user 20% of the damage dealt<br/>Costs 20 chi on recast<br/>Skill speed increases by 0.3 sec per acceleration stage<br/>Skill speed accelerates on recast<br/>Destroy is available while using Seize",
         "consume_sp": "30",
@@ -1235,7 +1059,7 @@ var skill_data_DE = {
         "id": "24040",
         "name": "Kick - 발차기",
         "icon": "skill_icon_destroyer_0_47.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": "Deals 19~22 damage",
         "sub_info": null,
         "consume_sp": "10",
@@ -1267,7 +1091,7 @@ var skill_data_DE = {
         "id": "24040",
         "name": "Kick - 발차기",
         "icon": "skill_icon_destroyer_0_47.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": "Deals 19~22 damage",
         "sub_info": "Maximum speed Destroy is available on hit",
         "consume_sp": "10",
@@ -1299,7 +1123,7 @@ var skill_data_DE = {
         "id": "24040",
         "name": "Kick - 발차기",
         "icon": "skill_icon_destroyer_0_47.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": "Deals 19~22 damage",
         "sub_info": "Maximum speed Destroy is available on hit",
         "consume_sp": "10",
@@ -1331,7 +1155,7 @@ var skill_data_DE = {
         "id": "24040",
         "name": "Kick - 발차기",
         "icon": "skill_icon_destroyer_0_47.png",
-        "main_info1": "Knocks foes down for 3 sec",
+        "main_info1": "Knock down foes for 3 sec",
         "main_info2": "Deals 19~22 damage",
         "sub_info": "Breaks defense<br/>Disables defense abilities of defense broken foes for 5 sec<br/>Maximum speed Destroy is available on hit",
         "consume_sp": "10",
@@ -2293,7 +2117,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_7.png",
         "main_info1": "Blocks attacks from the front for 4 sec",
         "main_info2": "Deals 6~7 damage",
-        "sub_info": "Knocks foes back 12m and knocks them down for 3 sec<br/>Knocks foes that resist knock back down for 3 sec<br/>Knocks foes that can be chained with knock back down for 3 sec<br/>Generates 20% chi on block<br/>Heals the user 20% of their maximum health over 4 sec<br/>Cannot be deflected",
+        "sub_info": "Knock back foes 12m and down them for 3 sec<br/>Knock down foes that resist knock back for 3 sec<br/>Knock down foes that can be chained with knock back for 3 sec<br/>Generates 20% chi on block<br/>Heals the user 20% of their maximum health over 4 sec<br/>Cannot be deflected",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2549,7 +2373,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_43.png",
         "main_info1": "Deals 42~49 damage",
         "main_info2": "Deals 84~98 damage over 8 sec",
-        "sub_info": "Decreases the movement speed of foes by 40%<br/>User is immune to down, daze, stun, knock back while within the area<br/>Increases the defense of the user by 400% while within the area<br/>Doubles health regeneration from damage dealt within the area",
+        "sub_info": "Decreases the movement speed of foes by 40%<br/>User is immune to down, daze, stun, knock back while within the area<br/>Increases the defense of the user by 200% while within the area<br/>Doubles health regeneration from damage dealt within the area",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2645,7 +2469,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_43.png",
         "main_info1": "Deals 42~49 damage",
         "main_info2": "Deals an additional 54~63 damage to downed, suppressed foes for the first hit<br/>Deals 84~98 damage over 8 sec",
-        "sub_info": "Destroy, Fury deals 20% additional damage while within the area<br/>All attacks dealt while within the area deal an additional 6~7 damage",
+        "sub_info": "Maximum speed Destroy, Fury is available while within the area<br/>All attacks dealt while within the area deal an additional 6~7 damage",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -2771,7 +2595,7 @@ var skill_data_DE = {
         "id": "24080",
         "name": "Sever - 절단",
         "icon": "skill_icon_destroyer_1_5.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": null,
         "sub_info": "Deals 23~27 damage",
         "consume_sp": "20",
@@ -2803,7 +2627,7 @@ var skill_data_DE = {
         "id": "24080",
         "name": "Sever - 절단",
         "icon": "skill_icon_destroyer_1_5.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": null,
         "sub_info": "Deals 23~27 damage<br/>Decreases the movement speed of foes by 30%",
         "consume_sp": "20",
@@ -2835,7 +2659,7 @@ var skill_data_DE = {
         "id": "24080",
         "name": "Sever - 절단",
         "icon": "skill_icon_destroyer_1_5.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": null,
         "sub_info": "Deals 23~27 damage<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "20",
@@ -2867,7 +2691,7 @@ var skill_data_DE = {
         "id": "24080",
         "name": "Sever - 절단",
         "icon": "skill_icon_destroyer_1_5.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": null,
         "sub_info": "Deals 23~27 damage<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec<br/>Ignores defense",
         "consume_sp": "20",
@@ -2899,7 +2723,7 @@ var skill_data_DE = {
         "id": "24080",
         "name": "Sever - 절단",
         "icon": "skill_icon_destroyer_1_5.png",
-        "main_info1": "Knocks foes down for 2 sec",
+        "main_info1": "Knock down foes for 2 sec",
         "main_info2": null,
         "sub_info": "Deals 23~27 damage<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec<br/>Ignores defense",
         "consume_sp": "20",
@@ -2927,11 +2751,203 @@ var skill_data_DE = {
             }
         }
     },
+    "Destroyer_Protection_CounterUppercut_0200": {
+        "id": "24080",
+        "name": "Catapult - 쳐올리기",
+        "icon": "skill_icon_destroyer_0_23.png",
+        "main_info1": "Knock foes into the air",
+        "main_info2": null,
+        "sub_info": "Deals 30~35 damage",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_CounterUppercut_0300": {
+        "id": "24080",
+        "name": "Catapult - 쳐올리기",
+        "icon": "skill_icon_destroyer_0_23.png",
+        "main_info1": "Knock foes into the air",
+        "main_info2": null,
+        "sub_info": "Cooldown of Catapult is refreshed on critical hit with Abyss<br/>Deals 30~35 damage",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_CounterUppercut_0500": {
+        "id": "24080",
+        "name": "Catapult - 쳐올리기",
+        "icon": "skill_icon_destroyer_0_23.png",
+        "main_info1": "Knock foes into the air",
+        "main_info2": null,
+        "sub_info": "Cooldown of Catapult is refreshed on critical hit with Abyss<br/>Deals 30~35 damage",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_CounterUppercut_0030": {
+        "id": "24080",
+        "name": "Catapult - 쳐올리기",
+        "icon": "skill_icon_destroyer_0_23.png",
+        "main_info1": "Knock foes into the air",
+        "main_info2": null,
+        "sub_info": "Deals 54~63 damage",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_CounterUppercut_0040": {
+        "id": "24080",
+        "name": "Catapult - 쳐올리기",
+        "icon": "skill_icon_destroyer_0_23.png",
+        "main_info1": "Knock foes into the air",
+        "main_info2": null,
+        "sub_info": "Deals 54~63 damage<br/>Decreases the defense of foes by 20% for 5 sec",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_CounterUppercut_0050": {
+        "id": "24080",
+        "name": "Catapult - 쳐올리기",
+        "icon": "skill_icon_destroyer_0_23.png",
+        "main_info1": "Knock foes into the air",
+        "main_info2": null,
+        "sub_info": "Deals 54~63 damage<br/>Charge to the target<br/>Decreases the defense of foes by 20% for 5 sec",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
     "Destroyer_Catch_UpperThrow_Lv1": {
         "id": "24081",
         "name": "Reversal - 천지뒤집기",
         "icon": "skill_icon_destroyer_1_22.png",
-        "main_info1": "Throws the seized target into the air",
+        "main_info1": "Knock up the seized target",
         "main_info2": null,
         "sub_info": "Deals 54~63 damage",
         "consume_sp": "20",
@@ -2963,9 +2979,329 @@ var skill_data_DE = {
         "id": "24083",
         "name": "Abyss - 나락",
         "icon": "skill_icon_destroyer_0_22.png",
-        "main_info1": "Deals 120~140 damage",
-        "main_info2": "Knocks foes down for 2 sec",
-        "sub_info": "Ends the target's airborne status<br/>Ignores defense<br/>Increases the movement speed of the user by 30%<br/>Desables defense, charge abilities of foes for 4 sec<br/>Increases the evade chance of the user by 100% during use<br/>",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_1000": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_2000": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_3000": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_5000": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_0200": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_0300": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "On critical hit  Catapult - 쳐올리기 Cooldown 시간 s기화<br/>Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_0500": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "적 처치 시  모든 무공 Cooldown 시간 s기화<br/>On critical hit  Catapult - 쳐올리기 Cooldown 시간 s기화<br/>Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_0030": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_0040": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_4",
+                "value": "3m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Protection_Fear_0050": {
+        "id": "24083",
+        "name": "Abyss - 나락",
+        "icon": "skill_icon_destroyer_0_22.png",
+        "main_info1": "Knock down foes for 2 sec",
+        "main_info2": null,
+        "sub_info": "Ends the target's airborne status<br/>Deals 82~95 damage<br/>Increases the evade chance of the user by 100% during use<br/>Ignores defense",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3275,7 +3611,7 @@ var skill_data_DE = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "1 min"
+                "value": "1 min 30 sec"
             }
         }
     },
@@ -3307,200 +3643,330 @@ var skill_data_DE = {
             "3": {
                 "name": "Cooldown",
                 "type": "recycle_time",
-                "value": "1 min"
+                "value": "1 min 30 sec"
             }
         }
     },
-	"Destroyer_Protection_DestructionCircle_Lv1": 
-	{
-		"id": "24091",
-		"name": "Flame Wheel - 열화륜",
-		"icon": "skill_icon_destroyer_1_19.png",
-		"main_info1": "User is invulnerable during use",
-		"main_info2": "Deals 30~35 damage over 2 hits",
-		"sub_info": null,
-		"consume_sp": "20",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_1",
-				"value": "2X4m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "24 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle_1000": 
-	{
-		"id": "24091",
-		"name": "Flame Wheel - 열화륜",
-		"icon": "skill_icon_destroyer_1_19.png",
-		"main_info1": "User is invulnerable during use",
-		"main_info2": "Deals 30~35 damage over 2 hits",
-		"sub_info": null,
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_1",
-				"value": "2X4m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "24 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle_2000": 
-	{
-		"id": "24091",
-		"name": "Flame Wheel - 열화륜",
-		"icon": "skill_icon_destroyer_1_19.png",
-		"main_info1": "User is invulnerable during use",
-		"main_info2": "Deals 30~35 damage over 2 hits",
-		"sub_info": "Heals the user 2% of their maximum health on resist",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_1",
-				"value": "2X4m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "24 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle_4000": 
-	{
-		"id": "24091",
-		"name": "Flame Wheel - 열화륜",
-		"icon": "skill_icon_destroyer_1_19.png",
-		"main_info1": "User is invulnerable during use",
-		"main_info2": "Deals 30~35 damage over 2 hits",
-		"sub_info": "Generates 30% chi on resist<br/>Heals the user 2% of their maximum health on resist",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_1",
-				"value": "2X4m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "24 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle_5000": 
-	{
-		"id": "24091",
-		"name": "Flame Wheel - 열화륜",
-		"icon": "skill_icon_destroyer_1_19.png",
-		"main_info1": "User is invulnerable during use",
-		"main_info2": "Deals 30~35 damage over 2 hits",
-		"sub_info": "Generates 30% chi on resist<br/>Heals the user 5% of their maximum health on resist",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "From User"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_1",
-				"value": "2X4m"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "24 sec"
-			}
-		}
-	},
+    "Destroyer_Protection_DestructionCircle_Lv1": {
+        "id": "24091",
+        "name": "Flame Wheel - 열화륜",
+        "icon": "skill_icon_destroyer_1_19.png",
+        "main_info1": "User is invulnerable during use",
+        "main_info2": "Deals 30~35 damage over 2 hits",
+        "sub_info": null,
+        "consume_sp": "30",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_1",
+                "value": "2X4m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "30 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_1000": {
+        "id": "24091",
+        "name": "Flame Wheel - 열화륜",
+        "icon": "skill_icon_destroyer_1_19.png",
+        "main_info1": "User is invulnerable during use",
+        "main_info2": "Deals 30~35 damage over 2 hits",
+        "sub_info": null,
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_1",
+                "value": "2X4m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "30 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_2000": {
+        "id": "24091",
+        "name": "Flame Wheel - 열화륜",
+        "icon": "skill_icon_destroyer_1_19.png",
+        "main_info1": "User is invulnerable during use",
+        "main_info2": "Deals 30~35 damage over 2 hits",
+        "sub_info": "Heals the user 50% of the damage dealt",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_1",
+                "value": "2X4m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "30 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_4000": {
+        "id": "24091",
+        "name": "Flame Wheel - 열화륜",
+        "icon": "skill_icon_destroyer_1_19.png",
+        "main_info1": "User is invulnerable during use",
+        "main_info2": "Deals 30~35 damage over 2 hits",
+        "sub_info": "Heals the user 50% of the damage dealt<br/>Generates 30% chi on resist",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_1",
+                "value": "2X4m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "30 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_5000": {
+        "id": "24091",
+        "name": "Flame Wheel - 열화륜",
+        "icon": "skill_icon_destroyer_1_19.png",
+        "main_info1": "User is invulnerable during use",
+        "main_info2": "Deals 30~35 damage over 2 hits",
+        "sub_info": "Heals the user 50% of the damage dealt<br/>Generates 30% chi on resist<br/>Heals the user 5% of their maximum health on resist",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "From User"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_1",
+                "value": "2X4m"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "30 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_0200": {
+        "id": "24091",
+        "name": "Inflaming Wheel - 격화륜",
+        "icon": "skill_icon_destroyer_1_32.png",
+        "main_info1": "Deals 24~28 damage",
+        "main_info2": "Deals an additional 72~84 damage to dazed, stunned foes",
+        "sub_info": null,
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "24 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_0300": {
+        "id": "24091",
+        "name": "Inflaming Wheel - 격화륜",
+        "icon": "skill_icon_destroyer_1_32.png",
+        "main_info1": "Deals 24~28 damage",
+        "main_info2": "Deals an additional 72~84 damage to dazed, stunned foes",
+        "sub_info": "Inflaming Wheel can be recast 1 more time after use",
+        "consume_sp": "10",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "24 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_0500": {
+        "id": "24091",
+        "name": "Inflaming Wheel - 격화륜",
+        "icon": "skill_icon_destroyer_1_32.png",
+        "main_info1": "Deals 60~70 damage",
+        "main_info2": "Deals an additional 72~84 damage to dazed, stunned foes",
+        "sub_info": "Inflaming Wheel can be recast 1 more time after use",
+        "consume_sp": "10",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "24 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_0030": {
+        "id": "24091",
+        "name": "Inflaming Wheel - 격화륜",
+        "icon": "skill_icon_destroyer_1_32.png",
+        "main_info1": "Knock dazed, stunned foes into the air",
+        "main_info2": "Deals 24~28 damage",
+        "sub_info": "Deals an additional 72~84 damage to dazed, stunned foes",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
+    "Destroyer_Protection_DestructionCircle_0050": {
+        "id": "24091",
+        "name": "Inflaming Wheel - 격화륜",
+        "icon": "skill_icon_destroyer_1_32.png",
+        "main_info1": "Knock dazed, stunned foes into the air",
+        "main_info2": "Deals 24~28 damage",
+        "sub_info": "Deals an additional 72~84 damage to dazed, stunned foes<br/>Deflects multiple attacks for 0.5 sec",
+        "consume_sp": "20",
+        "ui_sp_heal_value": null,
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "18 sec"
+            }
+        }
+    },
     "Destroyer_Protection_Countercrush_Lv1": {
         "id": "24100",
         "name": "Annihilate - 분쇄",
@@ -3601,9 +4067,9 @@ var skill_data_DE = {
         "id": "24100",
         "name": "Annihilate - 분쇄",
         "icon": "skill_icon_destroyer_0_60.png",
-        "main_info1": "Deals 144~168 damage",
+        "main_info1": "Deals 54~63 damage",
         "main_info2": "Deals an additional 78~91 damage to dazed, stunned, seized, force gripped foes",
-        "sub_info": "Charge to the target",
+        "sub_info": "Annihilate can be recast up to 2 times on critical hit to dazed, stunned, seized, force gripped foes<br/>Charge to the target",
         "consume_sp": "20",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -3633,7 +4099,7 @@ var skill_data_DE = {
         "id": "24100",
         "name": "Annihilate - 분쇄",
         "icon": "skill_icon_destroyer_0_60.png",
-        "main_info1": "Deals 144~168 damage",
+        "main_info1": "Deals 54~63 damage",
         "main_info2": "Deals an additional 78~91 damage to dazed, stunned, seized, force gripped foes",
         "sub_info": "Cooldown of Annihilate is refreshed on kill<br/>Annihilate can be recast up to 2 times on critical hit to dazed, stunned, seized, force gripped foes<br/>Charge to the target",
         "consume_sp": "20",
@@ -4365,273 +4831,6 @@ var skill_data_DE = {
             }
         }
     },
-    
-	"Destroyer_Protection_DestructionCircle2_Lv1": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Knocks foes into the air",
-		"main_info2": "Deals 60~70 damage",
-		"sub_info": "Charge to the target",
-		"consume_sp": "20",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle2_1000": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Knocks foes into the air",
-		"main_info2": "Deals 60~70 damage",
-		"sub_info": "Charge to the target",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle2_2000": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Knocks foes into the air",
-		"main_info2": "Deals 60~70 damage",
-		"sub_info": "Ignores charge ability disable<br/>Charge to the target",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle2_5000": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Knocks foes into the air",
-		"main_info2": "Deals 60~70 damage",
-		"sub_info": "Ignores charge ability disable<br/>Charge to the target<br/>Ignores defense",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle2_0200": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Deals 108~126 damage",
-		"main_info2": null,
-		"sub_info": "Charge to the target",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle2_0300": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Deals 108~126 damage",
-		"main_info2": null,
-		"sub_info": "Charge to the target<br/>Generates 30% chi on critical hit",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
-	"Destroyer_Protection_DestructionCircle2_0500": 
-	{
-		"id": "24122",
-		"name": "Inflaming Wheel - 격화륜",
-		"icon": "skill_icon_destroyer_1_32.png",
-		"main_info1": "Deals 108~126 damage",
-		"main_info2": null,
-		"sub_info": "Charge to the target<br/>Generates 120% chi over 5 sec on critical hit",
-		"consume_sp": "10",
-		"ui_sp_heal_value": null,
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "16m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "18 sec"
-			}
-		}
-	},
     "Destroyer_Catch_HeadButt_Lv1": {
         "id": "24130",
         "name": "Headbutt - 박치기",
@@ -4894,7 +5093,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Heals the user 50% of the damage dealt<br/>Knocks foes down for 3 sec",
+        "sub_info": "Heals the user 50% of the damage dealt<br/>Knock down foes for 3 sec",
         "consume_sp": "10",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4926,7 +5125,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Heals the user 50% of the damage dealt<br/>Knocks foes down for 3 sec",
+        "sub_info": "Heals the user 50% of the damage dealt<br/>Knock down foes for 3 sec",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4958,7 +5157,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "User is invulnerable during use",
         "main_info2": null,
-        "sub_info": "Knocks foes down for 3 sec<br/>Deals 18~21 damage<br/>Heals the user 50% of the damage dealt",
+        "sub_info": "Knock down foes for 3 sec<br/>Deals 18~21 damage<br/>Heals the user 50% of the damage dealt",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -4990,7 +5189,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "User is invulnerable during use",
         "main_info2": null,
-        "sub_info": "Knocks foes down for 3 sec<br/>Deals 18~21 damage<br/>Heals the user 100% of the damage dealt",
+        "sub_info": "Knock down foes for 3 sec<br/>Deals 18~21 damage<br/>Heals the user 100% of the damage dealt",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5022,7 +5221,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "User is invulnerable during use",
         "main_info2": null,
-        "sub_info": "Knocks foes down for 3 sec<br/>Deals 18~21 damage<br/>Heals the user 100% of the damage dealt<br/>Generates 20% chi on resist<br/>Heals the user 3% of their maximum health on resist",
+        "sub_info": "Knock down foes for 3 sec<br/>Deals 18~21 damage<br/>Heals the user 100% of the damage dealt<br/>Generates 20% chi on resist<br/>Heals the user 3% of their maximum health on resist",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5054,7 +5253,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target",
+        "sub_info": "Dazes nearby foes for 3 sec<br/>Knock down the seized target for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5086,7 +5285,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target<br/>Generates 120% chi over 4 sec",
+        "sub_info": "Dazes nearby foes for 3 sec<br/>Knock down the seized target for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5118,7 +5317,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_1_3.png",
         "main_info1": "Deals 18~21 damage",
         "main_info2": null,
-        "sub_info": "Dazes nearby foes for 3 sec<br/>Knocks the seized target down for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target<br/>Generates 160% chi over 6 sec",
+        "sub_info": "Dazes nearby foes for 3 sec<br/>Knock down the seized target for 3 sec<br/>Applies 12 sec Internal Bleeding to seized target",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5150,7 +5349,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_0_63.png",
         "main_info1": "Throws the seized target up to 15m",
         "main_info2": null,
-        "sub_info": "Knocks the seized and nearby foes down for 3 sec for 3 sec<br/>Deals 54~63 damage<br/>Decreases the movement speed of foes by 40%",
+        "sub_info": "Knock down nearby foes for 3 sec<br/>Deals 54~63 damage<br/>Decreases the movement speed of foes by 40%",
         "consume_sp": "10",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5182,7 +5381,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_0_63.png",
         "main_info1": "Throws the seized target up to 15m",
         "main_info2": "Deals 54~63 damage",
-        "sub_info": "Knocks the seized and nearby foes down for 3 sec for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
+        "sub_info": "Knock down nearby foes for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "10",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5214,7 +5413,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_0_63.png",
         "main_info1": "Throws the seized target up to 15m",
         "main_info2": "Deals 54~63 damage",
-        "sub_info": "Knocks the thrown foe unconscious for 30 sec<br/>Knocks the seized and nearby foes down for 3 sec for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
+        "sub_info": "Knock the thrown target unconscious for 30 sec<br/>Knock down nearby foes for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "10",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5246,7 +5445,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_0_63.png",
         "main_info1": "Throws the seized target to the target",
         "main_info2": "Deals 54~63 damage",
-        "sub_info": "Knocks the thrown foe unconscious for 30 sec<br/>Knocks the seized and nearby foes down for 3 sec for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
+        "sub_info": "Knock the thrown target unconscious for 30 sec<br/>Knock down nearby foes for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "10",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5278,7 +5477,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_0_63.png",
         "main_info1": "Throws the seized target to the target",
         "main_info2": "Deals 54~63 damage",
-        "sub_info": "Knocks the thrown foe unconscious for 30 sec<br/>Knocks the seized and nearby foes down for 3 sec for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
+        "sub_info": "Knock the thrown target unconscious for 30 sec<br/>Knock down nearby foes for 3 sec<br/>Decreases the movement speed of foes by 30%<br/>Disables charge abilities of foes for 6 sec",
         "consume_sp": "10",
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -5469,7 +5668,7 @@ var skill_data_DE = {
         "name": "Escape Hurricane - 탈출광풍",
         "icon": "skill_icon_destroyer_0_48.png",
         "main_info1": "Escape from downed, dazed, stunned, unconscious status",
-        "main_info2": "Knocks foes back 11m<br/>Deals 12~14 damage",
+        "main_info2": "Knock back foes 11m<br/>Deals 12~14 damage",
         "sub_info": "User is invulnerable during use<br/>User is invulnerable for 0.5 sec after use<br/>Invunlerability ends on using another ability",
         "consume_sp": null,
         "ui_sp_heal_value": "30",
@@ -5501,7 +5700,7 @@ var skill_data_DE = {
         "name": "Escape Hurricane - 탈출광풍",
         "icon": "skill_icon_destroyer_0_48.png",
         "main_info1": "Escape from downed, dazed, stunned, unconscious status",
-        "main_info2": "Knocks foes back 11m<br/>Deals 12~14 damage",
+        "main_info2": "Knock back foes 11m<br/>Deals 12~14 damage",
         "sub_info": "User is invulnerable during use<br/>User is invulnerable for 0.5 sec after use<br/>Invunlerability ends on using another ability<br/>Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of foes by 30% for 6 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "30",
@@ -5533,7 +5732,7 @@ var skill_data_DE = {
         "name": "Escape Hurricane - 탈출광풍",
         "icon": "skill_icon_destroyer_0_48.png",
         "main_info1": "Escape from downed, dazed, stunned, unconscious status",
-        "main_info2": "Knocks foes back 11m<br/>Deals 12~14 damage",
+        "main_info2": "Knock back foes 11m<br/>Deals 12~14 damage",
         "sub_info": "User is invulnerable during use<br/>User is invulnerable for 0.5 sec after use<br/>Invunlerability ends on using another ability<br/>Disables charge abilities of foes for 6 sec<br/>Decreases the movement speed of foes by 30% for 6 sec<br/>Creates a barrier around the user equivalent to 10% of the user's maximum health that lasts for 5 sec",
         "consume_sp": null,
         "ui_sp_heal_value": "30",
@@ -6270,7 +6469,7 @@ var skill_data_DE = {
         "icon": "skill_icon_destroyer_0_52.png",
         "main_info1": "Counters an attack from up to 8m away for 1.2 sec",
         "main_info2": null,
-        "sub_info": "Knocks the countered foe down for 3 sec on counter<br/>Deals 12~14 damage on counter",
+        "sub_info": "Knock down the countered target for 3 sec on counter<br/>Deals 12~14 damage on counter",
         "consume_sp": null,
         "ui_sp_heal_value": null,
         "skill_info": {
@@ -6456,51 +6655,205 @@ var skill_data_DE = {
             }
         }
     },
-	"Destroyer_Catch_Rcombo_Lv1": 
-	{
-		"id": "24260",
-		"name": "Wedge - 쐐기",
-		"icon": "skill_icon_destroyer_0_10.png",
-		"main_info1": "Deals 10~11 damage",
-		"main_info2": null,
-		"sub_info": "Heals the user 100% of the damage dealt",
-		"consume_sp": null,
-		"ui_sp_heal_value": "20",
-		"skill_info": 
-		{
-			"0": 
-			{
-				"name": "Range",
-				"type": "meter",
-				"value": "3m"
-			},
-			"1": 
-			{
-				"name": "Area",
-				"type": "range_0",
-				"value": "Target"
-			},
-			"2": 
-			{
-				"name": "Cast Time",
-				"type": "casting_time",
-				"value": "Instant"
-			},
-			"3": 
-			{
-				"name": "Cooldown",
-				"type": "recycle_time",
-				"value": "Instant"
-			}
-		}
-	},
+    "Destroyer_Catch_Rcombo_Lv1": {
+        "id": "24260",
+        "name": "Wedge - 쐐기",
+        "icon": "skill_icon_destroyer_0_10.png",
+        "main_info1": "Deals 10~11 damage",
+        "main_info2": null,
+        "sub_info": null,
+        "consume_sp": null,
+        "ui_sp_heal_value": "10",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Catch_Rcombo_1000": {
+        "id": "24260",
+        "name": "Wedge - 쐐기",
+        "icon": "skill_icon_destroyer_0_10.png",
+        "main_info1": "Deals 10~11 damage",
+        "main_info2": null,
+        "sub_info": null,
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Catch_Rcombo_2000": {
+        "id": "24260",
+        "name": "Wedge - 쐐기",
+        "icon": "skill_icon_destroyer_0_10.png",
+        "main_info1": "Deals 10~11 damage",
+        "main_info2": null,
+        "sub_info": "Increases Critical by 5%<br/>Critical increase stacks up to 10 times<br/>Critical increase stacks resets on critical hit",
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Catch_Rcombo_3000": {
+        "id": "24260",
+        "name": "Wedge - 쐐기",
+        "icon": "skill_icon_destroyer_0_10.png",
+        "main_info1": "Deals 10~11 damage",
+        "main_info2": null,
+        "sub_info": "Increases Critical by 5%<br/>Critical increase stacks up to 10 times<br/>Defense reduction stacks up to 5 times<br/>Critical increase stacks resets on critical hit<br/>Decreases the defense of foes by 10% on critical hit",
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Catch_Rcombo_0200": {
+        "id": "24260",
+        "name": "Wedge - 쐐기",
+        "icon": "skill_icon_destroyer_0_10.png",
+        "main_info1": "Deals 10~11 damage",
+        "main_info2": null,
+        "sub_info": "Heals the user 100% of the damage dealt",
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
+    "Destroyer_Catch_Rcombo_0300": {
+        "id": "24260",
+        "name": "Wedge - 쐐기",
+        "icon": "skill_icon_destroyer_0_10.png",
+        "main_info1": "Deals 10~11 damage",
+        "main_info2": null,
+        "sub_info": "Heals the user 100% of the damage dealt<br/>Generates 20% additional threat<br/>Threat increase stacks up to 5 times",
+        "consume_sp": null,
+        "ui_sp_heal_value": "15",
+        "skill_info": {
+            "0": {
+                "name": "Range",
+                "type": "meter",
+                "value": "3m"
+            },
+            "1": {
+                "name": "Area",
+                "type": "range_0",
+                "value": "Target"
+            },
+            "2": {
+                "name": "Cast Time",
+                "type": "casting_time",
+                "value": "Instant"
+            },
+            "3": {
+                "name": "Cooldown",
+                "type": "recycle_time",
+                "value": "Instant"
+            }
+        }
+    },
     "Destroyer_Destruction_SoulMask_R1_Lv1": {
         "id": "24590",
         "name": "Awakened Fury - 각성 격노",
         "icon": "skill_icon_destroyer_1_47.png",
         "main_info1": "Deals 60~70 damage<br/>Available while Spiritualized",
         "main_info2": null,
-        "sub_info": "Maximum speed<br/>Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit effect lasts for 3 sec<br/>Does not generate threat",
+        "sub_info": "Maximum speed<br/>Generates 15% chi per target hit<br/>Next attack has guaranteed critical hit on taking damage during use<br/>Critical hit bonus lasts for 3 sec<br/>Does not generate threat",
         "consume_sp": null,
         "ui_sp_heal_value": "15",
         "skill_info": {

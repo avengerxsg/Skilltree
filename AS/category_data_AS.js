@@ -1,26 +1,4 @@
 var category_data_AS = {
-    "99999": {
-        "skill_id": "99999",
-        "tree_id": "99999",
-        "name2_refine": "Blank",
-        "name2_refine_en": "Blank",
-        "pc_level": "0",
-        "pc_mastery_level": "0",
-        "complete_quest": null,
-        "complete_quest_name": null,
-        "default_keycap": "LB",
-        "sort_no": "0",
-        "skill_icon": {
-            "1": "default_icon_00_24.png"
-        },
-        "tooltip_stance_type": {
-            "0": null,
-            "1": null,
-            "2": null
-        },
-        "tooltip_stance_refine": null,
-        "tooltip_condition_refine": null
-    },
     "25000": {
         "skill_id": "25000",
         "tree_id": "25000",

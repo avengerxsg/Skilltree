@@ -1,6 +1,3 @@
-_site
-.sass-cache
-
 .DS_Store
 .DS_Store?
 ._*
@@ -13,4 +10,3 @@ Thumbs.db
 main.html
 main.html
 shortcut
-todo.txt

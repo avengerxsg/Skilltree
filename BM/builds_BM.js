@@ -1,10 +1,9 @@
 /*jslint nomen: true */
 /*global jQuery */
 
-
 var _training;
 // PvE-------------------------------------------------------------------------------------------------------------
-function bm_pve_build1() {
+function diel_pve_build1() {
     "use strict";
     (function ($) {
         $("#buildlist").animate({

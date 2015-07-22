@@ -1,26 +1,4 @@
 var category_data_KF = {
-    "99999": {
-        "skill_id": "99999",
-        "tree_id": "99999",
-        "name2_refine": "Blank",
-        "name2_refine_en": "Blank",
-        "pc_level": "0",
-        "pc_mastery_level": "0",
-        "complete_quest": null,
-        "complete_quest_name": null,
-        "default_keycap": "LB",
-        "sort_no": "0",
-        "skill_icon": {
-            "1": "default_icon_00_24.png"
-        },
-        "tooltip_stance_type": {
-            "0": null,
-            "1": null,
-            "2": null
-        },
-        "tooltip_stance_refine": null,
-        "tooltip_condition_refine": null
-    },
     "21000": {
         "skill_id": "21000",
         "tree_id": "21000",
@@ -302,8 +280,8 @@ var category_data_KF = {
     "21158": {
         "skill_id": "21158",
         "tree_id": "21106",
-        "name2_refine": "Flare Stomp<br>열화각",
-        "name2_refine_en": "Flare Stomp",
+        "name2_refine": "Flame Stomp<br>열화각",
+        "name2_refine_en": "Flame Stomp",
         "pc_level": "6",
         "pc_mastery_level": null,
         "complete_quest": null,
@@ -1001,7 +979,7 @@ var category_data_KF = {
             "2": null
         },
         "tooltip_stance_refine": null,
-        "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with untrained, Class1, Class3 Iron Mountain  "
+        "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target dazed, stunned  <br/><img src=\'../img/skill/buff_debuff_icon_01_51.png\' class=\'icon_in_description\' /> After using Backtrack, Backward Roll <br><img src=\'../img/skill/skill_icon_kungfufighter_0_2.png\' class=\'icon_in_description\' /> Target knocked back with pointless, Class1, Class3 Iron Mountain  "
     },
     "21146": {
         "skill_id": "21146",
@@ -1028,8 +1006,8 @@ var category_data_KF = {
     "21385": {
         "skill_id": "21385",
         "tree_id": "1",
-        "name2_refine": "Blaze Kick<br>비염각",
-        "name2_refine_en": "Blaze Kick",
+        "name2_refine": "Flame Kick<br>비염각",
+        "name2_refine_en": "Flame Kick",
         "pc_level": "32",
         "pc_mastery_level": null,
         "complete_quest": null,
@@ -1158,8 +1136,8 @@ var category_data_KF = {
     "21114": {
         "skill_id": "21114",
         "tree_id": "1",
-        "name2_refine": "Arm Twist<br>팔꺾기",
-        "name2_refine_en": "Arm Twist",
+        "name2_refine": "Twist Arm<br>팔꺾기",
+        "name2_refine_en": "Twist Arm",
         "pc_level": "40",
         "pc_mastery_level": null,
         "complete_quest": null,

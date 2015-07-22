@@ -1113,7 +1113,7 @@ var slot_data_BM = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Stab Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": "검술",
@@ -1188,7 +1188,7 @@ var slot_data_BM = {
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0114",
                 "complete_quest_name_refine": "Stab Part 2",
-                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Sorrows 4 man",
+                "complete_quest_desc_refine": "<img src=\"../img/tooltip_party.png\" class=\"icon_in_description\" /> Snow Jade Palace of Dispair 4 man",
                 "complete_achievement_name_refine": null,
                 "tooltip_stance_type": {
                     "0": "검술",
@@ -1657,13 +1657,13 @@ var slot_data_BM = {
         "33": {
             "1": {
                 "tree_id": "20105",
-                "skill_id": "20106",
+                "skill_id": "20105",
                 "alias": "BM_Blocking_0030",
                 "max_variation_level": "1",
                 "variation_id": "32",
-                "tooltip_alias": "BladeMaster_Sword_blocking_LV32_Bubble",
-                "name2_refine": "Blade Barrier<br>검막",
-                "name2_refine_en": "Blade Barrier",
+                "tooltip_alias": "BladeMaster_Sword_blocking_LV32",
+                "name2_refine": "Block<br>막기",
+                "name2_refine_en": "Block",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -1685,13 +1685,13 @@ var slot_data_BM = {
                 },
                 "variation_index": 9,
                 "train_skill_id": {
-                    "0": "20106",
-                    "1": null,
+                    "0": "20105",
+                    "1": "20106",
                     "2": null,
                     "3": null
                 },
                 "train_skill_alias": {
-                    "0": "BladeMaster_Sword_blocking_LV32_Bubble",
+                    "0": "BladeMaster_Sword_blocking_LV32",
                     "1": null,
                     "2": null,
                     "3": null
@@ -1711,8 +1711,7 @@ var slot_data_BM = {
                     "3": null
                 },
                 "parent_train": {
-                    "0": "20105",
-                    "1": "20106"
+                    "0": "20105"
                 },
                 "complete_quest_desc": null,
                 "complete_quest_name_refine": null,
@@ -1723,10 +1722,10 @@ var slot_data_BM = {
                     "1": "발도술",
                     "2": "어검술"
                 },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_blademaster_0_6.png\' class=\'icon_in_description\' /> Using Block  ",
+                "tooltip_stance_refine": "<img src=\'../img/skill/blademaster_batto_sword_1.png\' class=\'icon_in_description\' /> Sword stance  ",
+                "tooltip_condition_refine": null,
                 "matrix_name": "3급 3초식",
-                "training_icon": "skill_icon_blademaster_0_57.png",
+                "training_icon": "skill_icon_blademaster_0_6.png",
                 "required_tp": 1
             }
         },
@@ -1883,13 +1882,13 @@ var slot_data_BM = {
         "53": {
             "1": {
                 "tree_id": "20105",
-                "skill_id": "20106",
+                "skill_id": "20105",
                 "alias": "BM_Blocking_0050",
                 "max_variation_level": "1",
                 "variation_id": "33",
-                "tooltip_alias": "BladeMaster_Sword_blocking_LV33_Bubble",
-                "name2_refine": "Soulblade Protection<br>어검보호",
-                "name2_refine_en": "Soulblade Protection",
+                "tooltip_alias": "BladeMaster_Sword_blocking_LV33",
+                "name2_refine": "Block<br>막기",
+                "name2_refine_en": "Block",
                 "variation_level": {
                     "0": null,
                     "1": "1",
@@ -1911,13 +1910,13 @@ var slot_data_BM = {
                 },
                 "variation_index": 10,
                 "train_skill_id": {
-                    "0": "20106",
-                    "1": null,
+                    "0": "20105",
+                    "1": "20106",
                     "2": null,
                     "3": null
                 },
                 "train_skill_alias": {
-                    "0": "BladeMaster_Sword_blocking_LV33_Bubble",
+                    "0": "BladeMaster_Sword_blocking_LV33",
                     "1": null,
                     "2": null,
                     "3": null
@@ -1937,8 +1936,7 @@ var slot_data_BM = {
                     "3": null
                 },
                 "parent_train": {
-                    "0": "20105",
-                    "1": "20106"
+                    "0": "20105"
                 },
                 "complete_quest_desc": "Item.AcquirePlace.0121",
                 "complete_quest_name_refine": "Block Part 2",
@@ -1949,10 +1947,10 @@ var slot_data_BM = {
                     "1": "발도술",
                     "2": "어검술"
                 },
-                "tooltip_stance_refine": null,
-                "tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_blademaster_0_6.png\' class=\'icon_in_description\' /> Using Block  ",
+                "tooltip_stance_refine": "<img src=\'../img/skill/blademaster_batto_sword_1.png\' class=\'icon_in_description\' /> Sword stance  ",
+                "tooltip_condition_refine": null,
                 "matrix_name": "5급 3초식",
-                "training_icon": "buff_debuff_icon_02_57.png",
+                "training_icon": "skill_icon_blademaster_0_6.png",
                 "required_tp": 2
             }
         }

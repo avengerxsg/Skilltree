@@ -1,26 +1,4 @@
 var category_data_DE = {
-    "99999": {
-        "skill_id": "99999",
-        "tree_id": "99999",
-        "name2_refine": "Blank",
-        "name2_refine_en": "Blank",
-        "pc_level": "0",
-        "pc_mastery_level": "0",
-        "complete_quest": null,
-        "complete_quest_name": null,
-        "default_keycap": "LB",
-        "sort_no": "0",
-        "skill_icon": {
-            "1": "default_icon_00_24.png"
-        },
-        "tooltip_stance_type": {
-            "0": null,
-            "1": null,
-            "2": null
-        },
-        "tooltip_stance_refine": null,
-        "tooltip_condition_refine": null
-    },
     "24001": {
         "skill_id": "24001",
         "tree_id": "24001",
@@ -34,13 +12,16 @@ var category_data_DE = {
         "sort_no": "109",
         "skill_icon": {
             "1": "skill_icon_destroyer_0_31.png",
-			"11": "skill_icon_destroyer_0_31.png",
-			"12": "skill_icon_destroyer_0_31.png",
-			"13": "skill_icon_destroyer_0_31.png",
-			"14": "skill_icon_destroyer_0_31.png",
-			"15": "skill_icon_destroyer_0_31.png",
-			"24": "skill_icon_destroyer_0_31.png",
-			"25": "skill_icon_destroyer_0_31.png"
+            "11": "skill_icon_destroyer_0_31.png",
+            "12": "skill_icon_destroyer_0_31.png",
+            "13": "skill_icon_destroyer_0_31.png",
+            "14": "skill_icon_destroyer_0_31.png",
+            "15": "skill_icon_destroyer_0_31.png",
+            "22": "skill_icon_destroyer_1_39.png",
+            "24": "skill_icon_destroyer_1_39.png",
+            "25": "skill_icon_destroyer_1_39.png",
+            "34": "skill_icon_destroyer_1_39.png",
+            "35": "skill_icon_destroyer_1_39.png"
         },
         "tooltip_stance_type": {
             "0": "파괴",
@@ -735,31 +716,6 @@ var category_data_DE = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png\' class=\'icon_in_description\' /> While suppressed  "
     },
-    "24026": 
-	{
-		"skill_id": "24026",
-		"tree_id": "24080",
-		"name2_refine": "Catapult<br>쳐올리기",
-        "name2_refine_en": "Catapult",
-		"pc_level": "22",
-		"pc_mastery_level": null,
-		"complete_quest": null,
-		"complete_quest_name": null,
-		"default_keycap": "4",
-		"sort_no": "96",
-		"skill_icon": 
-		{
-			"1": "skill_icon_destroyer_0_23.png"
-		},
-		"tooltip_stance_type": 
-		{
-			"0": "파괴",
-			"1": null,
-			"2": null
-		},
-		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": "<img src=\'http://static.plaync.co.kr/powerbook/bns/ui_resource/skill/buff_debuff_icon_00_1.png\' class=\'icon_in_description\' /> Target downed  "
-    },
     "24080": {
         "skill_id": "24080",
         "tree_id": "24080",
@@ -773,16 +729,16 @@ var category_data_DE = {
         "sort_no": "96",
         "skill_icon": {
             "1": "skill_icon_destroyer_1_5.png",
-			"11": "skill_icon_destroyer_1_5.png",
-			"12": "skill_icon_destroyer_1_5.png",
-			"13": "skill_icon_destroyer_1_5.png",
-			"15": "skill_icon_destroyer_1_5.png",
-			"22": "skill_icon_destroyer_0_23.png",
-			"23": "skill_icon_destroyer_0_23.png",
-			"25": "skill_icon_destroyer_0_23.png",
-			"33": "skill_icon_destroyer_0_23.png",
-			"34": "skill_icon_destroyer_0_23.png",
-			"35": "skill_icon_destroyer_0_23.png"
+            "11": "skill_icon_destroyer_1_5.png",
+            "12": "skill_icon_destroyer_1_5.png",
+            "13": "skill_icon_destroyer_1_5.png",
+            "15": "skill_icon_destroyer_1_5.png",
+            "22": "skill_icon_destroyer_0_23.png",
+            "23": "skill_icon_destroyer_0_23.png",
+            "25": "skill_icon_destroyer_0_23.png",
+            "33": "skill_icon_destroyer_0_23.png",
+            "34": "skill_icon_destroyer_0_23.png",
+            "35": "skill_icon_destroyer_0_23.png"
         },
         "tooltip_stance_type": {
             "0": "파괴",
@@ -930,35 +886,6 @@ var category_data_DE = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_01_1.png\' class=\'icon_in_description\' /> On critical hit  "
     },
-	"24020": 
-	{
-		"skill_id": "24020",
-		"tree_id": "24020",
-		"name2_refine": "Fury<br>격노",
-        "name2_refine_en": "Fury",
-		"pc_level": "36",
-		"pc_mastery_level": null,
-		"complete_quest": null,
-		"complete_quest_name": null,
-		"default_keycap": "LB",
-		"sort_no": "109",
-		"skill_icon": 
-		{
-			"1": "skill_icon_destroyer_1_39.png",
-			"11": "skill_icon_destroyer_1_39.png",
-			"12": "skill_icon_destroyer_1_39.png",
-			"13": "skill_icon_destroyer_1_39.png",
-			"14": "skill_icon_destroyer_1_39.png"
-		},
-		"tooltip_stance_type": 
-		{
-			"0": "파괴",
-			"1": null,
-			"2": null
-		},
-		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": "<img src=\'../img/skill/buff_debuff_icon_00_42.png' />Target seized, force gripped  "
-	},
     "24090": {
         "skill_id": "24090",
         "tree_id": "24090",
@@ -990,66 +917,37 @@ var category_data_DE = {
         "tooltip_stance_refine": null,
         "tooltip_condition_refine": null
     },
-	"24091": 
-	{
-		"skill_id": "24091",
-		"tree_id": "24091",
-		"name2_refine": "Flame Wheel<br>열화륜",
+    "24091": {
+        "skill_id": "24091",
+        "tree_id": "24091",
+        "name2_refine": "Flame Wheel<br>열화륜",
         "name2_refine_en": "Flame Wheel",
-		"pc_level": "36",
-		"pc_mastery_level": null,
-		"complete_quest": null,
-		"complete_quest_name": null,
-		"default_keycap": "C",
-		"sort_no": "93",
-		"skill_icon": 
-		{
-			"1": "skill_icon_destroyer_1_19.png",
-			"11": "skill_icon_destroyer_1_19.png",
-			"12": "skill_icon_destroyer_1_19.png",
-			"14": "skill_icon_destroyer_1_19.png",
-			"15": "skill_icon_destroyer_1_19.png"
-		},
-		"tooltip_stance_type": 
-		{
-			"0": "파괴",
-			"1": null,
-			"2": null
-		},
-		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": null
-	},
-	"24122": 
-	{
-		"skill_id": "24122",
-		"tree_id": "24122",
-		"name2_refine": "Inflaming Wheel<br>격화륜",
-        "name2_refine_en": "Inflaming Wheel",
-		"pc_level": "36",
-		"pc_mastery_level": null,
-		"complete_quest": null,
-		"complete_quest_name": null,
-		"default_keycap": "C",
-		"sort_no": "93",
-		"skill_icon": 
-		{
-			"1": "skill_icon_destroyer_1_32.png",
-			"11": "skill_icon_destroyer_1_32.png",
-			"12": "skill_icon_destroyer_1_32.png",
-			"15": "skill_icon_destroyer_1_32.png",
-			"22": "skill_icon_destroyer_1_32.png",
-			"23": "skill_icon_destroyer_1_32.png",
-			"25": "skill_icon_destroyer_1_32.png"
-		},
-		"tooltip_stance_type": 
-		{
-			"0": "파괴",
-			"1": null,
-			"2": null
-		},
-		"tooltip_stance_refine": null,
-		"tooltip_condition_refine": "<img src=\'../img/skill/skill_icon_destroyer_1_45.png\' class=\'icon_in_description\' /> On resist with Enrage  <br/><img src=\'../img/skill/skill_icon_destroyer_1_19.png\' class=\'icon_in_description\' /> On resist with Flame Wheel  <br/><img src=\'../img/skill/skill_icon_destroyer_1_46.png\' class=\'icon_in_description\' /> On resist with Retreat  "
-	},
+        "pc_level": "36",
+        "pc_mastery_level": null,
+        "complete_quest": null,
+        "complete_quest_name": null,
+        "default_keycap": "C",
+        "sort_no": "93",
+        "skill_icon": {
+            "1": "skill_icon_destroyer_1_19.png",
+            "11": "skill_icon_destroyer_1_19.png",
+            "12": "skill_icon_destroyer_1_19.png",
+            "14": "skill_icon_destroyer_1_19.png",
+            "15": "skill_icon_destroyer_1_19.png",
+            "22": "skill_icon_destroyer_1_32.png",
+            "23": "skill_icon_destroyer_1_32.png",
+            "25": "skill_icon_destroyer_1_32.png",
+            "33": "skill_icon_destroyer_1_32.png",
+            "35": "skill_icon_destroyer_1_32.png"
+        },
+        "tooltip_stance_type": {
+            "0": "파괴",
+            "1": null,
+            "2": null
+        },
+        "tooltip_stance_refine": null,
+        "tooltip_condition_refine": null
+    },
     "24590": {
         "skill_id": "24590",
         "tree_id": "1",
