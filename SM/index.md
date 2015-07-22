@@ -1,7 +1,7 @@
 ---
 layout: tree
 type: tree
-title: BnS Tree - Lyn Blade Master
+title: Blade & Soul Taiwan SkillTree - Lyn Blade Master
 job: SM
 fullname: Lyn Blade Master
 difficulty: ●●◐○○
