@@ -45,27 +45,7 @@ layout: default
 
             <hr class="featurette-divider">
 
-            <h2 class="featurette-heading">News.</h2>
-            <div class="row featurette">
-                <div class="col-md-3">
-                    <ul class="nav nav-pills nav-stacked">
-                    {% for change in site.data.changelog %}
-                        <li{% if change.status == 'active' %} class="active"{% endif %}><a href="#tab_{{ change.entry }}" data-toggle="pill">{{ change.date }}</a>
-                    {% endfor %}
-                    </ul>
-                </div>
-                
-                <div class="col-md-9">
-                    <div class="tab-content">
-                    <h3>News</h3>
-                    {% for change in site.data.changelog %}
-                    <div class="tab-pane {% if change.status == 'active' %}active{% endif %}" id="tab_{{ change.entry }}">
-                        {{ change.description }}
-                    </div>
-                    {% endfor %}
-                    </div>
-                </div>
-            </div>
+            
                 
             <hr class="featurette-divider">
                 
